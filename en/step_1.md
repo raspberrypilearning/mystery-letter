@@ -6,7 +6,7 @@ In this project, you'll create a mystery letter that looks like each word has be
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](./print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/mystery-letter/print).
 
 
 --- collapse ---
