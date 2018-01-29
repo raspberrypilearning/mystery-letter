@@ -1,8 +1,9 @@
 ---
 hero_image: images/banner.png
-theme: red
+theme: yellow
 duration: 2
-listed: false
+listed: true
+>>>>>>> origin
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
@@ -18,8 +19,8 @@ steps:
 - title: Editing Your Message
 - title: Using Class Styles
 - title: 'Challenge: Style Your Message'
-- title: 'Editing Classes '
-- title: 'Create a New Class '
+- title: Editing Classes
+- title: Create a New Class
 - title: 'Challenge: Create A Computer Printout Style'
 - title: 'Challenge: Create Your Own Styles'
 
