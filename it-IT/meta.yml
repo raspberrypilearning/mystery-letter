@@ -1,0 +1,25 @@
+---
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: Lettera misteriosa
+description: Crea una lettera misteriosa con tanti stili diversi.
+original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: Introduzione
+- title: Scegli il messaggio
+- title: Modifica del messaggio
+- title: Utilizzo degli stili di classe
+- title: 'Sfida: Attribuisci uno stile al messaggio'
+- title: Modifica delle classi
+- title: Creazione di una nuova classe
+- title: 'Sfida: Crea lo stile di una stampa dal computer'
+- title: 'Sfida: Crea i tuoi stili personali'
+
