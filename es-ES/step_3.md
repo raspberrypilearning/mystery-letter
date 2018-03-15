@@ -11,11 +11,11 @@ Vamos a publicar tu mensaje en una página web.
 
 + La etiqueta de párrafo `<p>` se explica en el proyecto 'Feliz cumpleaños'. La etiqueta `<span>` se usa para agrupar unidades más pequeñas de texto dentro de un párrafo y poderles dar estilo.
 
-![screenshot](letter-placeholder.png)
+![screenshot](images/letter-placeholder.png)
 
 + Cambia las palabras por las de tu mensaje, poniendo una palabra en cada `<span>`. Tendrás que añadir o eliminar etiquetas de `<span>` si tu mensaje tiene una longitud diferente.
 
-![screenshot](letter-message.png)
+![screenshot](images/letter-message.png)
 
 + Haz clic en el botón "Run" para probar tu trinket.
 
