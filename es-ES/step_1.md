@@ -2,7 +2,7 @@
 
 En este proyecto vas a crear una carta misteriosa, en la que parezca que cada palabra se ha recortado de diferentes periódicos, revistas, cómics u otras fuentes.
 
-![screenshot](letter-final.png)
+![screenshot](images/letter-final.png)
 
 ## Recursos Online
 
