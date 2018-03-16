@@ -14,7 +14,7 @@ Ne t'inquiètes pas si tu vois une erreur comme 'The Rule is empty' (la règle e
 
 + Utilise les styles de la classe comic sur quelques éléments `<span>` dans ton document HTML et teste ta page:
 
-![screenshot](letter-comic-output.png)
+![screenshot](images/letter-comic-output.png)
 
 + Maintenant tu peux ajouter une police un peu plus rigolote. Ouvre un nouvel onglet dans ton navigateur. Va sur la page <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et recherche le mot __'bangers'__:
 

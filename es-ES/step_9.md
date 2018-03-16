@@ -5,7 +5,7 @@ Crea tus propios estilos de categoría y haz que tu carta misteriosa sea aún m�
 
 Aquí tienes un ejemplo:
 
-![screenshot](letter-fonts-challenge3.png)
+![screenshot](images/letter-fonts-challenge3.png)
 
 Puedes ver las imágenes que hay disponibles en trinket, si haces clic en la pestaña "Images".
 Intenta establecer fondos de imagen usando una de las imágenes incluidas:

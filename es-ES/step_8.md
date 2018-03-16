@@ -3,7 +3,7 @@
 
 Crea un estilo que imite una impresión de ordenador a la antigua, y aplícalo a algunas de las palabras:
 
-![screenshot](letter-fonts-printout.png)
+![screenshot](images/letter-fonts-printout.png)
 
 Necesitarás:
 

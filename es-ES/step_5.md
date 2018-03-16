@@ -17,7 +17,7 @@ No añadas más de una categoría de cada línea a un `<span>` en concreto.
 
 Tu carta debería de parecerse a ésta:
 
-![screenshot](letter-challenge1.png)
+![screenshot](images/letter-challenge1.png)
 
 
 
