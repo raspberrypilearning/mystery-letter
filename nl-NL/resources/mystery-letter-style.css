@@ -12,7 +12,7 @@ body {
 	margin: auto;
 }
 
-.newspaper {
+.krant {
 	background-color: antiquewhite;
 	font-family: "Times New Roman", Times, serif;
 	font-weight: bold;
@@ -33,33 +33,33 @@ body {
 	font-weight: 900;
 }
 
-.medium {
+.gemiddeld {
 	font-size: 20px;
 	padding: 8px;
 }
 
-.big {
+.groot {
 	font-size: 30px;
 	padding: 10px;
 }
 
-.reallybig {
+.heelgroot {
 	font-size: 40px;
 	padding: 15px;
 }
 
-.rotateleft {
+.draailinks {
 	transform: rotate(-5deg);
 }
 
-.rotateright {
+.draairechts {
 	transform: rotate(5deg);
 }
 
-.skewleft {
+.scheeflinks {
 	transform: skewX(10deg);
 }
 
-.skewright {
+.scheefrechts {
 	transform: skewX(-10deg);
 }
