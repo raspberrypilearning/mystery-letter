@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Uitdaging: maak een computer opmaak stijl
+## Uitdaging: maak een printeruitdraai stijl
 
-Creëer een ouderwetse print-out opmaak en pas het toe op enkele van de woorden:
+Creëer een ouderwetse printeropmaak en pas het toe op enkele van de woorden:
 
 ![screenshot](images/letter-fonts-printout.png)
 
-Je zal nodig hebben:
+Je hebt nodig:
 
-+ De `VT323` -lettertype familie van <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Kijk terug naar stap 5 als je een herinnering nodig heeft over het gebruik van Google-lettertypen.
++ De `VT323` -lettertype familie van <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Ga terug naar stap 5 als niet meer weet hoe je Google-lettertypen kunt toepassen.
 
-+ De `computer-printout-paper.png` achtergrond afbeelding. Kijk terug naar stap 4 als je een herinnering nodig hebt over het gebruik van achtergrondafbeeldingen.
++ De `computer-printout-paper.png` achtergrondafbeelding. Ga naar stap 4 voor een terugblik op het gebruik van achtergrondafbeeldingen.
 
 \--- /challenge \---
