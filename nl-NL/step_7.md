@@ -24,7 +24,7 @@ Maak je geen zorgen als je een waarschuwing krijgt dat 'Rule is empty' (De regel
 
 ![screenshot](images/letter-fonts2.png)
 
-+ Er wordt een nieuwe pagina geladen. Scroll naar beneden tot je ziet:
++ Er wordt een nieuwe pagina geladen. Scroll naar beneden tot:
 
 ![screenshot](images/letter-fonts-link.png)
 
