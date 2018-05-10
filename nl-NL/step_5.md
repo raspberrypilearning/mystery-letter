@@ -6,13 +6,13 @@ Gebruik de beschikbare stijlen om je bericht er als een geheimzinnige brief uit 
 
 Voeg deze klassen toe aan je `<span>` tags:
 
-+ `krant`, `magazine1`, `magazine2`
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `gemiddeld`, `groot`, `heelgroot`
++ `medium`, `big`, `reallybig`
 
-+ `draailinks`, `draairechts`
++ `rotateleft`, `rotateright`
 
-+ `scheeflinks`, `scheefrechts`
++ `skewleft`, `skewright`
 
 Kies per `<span>` niet meer dan één van elke regel.
 
