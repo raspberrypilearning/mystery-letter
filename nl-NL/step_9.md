@@ -2,13 +2,13 @@
 
 ## Uitdaging: maak je eigen stijlen
 
-Maak nu je eigen class styles en maak je mystery letter nog interessanter. Gebruik de CSS die je in eerdere projecten hebt geleerd en bekijk de voorbeelden in **style.css** voor ideeën.
+Maak nu je eigen class stijlen en maak je geheimzinnige brief nog interessanter. Gebruik de CSS die je in eerdere projecten hebt geleerd en bekijk de voorbeelden in **style.css** voor ideeën.
 
 Hier is een voorbeeld:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
-Je kunt de beschikbare afbeeldingen bekijken door op het tabblad Afbeeldingen in trinket te klikken. Probeer afbeeldingsachtergronden in te stellen met een van de opgenomen afbeeldingen:
+Je kunt de beschikbare afbeeldingen bekijken door in trinket op de afbeeldingspictogram te klikken. Probeer afbeeldingsachtergronden in te stellen met een van de volgende afbeeldingen:
 
 + `rough-paper.png`
 
