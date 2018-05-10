@@ -8,7 +8,7 @@ Laten we je bericht op een webpagina plaatsen.
     
     ![screenshot](images/letter-starter.png)
 
-+ De `<p>` alinea-tag wordt geïntroduceerd in het project 'Happy Birthday'. De `<span>` tag wordt gebruikt om kleinere stukjes tekst in een alinea te groeperen, zodat we ze kunnen opmaken.
++ De `<p>` alinea-tag wordt geïntroduceerd in het project 'Gefeliciteerd'. De `<span>` tag wordt gebruikt om kleinere stukjes tekst in een alinea te groeperen, zodat we ze kunnen opmaken.
 
 ![screenshot](images/letter-placeholder.png)
 
@@ -16,6 +16,6 @@ Laten we je bericht op een webpagina plaatsen.
 
 ![screenshot](images/letter-message.png)
 
-+ Klik op de knop Uitvoeren om je trinket te testen.
++ Klik op de knop Run om je trinket te testen.
     
-    Als je de woorden bekijkt, kun je zien dat ze zijn opgemaakt om eruit te zien alsof ze op de pagina zijn geplakt.
+    Als je de woorden bekijkt, kun je zien dat ze zo zijn opgemaakt dat het lijkt alsof ze op de pagina zijn geplakt.
