@@ -12,7 +12,7 @@ body {
 	margin: auto;
 }
 
-.newspaper {
+.krant {
 	background-color: antiquewhite;
 	font-family: "Times New Roman";
 	font-weight: bold;
@@ -33,7 +33,7 @@ body {
 	font-weight: 900;
 }
 
-.comic {
+.strip {
  	background-color: yellow;
   	color: red;
   	font-weight: bold;
@@ -46,40 +46,40 @@ body {
 	font-style: italic;
 }
 
-.printout {
+.printeruitdraai {
 	background-image: url('computer-printout-paper.png');
 	color: black;
 	font-family: 'VT323', sans-serif;
 	font-size: larger;
 }
 
-.medium {
+.gemiddeld {
 	font-size: 15px;
 	padding: 6px;
 }
 
-.big {
+.groot {
 	font-size: 20px;
 	padding: 8px;
 }
 
-.reallybig {
+.heelgroot {
 	font-size: 30px;
 	padding: 10px;
 }
 
-.rotateleft {
+.draailinks {
 	transform: rotate(-5deg);
 }
 
-.rotateright {
+.draairechts {
 	transform: rotate(5deg);
 }
 
-.skewleft {
+.scheeflinks {
 	transform: skewX(10deg);
 }
 
-.skewright {
+.scheefrechts {
 	transform: skewX(-10deg);
 }
