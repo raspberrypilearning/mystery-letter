@@ -1,18 +1,18 @@
-## Introduction
+## Ознайомлення
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+В цьому проекті ви створите містичний лист,у якому кожне слово буде вирізане з різних газет, журналів, коміксів та інших джерел.
 
 ![screenshot](images/letter-final.png)
 
-### Additional information for club leaders
+### Додаткова інформація для лідерів клубу
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Якщо вам потрібно надрукувати цей проект, будь ласка, використовуйте [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
-## \--- collapse \---
+## \---крах\---
 
-## title: Club leader notes
+## назва: Лідер клубу зауважує
 
-## Introduction:
+## Вступ:
 
 In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
 
