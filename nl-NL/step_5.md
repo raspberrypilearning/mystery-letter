@@ -1,22 +1,22 @@
 \--- challenge \---
 
-## Uitdaging: Maak je bericht op
+## Uitdaging: maak je bericht op
 
-Gebruik de beschikbare stijlen om je bericht eruit te laten zien als een mysteriebrief.
+Gebruik de beschikbare stijlen om je bericht er als een geheimzinnige brief uit te laten zien.
 
-Voeg deze classes toe aan je `<span>` tags:
+Voeg deze klassen toe aan je `<span>` tags:
 
-+ `krant`, `tijdschrift1`, `tijdschrift2`
++ `krant`, `magazine1`, `magazine2`
 
-+ `gemiddeld`, `groot`, `reallybig`
++ `gemiddeld`, `groot`, `heelgroot`
 
-+ `rotateleft`, `rotateright`
++ `draailinks`, `draairechts`
 
-+ `skewleft`, `skewright`
++ `scheeflinks`, `scheefrechts`
 
-Voeg niet meer dan één van elke regel toe aan een bepaalde `<span>`.
+Kies per `<span>` niet meer dan één van elke regel.
 
-Dit is hoe uw brief eruit zou kunnen zien:
+Zo zou je brief eruit kunnen zien:
 
 ![screenshot](images/letter-challenge1.png)
 
