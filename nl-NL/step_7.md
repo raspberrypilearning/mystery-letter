@@ -1,18 +1,18 @@
-## Maak een nieuwe Class
+## Maak een nieuwe klasse
 
 Laten we een stijl maken die eruitziet alsof deze uit een strip is gesneden. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> biedt een groot aantal lettertypen die gratis te gebruiken zijn.
 
-+ Voeg een `comic` klasse toe in het **style.css** bestand. Na `magazine2` is een goede plek. Vergeet niet de punt voor de class naam. 
++ Voeg een `strip` klasse toe in het **style.css** bestand. Na `magazine2` is een goede plek. Vergeet niet de punt voor de naam van de klasse. 
 
 ![screenshot](images/letter-comic1.png)
 
-Maak je geen zorgen als je een waarschuwing krijgt dat 'The Rule is empty' (De regel is leeg); je zult het zo meteen oplossen.
+Maak je geen zorgen als je een waarschuwing krijgt dat 'Rule is empty' (De regel is leeg); je zult het zo meteen oplossen.
 
-+ Voeg nu wat CSS toe aan de comic CSS-klasse. Je kunt verschillende kleuren gebruiken als je wilt. Er is een lijst met veel kleuren op <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Voeg nu wat CSS toe aan de strip CSS-klasse. Je kunt verschillende kleuren gebruiken als je wilt. Er is een lijst met veel kleuren op <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![screenshot](images/letter-comic2.png)
 
-+ Gebruik de comic stijl in enkele van de `<span>` tags in je HTML-document en test je pagina:
++ Gebruik de strip stijl in een paar van de `<span>` tags in je HTML-document en test je pagina:
 
 ![screenshot](images/letter-comic-output.png)
 
@@ -28,19 +28,19 @@ Maak je geen zorgen als je een waarschuwing krijgt dat 'The Rule is empty' (De r
 
 ![screenshot](images/letter-fonts-link.png)
 
-en kopieer de 'standard' link.
+en kopieer de geselecteerde link.
 
-+ Plak de `<link>` code die je zojuist hebt gekopieerd uit Google-lettertypen naar `<head>` van je webpagina:
++ Plak de `<link>` code die je zojuist hebt gekopieerd van Google Fonts naar `<head>` van je webpagina:
 
 ![screenshot](images/letter-fonts-head.png)
 
-Hiermee kunt je het lettertype Bangers op je webpagina gebruiken.
+Zo kun je het lettertype Bangers op je webpagina gebruiken.
 
-+ Keer terug naar Google-lettertypen en ga verder op de pagina en kopieer de lettertype font-family code onder Specify in CSS:
++ Keer terug naar Google Fonts en ga verder op de pagina en kopieer de font-family code onder 'Specify in CSS':
 
 ![screenshot](images/letter-fonts-bangers.png)
 
-+ Ga nu terug naar je **'style.css'** bestand in je trinket en plak de font-family code in de comic style:
++ Ga nu terug naar je **'style.css'** bestand in je trinket en plak de font-family code in de strip stijl:
 
 ![screenshot](images/letter-fonts-comic.png)
 
