@@ -6,6 +6,6 @@
 
 ![screenshot](images/letter-magazine1.png)
 
-+ Je kunt meer dan één class aan een element toevoegen. Laat er gewoon een ruimte tussenin. Voeg de `groot` class toe aan een van je `<span>` -tags. Test je pagina. 
++ Je kunt meer dan één class aan een element toevoegen. Laat er gewoon een ruimte tussenin. Voeg de `big` class toe aan een van je `<span>` -tags. Test je pagina. 
 
 ![screenshot](images/letter-big.png)
