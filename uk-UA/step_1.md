@@ -48,9 +48,9 @@
 * mystery-letter-finished/prefixfree.js
 * mystery-letter-finished/4 x .png images
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Всі з вищевказаних ресурсів сожна завантажувати як проекти і волонтерські файли `.zip`.)
 
-## Learning Objectives
+## Завдання Навчання
 
 * This project introduces CSS classes and the ability to style HTML elements with multiple classes.
 * Background images and Google fonts are also introduced. 
