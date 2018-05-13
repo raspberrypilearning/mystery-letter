@@ -8,9 +8,9 @@
 
 Якщо вам потрібно надрукувати цей проект, будь ласка, використовуйте [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
-## \---крах\---
+## \---collapse\---
 
-## назва: Лідер клубу зауважує
+## title: лідер клубу зауважує
 
 ## Вступ:
 
