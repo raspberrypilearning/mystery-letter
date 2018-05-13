@@ -22,7 +22,7 @@
 
 * ['Загадковий Лист' початок -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Діти також можуть використовувати цей пустий trinket [jumpto.cc/html-blank)](http://jumpto.cc/html-blank), щоб написати їхній власний HTML & CSS, або вони можуть використовувати цей шаблон trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 There is also a trinket containing a sample solution to the challenges:
 
