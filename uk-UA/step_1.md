@@ -61,7 +61,7 @@
 
 ## Завдання
 
-* “Style your message” - Apply provided CSS class styles;
+* "Стилізуйте своє повідомлення" - Застосуйте стилі CSS класів;
 * “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
 * “Create your own styles” - Use CSS to create new styles.
 
