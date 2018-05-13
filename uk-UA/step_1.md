@@ -14,11 +14,11 @@
 
 ## Вступ:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+В цьому проекті дідти ознайомляться з видами CSS. Вони використовуюють багатофункціональні категорії CSS, щоб стилізувати текст і також навчитися як користуватися фоновими зображеннями та вільними шрифтами Google у своїх проектах.
 
-## Online Resources
+## Онлайн Ресурси
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Ми рекомендуємо використовувати [trinket](https://trinket.io/) щоб написати HTML & CSS онлайн. This project contains the following trinket:
 
 * ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
