@@ -18,9 +18,9 @@
 
 ## Онлайн Ресурси
 
-Ми рекомендуємо використовувати [trinket](https://trinket.io/) щоб написати HTML & CSS онлайн. This project contains the following trinket:
+Ми рекомендуємо використовувати [trinket](https://trinket.io/) щоб написати HTML & CSS онлайн. Цей проект містить наступний trinket:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['Загадковий Лист' початок -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
