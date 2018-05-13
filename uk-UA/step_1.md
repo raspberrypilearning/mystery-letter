@@ -26,9 +26,9 @@
 
 Є також trinket, що містить зразки вирішення \---challenges\---:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Загадковий Лист пройдено' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## Офлайн Ресурси
 
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
