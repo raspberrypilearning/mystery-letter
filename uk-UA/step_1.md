@@ -53,13 +53,13 @@
 ## Завдання Навчання
 
 * Цей проект продемонструє CSS класи і уміння стилізувати елементи HTML з різноманітними класами.
-* Background images and Google fonts are also introduced. 
+* Фонові зображення та шрифти Google такоє представлені. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Цей проект охоплює елементи з наступними стандартами [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [Розробка основних 2D та 3D активів](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## Завдання
 
 * “Style your message” - Apply provided CSS class styles;
 * “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
