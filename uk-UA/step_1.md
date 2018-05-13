@@ -24,7 +24,7 @@
 
 Діти також можуть використовувати цей пустий trinket [jumpto.cc/html-blank)](http://jumpto.cc/html-blank), щоб написати їхній власний HTML & CSS, або вони можуть використовувати цей шаблон trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Є також trinket, що містить зразки вирішення \---challenges\---:
 
 * ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
