@@ -14,7 +14,7 @@
 
 ## Вступ:
 
-В цьому проекті дідти ознайомляться з видами CSS. Вони використовуюють багатофункціональні категорії CSS, щоб стилізувати текст і також навчитися як користуватися фоновими зображеннями та вільними шрифтами Google у своїх проектах.
+В цьому проекті діти ознайомляться з класами CSS. Вони використовуюють різноманітні класи CSS, щоб стилізувати текст і також навчитися як користуватися фоновими зображеннями та вільними шрифтами Google у своїх проектах.
 
 ## Онлайн Ресурси
 
@@ -48,11 +48,11 @@
 * mystery-letter-finished/prefixfree.js
 * mystery-letter-finished/4 x .png images
 
-(Всі з вищевказаних ресурсів сожна завантажувати як проекти і волонтерські файли `.zip`.)
+(Всі з вищевказаних ресурсів можна завантажувати як проекти і волонтерські файли `.zip`.)
 
 ## Завдання Навчання
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
+* Цей проект продемонструє CSS класи і уміння стилізувати елементи HTML з різноманітними класами.
 * Background images and Google fonts are also introduced. 
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
