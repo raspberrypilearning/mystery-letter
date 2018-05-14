@@ -73,10 +73,10 @@
 
 ## Проектні ресурси
 
-* [.zip file containing all project resources](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
+* [.zip file, що містить всі русурси проекту](resources/letter-project-resources.zip)
+* [Online Trinket містить всі проектні ресурси 'Загадкового Листа'](http://jumpto.cc/web-letter)
+* [Шаблон Online Trinket](http://jumpto.cc/trinket-template)
+* [Пустий Online Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
@@ -87,7 +87,7 @@
 * [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Club leader resources
+## Ресурси лідера клубу
 
 * [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
