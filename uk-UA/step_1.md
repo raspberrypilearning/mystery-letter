@@ -63,15 +63,15 @@
 
 * "Стилізуйте своє повідомлення" - Застосуйте стилі CSS класів;
 * "Створіть власний комп'ютерний шрифт" - Використовуйте CSS щоб змінити клас, який є у прикладі, використовуйте фонове забраження та Google шрифти. 
-* “Create your own styles” - Use CSS to create new styles.
+* "Створіть свої власні стилі"- Використовуйте CSS, щоб створити нові стилі.
 
 \--- /collapse \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: Project materials
+## title: Матеріали проекту
 
-## Project resources
+## Проектні ресурси
 
 * [.zip file containing all project resources](resources/letter-project-resources.zip)
 * [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
