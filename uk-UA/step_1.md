@@ -62,7 +62,7 @@
 ## Завдання
 
 * "Стилізуйте своє повідомлення" - Застосуйте стилі CSS класів;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
+* "Створіть власний комп'ютерний шрифт" - Використовуйте CSS щоб змінити клас, який є у прикладі, використовуйте фонове забраження та Google шрифти. 
 * “Create your own styles” - Use CSS to create new styles.
 
 \--- /collapse \---
