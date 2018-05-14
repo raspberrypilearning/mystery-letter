@@ -89,7 +89,7 @@
 
 ## Ресурси лідера клубу
 
-* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
+* [.zip файл, що містить всі проектні ресурси](resources/letter-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
