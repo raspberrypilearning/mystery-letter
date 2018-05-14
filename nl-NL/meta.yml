@@ -1,0 +1,28 @@
+---
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
+title: Geheimzinnige brief
+description: Maak een geheimzinnige brief met veel verschillende stijlen.
+original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
+interests: art
+technologies: html-css-javascript
+site_areas: projects
+hardware: ''
+software: html-css-javascript
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Inleiding
+  - title: Kies je bericht
+  - title: Je bericht bewerken
+  - title: Class stijlen gebruiken
+  - title: 'Uitdaging: maak je bericht op'
+  - title: Klasse bewerken
+  - title: Maak een nieuwe klasse
+  - title: 'Uitdaging: maak een printeruitdraai stijl'
+  - title: 'Uitdaging: maak je eigen stijlen'
