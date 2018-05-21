@@ -10,14 +10,14 @@
 
 + `середній`,`великий`,`дужевеликий`
 
-+ `повернітьвправо`,`повернітьвліво`
++ `покрутітьввправо`,`покрутітьвліво`
 
-+ `skewleft`, `skewright`
++ `нахилвліво`, `нахилвправо`
 
-Don't add more than one from each line to a particular `<span>`.
+Не додавайте більше ніж один з кожного ряду до окремого `<span>`.
 
-This is how your letter could look:
+Так виглядатиме ваш лист:
 
-![screenshot](images/letter-challenge1.png)
+![скріншот](images/letter-challenge1.png)
 
 \--- /challenge \---
