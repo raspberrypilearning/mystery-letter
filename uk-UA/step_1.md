@@ -2,7 +2,7 @@
 
 В цьому проекті ви створите містичний лист,у якому кожне слово буде вирізане з різних газет, журналів, коміксів та інших джерел.
 
-![screenshot](images/letter-final.png)
+![скріншот](images/letter-final.png)
 
 ### Додаткова інформація для лідерів клубу
 
@@ -90,7 +90,7 @@
 ## Ресурси лідера клубу
 
 * [.zip файл, що містить всі проектні ресурси](resources/letter-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
+* [Завершений Trinket проект онлайн](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
 * [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
