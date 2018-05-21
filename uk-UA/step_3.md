@@ -8,11 +8,11 @@
     
     ![screenshot](images/letter-starter.png)
 
-+ Код `<p>` цього абзацу є у проекті ' День народження'. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ Код `<p>` цього абзацу є у проекті ' День народження'. Код `<span>` використовують для того, щоб згрупувати менші частини тексту таким чином, щоб їх можна було стилізувати.
 
 ![screenshot](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ Замініть слова повідомлення, вписавши слово у кожний `<span>`. Ви можете додати або видалити`<span>`коди, якщо ваше повідомлення довше. 
 
 ![screenshot](images/letter-message.png)
 
