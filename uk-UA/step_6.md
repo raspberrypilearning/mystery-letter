@@ -1,6 +1,6 @@
-## Editing Classes
+## Редагування Класів
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Натисніть на знак **'style.css'**. Знайдіть стиль для CSS класу `газети`, який ви використовували.
 
 ![screenshot](images/letter-newspaper.png)
 
