@@ -2,10 +2,10 @@
 
 + Чи звернули ви увагу на `class=""` in the `<span>` коди? Ви можете використовувати їх, щоб стилізувати більше, аніж один елемент одночасно.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ Додайте клас `magazine1` до кількох `<span>` тегів і протестуйте вашу вебсторінку.
 
-![screenshot](images/letter-magazine1.png)
+![скріншот](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ Можна додати більше, аніж 1 клас в елемент. Залишіть простір. Додайте `великий` клас до одного з `<span>`тегів. Протестуйте вашу сторінку. 
 
-![screenshot](images/letter-big.png)
+![скріншот](images/letter-big.png)
