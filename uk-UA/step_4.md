@@ -1,6 +1,6 @@
 ## Використання Стилів Класу
 
-+ Чи звернули ви увагу на `class=""` in the `<span>` коди? You can use this to style more than one thing in the same way.
++ Чи звернули ви увагу на `class=""` in the `<span>` коди? Ви можете використовувати їх, щоб стилізувати більше, аніж один елемент одночасно.
 
 + Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
 
