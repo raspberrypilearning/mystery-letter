@@ -8,7 +8,7 @@
     
     ![screenshot](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ Код `<p>` цього абзацу є у проекті ' День народження'. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
 ![screenshot](images/letter-placeholder.png)
 
