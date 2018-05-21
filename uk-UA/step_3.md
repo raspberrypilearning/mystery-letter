@@ -1,10 +1,10 @@
 ## Відредагуйте Ваше Повідомлення
 
-Let's get your message onto a webpage.
+Помістіть своє повідомлення на веб-сторінку.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Відкрийте цей trinket:<a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    Проект має виглядати так:
     
     ![screenshot](images/letter-starter.png)
 
