@@ -4,9 +4,9 @@
 
 ![screenshot](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Зауважте, що перед назвою класу в CSS файліє крапка '.', але не в `<span>` тегу у вашому HTML документі.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ А зараз подивіться на інші класи CSS які ви використовували для стилізації вашоно містичного листа. Ви можете знайти:
     
     + How the `magazine1` style changes the text to all uppercase (capital) letters.
     
