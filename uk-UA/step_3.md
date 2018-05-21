@@ -6,16 +6,16 @@
     
     Проект має виглядати так:
     
-    ![screenshot](images/letter-starter.png)
+    ![скріншот](images/letter-starter.png)
 
 + Код `<p>` цього абзацу є у проекті ' День народження'. Код `<span>` використовують для того, щоб згрупувати менші частини тексту таким чином, щоб їх можна було стилізувати.
 
-![screenshot](images/letter-placeholder.png)
+![скріншот](images/letter-placeholder.png)
 
 + Замініть слова повідомлення, вписавши слово у кожний `<span>`. Ви можете додати або видалити`<span>`коди, якщо ваше повідомлення довше. 
 
-![screenshot](images/letter-message.png)
+![скріншот](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ Натисніть на кнопку Run, щоб протестувати ваш trinket.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    Коли ви дивитеся на слова, ви бачите, що вони стилізовані таким чином, що виглядають ніби їх приклеїли.
