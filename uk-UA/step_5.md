@@ -1,16 +1,16 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## Challenge: Стилізуйте Своє Повідомлення
 
-Use the provided styles to make your message look like a mystery letter.
+Використовуйте запропоновані стлі, щоб зробити ваше повідомлення більш містичним.
 
-Add these classes to your `<span>` tags:
+Додайте класи до ваших `<span>` тегів:
 
-+ `newspaper`, `magazine1`, `magazine2`
++ `газета`,`журнал1`,`журнал2`
 
-+ `medium`, `big`, `reallybig`
++ `середній`,`великий`,`дужевеликий`
 
-+ `rotateleft`, `rotateright`
++ `повернітьвправо`,`повернітьвліво`
 
 + `skewleft`, `skewright`
 
