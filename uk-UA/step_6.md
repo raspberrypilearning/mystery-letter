@@ -14,12 +14,12 @@
 
 ![screenshot](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ Що трапляється, коли ви змінюєте `фонове-зображення` для `журнал2` на `canvas.png`? Якщо ви надаєте перевагу `pink-pattern.png`, ви можете змінити її назад. 
 
-You can also change the colours in the magazine styles if you like.
+Ви також можете змінювати кольори стилів журналу, якщо забажаєте.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Знайдіть CSS, що використовується для оберту ті нахилення ваших слів:
 
 ![screenshot](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Спробуйте змінити числа, щоб створити різні ефекти і тоді протестуйте свою сторінку.
