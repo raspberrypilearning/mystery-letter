@@ -8,9 +8,9 @@
 
 + А зараз подивіться на інші класи CSS які ви використовували для стилізації вашоно містичного листа. Ви можете знайти:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + Зараз стиль `журнал1` змінить літери у тексті на великі.
     
-    + How the `magazine2` style puts an image behind the text.
+    + Як стиль`журнал2` поміщає зображення за текст.
 
 ![screenshot](images/letter-magazines.png)
 
