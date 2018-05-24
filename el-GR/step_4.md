@@ -1,11 +1,11 @@
-## Using Class Styles
+## Χρησιμοποιώντας Στυλ Τάξης
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ Παρατηρήσατε την τάξη `= ""` στις ετικέτες `<span>`; Μπορείτε να χρησιμοποιήσετε αυτό για να στυλ περισσότερο από ένα πράγμα με τον ίδιο τρόπο.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ Προσθέστε το `magazine1` τάξη σε μερικά από σας `<span>` ετικέτες και να δοκιμάσουν την ιστοσελίδα σας.
 
 ![screenshot](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ Μπορείτε να προσθέσετε περισσότερες από μία κατηγορίες σε ένα στοιχείο. Απλά αφήστε ένα κενό μεταξύ τους. Προσθέστε την κλάση `big` σε μία από τις `<span>` ετικέτες σας. Δοκιμάστε τη σελίδα σας. 
 
 ![screenshot](images/letter-big.png)
