@@ -1,102 +1,102 @@
-## Introduction
+## Εισαγωγή
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+Σε αυτό το έργο, θα δημιουργήσετε ένα μυστήριο επιστολής που μοιάζει με κάθε λέξη έχει κοπεί από μια διαφορετική εφημερίδα, περιοδικό, κωμικό ή άλλη πηγή.
 
 ![screenshot](images/letter-final.png)
 
-### Additional information for club leaders
+### Πρόσθετες πληροφορίες για τους ηγέτες των ομάδων
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Αν χρειαστεί να εκτυπώσετε αυτό το έργο, παρακαλούμε χρησιμοποιήστε την έκδοση [φιλική προς εκτύπωση](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
-## \--- collapse \---
+## \--- κατάρρευση \---
 
-## title: Club leader notes
+## τίτλος: Σημειώσεις αρχηγού συλλόγου
 
-## Introduction:
+## Εισαγωγή:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+Σε αυτό το πρόγραμμα, τα παιδιά εισάγονται στις τάξεις CSS. Χρησιμοποιούν πολλαπλές κλάσεις CSS για το στυλ κειμένου και επίσης μαθαίνουν πώς να χρησιμοποιούν εικόνες φόντου και δωρεάν γραμματοσειρές Google στα έργα τους.
 
-## Online Resources
+## Online Πόροι
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Σας συνιστούμε να χρησιμοποιήσετε το [trinket](https://trinket.io/) για να γράψετε HTML & CSS online. Αυτό το έργο περιλαμβάνει το ακόλουθο μπιχλιμπίδι:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['Σημείο εκκίνησης μυστηρίου' - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Τα παιδιά μπορούν επίσης να χρησιμοποιήσουν αυτό το κενό μπιχλιμπίδι [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) για να γράψουν το δικό τους HTML & CSS, ή εναλλακτικά μπορούν να χρησιμοποιήσουν αυτό το μπιχλιμπίδι πρότυπο [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Υπάρχει επίσης ένα μπιχλιμπίδι που περιέχει μια λύση δείγματος στις προκλήσεις:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Έγινε η μυστηριώδης επιστολή' - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## Offline Πόροι
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Το έργο αυτό μπορεί να [ολοκληρωθεί χωρίς σύνδεση](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) αν προτιμάτε. Μπορείτε να αποκτήσετε πρόσβαση στους πόρους του έργου κάνοντας κλικ στο σύνδεσμο «Υλικό έργου» για αυτό το έργο. Αυτός ο σύνδεσμος περιέχει μια ενότητα "Πόροι έργου", η οποία περιλαμβάνει πόρους που τα παιδιά θα χρειαστούν για να ολοκληρώσουν αυτό το έργο εκτός σύνδεσης. Βεβαιωθείτε ότι κάθε παιδί έχει πρόσβαση σε ένα αντίγραφο αυτών των πόρων. Αυτή η ενότητα περιλαμβάνει τα ακόλουθα αρχεία:
 
-* mystery-letter/index.html
-* mystery-letter/style.css
-* mystery-letter/script.js
-* mystery-letter/prefixfree.js
-* mystery-letter/4 x .png images
-* template/template.html
-* template/style.css
+* μυστήριο-γράμμα / index.html
+* μυστήριο-επιστολή / style.css
+* μυστήριο-γράμμα / script.js
+* μυστήριο-γράμμα / prefixfree.js
+* εικόνες μυστηρίου / 4 x .png
+* template / template.html
+* πρότυπο / style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Μπορείτε επίσης να βρείτε μια ολοκληρωμένη έκδοση των προκλήσεων αυτού του έργου στην ενότητα «Πόροι εθελοντών», η οποία περιέχει:
 
-* mystery-letter-finished/index.html
-* mystery-letter-finished/style.css
-* mystery-letter-finished/script.js
-* mystery-letter-finished/prefixfree.js
-* mystery-letter-finished/4 x .png images
+* μυστήριο-τελειωμένο / index.html
+* μυστήριο-επιστολή-τελειωμένο / style.css
+* μυστήριο-επιστολή-τελείωσε / script.js
+* μυστήριο-γράψιμο / prefixfree.js
+* εικόνες μυστηρίου-τελειωμένες / 4 x .png
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Όλοι οι παραπάνω πόροι μπορούν επίσης να μεταφορτωθούν ως project και εθελοντικά `.zip` αρχεία.)
 
-## Learning Objectives
+## Στόχοι μάθησης
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* Αυτό το έργο εισάγει κλάσεις CSS και την ικανότητα να στυλ HTML στοιχεία με πολλαπλές κλάσεις.
+* Υποστηρίζονται επίσης εικόνες φόντου και γραμματοσειρές Google. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Ψηφιακή Κάνοντας το Αναλυτικό Πρόγραμμα](http://rpf.io/curriculum):
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [Σχεδιασμός βασικών στοιχείων 2D και 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## Προκλήσεις
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* "Σχεδιάστε το μήνυμά σας" - Εφαρμόστε τα παρεχόμενα στυλ κλάσης CSS.
+* "Δημιουργία στυλ εκτύπωσης υπολογιστή" - Χρησιμοποιήστε το CSS για να δημιουργήσετε μια κλάση παράδειγμα χρησιμοποιώντας μια εικόνα φόντου και γραμματοσειρά Google. 
+* "Δημιουργήστε το δικό σας στυλ" - Χρησιμοποιήστε το CSS για να δημιουργήσετε νέα στυλ.
 
-\--- /collapse \---
+\--- /κατάρρευση \---
 
-## \--- collapse \---
+## \--- κατάρρευση \---
 
-## title: Project materials
+## τίτλος: Υλικό του έργου
 
-## Project resources
+## Πόροι του έργου
 
-* [.zip file containing all project resources](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
-* [template/index.html](resources/template-index.html)
-* [template/style.css](resources/template-style.css)
-* [mystery-letter/index.html](resources/mystery-letter-index.html)
-* [mystery-letter/style.css](resources/mystery-letter-style.css)
-* [mystery-letter/prefixfree.js](resources/mystery-letter-prefixfree.js)
-* [mystery-letter/rough-paper.png](resources/mystery-letter-rough-paper.png)
-* [mystery-letter/canvas.png](resources/mystery-letter-canvas.png)
-* [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
-* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
+* [αρχείο .zip που περιέχει όλους τους πόρους του έργου](resources/letter-project-resources.zip)
+* [Online Trinket που περιέχει όλους τους πόρους του Έργου "Mystery Letter"](http://jumpto.cc/web-letter)
+* [Online πρότυπο Trinket](http://jumpto.cc/trinket-template)
+* [Online κενό μπιχλιμπίδι](http://jumpto.cc/trinket-blank)
+* [template / index.html](resources/template-index.html)
+* [πρότυπο / style.css](resources/template-style.css)
+* [μυστήριο-γράμμα / index.html](resources/mystery-letter-index.html)
+* [μυστήριο-επιστολή / style.css](resources/mystery-letter-style.css)
+* [μυστήριο-γράμμα / prefixfree.js](resources/mystery-letter-prefixfree.js)
+* [μυστήριο-επιστολή / τραχύ-χαρτί.png](resources/mystery-letter-rough-paper.png)
+* [μυστήριο-επιστολή / canvas.png](resources/mystery-letter-canvas.png)
+* [μυστήριο-γράμμα / ροζ-μοτίβο.png](resources/mystery-letter-pink-pattern.png)
+* [μυστήριο-γράμμα / υπολογιστή-εκτύπωση-χαρτί.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Club leader resources
+## Πόροι αρχηγού συλλόγου
 
-* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
-* [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
-* [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
-* [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
-* [mystery-letter-finished/rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
-* [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
-* [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
-* [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
+* [.zip που περιέχει όλους τους πόρους του έργου](resources/letter-volunteer-resources.zip)
+* [Online ολοκλήρωση έργου Trinket](https://trinket.io/html/1d4d4c5ce1)
+* [μυστήριο-τελειωμένο / index.html](resources/mystery-letter-finished-index.html)
+* [μυστήριο-επιστολή-τελειωμένο / style.css](resources/mystery-letter-finished-style.css)
+* [μυστήριο-γράψιμο / prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
+* [μυστήριο-επιστολή-τελειωμένο / rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
+* [μυστήριο-επιστολή-τελειωμένο / canvas.png](resources/mystery-letter-finished-canvas.png)
+* [μυστήριο-επιστολή-τελειωμένο / ροζ-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
+* [μυστήριο-επιστολή-τελειωμένο / computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
 
-\--- /collapse \---
+\--- /κατάρρευση \---
