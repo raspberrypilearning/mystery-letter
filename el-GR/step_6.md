@@ -1,25 +1,25 @@
-## Editing Classes
+## Επεξεργασία κλάσεων
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Κάντε κλικ στην καρτέλα **'style.css'**. Βρείτε το στυλ για το `εφημερίδα` κατηγορία CSS που έχετε χρησιμοποιήσει.
 
 ![screenshot](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Παρατηρήστε ότι υπάρχει μια τελεία (πλήρης στάση) "." πριν από το όνομα της κλάσης στο αρχείο CSS αλλά όχι στην ετικέτα `<span>` στο έγγραφο HTML.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Τώρα κοιτάξτε τις άλλες τάξεις CSS που χρησιμοποιούσατε για να στυλίσω την επιστολή μυστηρίου σας. Μπορείς να βρείς:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + Πώς το στυλ `περιοδικό1` αλλάζει το κείμενο σε όλα τα κεφαλαία γράμματα.
     
-    + How the `magazine2` style puts an image behind the text.
+    + Πώς το στυλ `magazine2` βάζει μια εικόνα πίσω από το κείμενο.
 
 ![screenshot](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ Τι θα συμβεί αν αλλάξετε το `background-image` για `magazine2` για να `canvas.png`; Εάν προτιμάτε το `pink-pattern.png` μπορείτε να το αλλάξετε. 
 
-You can also change the colours in the magazine styles if you like.
+Μπορείτε επίσης να αλλάξετε τα χρώματα στα στυλ περιοδικών, αν θέλετε.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Βρείτε το CSS που χρησιμοποιείται για την περιστροφή και την κλίση (κλίση) των λέξεων σας:
 
 ![screenshot](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Δοκιμάστε να αλλάξετε τους αριθμούς για να δημιουργήσετε διαφορετικά εφέ και στη συνέχεια να δοκιμάσετε τη σελίδα σας.
