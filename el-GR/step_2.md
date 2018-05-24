@@ -1,7 +1,7 @@
-## Choose Your Message
+## Επιλέξτε το μήνυμά σας
 
-Mystery letters are used in films and books to send secret messages.
+Μυστικά γράμματα χρησιμοποιούνται σε ταινίες και βιβλία για την αποστολή μυστικών μηνυμάτων.
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ Σκεφτείτε ένα μυστήριο μήνυμα. 12 λέξεις έχουν το σωστό μήκος. Αν δεν μπορείτε να σκεφτείτε ένα μήνυμα, μπορείτε να χρησιμοποιήσετε το παράδειγμα: 'Η επόμενη ένδειξη είναι στο χρηματοκιβώτιο. Ο κωδικός είναι 65536. '
 
-+ Either make a note of your message or remember it.
++ Είτε σημειώστε το μήνυμά σας είτε θυμηθείτε.
