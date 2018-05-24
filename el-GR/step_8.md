@@ -1,15 +1,15 @@
-\--- challenge \---
+\--- πρόκληση \---
 
-## Challenge: Create A Computer Printout Style
+## Πρόκληση: Δημιουργήστε ένα στυλ εκτύπωσης υπολογιστή
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+Δημιουργήστε ένα ντεμοντέ πρότυπο εκτύπωσης υπολογιστή και εφαρμόστε το σε μερικές από τις λέξεις:
 
 ![screenshot](images/letter-fonts-printout.png)
 
-You will need:
+Θα χρειαστείτε:
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ Η οικογένεια γραμματοσειρών `VT323` από <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Ανατρέξτε στο βήμα 5 εάν χρειάζεστε μια υπενθύμιση σχετικά με τη χρήση των γραμματοσειρών Google.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
++ Η εικόνα `υπολογιστή-εκτύπωσης-χαρτιού.png`. Ανατρέξτε στο βήμα 4 εάν χρειάζεστε μια υπενθύμιση για τη χρήση εικόνων φόντου.
 
-\--- /challenge \---
+\--- / πρόκληση \---
