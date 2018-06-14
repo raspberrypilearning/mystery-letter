@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: Create Your Own Styles
+## Challenge: Створіть свої власні стилі
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
+Тепер створіть новий клас стилів і зробіть містичні літери ще більш цікавим. Використовуйте CSS, з якими ви ознайомилися у попередніх проектах і подивіться на приклади для ідей в **style.css**.
 
-Here's an example:
+Тут приклади:
 
-![screenshot](images/letter-fonts-challenge3.png)
+![screenshot](images / letter-starter.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
+Ви можете побачити картинки, натиснувши на вкладку Зображення в trinket. Спробуйте помістити фони зображення, використовуючи одну з поданих картинок:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+Якщо маєте акаунт у trinket, ви можете завантажити картинки, які забажаєте, так як це ви робили у проекті "Розкажи історію".
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+Знайдіть шрифти, які схожі до <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> і скопіюйте їхній`<link>` та CSS код у свій trinket,щоб використовувати пізніше.
 
 \--- /challenge \---
