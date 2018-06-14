@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## Challenge: Створіть Комп'ютерний друкований стиль
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+Створіть застарілий комп'ютерний друкований стиль і застосуйте його для деяких слів:
 
-![screenshot](images/letter-fonts-printout.png)
+![screenshot](images / letter-fonts-printout.png)
 
-You will need:
+Вам потрібно:
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ `VT323` шрифт з <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Подивіться на Крок 5, щоб пригадати користування шрифтами Google.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
++ `computer-printout-paper.png` фонове зображення. Подивіться на Крок 4, щоб пригадати використання фонових зображень.
 
 \--- /challenge \---
