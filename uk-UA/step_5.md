@@ -18,6 +18,6 @@
 
 Так виглядатиме ваш лист:
 
-![скріншот](images/letter-challenge1.png)
+![скріншот](images / letter-starter.png)
 
 \--- /challenge \---
