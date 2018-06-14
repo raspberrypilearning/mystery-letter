@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-title: Mystery Letter
-description: Create a mystery letter with lots of different styles.
+title: Загадковий Лист
+description: Створіть загадковий лист з різними стилями.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
@@ -18,9 +18,9 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Choose Your Message
+    title: Виберість своє повідомлення
   - 
     title: Editing Your Message
   - 
