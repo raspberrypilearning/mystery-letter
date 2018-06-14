@@ -1,49 +1,49 @@
-## Create a New Class
+## Створіть Новий Клас
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+Давайте створимо стиль, що матиме вигляд, вирізаного з Коміксу. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>тут є види шрифтів, які можна використовувати.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ Додайте `comic`клас у файл **style.css** . Після `magazine2`є хороше місце. Не забудьте крапку перед назвою класу. 
 
-![screenshot](images/letter-comic1.png)
+![screenshot](images / letter-big.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+Не хвилюйтеся, якщо ви побачили попередження " Правило пусте "; ви виправите це згодом.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Зараз додайте трохи CSS до комічного стилю CSS. Можете використовувати кольори, які забажаєте. Панель кольорів тут <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![screenshot](images/letter-comic2.png)
+![screenshot](images / letter-big.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Використайте комічний стиль у деяких `<span>`тегах вашого документу HTML і протестуйте свою сторінку:
 
-![screenshot](images/letter-comic-output.png)
+![screenshot](images / letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Тепер можете додати веселий шрифт. Відкрийте нове вікно браузера. Перейдіть до<a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> і шукайте **'bangers'**:
 
-![screenshot](images/letter-fonts1.png)
+![screenshot](images / letter-big.png)
 
-+ Click on the Quick-use button:
++ Натисніть на кнопку Швидке використання:
 
-![screenshot](images/letter-fonts2.png)
+![screenshot](images / letter-big.png)
 
-+ A new page will load. Scroll down until you see:
++ Завантажиться нова сторінка. Прокрутіть вниз, доки не побачите:
 
-![screenshot](images/letter-fonts-link.png)
+![screenshot](images / letter-fonts-link.png)
 
-and copy the highlighted code.
+і скопіюйте виділений код.
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Вставте `<link>` код, який ви скопіювали з Goole шрифтів у `<head>` вашо веб-сторінки:
 
-![screenshot](images/letter-fonts-head.png)
+![screenshot](images / letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Це дозволить вам використовувати шрифт Bangers на вашій веб-сторінці.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Поверніться до Google шрифтів, спустіться вниз сторінки та скопіюйте код гарнітури шрифтів:
 
-![screenshot](images/letter-fonts-bangers.png)
+![screenshot](images / letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Тепер поверніться до вашого файлу **'style.css'** в trinket і вставте код гарнітури шрифтів у комічний стиль:
 
-![screenshot](images/letter-fonts-comic.png)
+![screenshot](images / letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Протестуйте сторінку. Результат повинен виглядати так: 
 
-![screenshot](images/letter-fonts-output.png)
+![screenshot](images / letter-fonts-output.png)
