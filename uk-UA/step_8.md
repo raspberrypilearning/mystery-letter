@@ -4,7 +4,7 @@
 
 Створіть застарілий комп'ютерний друкований стиль і застосуйте його для деяких слів:
 
-![screenshot](images / letter-fonts-printout.png)
+![screenshot](images/letter-fonts-printout.png)
 
 Вам потрібно:
 
