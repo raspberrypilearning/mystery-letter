@@ -2,7 +2,7 @@
 
 В цьому проекті ви створите містичний лист,у якому кожне слово буде вирізане з різних газет, журналів, коміксів та інших джерел.
 
-![скріншот](images / letter-final.png)
+![скріншот](images/letter-final.png)
 
 ### Додаткова інформація для лідерів клубу
 
@@ -22,7 +22,7 @@ title: Нотатки керівників клубу
 
 * ['Загадковий Лист' початок -- jumpto.cc/web-letter](https://trinket.io/html/ff7e68f8fa)
 
-Діти також можуть використовувати цей пустий trinket [jumpto.cc/html-blank)](http://jumpto.cc/html-blank), щоб написати їхній власний HTML & CSS, або вони можуть використовувати цей шаблон trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Діти також можуть використовувати цей пустий trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank), щоб написати їхній власний HTML & CSS, або вони можуть використовувати цей шаблон trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 Є також trinket, що містить зразки вирішення:
 
