@@ -6,7 +6,7 @@
 
 Тут приклади:
 
-![screenshot](images / letter-starter.png)
+![screenshot](images/letter-starter.png)
 
 Ви можете побачити картинки, натиснувши на вкладку Зображення в trinket. Спробуйте помістити фони зображення, використовуючи одну з поданих картинок:
 
@@ -16,6 +16,6 @@
 
 Якщо маєте акаунт у trinket, ви можете завантажити картинки, які забажаєте, так як це ви робили у проекті "Розкажи історію".
 
-Знайдіть шрифти, які схожі до <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> і скопіюйте їхній`<link>` та CSS код у свій trinket,щоб використовувати пізніше.
+Знайдіть шрифти, які схожі до <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> і скопіюйте їхній `<link>` та CSS код у свій trinket,щоб використовувати пізніше.
 
 --- /challenge ---
