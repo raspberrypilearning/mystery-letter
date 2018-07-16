@@ -1,8 +1,3 @@
-Poniższe tłumaczenie jest starszą wersją projektu Tajemniczy list. Nie zawiera ono najnowszych treści i funkcji. Potrzebujemy Twojej pomocy, aby wprowadzić zmiany!
+Tłumaczenie to jest starszą wersją projektu Tajemniczy list. Nie zawiera ono najnowszych treści i funkcji, ale będzie tymczasowo dostępne w [tej wersji](images/mystery-letter.pdf), zanim zostanie zarchiwizowane. 
 
-Jeśli możesz nam pomóc w aktualizacji i ulepszaniu naszych projektów, [powiadom nas tutaj](http://rpf.io/translators).
-
-Ten projekt będzie tymczasowo dostępny w starym formacie, zanim zostanie zarchiwizowany:
-
-[Kliknij tutaj, aby zobaczyć starszą wersję tego projektu](images/mystery-letter.pdf)
-
+Potrzebujemy Twojej pomocy, aby zaktualizować i przetłumaczyć takie projekty! Jeśli możesz nam pomóc, [poinformuj nas tutaj](http://rpf.io/translators).
