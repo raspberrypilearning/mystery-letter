@@ -8,7 +8,7 @@ Ovdje je primjer:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
+Slike koje su dostupne za upotrebu možeš da pregledaš klikom na karticu Images (Slike) u trinketu. Try setting image backgrounds using one of the included images:
 
 + `rough-paper.png`
 
