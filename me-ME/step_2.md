@@ -1,7 +1,7 @@
-## Choose Your Message
+## Odaberi svoju poruku
 
-Mystery letters are used in films and books to send secret messages.
+Zagonetna pisma koriste se u filmovima i knjigama za slanje tajnih poruka.
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ Razmisli o tajnoj poruci, koja bi trebalo da sadrži 12 riječi. Ako ne možeš da se sjetiš nijedne poruke, možeš da iskoristiš ovaj primjer: 'Tvoj sljedeći trag je u sefu. Šifra je 6553.'
 
-+ Either make a note of your message or remember it.
++ Zapiši ili zapamti svoju poruku.
