@@ -8,14 +8,14 @@ Ovdje je primjer:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
-Slike koje su dostupne za upotrebu možeš da pregledaš klikom na karticu Images (Slike) u trinketu. Try setting image backgrounds using one of the included images:
+Slike koje su dostupne za upotrebu možeš da pregledaš klikom na karticu Images (Slike) u trinketu. Pokušaj da postaviš pozadinu koristeći jednu od datih slika:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+Ako imaš trinket nalog, možeš učitati i vlastite slike, kao što smo uradili u projektu 'Ispričaj priču'.
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+Na <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> nađi fontove koje želiš i kopiraj njihovu oznaku `<link>` i CSS kôd u svoj trinket kako bi ih mogao/mogla koristiti.
 
 \--- /challenge \---
