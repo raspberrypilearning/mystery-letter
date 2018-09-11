@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## Izazov: Napravi stil za štampu na računaru
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+Kreiraj staromodni stil za štampu na računaru i primijeni ga na neke riječi:
 
 ![screenshot](images/letter-fonts-printout.png)
 
-You will need:
+Trebaće ti:
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ `VT323` font sa <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Ako ti je potrebno da se podsjetiš kako se koristi Google fonts, vrati se na Korak 5.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
++ Pozadinska slika `computer-printout-paper.png`. Look back at Step 4 if you need a reminder on using background images.
 
 \--- /challenge \---
