@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## Izazov: Stilizuj svoju poruku
 
-Use the provided styles to make your message look like a mystery letter.
+Iskoristi stilove date u nastavku teksta i napravi svoju poruku tako da izgleda kao zagonetno pismo.
 
-Add these classes to your `<span>` tags:
+Dodaj sljedeće klase svojim `<span>` oznakama:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,9 +14,9 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+Nemoj dodavati više od jedne klase iz istog reda pojedinoj `<span>` oznaci.
 
-This is how your letter could look:
+Tvoje pismo bi moglo da izgleda ovako:
 
 ![screenshot](images/letter-challenge1.png)
 
