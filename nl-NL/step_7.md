@@ -18,23 +18,25 @@ Maak je geen zorgen als je een waarschuwing krijgt dat 'Rule is empty' (De regel
 
 + Nu kun je een leuk lettertype toevoegen. Open een nieuw browser tabblad of -venster. Ga naar <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> en zoek naar **'bangers'**:
 
-![screenshot](images/letter-fonts1.png)
+![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Klik op de + (Select this font), klik vervolgens op de - (open selection drawer) onderaan de pagina:
++ Click on the + "Select this font" button:
 
-![screenshot](images/letter-fonts2.png)
+![screenshot](images/letter-gfonts-2-annotated.png)
 
-+ Er wordt een nieuwe pagina geladen. Scroll naar beneden tot:
+A message saying "1 Family Selected" will appear at the bottom on the screen.
 
-![screenshot](images/letter-fonts-link.png)
+![screenshot](images/letter-gfonts-3.png)
 
-en kopieer de geselecteerde link.
++ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
+
+![screenshot](images/letter-gfonts-4.png)
 
 + Plak de `<link>` code die je zojuist hebt gekopieerd van Google Fonts naar `<head>` van je webpagina:
 
 ![screenshot](images/letter-fonts-head.png)
 
-Zo kun je het lettertype Bangers op je webpagina gebruiken.
+This allows you to use the Bangers font in your webpage.
 
 + Keer terug naar Google Fonts en ga verder op de pagina en kopieer de font-family code onder 'Specify in CSS':
 
