@@ -1,36 +1,36 @@
-## Introduction
+## Uvod
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+U ovom projektu napravićeš zagonetno pismo koje izgleda kao da je svaka riječ izrezana iz različitih novina, časopisa, stripova ili nekog drugog izvora.
 
 ![screenshot](images/letter-final.png)
 
-### Additional information for club leaders
+### Dodatne informacije za vođe kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Bilješke za vođe kluba
 
-## Introduction:
+## Uvod:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+U ovom projektu djeca se upoznaju sa CSS klasama. Koristiće razne CSS klase za stilizovanje teksta i istovremeno naučiti kako da koriste pozadinske slike i besplatne Google fontove u svojim projektima.
 
-## Online Resources
+## Online izvori
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Za pisanje HTML-a i CSS-a online preporučujemo da koristite [trinket](https://trinket.io/). Ovaj projekat sadrži sljedeći trinket:
 
 * ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Za pisanje sopstvenog HTML-a i CSS-a, djeca takođe mogu da koriste ovaj prazan trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) ili da koriste ovaj trinket šablon [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Takođe postoji trinket koji sadrži primjer rješenja izazova:
 
 * ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## Offline izvori
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Ako želite, ovaj projekat može biti [izrađen offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/). Izvorima projekta možete pristupiti klikom na link projekta 'Projektni materijali'. Navedeni link sadrži odjeljak 'Izvori projekta' u kojem se nalaze izvori koji će djeci biti potrebni kako bi izradila ovaj projekat offline. Obezbijedite da svako dijete ima pristup kopiji ovih izvora. Odjeljak sadrži sljedeće datoteke:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
@@ -40,7 +40,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 * template/template.html
 * template/style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Takođe, završenu verziju izazova ovoga projekta možete naći u odjeljku 'Izvori za volontere' koji sadrži:
 
 * mystery-letter-finished/index.html
 * mystery-letter-finished/style.css
@@ -48,35 +48,35 @@ You can also find a completed version of this project's challenges in the 'Volun
 * mystery-letter-finished/prefixfree.js
 * mystery-letter-finished/4 x .png images
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Sve navedene izvore moguće je preuzeti kao `.zip` datoteke.)
 
-## Learning Objectives
+## Ciljevi učenja
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* Ovaj projekat je uvod u CSS klase i mogućnost stilizovanja HTML elemenata različitim klasama.
+* Takođe su predstavljene pozadinske slike i Google fontovi. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [Dizajniranje osnovnih 2D i 3D elemenata](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## Izazovi
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* ''Stilizuj svoju poruku'' - Primijeni unaprijed date CSS stilove klase;
+* ''Napravi stil štampe računara” – Koristi CSS da ponovo napraviš primjer klase koristeći pozadinsku sliku i Google font. 
+* ''Napravi sopstveni stil'' - Koristi CSS da kreiraš novi stil.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projektni materijali
 
-## Project resources
+## Izvori projekta
 
-* [.zip file containing all project resources](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
+* [.zip datoteka koja sadrži sve izvore projekta](resources/letter-project-resources.zip)
+* [Online Trinket koji sadrži sve izvore projekta 'Zagonetno pismo!'](http://jumpto.cc/web-letter)
+* [Online Trinket šablon](http://jumpto.cc/trinket-template)
+* [Online prazan Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
@@ -87,10 +87,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Club leader resources
+## Izvori za vođe kluba
 
-* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
+* [.zip datoteka koja sadrži sve završene izvore projekta](resources/letter-volunteer-resources.zip)
+* [Završen Trinket projekat online](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
 * [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
