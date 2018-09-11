@@ -13,7 +13,7 @@ if(!window.addEventListener) {
 var self = window.StyleFix = {
 	link: function(link) {
 		try {
-			// Ignore stylesheets with data-noprefix attribute as well as alternate stylesheets
+			// Ignorar estilos com atributo data-noprefix bem como folhas de estilo alternativas
 			if(link.rel !== 'stylesheet' || link.hasAttribute('data-noprefix')) {
 				return;
 			}
@@ -43,30 +43,30 @@ var self = window.StyleFix = {
 				if(css && link.parentNode && (!xhr.status || xhr.status < 400 || xhr.status > 600)) {
 					css = self.fix(css, true, link);
 					
-					// Convert relative URLs to absolute, if needed
+					// Converte URLs relativos em absoluto, se necessário
 					if(base) {
 						css = css.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function($0, quote, url) {
-							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absolute & or hash-relative
+							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absoluto & ou hash-relative
 								return $0;
 							}
-							else if(/^\/\//.test(url)) { // Scheme-relative
-								// May contain sequences like /../ and /./ but those DO work
+							else if(/^\/\//.test(url)) { // Esquema relativo
+								// Pode conter seqüências como /../ e /./, mas aqueles DO é um grande trabalhador
 								return 'url("' + base_scheme + url + '")';
 							}
-							else if(/^\//.test(url)) { // Domain-relative
+							else if(/^\//.test(url)) { // Dominio relativo
 								return 'url("' + base_domain + url + '")';
 							}
-							else if(/^\?/.test(url)) { // Query-relative
+							else if(/^\?/.test(url)) { // Consulta relativa
 								return 'url("' + base_query + url + '")';
 							}
 							else {
-								// Path-relative
+								// Caminho relativo
 								return 'url("' + base + url + '")';
 							}
 						});
 
-						// behavior URLs shoudn’t be converted (Issue #19)
-						// base should be escaped before added to RegExp (Issue #81)
+						// as URLs de comportamento não devem ser convertidos (Issue #19)
+						// base deve ter carácter de escape antes de ser adicionado ao RegExp (Issue #81)
 						var escaped_base = base.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");
 						css = css.replace(RegExp('\\b(behavior:\\s*?url\\(\'?"?)' + escaped_base, 'gi'), '$1');
 						}
@@ -80,7 +80,7 @@ var self = window.StyleFix = {
 					parent.insertBefore(style, link);
 					parent.removeChild(link);
 					
-					style.media = link.media; // Duplicate is intentional. See issue #31
+					style.media = link.media; // Duplicidade é intencional. Veja issue #31
 				}
 		};
 
@@ -88,7 +88,7 @@ var self = window.StyleFix = {
 			xhr.open('GET', url);
 			xhr.send(null);
 		} catch (e) {
-			// Fallback to XDomainRequest if available
+			// Retorna para XDomainRequest se disponível
 			if (typeof XDomainRequest != "undefined") {
 				xhr = new XDomainRequest();
 				xhr.onerror = xhr.onprogress = function() {};
@@ -121,13 +121,13 @@ var self = window.StyleFix = {
 	},
 	
 	process: function() {
-		// Linked stylesheets
+		// Folhas de estilo vinculadas
 		$('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
 		
-		// Inline stylesheets
+		// Folhas de estilo em linha
 		$('style').forEach(StyleFix.styleElement);
 		
-		// Inline styles
+		// Estilo em linha
 		$('[style]').forEach(StyleFix.styleAttribute);
 	},
 	
@@ -196,9 +196,9 @@ var self = window.PrefixFree = {
 	prefixCSS: function(css, raw, element) {
 		var prefix = self.prefix;
 		
-		// Gradient angles hotfix
+		// Correção de ângulos de gradiente
 		if(self.functions.indexOf('linear-gradient') > -1) {
-			// Gradients are supported with a prefix, convert angles to legacy
+			// Gradientes são suportados com um prefixo, converter ângulos em legado
 			css = css.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig, function ($0, delim, repeating, deg) {
 				return delim + (repeating || '') + 'linear-gradient(' + (90-deg) + 'deg';
 			});
@@ -208,7 +208,7 @@ var self = window.PrefixFree = {
 		css = fix('keywords', '(\\s|:)', '(\\s|;|\\}|$)', '$1' + prefix + '$2$3', css);
 		css = fix('properties', '(^|\\{|\\s|;)', '\\s*:', '$1' + prefix + '$2:', css);
 		
-		// Prefix properties *inside* values (issue #8)
+		// Prefixo de valor da propriedades *inside* (issue #8)
 		if (self.properties.length) {
 			var regex = RegExp('\\b(' + self.properties.join('|') + ')(?!:)', 'gi');
 			
@@ -222,10 +222,10 @@ var self = window.PrefixFree = {
 			css = fix('atrules', '@', '\\b', '@' + prefix + '$1', css);
 		}
 		
-		// Fix double prefixing
+		// Corrigir prefixos duplos
 		css = css.replace(RegExp('-' + prefix, 'g'), '-');
 		
-		// Prefix wildcard
+		// Prefixo curinga(wildcard)
 		css = css.replace(/-\*-(?=[a-z]+)/gi, self.prefix);
 		
 		return css;
@@ -246,12 +246,12 @@ var self = window.PrefixFree = {
 		return value;
 	},
 	
-	// Warning: Prefixes no matter what, even if the selector is supported prefix-less
+	// Aviso: os prefixos não importam, mesmo que o seletor seja suportado sem prefixo
 	prefixSelector: function(selector) {
 		return selector.replace(/^:{1,2}/, function($0) { return $0 + self.prefix })
 	},
 	
-	// Warning: Prefixes no matter what, even if the property is supported prefix-less
+	// Aviso: os prefixos não importam, mesmo que a propriedade seja suportada sem prefixo
 	prefixProperty: function(property, camelCase) {
 		var prefixed = self.prefix + property;
 		
@@ -260,7 +260,7 @@ var self = window.PrefixFree = {
 };
 
 /**************************************
- * Properties
+ * Propriedades
  **************************************/
 (function() {
 	var prefixes = {},
@@ -269,7 +269,7 @@ var self = window.PrefixFree = {
 		style = getComputedStyle(document.documentElement, null),
 		dummy = document.createElement('div').style;
 	
-	// Why are we doing this instead of iterating over properties in a .style object? Cause Webkit won't iterate over those.
+	// Por que estamos fazendo isso em vez de iterar sobre propriedades em um objeto .style? Porque Webkit não irá iterar sobre os outros.
 	var iterate = function(property) {
 		if(property.charAt(0) === '-') {
 			properties.push(property);
@@ -277,10 +277,10 @@ var self = window.PrefixFree = {
 			var parts = property.split('-'),
 				prefix = parts[1];
 				
-			// Count prefix uses
+			// Count(contador) usa prefixo
 			prefixes[prefix] = ++prefixes[prefix] || 1;
 			
-			// This helps determining shorthands
+			// Isso ajuda a determinar atalhos
 			while(parts.length > 3) {
 				parts.pop();
 				
@@ -296,7 +296,7 @@ var self = window.PrefixFree = {
 		return StyleFix.camelCase(property) in dummy;
 	}
 	
-	// Some browsers have numerical indices for the properties, some don't
+	// Alguns navegadores têm índices numéricos para as propriedades, outros não
 	if(style.length > 0) {
 		for(var i=0; i<style.length; i++) {
 			iterate(style[i])
@@ -308,7 +308,7 @@ var self = window.PrefixFree = {
 		}
 	}
 
-	// Find most frequently used prefix
+	// Encontrar prefixo usado com mais frequência
 	var highest = {uses:0};
 	for(var prefix in prefixes) {
 		var uses = prefixes[prefix];
@@ -323,11 +323,11 @@ var self = window.PrefixFree = {
 	
 	self.properties = [];
 
-	// Get properties ONLY supported with a prefix
+	// Obter propriedades APENAS suportadas com um prefixo
 	for(var i=0; i<properties.length; i++) {
 		var property = properties[i];
 		
-		if(property.indexOf(self.prefix) === 0) { // we might have multiple prefixes, like Opera
+		if(property.indexOf(self.prefix) === 0) { // podemos ter vários prefixos, como o Navegador Opera
 			var unprefixed = property.slice(self.prefix.length);
 			
 			if(!supported(unprefixed)) {
@@ -336,7 +336,7 @@ var self = window.PrefixFree = {
 		}
 	}
 	
-	// IE fix
+	// Correção do Navegador IE
 	if(self.Prefix == 'Ms' 
 	  && !('transform' in dummy) 
 	  && !('MsTransform' in dummy) 
@@ -348,10 +348,10 @@ var self = window.PrefixFree = {
 })();
 
 /**************************************
- * Values
+ * Valores
  **************************************/
 (function() {
-// Values that might need prefixing
+// Valores que podem precisar de prefixos
 var functions = {
 	'linear-gradient': {
 		property: 'backgroundImage',
@@ -377,8 +377,8 @@ functions['repeating-radial-gradient'] =
 functions['radial-gradient'] =
 functions['linear-gradient'];
 
-// Note: The properties assigned are just to *test* support. 
-// The keywords will be prefixed everywhere.
+// Nota: As propriedades designadas são apenas para suprtar *teste*. 
+// As palavras-chave serão prefixadas em todos os lugares.
 var keywords = {
 	'initial': 'color',
 	'zoom-in': 'cursor',
@@ -415,7 +415,7 @@ for (var func in functions) {
 	
 	if (!supported(value, property)
 	  && supported(self.prefix + value, property)) {
-		// It's supported, but with a prefix
+		// É suportado, mas com um prefixo
 		self.functions.push(func);
 	}
 }
@@ -425,7 +425,7 @@ for (var keyword in keywords) {
 
 	if (!supported(keyword, property)
 	  && supported(self.prefix + keyword, property)) {
-		// It's supported, but with a prefix
+		// É suportado, mas com um prefixo
 		self.keywords.push(keyword);
 	}
 }
@@ -433,7 +433,7 @@ for (var keyword in keywords) {
 })();
 
 /**************************************
- * Selectors and @-rules
+ * Seletores e @-rules
  **************************************/
 (function() {
 
@@ -457,7 +457,7 @@ self.atrules = [];
 var style = root.appendChild(document.createElement('style'));
 
 function supported(selector) {
-	style.textContent = selector + '{}';  // Safari 4 has issues with style.innerHTML
+	style.textContent = selector + '{}';  // O Safari 4 tem problemas com style.innerHTML
 	
 	return !!style.sheet.cssRules.length;
 }
@@ -482,13 +482,13 @@ root.removeChild(style);
 
 })();
 
-// Properties that accept properties as their value
+// Propriedades que aceitam propriedades como seu valor
 self.valueProperties = [
 	'transition',
 	'transition-property'
 ]
 
-// Add class for current prefix
+// Adicione a classe para o prefixo atual
 root.className += ' ' + self.prefix;
 
 StyleFix.register(self.prefixCSS);
