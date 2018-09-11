@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create Your Own Styles
+## Izazov: Kreiraj sopstvene stilove
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
+Sada kreiraj sopstvene stilove klase i svoju zagonetnu poruku učini još zanimljivijom. Koristi naučeno o CSS-u u prethodnim projektima, a za nove ideje potraži primjere u **style.css** datoteci.
 
-Here's an example:
+Ovdje je primjer:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
