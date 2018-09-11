@@ -1,11 +1,11 @@
-## Using Class Styles
+## Upotreba stilova klase
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ Da li primjećuješ tekst `class=''''` (klasa) koji se nalazi unutar oznake `<span>`? Možeš ga koristiti za stilizovanje više elemenata na isti način.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ Dodaj klasu `magazine1` u nekoliko `<span>` oznaka i provjeri svoju veb-stranicu.
 
 ![screenshot](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ Jednom elementu možeš da dodaš više klasa. Potrebno je samo da između njih ostaviš razmak. Dodaj klasu `big` u jednu od svojih `<span>` oznaka. Provjeri svoju stranicu. 
 
 ![screenshot](images/letter-big.png)
