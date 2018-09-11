@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
 title: Zagonetno pismo
-description: Create a mystery letter with lots of different styles.
+description: Napravi zagonetno pismo sa mnogo različitih stilova.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
@@ -18,20 +18,20 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Uvod
   - 
-    title: Choose Your Message
+    title: Odaberi svoju poruku
   - 
-    title: Editing Your Message
+    title: Uređivanje poruke
   - 
-    title: Using Class Styles
+    title: Upotreba stilova klase
   - 
-    title: 'Challenge: Style Your Message'
+    title: 'Izazov: Stilizuj svoju poruku'
   - 
-    title: Editing Classes
+    title: Uređivanje klasa
   - 
-    title: Create a New Class
+    title: Izradi novu klasu
   - 
-    title: 'Challenge: Create A Computer Printout Style'
+    title: 'Izazov: Napravi stil za štampu na računaru'
   - 
-    title: 'Challenge: Create Your Own Styles'
+    title: 'Izazov: Kreiraj sopstvene stilove'
