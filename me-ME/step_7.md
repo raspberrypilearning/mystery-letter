@@ -20,15 +20,15 @@ Ne brini ako dobiješ poruku 'The rule is empty' (Pravilo je prazno); to ćemo u
 
 ![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Klikni na dugme 'Select this font' (Odaberi ovaj font): 
 
 ![screenshot](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Na dnu ekrana pojaviće se poruka "1 Family Selected".
 
 ![screenshot](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Klikni na poruku "1 Family Selected" da otvoriš prozor i kopiraš označeni kôd:
 
 ![screenshot](images/letter-gfonts-4.png)
 
@@ -36,9 +36,9 @@ A message saying "1 Family Selected" will appear at the bottom on the screen.
 
 ![screenshot](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+To će ti omogućiti da koristiš font Bangers na svojoj veb-stranici.
 
-+ Vrati se na 'Google fonts', listaj stranicu nadolje i kopiraj sljedeći 'font-family' kôd:
++ Vrati se na 'Google fonts', listaj nadolje i kopiraj sljedeći 'font-family' kôd:
 
 ![screenshot](images/letter-fonts-bangers.png)
 
@@ -46,6 +46,6 @@ This allows you to use the Bangers font in your webpage.
 
 ![screenshot](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Provjeri veb-stranicu. Rezultat bi trebalo bi da izgleda slično ovome: 
 
 ![screenshot](images/letter-fonts-output.png)
