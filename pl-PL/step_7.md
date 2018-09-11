@@ -18,17 +18,19 @@ Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix tha
 
 + Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
 
-![screenshot](images/letter-fonts1.png)
+![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Click on the Quick-use button:
++ Click on the + "Select this font" button:
 
-![screenshot](images/letter-fonts2.png)
+![screenshot](images/letter-gfonts-2-annotated.png)
 
-+ A new page will load. Scroll down until you see:
+A message saying "1 Family Selected" will appear at the bottom on the screen.
 
-![screenshot](images/letter-fonts-link.png)
+![screenshot](images/letter-gfonts-3.png)
 
-and copy the highlighted code.
++ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
+
+![screenshot](images/letter-gfonts-4.png)
 
 + Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
 
