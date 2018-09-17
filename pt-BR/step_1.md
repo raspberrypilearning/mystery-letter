@@ -20,13 +20,13 @@ Neste projeto, as crianças são apresentadas às classes CSS. As crianças usam
 
 Nós recomendamos usar [trinket](https://trinket.io/) para escrever HTML & CSS online. Este projeto contém o seguinte trinket:
 
-* ['Carta Misteriosa' ponto inicial -- trinket.io/html/2bea7bd057](http://trinket.io/html/2bea7bd057)
+* ['Carta Misteriosa' ponto inicial -- trinket.io/html/1191d96f47](http://trinket.io/html/1191d96f47)
 
 As crianças também podem fazer uso deste trinket em branco [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) para escrever seu próprio HTML & CSS, ou como alternativa, eles podem usar este template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 Há também um trinket contendo uma solução de amostra para os desafios:
 
-* ['Carta Misteriosa concluída' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Carta Misteriosa concluída' -- trinket.io/html/2bea7bd057](https://trinket.io/html/2bea7bd057)
 
 ## Recursos Offline
 
@@ -74,7 +74,7 @@ title: Materiais do Projeto
 ## Recursos do Projeto
 
 * [Arquivo .zip contendo todos os recursos do projeto](resources/letter-project-resources.zip)
-* [Online Trinket contendo todos os recursos do projeto 'Carta Misteriosa'](http://trinket.io/html/2bea7bd057)
+* [Online Trinket contendo todos os recursos do projeto 'Carta Misteriosa'](http://trinket.io/html/1191d96f47)
 * [Template Online Trinket](http://jumpto.cc/trinket-template)
 * [Online Trinket em branco](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
@@ -90,7 +90,7 @@ title: Materiais do Projeto
 ## Recursos para líderes de clube
 
 * [arquivo .zip contém todos os recursos do projeto](resources/letter-volunteer-resources.zip)
-* [Projeto Trinket online e completo](https://trinket.io/html/1d4d4c5ce1)
+* [Projeto Trinket online e completo](https://trinket.io/html/2bea7bd057)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
 * [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
