@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
 title: Carta Misteriosa
-description: "Neste projeto você criará uma carta misteriosa. As palavras dessa carta terão a aparência de que cada palavra foi cortada de um lugar diferente: jornal, revista, história em quadrinhos, etc"
+description: Crie uma carta misteriosa com muitos estilos diferentes.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
@@ -16,5 +16,13 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Carta Misteriosa
+steps:
+  - title: Introdução
+  - title: Escolha sua mensagem
+  - title: Editando sua mensagem
+  - title: Usando estilos de classe
+  - title: 'Desafio: Estilize sua mensagem'
+  - title: Editando as Classes
+  - title: Criando uma nova classe
+  - title: 'Desafio: Criar um estilo de impressão de computador'
+  - title: 'Desafio: Criando seu próprio estilo'
