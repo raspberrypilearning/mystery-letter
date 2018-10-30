@@ -1,0 +1,37 @@
+---
+hero_image: images / banner.png
+theme: gul
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-1, programmering-0, phys-comp-0, produksjon-0, fellesskap-0
+title: Mystery Letter
+description: Lag et mysterium brev med mange forskjellige stiler.
+original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
+interests: Kunst
+technologies: html-css-javascript
+site_areas: prosjekter
+hardware: ''
+software: html-css-javascript
+version: 3.1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Introduksjon
+  - 
+    title: Velg meldingen din
+  - 
+    title: Redigerer meldingen din
+  - 
+    title: Bruke klassestiler
+  - 
+    title: 'Utfordring: Stil meldingen din'
+  - 
+    title: Redigerer klasser
+  - 
+    title: Opprett en ny klasse
+  - 
+    title: 'Utfordring: Opprett en datamaskinutskriftsstil'
+  - 
+    title: 'Utfordring: Lag dine egne stiler'
