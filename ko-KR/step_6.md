@@ -1,25 +1,25 @@
-## Editing Classes
+## 클래스 수정하기
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ **'style.css'** 탭을 클릭하여 `newspaper` CSS 클래스를 수정해 보도록 하겠습니다.
 
-![screenshot](images/letter-newspaper.png)
+![스크린샷](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ HTML 파일의 `<span>` 태그가 아닌 CSS 파일의 클래스 이름 앞에 점 (.)이 있습니다. 
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ 이제 수수께끼 편지의 스타일을 지정하는 데 사용한 다른 CSS 클래스를 살펴보십시오. 아래와 같은 클래스가 있습니다:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + `magazine1` 스타일을 모두 대문자로 바꾸기
     
-    + How the `magazine2` style puts an image behind the text.
+    + `magazine2` 스타일 뒤에 이미지를 삽입하기
 
-![screenshot](images/letter-magazines.png)
+![스크린샷](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ `background-image`를 `magazine2`에서 `canvas.png`으로 바꾸려면 어떤 일이 일어나나요? 만약에 `pink-pattern.png`을 선호한다면 다시 되돌릴 수 있습니다. 
 
-You can also change the colours in the magazine styles if you like.
+매거진의 색상도 원한다면 수정할 수 있습니다.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ 단어를 돌리거나 비스듬히 기울이기 위하여 사용된 CSS 클래스를 아래와 같이 찾을 수 있습니다.
 
-![screenshot](images/letter-rotate-skew.png)
+![스크린샷](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+숫자를 변경해서 결과를 확인해 보세요.
