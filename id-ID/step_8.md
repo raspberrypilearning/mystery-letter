@@ -1,15 +1,15 @@
-\--- challenge \---
+\--- tantangan \---
 
-## Challenge: Create A Computer Printout Style
+## Tantangan: Buat Gaya Cetak Komputer
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+Buat gaya cetak komputer kuno dan terapkan ke beberapa kata:
 
-![screenshot](images/letter-fonts-printout.png)
+![tangkapan layar](images/letter-fonts-printout.png)
 
-You will need:
+Anda akan perlu:
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ Keluarga font `VT323` dari <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Lihat kembali Langkah 5 jika Anda membutuhkan pengingat tentang penggunaan font Google.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
++ Gambar-gambar `komputer-printout-paper.png`. Lihat kembali Langkah 4 jika Anda membutuhkan pengingat tentang penggunaan gambar latar belakang.
 
-\--- /challenge \---
+\--- / tantangan \---
