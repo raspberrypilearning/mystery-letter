@@ -1,21 +1,21 @@
-## Editing Your Message
+## 메시지 수정하기
 
-Let's get your message onto a webpage.
+전 단계에서 고른 메시지를 웹페이지에 넣어 봅시다.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ 다음 Trinket 파일을 열어주세요. <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    프로젝트는 아래와 같이 보일 것입니다:
     
-    ![screenshot](images/letter-starter.png)
+    ![스크린샷](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ `<p>` 태그는 '생일 축하해요' 프로젝트에서 소개가 된 태그입니다. `<span>` 태그는 문장 단위로 텍스트를 지정하는 태그를 뜻합니다.
 
-![screenshot](images/letter-placeholder.png)
+![스크린샷](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ `<span>` 안에 있는 예제 단어를 제거하고, 자신의 수수께끼 메시지로 바꾸시기 바랍니다. 만약 자신의 수수께끼 메시지가 예제에 나와 있는 수수께끼 메시지와 다르다면 `<span>` 태그를 지우거나 추가하여 Code를 수정해야 할 것입니다. 
 
-![screenshot](images/letter-message.png)
+![스크린샷](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ Run을 눌러 자신이 만든 Trinket을 테스트해보세요.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    페이지를 보면 단어가 페이지에 붙어있는 것 처럼 스타일링된 것을 볼 수 있습니다.
