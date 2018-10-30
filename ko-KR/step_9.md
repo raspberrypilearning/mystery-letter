@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: Create Your Own Styles
+## 과제: 자신만의 스타일 제작
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
+이제 자신만의 클래스 스타일을 만들어 보고 수수께끼 편지를 더 흥미롭게 만들어 보세요. 지금 배웠던 CSS를 활용하여 **style.css** 파일에 반영합니다.
 
-Here's an example:
+아래 예제를 참고하세요:
 
-![screenshot](images/letter-fonts-challenge3.png)
+![스크린샷](images/letter-fonts-challenge3.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
+Trinket에서 이미지 탭을 클릭하는 것으로 이미지 사용이 가능합니다. 아래와 같은 이미지를 배경 이미지로 사용해 보세요:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+만약 Trinket 계정을 가지고 있다면, 'Tell a Story' 프로젝트에서 한 것처럼 이미지를 업로드할 수 있습니다.
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+<a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>에서 폰트를 찾아 `<link>`를 복사한 후, CSS에 넣어 사용하십시오.
 
 \--- /challenge \---
