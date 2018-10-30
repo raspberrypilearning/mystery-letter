@@ -2,17 +2,17 @@
 
 ## Izazov: Stilizuj svoju poruku
 
-Iskoristi stilove date u nastavku teksta i napravi svoju poruku tako da izgleda kao zagonetno pismo.
+Upotrijebi stilove date u nastavku teksta i napravi da tvoja poruka izgleda kao zagonetno pismo.
 
 Dodaj sljedeće klase svojim `<span>` oznakama:
 
-+ `newspaper`, `magazine1`, `magazine2`
++ `newspaper` (novine), `magazine1` (časopis1), `magazine2` (časopis2)
 
-+ `medium`, `big`, `reallybig`
++ `medium`, (srednji) `big` (veliki), `reallybig` (veoma veliki)
 
-+ `rotateleft`, `rotateright`
++ `rotateleft` (rotiraj ulijevo), `rotateright` (rotiraj udesno)
 
-+ `skewleft`, `skewright`
++ `skewleft` (iskosi ulijevo), `skewright` (iskosi udesno)
 
 Nemoj dodavati više od jedne klase iz istog reda pojedinoj `<span>` oznaci.
 
