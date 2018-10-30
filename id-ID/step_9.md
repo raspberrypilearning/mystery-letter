@@ -1,21 +1,21 @@
-\--- challenge \---
+\--- tantangan \---
 
-## Challenge: Create Your Own Styles
+## Tantangan: Buat Gaya Anda Sendiri
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
+Sekarang buat gaya kelas Anda sendiri dan buatlah surat misteri Anda menjadi lebih menarik. Gunakan CSS yang telah Anda pelajari dalam proyek sebelumnya dan lihat contoh dalam **style.css** untuk ide.
 
-Here's an example:
+Inilah contohnya:
 
-![screenshot](images/letter-fonts-challenge3.png)
+![tangkapan layar](images/letter-fonts-challenge3.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
+Anda dapat melihat gambar yang tersedia untuk digunakan dengan mengklik tab Gambar di trinket. Coba setel latar belakang gambar menggunakan salah satu gambar yang disertakan:
 
-+ `rough-paper.png`
++ `kasar-kertas.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+Jika Anda memiliki akun trinket, Anda dapat mengunggah gambar Anda sendiri seperti yang Anda lakukan di Proyek 'Ceritakan Kisah'.
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+Temukan font yang Anda suka pada <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> dan salin kode `<link>` dan CSS mereka ke dalam trinket Anda untuk menggunakannya.
 
-\--- /challenge \---
+\--- / tantangan \---
