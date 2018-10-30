@@ -14,19 +14,19 @@ Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu]
 
 ## Uvod:
 
-U ovom projektu djeca se upoznaju sa CSS klasama. Koristiće razne CSS klase za stilizovanje teksta i istovremeno naučiti kako da koriste pozadinske slike i besplatne Google fontove u svojim projektima.
+U ovom projektu djeca se upoznaju sa CSS klasama. Koriste razne CSS klase za stilizovanje teksta i uče kako da koriste pozadinske slike i besplatne Google fontove u svojim projektima.
 
 ## Online izvori
 
 Za pisanje HTML-a i CSS-a online preporučujemo da koristite [trinket](https://trinket.io/). Ovaj projekat sadrži sljedeći trinket:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* [Početak projekta 'Zagonetno pismo' -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Za pisanje sopstvenog HTML-a i CSS-a, djeca takođe mogu da koriste ovaj prazan trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) ili da koriste ovaj trinket šablon [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 Takođe postoji trinket koji sadrži primjer rješenja izazova:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* [Završen projekat 'Zagonetno pismo' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Offline izvori
 
@@ -52,7 +52,7 @@ Takođe, završenu verziju izazova ovoga projekta možete naći u odjeljku 'Izvo
 
 ## Ciljevi učenja
 
-* Ovaj projekat je uvod u CSS klase i mogućnost stilizovanja HTML elemenata različitim klasama.
+* U ovom projektu predstavljene su CSS klase i mogućnost stilizovanja HTML elemenata sa više klasa.
 * Takođe su predstavljene pozadinske slike i Google fontovi. 
 
 Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
@@ -61,9 +61,9 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 
 ## Izazovi
 
-* ''Stilizuj svoju poruku'' - Primijeni unaprijed date CSS stilove klase;
-* ''Napravi stil štampe računara” – Koristi CSS da ponovo napraviš primjer klase koristeći pozadinsku sliku i Google font. 
-* ''Napravi sopstveni stil'' - Koristi CSS da kreiraš novi stil.
+* ''Stilizuj svoju poruku'' - Primijeni date CSS stilove klase;
+* ''Kreiraj stil dokumenta odštampanog sa računara” - Koristi CSS da napraviš klasu na osnovu datog primjera, koristeći pozadinsku sliku i Google font. 
+* ''Kreiraj sopstvene stilove'' - Koristi CSS da kreiraš nove stilove.
 
 \--- /collapse \---
 
@@ -74,7 +74,7 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 ## Izvori projekta
 
 * [.zip datoteka koja sadrži sve izvore projekta](resources/letter-project-resources.zip)
-* [Online Trinket koji sadrži sve izvore projekta 'Zagonetno pismo!'](http://jumpto.cc/web-letter)
+* [Online Trinket koji sadrži sve izvore projekta 'Zagonetno pismo'](http://jumpto.cc/web-letter)
 * [Online Trinket šablon](http://jumpto.cc/trinket-template)
 * [Online prazan Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
