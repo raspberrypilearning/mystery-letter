@@ -1,0 +1,37 @@
+---
+hero_image: images / banner.png
+theme: kollane
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, disain-1, programmeerimine-0, phys-comp-0, production-0, community-0
+title: Mystery Letter
+description: Loo saladuslik kiri, millel on palju erinevaid stiile.
+original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
+interests: art
+technologies: html-css-javascript
+site_areas: projektid
+hardware: ''
+software: html-css-javascript
+version: 3.1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Sissejuhatus
+  - 
+    title: Vali oma sõnum
+  - 
+    title: Teie sõnumi redigeerimine
+  - 
+    title: Klassi stiilide kasutamine
+  - 
+    title: 'Väljakutse: stiil oma sõnumit'
+  - 
+    title: Klasside muutmine
+  - 
+    title: Loo uus klass
+  - 
+    title: 'Väljakutse: loo arvuti väljatrüki stiil'
+  - 
+    title: 'Väljakutse: loo oma stiilid'
