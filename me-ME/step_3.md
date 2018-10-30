@@ -12,10 +12,10 @@ Postavimo tvoju poruku na veb-stranicu.
 
 ![screenshot](images/letter-placeholder.png)
 
-+ Zamijeni riječi riječima iz tvoje poruke stavljajući po jednu riječ unutar svake oznake `<span>`. Ako se dužina tvoje poruke razlikuje od predložene, biće potrebno da dodaš ili ukloniš oznake `<span>`. 
++ Zamijeni riječi svojom porukom, stavljajući po jednu riječ unutar svake oznake `<span>`. Ako se dužina tvoje poruke razlikuje od predložene, biće potrebno da dodaš ili ukloniš oznake `<span>`. 
 
 ![screenshot](images/letter-message.png)
 
 + Klikni na dugme Run da isprobaš svoj trinket.
     
-    Ako pogledaš riječi, možeš uočiti da su stilizovane tako da izgledaju kao da su zalijepljene na stranicu.
+    Ako pogledaš riječi, uočićeš da su stilizovane tako da izgledaju kao da su zalijepljene na stranicu.
