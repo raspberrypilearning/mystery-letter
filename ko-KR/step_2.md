@@ -1,7 +1,7 @@
-## Choose Your Message
+## 비밀 메시지 고르기
 
-Mystery letters are used in films and books to send secret messages.
+수수께끼 문자들은 영화나 책에서 비밀 메시지를 보낼 때 사용됩니다.
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ 수수께끼 메시지를 생각해 봅시다. 메시지를 생각하기 힘들다면 아래 예제를 활용해 봅시다: '당신의 다음 단서는 안전합니다. 비밀 번호는 65536 입니다.'
 
-+ Either make a note of your message or remember it.
++ 제작한 메시지를 메모에 기록하거나 외워 두시기 바랍니다.
