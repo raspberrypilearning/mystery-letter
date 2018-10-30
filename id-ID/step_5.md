@@ -1,23 +1,23 @@
-\--- challenge \---
+\--- tantangan \---
 
-## Challenge: Style Your Message
+## Tantangan: Gaya Pesan Anda
 
-Use the provided styles to make your message look like a mystery letter.
+Gunakan gaya yang disediakan untuk membuat pesan Anda terlihat seperti surat misteri.
 
-Add these classes to your `<span>` tags:
+Tambahkan kelas-kelas ini ke tag `<span>`:
 
-+ `newspaper`, `magazine1`, `magazine2`
++ `koran`, `majalah1`, `majalah2`
 
-+ `medium`, `big`, `reallybig`
++ `sedang`, `besar`, `benar-benar besar`
 
 + `rotateleft`, `rotateright`
 
-+ `skewleft`, `skewright`
++ `kecondongan`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+Jangan tambahkan lebih dari satu dari setiap baris ke `<span>`.
 
-This is how your letter could look:
+Ini adalah bagaimana surat Anda bisa terlihat:
 
-![screenshot](images/letter-challenge1.png)
+![tangkapan layar](images/letter-challenge1.png)
 
-\--- /challenge \---
+\--- / tantangan \---
