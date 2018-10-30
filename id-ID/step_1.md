@@ -1,102 +1,102 @@
-## Introduction
+## pengantar
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+Dalam proyek ini, Anda akan membuat surat misteri yang terlihat seperti setiap kata telah dipotong dari surat kabar, majalah, komik, atau sumber lain yang berbeda.
 
-![screenshot](images/letter-final.png)
+![tangkapan layar](images/letter-final.png)
 
-### Additional information for club leaders
+### Informasi tambahan untuk pemimpin klub
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Jika Anda perlu mencetak proyek ini, silakan gunakan [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
-## \--- collapse \---
+## \--- jatuh \---
 
-## title: Club leader notes
+## judul: Catatan pemimpin klub
 
-## Introduction:
+## Pengantar:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+Dalam proyek ini, anak-anak diperkenalkan ke kelas CSS. Mereka menggunakan banyak kelas CSS untuk menata teks dan juga belajar cara menggunakan gambar latar belakang dan font Google gratis dalam proyek mereka.
 
-## Online Resources
+## Sumber Daya Online
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Kami merekomendasikan menggunakan [trinket](https://trinket.io/) untuk menulis HTML & CSS secara online. Proyek ini mengandung trinket berikut:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* [Titik awal 'Misteri Surat' - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Anak-anak juga dapat menggunakan perhiasan kosong ini [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) untuk menulis HTML & CSS mereka sendiri, atau secara alternatif mereka dapat menggunakan trinket template [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Ada juga trinket yang berisi solusi sampel untuk tantangan:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Mystery Letter Finished' - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## Sumber Daya Offline
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Proyek ini dapat [selesai offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) jika disukai. Anda dapat mengakses sumber daya proyek dengan mengklik tautan 'Project Materials' untuk proyek ini. Tautan ini berisi bagian 'Sumber Proyek', yang mencakup sumber daya yang dibutuhkan anak-anak untuk menyelesaikan proyek ini secara offline. Pastikan bahwa setiap anak memiliki akses ke salinan sumber daya ini. Bagian ini termasuk file-file berikut:
 
-* mystery-letter/index.html
-* mystery-letter/style.css
-* mystery-letter/script.js
-* mystery-letter/prefixfree.js
-* mystery-letter/4 x .png images
-* template/template.html
-* template/style.css
+* mystery-letter / index.html
+* mystery-letter / style.css
+* mystery-letter / script.js
+* mystery-letter / prefixfree.js
+* gambar mystery-letter / 4 x .png
+* template / template.html
+* template / style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Anda juga dapat menemukan versi lengkap dari tantangan proyek ini di bagian 'Sumber Relawan', yang berisi:
 
-* mystery-letter-finished/index.html
-* mystery-letter-finished/style.css
-* mystery-letter-finished/script.js
-* mystery-letter-finished/prefixfree.js
-* mystery-letter-finished/4 x .png images
+* mystery-letter-finished / index.html
+* mystery-letter-finished / style.css
+* mystery-letter-finished / script.js
+* mystery-letter-finished / prefixfree.js
+* gambar misteri-selesai-huruf / 4 x .png
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Semua sumber daya di atas juga dapat diunduh sebagai proyek dan relawan `file .zip`).
 
-## Learning Objectives
+## Tujuan Pembelajaran
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* Proyek ini memperkenalkan kelas CSS dan kemampuan untuk menata elemen HTML dengan beberapa kelas.
+* Gambar latar belakang dan font Google juga diperkenalkan. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Proyek ini mencakup elemen dari untaian berikut dari [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [Desain aset 2D dan 3D dasar](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## Tantangan
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* “Gaya pesan Anda” - Terapkan gaya kelas CSS yang disediakan;
+* “Buat gaya cetak komputer” - Gunakan CSS untuk membuat ulang kelas contoh menggunakan gambar latar belakang dan font Google. 
+* “Buat gaya Anda sendiri” - Gunakan CSS untuk membuat gaya baru.
 
-\--- /collapse \---
+\--- /jatuh \---
 
-## \--- collapse \---
+## \--- jatuh \---
 
-## title: Project materials
+## judul: Materi proyek
 
-## Project resources
+## Sumber daya proyek
 
-* [.zip file containing all project resources](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
-* [template/index.html](resources/template-index.html)
-* [template/style.css](resources/template-style.css)
-* [mystery-letter/index.html](resources/mystery-letter-index.html)
-* [mystery-letter/style.css](resources/mystery-letter-style.css)
-* [mystery-letter/prefixfree.js](resources/mystery-letter-prefixfree.js)
-* [mystery-letter/rough-paper.png](resources/mystery-letter-rough-paper.png)
-* [mystery-letter/canvas.png](resources/mystery-letter-canvas.png)
-* [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
-* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
+* [file .zip yang berisi semua sumber daya proyek](resources/letter-project-resources.zip)
+* [Trinket Online berisi semua sumber daya 'Mystery Letter'](http://jumpto.cc/web-letter)
+* [Template Trinket Online](http://jumpto.cc/trinket-template)
+* [Trinket kosong daring](http://jumpto.cc/trinket-blank)
+* [template / index.html](resources/template-index.html)
+* [template / style.css](resources/template-style.css)
+* [mystery-letter / index.html](resources/mystery-letter-index.html)
+* [mystery-letter / style.css](resources/mystery-letter-style.css)
+* [mystery-letter / prefixfree.js](resources/mystery-letter-prefixfree.js)
+* [mystery-letter / rough-paper.png](resources/mystery-letter-rough-paper.png)
+* [mystery-letter / canvas.png](resources/mystery-letter-canvas.png)
+* [mystery-letter / pink-pattern.png](resources/mystery-letter-pink-pattern.png)
+* [mystery-letter / computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Club leader resources
+## Sumber daya pemimpin klub
 
-* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
-* [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
-* [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
-* [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
-* [mystery-letter-finished/rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
-* [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
-* [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
-* [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
+* [file .zip yang berisi semua sumber daya proyek yang telah selesai](resources/letter-volunteer-resources.zip)
+* [Proyek Trinket yang diselesaikan secara daring](https://trinket.io/html/1d4d4c5ce1)
+* [mystery-letter-finished / index.html](resources/mystery-letter-finished-index.html)
+* [mystery-letter-finished / style.css](resources/mystery-letter-finished-style.css)
+* [mystery-letter-finished / prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
+* [mystery-letter-finished / rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
+* [mystery-letter-finished / canvas.png](resources/mystery-letter-finished-canvas.png)
+* [mystery-letter-finished / pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
+* [mystery-letter-finished / computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
 
-\--- /collapse \---
+\--- /jatuh \---
