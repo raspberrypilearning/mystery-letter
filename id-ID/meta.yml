@@ -1,37 +1,37 @@
 ---
-hero_image: images/banner.png
-theme: yellow
+hero_image: images / banner.png
+theme: kuning
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-title: Mystery Letter
-description: Create a mystery letter with lots of different styles.
+curriculum: 1, desain-1, pemrograman-0, phys-comp-0, manufacture-0, community-0
+title: Surat Misteri
+description: Buat surat misteri dengan banyak gaya yang berbeda.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
-interests: art
+interests: seni
 technologies: html-css-javascript
-site_areas: projects
+site_areas: proyek
 hardware: ''
 software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: pengantar
   - 
-    title: Choose Your Message
+    title: Pilih Pesan Anda
   - 
-    title: Editing Your Message
+    title: Mengedit Pesan Anda
   - 
-    title: Using Class Styles
+    title: Menggunakan Gaya Kelas
   - 
-    title: 'Challenge: Style Your Message'
+    title: 'Tantangan: Gaya Pesan Anda'
   - 
-    title: Editing Classes
+    title: Kelas Editing
   - 
-    title: Create a New Class
+    title: Buat Kelas Baru
   - 
-    title: 'Challenge: Create A Computer Printout Style'
+    title: 'Tantangan: Buat Gaya Cetak Komputer'
   - 
-    title: 'Challenge: Create Your Own Styles'
+    title: 'Tantangan: Buat Gaya Anda Sendiri'
