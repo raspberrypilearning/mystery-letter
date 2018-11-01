@@ -18,15 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
   - 
-    title: 소개
+    title: 들어가며
   - 
     title: 비밀 메시지 고르기
   - 
     title: 메시지 수정하기
   - 
-    title: 클래스 스타일 사용하기
+    title: 클래스(class) 스타일 사용하기
   - 
-    title: '과제: 메시지 스타일링하기'
+    title: '과제: 메시지 꾸미기'
   - 
     title: 클래스 수정하기
   - 
