@@ -1,0 +1,37 @@
+---
+hero_image: images / banner.png
+theme: Sarı
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, tasarım-1, programlama-0, phys-comp-0, üretim-0, topluluk-0
+title: Gizemli Mektup
+description: Birçok farklı stil içeren gizemli bir mektup oluşturun.
+original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
+interests: Sanat
+technologies: html CSS-JavaScript
+site_areas: projeler
+hardware: ''
+software: html CSS-JavaScript
+version: 3.1
+last_tested: 2017/01/01
+steps:
+  - 
+    title: Giriş
+  - 
+    title: Mesajınızı Seçin
+  - 
+    title: Mesajınızı Düzenlemek
+  - 
+    title: Sınıf Stillerini Kullanma
+  - 
+    title: 'Zor Görev: Mesajını Stillendir'
+  - 
+    title: Sınıfları Düzenleme
+  - 
+    title: Yeni Bir Sınıf Oluştur
+  - 
+    title: 'Zorluk: Bir Bilgisayar Çıktı Stili Oluştur'
+  - 
+    title: 'Zorluk: Kendi Stillerini Yarat'
