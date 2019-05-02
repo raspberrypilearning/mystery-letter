@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## التحدي: حدِّد أنماط رسالتك
 
 Use the provided styles to make your message look like a mystery letter.
 
@@ -18,6 +18,6 @@ Don't add more than one from each line to a particular `<span>`.
 
 This is how your letter could look:
 
-![screenshot](images/letter-challenge1.png)
+![لقطة الشاشة](images/letter-challenge1.png)
 
 \--- /challenge \---
