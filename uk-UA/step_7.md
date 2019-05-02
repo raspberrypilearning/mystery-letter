@@ -26,7 +26,7 @@
 
 A message saying "1 Family Selected" will appear at the bottom on the screen.
 
-![screenshot](images/letter-gfonts-3.png)
+![скріншот](images/letter-gfonts-3.png)
 
 + Click on the "1 Family Selected" message to open the window and copy the highlighted code:
 
@@ -34,9 +34,9 @@ A message saying "1 Family Selected" will appear at the bottom on the screen.
 
 + Вставте `<link>` код, який ви скопіювали з Goole шрифтів у `<head>` вашо веб-сторінки:
 
-![screenshot](images/letter-fonts-head.png)
+![скріншот](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Це дозволить вам використовувати шрифт Bangers на вашій веб-сторінці.
 
 + Поверніться до Google шрифтів, спустіться вниз сторінки та скопіюйте код гарнітури шрифтів:
 
@@ -48,4 +48,4 @@ This allows you to use the Bangers font in your webpage.
 
 + Протестуйте сторінку. Результат повинен виглядати так: 
 
-![screenshot](images/letter-fonts-output.png)
+![скріншот](images/letter-fonts-output.png)
