@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create Your Own Styles
+## Aufgabe: Erstelle deinen eigenen Stil
 
 Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
 
-Here's an example:
+Hier ist ein Beispiel:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
