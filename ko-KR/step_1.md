@@ -2,7 +2,7 @@
 
 이 프로젝트에서는 신문, 잡지, 만화 등에 있는 글자를 잘라 붙여서 수수께끼 편지를 만들어 보도록 하겠습니다.
 
-![스크린샷](images/letter-final.png)
+![screenshot](images/letter-final.png)
 
 ### 교육자들을 위한 추가 정보
 
@@ -10,7 +10,7 @@
 
 ## \--- collapse \---
 
-## title: 교육자들을 위한 메모
+## 제목: 교육자 노트
 
 ## 소개
 
@@ -28,7 +28,7 @@
 
 * [완성된 '수수께끼 편지' 프로젝트 -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## 오프라인 자료
+## 오프라인 자료들
 
 여러분의 선호에 따라 프로젝트를 [오프라인에서 완성](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/)할 수 있습니다. 'Project Materials' 라는 링크를 클릭하여 이 프로젝트의 자료를 확인해볼 수 있습니다. 이 링크에는 학생들이 프로젝트를 오프라인으로 완료하는 데 필요한 자료가 포함된 'Project Resource' 섹션이 있습니다. 학생들이 이러한 자료의 사본에 접근할 수 있는지 확인하십시오. 이 섹션에는 아래와 같은 파일들이 포함되어 있습니다.
 
@@ -76,7 +76,7 @@
 * [프로젝트의 모든 리소스가 들어있는 .zip 파일](resources/letter-project-resources.zip)
 * [수수께끼 편지 프로젝트 자료가 포함된 온라인 Trinket](http://jumpto.cc/web-letter)
 * [온라인 Trinket 템플릿](http://jumpto.cc/trinket-template)
-* [온라인 빈 템플릿](http://jumpto.cc/trinket-blank)
+* [빈 Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
