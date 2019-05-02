@@ -1,21 +1,21 @@
-## Teie sõnumi redigeerimine
+## Oma sõnumi muutmine
 
-Anname sõnumi veebisaidile.
+Paneme su sõnumi veebilehele üles.
 
-+ Avage see nipsust: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Ava see trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    Projekt peaks olema selline:
+    Projekt peaks välja nägema selline:
     
-    ![ekraanipilt](images/letter-starter.png)
+    ![kuvatõmmis](images/letter-starter.png)
 
-+ Paragrahvi `<p>` tag lisatakse "Palju õnne sünnipäevast". Sildi `<span>` kasutatakse rida väiksemate tekstiosade rühmitamiseks, et saaksime neid stiilida.
++ Lõigusilti `<p>` tutvustatakse projektis "Palju õnne sünnipäevaks". `<span>` silti kasutatakse väiksemate tekstiosade rühmitamiseks lõigu sees, et saaksime neid kujundada.
 
-![ekraanipilt](images/letter-placeholder.png)
+![kuvatõmmis](images/letter-placeholder.png)
 
-+ Muuda sõnumeid oma sõnumile, asetades ühe sõna igas `<span>`. Kui teie sõnum on teistsuguse pikkusega, peate lisama või eemaldama `<span>` sildi. 
++ Muuda oma sõnumi sõnu, asetades igasse `<span>` ühe sõna. Kui sinu sõnum on teistsuguse pikkusega, pead `<span>` silte lisama või eemaldama. 
 
-![ekraanipilt](images/letter-message.png)
+![kuvatõmmis](images/letter-message.png)
 
-+ Klõpsake nupul Käivita, et proovida oma nipsutit.
++ Klõpsa nupul Käivita, et oma trinketit testida.
     
-    Kui vaatate sõnu, näete, et need on stiilis kujundatud, et nad näeksid välja, et nad on lehele kinni jäänud.
+    Kui vaatad sõnu, näed, et need on kujundatud nii, et nad näeksid välja, justkui oleks nad lehele kinni jäänud.
