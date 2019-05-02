@@ -1,25 +1,25 @@
 ## Klasside muutmine
 
-+ Kliki **'style.css'** vahelehel. Leia stiil `ajalehe` CSS klassi jaoks, mida olete kasutanud.
++ Klõpsa **'style.css'** vahekaardil. Leia stiil `newspaper` CSS-klassi jaoks, mida oled seni kasutanud.
 
-![ekraanipilt](images/letter-newspaper.png)
+![kuvatõmmis](images/letter-newspaper.png)
 
-+ Pange tähele, et seal on punkt (täielik stop) "." enne klassi nime CSS-failis, kuid mitte teie HTML-dokumendis HTML-koodi `<span>`.
++ Pane tähele, et enne klassi nime on täpp (punkt) "." CSS-failis, kuid mitte sinu HTML-dokumendi `<span>` sildis.
 
-+ Nüüd vaadake teisi CSS-klasse, mida kasutasite oma saladusliku kirja stiilis. Kas leiate:
++ Nüüd vaata teisi CSS-klasse, mida kasutasid oma salakirja kujundamiseks. Kas leiad:
     
-    + Kuidas `magazine1` stiilis muudab teksti suurtähelisi (kapitali) tähed.
+    + Kuidas `magazine1` stiil muudab teksti läbivate suurtähtedega (trükitähtedega) tekstiks.
     
-    + Kuidas `ajakirja2` stiil paneb pildi teksti taga.
+    + Kuidas `magazine2` stiil viib pildi teksti taha.
 
-![ekraanipilt](images/letter-magazines.png)
+![kuvatõmmis](images/letter-magazines.png)
 
-+ Mis juhtub, kui muudate `taustapilti` `ajakirja jaoks <code>` kuni `canvas.png`? Kui eelistate `pink-pattern.png` saate seda tagasi muuta. 
++ Mis juhtub, kui muudad `taustapildi` `magazine2` jaoks pildiks `canvas.png`? Kui eelistad pilti `pink-pattern.png`, saad selle tagasi muuta. 
 
-Kui soovite, võite ka ajakirjade stiilides värve muuta.
+Kui soovid, võid ka ajakirjastiilides värve muuta.
 
-+ Leidke CSS, mida kasutatakse teie sõnu pööramiseks ja kallutamiseks (kallutamiseks):
++ Leia CSS, mida kasutatakse sõnade (viltu) pööramiseks:
 
-![ekraanipilt](images/letter-rotate-skew.png)
+![kuvatõmmis](images/letter-rotate-skew.png)
 
-Proovige numbreid muuta erinevate efektide loomiseks ja seejärel lehe testimiseks.
+Proovi muuta numbreid, et luua erinevaid efekte ja seejärel testi oma lehte.
