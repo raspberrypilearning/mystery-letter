@@ -1,10 +1,10 @@
-\--- challenge \---
+\--- desafío \---
 
-## Challenge: Create A Computer Printout Style
+## Reto: Crear un estilo de impresión de ordenador
 
 Create an old-fashioned computer printout style and apply it to some of the words:
 
-![screenshot](images/letter-fonts-printout.png)
+![captura de pantalla](images/letter-fonts-printout.png)
 
 You will need:
 
