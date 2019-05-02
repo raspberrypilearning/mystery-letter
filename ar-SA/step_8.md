@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## التحدي: أنشئ نمط طباعة الكمبيوتر
 
 Create an old-fashioned computer printout style and apply it to some of the words:
 
-![screenshot](images/letter-fonts-printout.png)
+![لقطة شاشة](images/letter-fonts-printout.png)
 
 You will need:
 
@@ -12,4 +12,4 @@ You will need:
 
 + The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
 
-\--- /challenge \---
+\--- challenge/ \---
