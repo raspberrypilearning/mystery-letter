@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Desafio: Criar um estilo de impressão de computador
+## Desafio: Criando um estilo de impressão de computador
 
 Crie um estilo de impressão de computador antigo e aplique-o a algumas das palavras:
 
