@@ -1,4 +1,4 @@
-## اختر رسالتك
+## اختيار رسالتك
 
 Mystery letters are used in films and books to send secret messages.
 
