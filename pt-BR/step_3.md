@@ -2,7 +2,7 @@
 
 Vamos colocar sua mensagem em uma página da web.
 
-+ Abra este trinket: <a href="http://trinket.io/html/1191d96f47" target="_blank">trinket.io/html/1191d96f47</a>.
++ Abra este trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
     O projeto deve ficar assim:
     

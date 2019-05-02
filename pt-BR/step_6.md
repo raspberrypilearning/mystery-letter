@@ -1,6 +1,6 @@
 ## Editando as Classes
 
-+ Clique na guia **style.css**. Encontre o estilo para a classe CSS `newspaper` que você está usando.
++ Clique na guia **'style.css'**. Encontre o estilo para a classe CSS `newspaper` que você está usando.
 
 ![screenshot](images/letter-newspaper.png)
 
