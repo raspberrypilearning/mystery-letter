@@ -1,20 +1,20 @@
-## Editing Your Message
+## تحرير رسالتك
 
 Let's get your message onto a webpage.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ افتح مشروع trinket هذا: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    الآن يجب أن يبدو الملف الخاص بك مثل هذا:
     
-    ![screenshot](images/letter-starter.png)
+    ![لقطة الشاشة](images/letter-starter.png)
 
 + The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
-![screenshot](images/letter-placeholder.png)
+![لقطة شاشة](images/letter-placeholder.png)
 
 + Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
-![screenshot](images/letter-message.png)
+![لقطة شاشة](images/letter-message.png)
 
 + Click the Run button to test your trinket.
     
