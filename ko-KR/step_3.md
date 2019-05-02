@@ -4,13 +4,13 @@
 
 + 다음 Trinket 파일을 열어주세요. <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    프로젝트는 아래와 같이 보일 것입니다:
+    Trinket을 열면 아래와 같은 프로젝트가 보일 것입니다.
     
     ![스크린샷](images/letter-starter.png)
 
 + `<p>` 태그는 '생일 축하해요' 프로젝트에서 소개가 된 태그입니다. `<span>` 태그는 문장 단위로 텍스트를 지정하는 태그를 뜻합니다.
 
-![스크린샷](images/letter-placeholder.png)
+![screenshot](images/letter-placeholder.png)
 
 + `<span>` 안에 있는 예제 단어를 제거하고, 자신의 수수께끼 메시지로 바꾸시기 바랍니다. 만약 자신의 수수께끼 메시지가 예제에 나와 있는 수수께끼 메시지와 다르다면 `<span>` 태그를 지우거나 추가하여 Code를 수정해야 할 것입니다. 
 
