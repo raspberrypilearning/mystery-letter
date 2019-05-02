@@ -1,8 +1,8 @@
-## Editing Classes
+## Klassen bearbeiten
 
 + Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
 
-![screenshot](images/letter-newspaper.png)
+![Screenshot](images/letter-newspaper.png)
 
 + Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
@@ -12,7 +12,7 @@
     
     + How the `magazine2` style puts an image behind the text.
 
-![screenshot](images/letter-magazines.png)
+![Screenshot](images/letter-magazines.png)
 
 + What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
 
