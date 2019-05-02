@@ -1,7 +1,7 @@
 ## Vali oma sõnum
 
-Saladusteadete saatmiseks kasutatakse filme ja raamatuid salapäraseid tähti.
+Salakirju kasutatakse filmides ja raamatutes salasõnumite saatmiseks.
 
-+ Mõelge mõistatusest; 12 sõna on õige pikkuse kohta. Kui te ei saa sõnumit mõelda, võite selle näite abil kasutada: "Teie järgmine juhtmõte on ohutu. Kood on 65536. "
++ Mõtle salasõnumi peale; pikkuseks võiks olla umbes 12 sõna. Kui sulle ei meenu ühtki sõnumit, võid kasutada näidist: "Sinu järgmine vihje on seifis. Kood on 65536."
 
-+ Märkige oma sõnum või märkige see meelde.
++ Kirjuta oma sõnum üles või jäta see meelde.
