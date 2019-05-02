@@ -1,15 +1,15 @@
-\--- väljakutse \---
+\--- challenge \---
 
 ## Väljakutse: loo arvuti väljatrüki stiil
 
-Loo vanamoodne arvuti väljaprintide stiil ja rakendage seda mõnele sõnale:
+Loo vanamoodne arvuti väljatrüki stiil ja rakenda seda mõnele sõnale:
 
-![ekraanipilt](images/letter-fonts-printout.png)
+![kuvatõmmis](images/letter-fonts-printout.png)
 
 Sa vajad:
 
-+ `VT323` fontikond <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fontsist</a>. Kui vajate Google'i fontide kasutamisel meeldetuletust, vaadake 5. sammu tagasi.
++ `VT323` fondiperekond lehelt <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Kui sul on vaja meelde tuletada, kuidas kasutatakse Google'i fonte, vaata uuesti sammu 5.
 
-+ `arvuti väljaprindi-paber.png` taustpilt. Kui vajate taustpildi kasutamise meeldetuletust, vaadake 4. sammu tagasi.
++ `computer-printout-paper.png` taustapilt. Kui sul on vaja meelde tuletada, kuidas kasutatakse taustapilte, vaata uuesti sammu 4.
 
-\--- / väljakutse \---
+\--- /challenge \---
