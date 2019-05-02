@@ -1,11 +1,11 @@
-## Klassi stiilide kasutamine
+## Klassistiilide kasutamine
 
-+ Huomasitko `class = ""` aasta `<span>` silte? Seda saate kasutada rohkem kui ühe asja stiimuliks samal viisil.
++ Kas märkasid `class =""` `<span>` siltides? Saad seda kasutada rohkem kui ühe asja kujundamiseks samal viisil.
 
-+ Lisage `ajakiri1` klass mõnele oma `<span>` sildile ja testige oma veebilehte.
++ Anna `magazine1` klass mõnele oma `<span>` sildile ja testi oma veebilehte.
 
-![ekraanipilt](images/letter-magazine1.png)
+![kuvatõmmis](images/letter-magazine1.png)
 
-+ Elementi saab lisada rohkem kui ühe klassi. Lihtsalt jäta ruumi vahel. Lisage `suur` klass ühte oma `<span>` sildist. Proovige oma lehte. 
++ Elemendile saab anda rohkem kui ühe klassi. Lihtsalt jäta ruumi vahele. Anna `suur` klass ühele oma `<span>` siltidest. Testi oma lehte. 
 
-![ekraanipilt](images/letter-big.png)
+![kuvatõmmis](images/letter-big.png)
