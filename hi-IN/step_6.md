@@ -2,7 +2,7 @@
 
 + Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
 
-![screenshot](images/letter-newspaper.png)
+![स्क्रीनशॉट](images/letter-newspaper.png)
 
 + Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
@@ -20,6 +20,6 @@ You can also change the colours in the magazine styles if you like.
 
 + Find the CSS used to rotate and skew (tilt) your words:
 
-![screenshot](images/letter-rotate-skew.png)
+![स्क्रीनशॉट](images/letter-rotate-skew.png)
 
 Try changing the numbers to create different effects and then testing your page.
