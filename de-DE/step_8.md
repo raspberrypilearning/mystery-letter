@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## Aufgabe: Erstelle einen Stil, der wie vom Computer ausgedruckt aussieht
 
 Create an old-fashioned computer printout style and apply it to some of the words:
 
