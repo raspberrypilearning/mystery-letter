@@ -1,4 +1,4 @@
-\--- challenge \---
+\--- wyzwanie \---
 
 ## Challenge: Style Your Message
 
@@ -18,6 +18,6 @@ Don't add more than one from each line to a particular `<span>`.
 
 This is how your letter could look:
 
-![screenshot](images/letter-challenge1.png)
+![zrzut ekranu](images/letter-challenge1.png)
 
 \--- /challenge \---
