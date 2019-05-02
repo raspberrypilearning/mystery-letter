@@ -1,16 +1,16 @@
-## Editing Your Message
+## Bearbeite deine Botschaft
 
-Let's get your message onto a webpage.
+Bringen wir deine Nachricht auf eine web page.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Öffne diesen Trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    Das Projekt sollte so aussehen:
     
-    ![screenshot](images/letter-starter.png)
+    ![Screenshot](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ Die Funktion `<p>` wurde im Projekt 'Happy Birthday' eingeführt. Die Funktion `<span>` wird benutzt um kleinere Teile von dem Text in einem Absatz zu groupiren so dass man ihn stylen kann.
 
-![screenshot](images/letter-placeholder.png)
+![Screenshot](images/letter-placeholder.png)
 
 + Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
