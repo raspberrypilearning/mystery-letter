@@ -1,21 +1,21 @@
-\--- väljakutse \---
+\--- challenge \---
 
 ## Väljakutse: loo oma stiilid
 
-Nüüd looge oma klassi stiilid ja teeb oma salapärase kirja veelgi huvitavamaks. Kasutage eelmiste projektide käigus omandatud CSS-i ja vaadake ideid **näite stiilis .css** näiteid.
+Nüüd loo oma klassistiilid ja tee oma salakiri veelgi huvitavamaks. Kasuta eelmiste projektide käigus omandatud CSS-i ja vaata mõtete saamiseks näiteid **style.css**.
 
 Siin on näide:
 
-![ekraanipilt](images/letter-fonts-challenge3.png)
+![kuvatõmmis](images/letter-fonts-challenge3.png)
 
-Näete pilte, mis on saadaval, klikkides prindipeade vahekaardil Pildid. Proovige seadistama pilditunde, kasutades ühte kaasatud pilti:
+Näed pilte, mis on kasutuseks saadaval, klõpsates trinketis vahekaardil Pildid. Proovi taustapiltide seadistamist, kasutades ühte olemasolevatest piltidest:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-Kui teil on kinkekonto, saate oma pilte üles laadida, nagu te teatasite 'Telli lugu' projektist.
+Kui sul on trinketikonto, saad enda pilte üles laadida, nagu sa "Räägi lugu" projektis tegid.
 
-Leidke sobivaid fonte <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> ja kopeerige oma `<link>` ja CSS-kood oma nippi, et neid kasutada.
+Leia sobivad fondid <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> ja kopeeri nende `<link>` ja CSS-kood oma trinketisse, et neid kasutada.
 
-\--- / väljakutse \---
+\--- /challenge \---
