@@ -1,12 +1,12 @@
-\--- challenge \---
+\--- desafío \---
 
-## Challenge: Create Your Own Styles
+## Reto: Crear tus propios estilos
 
 Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
 
-Here's an example:
+Aquí está un ejemplo:
 
-![screenshot](images/letter-fonts-challenge3.png)
+![captura de pantalla](images/letter-fonts-challenge3.png)
 
 You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
 
