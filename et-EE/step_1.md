@@ -1,102 +1,102 @@
 ## Sissejuhatus
 
-Selles projektis saate luua mõistatusliku kirja, mis näeb välja, et iga sõna on lõigatud erinevast ajalehest, ajakirjast, koomilisest või muust allikast.
+Selles projektis lood salakirja, mis näeb välja, justkui oleks iga sõna erinevast ajalehest, ajakirjast, koomiksist või muust allikast välja lõigatud.
 
-![ekraanipilt](images/letter-final.png)
+![kuvatõmmis](images/letter-final.png)
 
-### Lisateave klubi juhtidele
+### Lisainfo ringijuhendajatele
 
-Kui teil on vaja seda projekti printida, palun kasutage [Printerisõbralik versioon](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Kui sul on vaja see projekt välja printida, siis kasuta [printerisõbralikku versiooni](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
-## \--- kokkuvarisemine \---
+## \--- collapse \---
 
-## pealkiri: Klubiliidri märkmed
+## title: Ringijuhendaja märkmed
 
 ## Sissejuhatus:
 
-Selles projektis tutvustatakse lastele CSS-klassi. Teksti stiilina kasutavad nad mitut CSS-klassi ning saavad ka oma projektidest kasutada taustpilte ja tasuta Google'i fonte.
+Selles projektis tutvustatakse lastele CSS-klasse. Teksti kujundamiseks kasutavad nad mitut CSS-klassi, ühtlasi õpivad nad oma projektides taustapilte ja tasuta Google'i fonte kasutama.
 
-## Online-vahendid
+## Internetiressursid
 
-HTML & CSS-i sisselülitamiseks soovitame kasutada [nippi](https://trinket.io/). See projekt sisaldab järgmist triketti:
+HTML-i & CSS-i kirjutamiseks soovitame kasutada [trinketit](https://trinket.io/). See projekt sisaldab järgmist trinketit:
 
-* [Mystery Letter lähtepunkt - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ["Salakirja" lähtekoht - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Lapsed võivad kasutada seda tühja triketti [(jumpto.cc/html- blank)](http://jumpto.cc/html-blank) oma HTML & CSS-i kirjutamiseks või alternatiivina saavad nad seda malli trinket [(jumpto.cc/html-memplate) kasutada](http://jumpto.cc/html-template).
+Lapsed võivad kasutada ka seda tühja trinketit [(jumpto.cc/html- blank)](http://jumpto.cc/html-blank) oma HTML-i & CSS-i kirjutamiseks või alternatiivina saavad nad kasutada seda näidistrinketit [(jumpto.cc/html-memplate)](http://jumpto.cc/html-template).
 
-Samuti on nelisõnum, mis sisaldab väljavõttelist lahendust:
+Leidub ka trinket, mis sisaldab näidislahendust väljakutsetele:
 
-* ["Mystery Letter Finished" - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ["Valmis salakiri" - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline-ressursid
+## Võrguvälised ressursid
 
-See projekt saab [lõpetatud ühenduseta](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) , kui eelistatud. Saate ligipääsu projekti ressurssidele, klõpsates selle projekti lingil "Projekti materjalid". See link sisaldab jaotise "Projektide ressursid", mis sisaldab ressursse, mida lapsed peavad selle projekti väljalülitamiseks lõpule viima. Veenduge, et igal lapsel on juurdepääs nende ressursside koopiale. See jaotis sisaldab järgmisi faile:
+Selle projekti saab soovi korral [lõpetada võrguühenduseta](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/). Saad ligipääsu projekti ressurssidele, klõpsates selle projekti "Projekti materjalide" lingil. See link sisaldab jaotist "Projekti ressursid", mis sisaldab ressursse, mida lapsed selle projekti võrguühenduseta lõpetamiseks vajavad. Veenduge, et igal lapsel on juurdepääs nende ressursside koopiale. See jaotis sisaldab järgmisi faile:
 
-* mystery-letter / index.html
-* mystery-letter / style.css
-* mystery-letter / script.js
-* mystery-letter / prefixfree.js
-* mystery-letter / 4 x .png pilte
-* mall / mall.html
-* mall / style.css
+* mystery-letter/index.html
+* mystery-letter/style.css
+* mystery-letter/script.js
+* mystery-letter/prefixfree.js
+* mystery-letter/4 x .png pildid
+* template/template.html
+* template/style.css
 
-Selle projekti väljakutsete täieliku versiooni leiate ka jaotisest "Vabatahtlike ressursid", mis sisaldab järgmist:
+Selle projekti väljakutsete lõpetatud versiooni leiate ka jaotisest "Vabatahtlikud ressursid", mis sisaldab järgmist:
 
-* mystery-letter-finished / index.html
-* mystery-letter-finished / style.css
-* mystery-letter-finished / script.js
-* mystery-letter-finished / prefixfree.js
-* mystery-letter-finished / 4 x .png pilte
+* mystery-letter-finished/index.html
+* mystery-letter-finished/style.css
+* mystery-letter-finished/script.js
+* mystery-letter-finished/prefixfree.js
+* mystery-letter-finished/4 x .png pildid
 
-(Kõik ülaltoodud allikad on samuti alla laaditavad kui projekti ja vabatahtlikud `.zip` failid.)
+(Kõik ülaltoodud ressursid on samuti alla laaditavad projekti ja vabatahtliku `.zip` failina.)
 
-## Õppe eesmärgid
+## Õpieesmärgid
 
-* See projekt tutvustab CSS-i klasse ja võimalust HTML-elementide mitmesuguste klasside stiili kujundamiseks.
-* Tutvustatakse ka taustpilte ja Google'i fonte. 
+* See projekt tutvustab CSS-klasse ja võimalust HTML-elementide kujundamiseks mitmete klassidega.
+* Tutvustatakse ka taustapilte ja Google'i fonte. 
 
-See projekt hõlmab elemente, mis on välja toodud järgmiselt: [raspberry pi digitaalse loomise õppekava](http://rpf.io/curriculum):
+Selles projektis käsitletakse elemente [Raspberry Pi digitaalse tegemise õppekava](http://rpf.io/curriculum) järgmistest valdkondadest:
 
-* [Disaini põhilised 2D ja 3D varad](https://www.raspberrypi.org/curriculum/design/creator).
+* [Disaini põhilisi 2D- ja 3D-varasid](https://www.raspberrypi.org/curriculum/design/creator).
 
 ## Väljakutsed
 
-* "Style your message" - Rakenda CSS klassi stiilid;
-* "Arvuti väljatrüki stiili loomine" - kasutage CSS-i, et taastada taustpildi ja Google'i fondi näidisklass. 
-* "Loo oma stiilid" - kasutage CSS-i uute stiilide loomiseks.
+* "Kujunda oma sõnumit" - Rakenda pakutavaid CSS-klassi stiile;
+* "Arvuti väljatrüki stiili loomine" - Kasuta CSS-i, et taustapilti ja Google'i fonti kasutades taasluua näidisklass. 
+* "Loo oma stiilid" - Kasuta CSS-i uute stiilide loomiseks.
 
-\--- / kollaps \---
+\--- /collapse \---
 
-## \--- kokkuvarisemine \---
+## \--- collapse \---
 
-## pealkiri: projekti materjalid
+## title: Projekti materjalid
 
 ## Projekti ressursid
 
 * [.zip-fail, mis sisaldab kõiki projekti ressursse](resources/letter-project-resources.zip)
-* [Online kinkekaart, mis sisaldab kõiki "Mystery Letter" projekti ressursse](http://jumpto.cc/web-letter)
-* [Online trikke mall](http://jumpto.cc/trinket-template)
-* [Hetkel tühi trikk](http://jumpto.cc/trinket-blank)
-* [mall / indeks.html](resources/template-index.html)
-* [mall / style.css](resources/template-style.css)
-* [mystery-letter / index.html](resources/mystery-letter-index.html)
-* [mystery-letter / style.css](resources/mystery-letter-style.css)
-* [mystery-letter / prefixfree.js](resources/mystery-letter-prefixfree.js)
-* [mystery-letter / rough-paper.png](resources/mystery-letter-rough-paper.png)
-* [mystery-letter / canvas.png](resources/mystery-letter-canvas.png)
-* [mystery-letter / pink-pattern.png](resources/mystery-letter-pink-pattern.png)
-* [mystery-letter / computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
+* [Trinket veebis, mis sisaldab kõiki projekti "Salakiri" ressursse](http://jumpto.cc/web-letter)
+* [Veebi-trinketi näidis](http://jumpto.cc/trinket-template)
+* [Tühi trinket veebis](http://jumpto.cc/trinket-blank)
+* [template/index.html](resources/template-index.html)
+* [template/style.css](resources/template-style.css)
+* [mystery-letter/index.html](resources/mystery-letter-index.html)
+* [mystery-letter/style.css](resources/mystery-letter-style.css)
+* [mystery-letter/prefixfree.js](resources/mystery-letter-prefixfree.js)
+* [mystery-letter/rough-paper.png](resources/mystery-letter-rough-paper.png)
+* [mystery-letter/canvas.png](resources/mystery-letter-canvas.png)
+* [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
+* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Klubi liidri ressursid
+## Ringijuhendaja ressursid
 
 * [.zip-fail, mis sisaldab kõiki lõpetatud projekti ressursse](resources/letter-volunteer-resources.zip)
-* [Online lõpetas kalliskivi projekti](https://trinket.io/html/1d4d4c5ce1)
-* [mystery-letter-finished / index.html](resources/mystery-letter-finished-index.html)
-* [mystery-letter-finished / style.css](resources/mystery-letter-finished-style.css)
-* [mystery-letter-finished / prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
-* [mystery-letter-finished / rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
-* [mystery-letter-finished / canvas.png](resources/mystery-letter-finished-canvas.png)
-* [mystery-letter-finished / pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
-* [mystery-letter-finished / computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
+* [Lõpetatud Trinketi projekt veebis](https://trinket.io/html/1d4d4c5ce1)
+* [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
+* [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
+* [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
+* [mystery-letter-finished/rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
+* [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
+* [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
+* [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
 
-\--- / kollaps \---
+\--- /collapse \---
