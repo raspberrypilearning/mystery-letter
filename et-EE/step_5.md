@@ -1,23 +1,23 @@
-\--- väljakutse \---
+\--- challenge \---
 
-## Väljakutse: stiil oma sõnumit
+## Väljakutse: kujunda oma sõnumit
 
-Kasutage pakutavaid stiile, et muuta sõnum salapärase kirjaga.
+Kasuta pakutavaid stiile, et su sõnumile salakirja ilme anda.
 
-Lisage need klassid oma `<span>` sildidesse:
+Anna need klassid oma `<span>` siltidele:
 
-+ `ajalehed`, `magazine1`, `magazine2`
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `keskmine`, `suur`, `tõeline`
++ `medium`, `big`, `reallybig`
 
-+ `rotateleft`, `pöörlemist`
++ `rotateleft`, `rotateright`
 
-+ `skelett`, `skewright`
++ `skewleft`, `skewright`
 
-Ärge lisage igast reast rohkem kui ühte kindlale `<span>`.
+Ära anna igast reast rohkem kui ühte kindlale `<span>`-ile.
 
-Nii võib teie kiri välja näida:
+Sinu kiri võiks välja näha selline:
 
-![ekraanipilt](images/letter-challenge1.png)
+![kuvatõmmis](images/letter-challenge1.png)
 
-\--- / väljakutse \---
+\--- /challenge \---
