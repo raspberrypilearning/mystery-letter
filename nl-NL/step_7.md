@@ -20,15 +20,15 @@ Maak je geen zorgen als je een waarschuwing krijgt dat 'Rule is empty' (De regel
 
 ![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Klik op de + "Select this font" knop:
 
 ![screenshot](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Een bericht dat zegt "1 Family selected" zal onder aan het scherm verschijnen.
 
 ![screenshot](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Klik op het "1 Family Selected" bericht om het scherm te openen en kopieer de gekleurde code:
 
 ![screenshot](images/letter-gfonts-4.png)
 
