@@ -1,23 +1,23 @@
-\--- meydan okuma \---
+\--- challenge \---
 
-## Zor Görev: Mesajını Stillendir
+## Meydan Okuma: Mesajını Stillendir
 
-Mesajınızın gizemli bir harf gibi görünmesini sağlamak için verilen stilleri kullanın.
+Mesajınızın gizemli bir mektup gibi görünmesini sağlamak için verilen stilleri kullanın.
 
 Bu sınıfları `<span>` etiketlerinize ekleyin:
 
-+ `gazete`, `dergisi1`, `dergisi2`
++ `gazete`, `dergi1`, `dergi2`
 
-+ `Orta`, `Büyük`, `Gerçektenbüyük`
++ `orta`, `buyuk`, `cokbuyuk`
 
-+ `rotateleft`, `rotateright`
++ `soladondur`, `sagadondur`
 
-+ `çarpıklığı`, `çarpıklığı`
++ `solaeg`, `sagaeg`
 
-Her satırdan birden fazla `<span>`birden fazla ekleme
+Bir `<span>` içine her satırdaki sınıflardan sadece bir tanesini ekle.
 
-Mektubun nasıl göründüğü:
+Mektubunuz şöyle gözükmeli:
 
 ![ekran görüntüsü](images/letter-challenge1.png)
 
-\--- /meydan okuma \---
+\--- /challenge \---
