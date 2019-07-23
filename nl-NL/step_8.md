@@ -2,7 +2,7 @@
 
 ## Uitdaging: maak een printeruitdraai stijl
 
-Creëer een ouderwetse printeropmaak en pas het toe op enkele van de woorden:
+Maak een ouderwetse printeropmaak en pas het toe op enkele van de woorden:
 
 ![screenshot](images/letter-fonts-printout.png)
 
