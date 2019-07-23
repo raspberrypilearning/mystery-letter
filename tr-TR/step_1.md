@@ -1,102 +1,102 @@
 ## Giriş
 
-Bu projede, her kelimenin farklı bir gazeteden, dergiden, çizgi romandan veya başka bir kaynaktan kesilmiş gibi görünen gizemli bir mektup oluşturacaksınız.
+Bu projede, her kelimesi farklı bir gazeteden, dergiden, çizgi romandan veya başka bir kaynaktan kesilmiş gibi görünen gizemli bir mektup oluşturacaksınız.
 
 ![ekran görüntüsü](images/letter-final.png)
 
 ### Kulüp liderleri için ek bilgi
 
-Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürüm](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Bu projeyi yazdırmanız gerekiyorsa, lütfen [yazıcı dostu sürümü ](https://projects.raspberrypi.org/en/projects/mystery-letter/print) kullanın.
 
-## \--- çöküş \---
+## \--- collapse \---
 
-## başlık: Kulüp lideri notları
+## title: Kulüp lideri için notlar
 
 ## Giriş:
 
-Bu projede çocuklar CSS sınıflarına tanıtılıyor. Metne stil vermek için birden fazla CSS sınıfı kullanıyorlar ve ayrıca projelerinde arka plan resimleri ve ücretsiz Google fontlarını nasıl kullanacaklarını öğreniyorlar.
+Bu projede çocuklara CSS sınıfları tanıtılıyor. Metne stil vermek için birden fazla CSS sınıfı kullanıyorlar ve projelerinde arka plan resimleri ve ücretsiz Google fontlarını nasıl kullanacaklarını öğreniyorlar.
 
 ## Çevrimiçi kaynaklar
 
-Çevrimiçi HTML & CSS yazmak için [biblo](https://trinket.io/) kullanmanızı öneririz. Bu proje aşağıdaki biblo içeriyor:
+Çevrimiçi HTML & CSS yazmak için [trinket](https://trinket.io/) kullanmanızı öneririz. Bu proje aşağıdaki trinket'i içeriyor:
 
-* ['Mystery Letter' başlangıç noktası - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['Gizemli Mektup' başlangıç noktası -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Çocuklar da bu boş biblo yararlanabilirler [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) kendi HTML yazmak için & CSS ya da alternatif olarak bu şablon biblo kullanabilirsiniz [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Çocuklar kendi HTML & CSS kodlarını yazmak için bu boş trinketten yararlanabilir [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) veya alternatif olarak bu trinket şablonunu kullanabilirler [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Ayrıca zorluklara örnek bir çözüm içeren bir biblo da var:
+Ayrıca meydan okumalara örnek bir çözüm içeren bir trinket de var:
 
-* ['Gizemli Mektup Tamamlandı' - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Gizemli Mektup Tamamlanmış Hali' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Çevrimdışı Kaynaklar
 
-Bu proje, istenirse [çevrimdışı](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) tamamlanabilir. Proje kaynaklarına, bu proje için 'Proje Malzemeleri' bağlantısını tıklayarak erişebilirsiniz. Bu link, çocukların bu projeyi çevrimdışı tamamlamaları için ihtiyaç duyacağı kaynakları içeren bir 'Proje Kaynakları' bölümü içermektedir. Her çocuğun bu kaynakların bir kopyasına erişimi olduğundan emin olun. Bu bölüm aşağıdaki dosyaları içerir:
+Bu proje, istenirse [çevrimdışı](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) tamamlanabilir. Bu proje için proje kaynaklarına, 'Proje Malzemeleri' bağlantısını tıklayarak erişebilirsiniz. Bu link, çocukların bu projeyi çevrimdışı tamamlamaları için ihtiyaç duyacağı kaynakları içeren bir 'Proje Kaynakları' bölümü içermektedir. Her çocuğun bu kaynakların bir kopyasına erişimi olduğundan emin olun. Bu bölüm aşağıdaki dosyaları içerir:
 
-* gizem harfli / index.html
-* gizem harfli / style.css
-* gizem harfli / script.js
-* gizem harfli / prefixfree.js
-* gizem mektubu / 4 x .png görüntüleri
-* Şablon / template.html
-* Şablon / style.css
+* mystery-letter/index.html
+* mystery-letter/style.css
+* mystery-letter/script.js
+* mystery-letter/prefixfree.js
+* mystery-letter/4 x .png görüntüleri
+* template/template.html
+* template/style.css
 
-Bu projenin zorluklarının tamamlanmış bir versiyonunu da içeren 'Gönüllü Kaynaklar' bölümünde bulabilirsiniz:
+Bu projenin meydan okumalarının tamamlanmış bir versiyonunu 'Gönüllü Kaynakları' bölümünde bulabilirsiniz, içerdikleri:
 
-* gizem harfli mamul / index.html
-* gizem harfli mamul / style.css
-* gizem harfli mamul / script.js
-* gizem harfli mamul / prefixfree.js
-* gizem-harf-bitmiş / 4 x .png görüntüleri
+* mystery-letter-finished/index.html
+* mystery-letter-finished/style.css
+* mystery-letter-finished/script.js
+* mystery-letter-finished/prefixfree.js
+* mystery-letter-finished/4 x .png görüntüleri
 
-(Yukarıdaki kaynakların tümü proje olarak da indirilebilir ve gönüllü `.zip` dosyadır)
+(Yukarıdaki kaynakların tümü proje ve gönüllü `.zip` dosyaları olarak indirilebilir)
 
-## Öğrenme hedefleri
+## Kazanımlar
 
-* Bu proje, CSS sınıflarını ve HTML öğelerini birden fazla sınıfla biçimlendirme yeteneğini sunar.
-* Arka plan resimleri ve Google fontları da tanıtıldı. 
+* Bu proje, CSS sınıflarını tanıtır ve HTML öğelerini birden fazla sınıfla şekillendirme yeteneğini sunar.
+* Arkaplan resimleri ve Google fontları da tanıtılır. 
 
-Bu proje, [Raspberry Pi Dijital Hazırlama Müfredatı](http://rpf.io/curriculum)aşağıdaki bölümlerinden elemanları içermektedir:
+Bu proje, [Raspberry Pi Sayısal Yapım Müfredatı](http://rpf.io/curriculum)'nın aşağıdaki bölümlerinden bazı kısımları da içermektedir:
 
 * [Temel 2B ve 3B varlıkların tasarlanması](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Zorluklar
+## Meydan Okumalar
 
 * “Mesajınızı stillendirin” - Verilen CSS sınıfı stillerini uygulayın;
 * “Bilgisayar çıktısı stili oluşturma” - Bir arka plan resmi ve Google fontu kullanarak örnek bir sınıfı yeniden oluşturmak için CSS'yi kullanın. 
 * “Kendi stillerini oluştur” - Yeni stiller oluşturmak için CSS kullanın.
 
-\--- /çöküş \---
+\--- /collapse \---
 
-## \--- çöküş \---
+## \--- collapse \---
 
-## başlık: Proje malzemeleri
+## title: Proje malzemeleri
 
 ## Proje kaynakları
 
 * [tüm proje kaynaklarını içeren .zip dosyası](resources/letter-project-resources.zip)
-* [Tüm 'Mystery Letter' proje kaynaklarını içeren çevrimiçi Biblo](http://jumpto.cc/web-letter)
-* [Çevrimiçi Biblo şablonu](http://jumpto.cc/trinket-template)
-* [Çevrimiçi boş biblo](http://jumpto.cc/trinket-blank)
-* [Şablon / index.html](resources/template-index.html)
-* [Şablon / style.css](resources/template-style.css)
-* [gizem harfli / index.html](resources/mystery-letter-index.html)
-* [gizem harfli / style.css](resources/mystery-letter-style.css)
-* [gizem harfli / prefixfree.js](resources/mystery-letter-prefixfree.js)
-* [gizem harfli / kaba paper.png](resources/mystery-letter-rough-paper.png)
-* [gizem harfli / canvas.png](resources/mystery-letter-canvas.png)
-* [gizem harfli / pembe-pattern.png](resources/mystery-letter-pink-pattern.png)
-* [gizem harfli / bilgisayar çıktısı-paper.png](resources/mystery-letter-computer-printout-paper.png)
+* [Tüm 'Gizemli Mektup' proje kaynaklarını içeren çevrimiçi Trinket](http://jumpto.cc/web-letter)
+* [Çevrimiçi Trinket şablonu](http://jumpto.cc/trinket-template)
+* [Çevrimiçi boş Trinket](http://jumpto.cc/trinket-blank)
+* [template/index.html](resources/template-index.html)
+* [template/index.html](resources/template-style.css)
+* [mystery-letter/index.html](resources/mystery-letter-index.html)
+* [mystery-letter/style.css](resources/mystery-letter-style.css)
+* [mystery-letter/prefixfree.js](resources/mystery-letter-prefixfree.js)
+* [mystery-letter/rough-paper.png](resources/mystery-letter-rough-paper.png)
+* [mystery-letter/canvas.png](resources/mystery-letter-canvas.png)
+* [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
+* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
 ## Kulüp lideri kaynakları
 
-* [tamamlanan tüm proje kaynaklarını içeren .zip dosyası](resources/letter-volunteer-resources.zip)
-* [Online biblo projesi tamamlandı](https://trinket.io/html/1d4d4c5ce1)
-* [gizem harfli mamul / index.html](resources/mystery-letter-finished-index.html)
-* [gizem harfli mamul / style.css](resources/mystery-letter-finished-style.css)
-* [gizem harfli mamul / prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
-* [gizem harfli mamul / kaba paper.png](resources/mystery-letter-finished-rough-paper.png)
-* [gizem harfli mamul / canvas.png](resources/mystery-letter-finished-canvas.png)
-* [gizem harfli mamul / pembe-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
-* [gizem harfli mamul / bilgisayar çıktısı-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
+* [tamamlanmış tüm proje kaynaklarını içeren .zip dosyası](resources/letter-volunteer-resources.zip)
+* [Çevrimiçi tamamlanmış Trinket projesi](https://trinket.io/html/1d4d4c5ce1)
+* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-finished-index.html)
+* [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
+* [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
+* [mystery-letter-finished/rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
+* [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
+* [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
+* [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
 
-\--- /çöküş \---
+\--- /collapse \---
