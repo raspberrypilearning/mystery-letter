@@ -1,7 +1,7 @@
-/**
- * StyleFix 1.0.3 & PrefixFree 1.0.7
- * @author Lea Verou
- * MIT license
+/ **
+ * स्टाइलफिक्स 1.0.3 और प्रीफिक्सफ्री 1.0.7
+ * @लेखक ली वेरौ
+ * एमआईटी लाइसेंस
  */
 
 (function(){
@@ -13,7 +13,7 @@ if(!window.addEventListener) {
 var self = window.StyleFix = {
 	link: function(link) {
 		try {
-			// Ignore stylesheets with data-noprefix attribute as well as alternate stylesheets
+			// डेटा-नोप्रिफ़िक्स विशेषता और साथ ही वैकल्पिक स्टाइलशीट के साथ स्टाइलशीट को अनदेखा करें
 			if(link.rel !== 'stylesheet' || link.hasAttribute('data-noprefix')) {
 				return;
 			}
