@@ -12,7 +12,7 @@ Laten we je bericht op een webpagina plaatsen.
 
 ![screenshot](images/letter-placeholder.png)
 
-+ Wijzig de woorden in je bericht door één woord in elke `<span>` te plaatsen. Je moet `<span>` -tags toevoegen of verwijderen als je bericht een andere lengte heeft. 
++ Wijzig de woorden in je bericht door één woord in elke `<span>` te plaatsen. Je moet `<span>` tags toevoegen of verwijderen als je bericht een andere lengte heeft. 
 
 ![screenshot](images/letter-message.png)
 
