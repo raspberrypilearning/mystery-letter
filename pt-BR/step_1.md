@@ -76,7 +76,7 @@ title: Materiais do Projeto
 ## Recursos do Projeto
 
 * [Arquivo .zip contendo todos os recursos do projeto](resources/letter-project-resources.zip)
-* [Online Trinket contendo todos os recursos do projeto 'Carta Misteriosa'](http://jumpto.cc/web-letter)
+* [Online Trinket contendo todos os recursos do projeto 'Carta Misteriosa'](https://trinket.io/html/4b553eb364)
 * [Template Online Trinket](http://jumpto.cc/trinket-template)
 * [Online Trinket em branco](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)

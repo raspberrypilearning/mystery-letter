@@ -1,0 +1,65 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+ 	background-color: white;
+	padding: 30px;
+	max-width: 350px;
+	margin: auto;
+}
+
+.gazete {
+	background-color: antiquewhite;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.dergi1 {
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
+}
+
+.dergi2 {
+	background-image: url('pink-pattern.png');
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
+}
+
+.orta {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.buyuk {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.cokbuyuk {
+	font-size: 40px;
+	padding: 15px;
+}
+
+.soladondur {
+	transform: rotate(-5deg);
+}
+
+.sagadondur {
+	transform: rotate(5deg);
+}
+
+.solaeg {
+	transform: skewX(10deg);
+}
+
+.sagaeg {
+	transform: skewX(-10deg);
+}
