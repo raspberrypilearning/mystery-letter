@@ -1,15 +1,15 @@
-\--- meydan okuma \---
+\--- challenge \---
 
-## Zorluk: Bir Bilgisayar Çıktı Stili Oluştur
+## Meydan Okuma: Bir Bilgisayar Çıktısı Stili Oluştur
 
-Eski moda bir bilgisayar çıktısı stili oluşturun ve bazı sözcüklere uygulayın:
+Eski moda bir bilgisayar çıktısı stili oluşturun ve bazı kelimelere uygulayın:
 
 ![ekran görüntüsü](images/letter-fonts-printout.png)
 
-İhtiyacın olacak:
+Gerekenler:
 
-+ <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>`VT323` font ailesi. Google fontlarını kullanmayla ilgili bir hatırlatıcıya ihtiyacınız varsa 5. Adıma bakın.
++ <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>'daki `VT323` yazı tipi ailesi. Google yazı tiplerinin kullanımıyla ilgili hatırlamak istediğiniz bir şey varsa 5. adıma geri dönün.
 
-+ `bilgisayar çıktısı-paper.png` arka plan resmi. Arka plan resimlerini kullanmak için bir hatırlatma gerekiyorsa 4. Adım'a tekrar bakın.
++ `bilgisayar çıktısı-paper.png` arka plan resmi. Arka plan resimlerinin kullanımıyla ilgili hatırlamak istediğiniz bir şey varsa 4. adıma geri dönün.
 
-\--- /meydan okuma \---
+\--- /challenge \---
