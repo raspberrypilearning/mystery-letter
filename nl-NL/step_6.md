@@ -4,13 +4,13 @@
 
 ![screenshot](images/letter-newspaper.png)
 
-+ Merk op dat er een punt '.' voor de naam van de klasse in het CSS-bestand staat, maar niet in de `<span>` -tag in je HTML-document.
++ Merk op dat er een punt '.' voor de naam van de klasse in het CSS-bestand staat, maar niet in de `<span>` tag in je HTML-document.
 
 + Kijk nu naar de andere CSS-klassen die je hebt gebruikt om je geheimzinnige brief vorm te geven. Vind je:
     
-    + Hoe de stijl `magazine1` de tekst verandert in hoofdletters.
+    + Hoe de `magazine1` stijl de tekst verandert in hoofdletters.
     
-    + Hoe de `magazine2` -stijl een afbeelding achter de tekst plaatst.
+    + Hoe de `magazine2` stijl een afbeelding achter de tekst plaatst.
 
 ![screenshot](images/letter-magazines.png)
 
