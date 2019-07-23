@@ -6,7 +6,7 @@ In dit project maak je een geheimzinnige brief die eruit ziet alsof elk woord ui
 
 ### Aanvullende informatie voor clubleiders
 
-Als je dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
 ## \--- collapse \---
 
@@ -18,19 +18,19 @@ In dit project maken kinderen kennis met CSS-klassen (class). Ze gebruiken meerd
 
 ## Online bronnen
 
-We raden aan [trinket](https://trinket.io/) te gebruiken om HTML & CSS online te schrijven. Dit project bevat de volgende trinket:
+We raden aan [trinket](https://trinket.io/) te gebruiken om online HTML & CSS te schrijven. Dit project bevat de volgende trinket:
 
 * [Geheimzinnige brief startpunt - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Kinderen kunnen ook gebruik maken van deze lege trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) om hun eigen HTML & CSS te schrijven, of ze kunnen deze sjabloontrinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template) gebruiken.
 
-Er is ook een trinket met een voorbeeldoplossing voor de uitdagingen:
+Er is ook een trinket met een voorbeeldoplossing van de uitdagingen:
 
-* [Geheimzinnige brief gereed - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* [Geheimzinnige brief afgerond - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Offline bronnen
 
-Dit project kan indien gewenst [geheel offline ](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) voltooid worden. Je kunt toegang krijgen tot de projectbronnen door op de koppeling 'Projectmaterialen' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Dit gedeelte bevat de volgende bestanden:
+Dit project kan [offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) worden gemaakt als dit de voorkeur heeft. Je kunt toegang krijgen tot de projectbronnen door op de koppeling 'Projectmaterialen' voor dit project te klikken. Deze link bevat een 'Projectbronnen'-sectie die bronnen bevat om dit project offline te voltooien. Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen. Dit gedeelte bevat de volgende bestanden:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
@@ -87,7 +87,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 * [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Clubleider bronnen
+## Clubleiderbronnen
 
 * [.zip-bestand met alle voltooide projectresources](resources/letter-volunteer-resources.zip)
 * [Online voltooid Trinket-project](https://trinket.io/html/1d4d4c5ce1)
