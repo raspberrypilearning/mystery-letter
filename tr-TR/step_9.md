@@ -1,21 +1,21 @@
-\--- meydan okuma \---
+\--- challenge \---
 
-## Zorluk: Kendi Stillerini Yarat
+## Meydan Okuma: Kendi Stillerini Yarat
 
-Şimdi kendi sınıf stillerini yarat ve gizemli mektubunu daha da ilginçleştir. Daha önceki projelerde öğrendiğiniz CSS'yi kullanın ve fikirleri için **style.css** örneklere bakın.
+Şimdi kendi sınıf stillerini yarat ve gizemli mektubunu daha da ilginçleştir. Daha önceki projelerde öğrendiğiniz CSS'yi kullanın ve fikir almak için **style.css** dosyasındaki örneklere bakın.
 
 İşte bir örnek:
 
 ![ekran görüntüsü](images/letter-fonts-challenge3.png)
 
-Kullanılabilir görüntüleri bibloda Görüntüler sekmesine tıklayarak görebilirsiniz. Ekteki görüntülerden birini kullanarak görüntü arka planını ayarlamayı deneyin:
+Kullanılabilir görüntüleri trinketteki Görüntüler sekmesine tıklayarak görebilirsiniz. Ekteki görüntülerden birini kullanarak görüntü arka planını ayarlamayı deneyin:
 
-+ `kaba paper.png`
++ `rough-paper.png`
 
 + `canvas.png`
 
-Eğer bir biblo hesabınız varsa, 'Bir Hikaye Anlat' Projesinde olduğu gibi kendi resimlerinizi yükleyebilirsiniz.
+Eğer bir trinket hesabınız varsa, 'Bir Hikaye Anlat' Projesinde olduğu gibi kendi resimlerinizi yükleyebilirsiniz.
 
-<a href="http://jumpto.cc/web-fonts" target="_blank">atlamak istediğiniz yazı tiplerini bulun jumpto.cc/web-fonts</a> ve `<link>` ve CSS kodlarını kullanmak için bibloya kopyalayın.
+<a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>'da sevdiğiniz yazı tiplerini bulun, kullanmak için `<link>` lerini ve CSS kodlarını trinketinize kopyalayın.
 
-\--- /meydan okuma \---
+\--- /challenge \---
