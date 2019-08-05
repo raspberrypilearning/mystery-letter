@@ -1,6 +1,6 @@
 ## Introducción
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+En este proyecto crearás una carta misteriosa en la cual cada palabra ha sido recortada de diferentes periódicos, revistas, historietas u otras fuentes.
 
 ![captura de pantalla](images/letter-final.png)
 
@@ -14,11 +14,11 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 ## Introducción:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+En este proyecto los niños serán introducidos al concepto de clases en CSS. Ellos usarán clases en CSS para diseñar textos y también aprenderán a usar imágenes de fondo y fuentes gratis de Google en sus proyectos.
 
 ## Recursos en línea
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Se recomienda el uso de [trinket](https://trinket.io/) para escribir HTML & CSS en línea. Este proyecto hace uso del siguiente trinket:
 
 * ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
