@@ -1,25 +1,25 @@
 ## تحرير الفئات
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ انقر على **"style.css"** التبويب. ابحث عن النمط الخاص بفئة `newspaper` CSS التي كنت تستخدمها.
 
 ![لقطة الشاشة](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ لاحظ أن هناك نقطة (التوقف الكامل) "." قبل اسم الفئة في ملف CSS ولكن ليس في العلامة `<span>` في مستند HTML.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ انظر الآن إلى فصول CSS الأخرى التي استخدمتها لتصميم حرف الغموض. هل بامكانك ايجاد:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + كيف يغير نمط `magazine1` النص إلى كل الحروف الكبيرة (الكبيرة).
     
-    + How the `magazine2` style puts an image behind the text.
+    + كيف يضع أسلوب `magazine2` صورة خلف النص.
 
 ![لقطة شاشة](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ ماذا يحدث إذا قمت بتغيير `الخلفية صورة` ل `magazine2` إلى `canvas.png`؟ إذا كنت تفضل `pink-pattern.png` يمكنك تغييره مرة أخرى. 
 
-You can also change the colours in the magazine styles if you like.
+يمكنك أيضًا تغيير الألوان في أنماط المجلة إذا أردت.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ ابحث عن CSS المستخدم لتدوير وتشويه (إمالة) كلماتك:
 
 ![لقطة الشاشة](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+حاول تغيير الأرقام لإنشاء تأثيرات مختلفة ثم اختبار صفحتك.
