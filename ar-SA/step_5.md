@@ -2,21 +2,21 @@
 
 ## التحدي: حدِّد أنماط رسالتك
 
-Use the provided styles to make your message look like a mystery letter.
+استخدم الأنماط المتوفرة لجعل رسالتك تبدو كحرف غامض.
 
-Add these classes to your `<span>` tags:
+أضف هذه الفئات إلى علامات `<span>` الخاصة بك:
 
-+ `newspaper`, `magazine1`, `magazine2`
++ `صحيفة`، `مجلة <code>`، `magazine2`
 
-+ `medium`, `big`, `reallybig`
++ `متوسطة`، `كبير`، `reallybig`
 
-+ `rotateleft`, `rotateright`
++ `rotateleft`، `rotateright`
 
-+ `skewleft`, `skewright`
++ `شوكة`، `سيخ`
 
-Don't add more than one from each line to a particular `<span>`.
+لا تقم بإضافة أكثر من واحد من كل سطر معين `<span>`.
 
-This is how your letter could look:
+هذه هي الطريقة التي يمكن أن تبدو رسالتكم:
 
 ![لقطة الشاشة](images/letter-challenge1.png)
 
