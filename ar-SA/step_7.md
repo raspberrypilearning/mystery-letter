@@ -46,6 +46,6 @@ This allows you to use the Bangers font in your webpage.
 
 ![لقطة الشاشة](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ اختبار صفحة الويب الخاصة بك. The result should look something like this: 
 
 ![لقطة الشاشة](images/letter-fonts-output.png)
