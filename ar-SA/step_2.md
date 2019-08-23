@@ -1,7 +1,7 @@
 ## اختيار رسالتك
 
-Mystery letters are used in films and books to send secret messages.
+يتم استخدام رسائل الغموض في الأفلام والكتب لإرسال رسائل سرية.
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ فكر في رسالة الغموض ؛ 12 كلمة تدور حول الطول الصحيح. إذا لم تتمكن من التفكير في رسالة ، فيمكنك استخدام المثال: "دليلك التالي في أمان. The code is 65536.'
 
 + Either make a note of your message or remember it.
