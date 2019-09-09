@@ -20,13 +20,13 @@ En este proyecto los niños serán introducidos al concepto de clases en CSS. El
 
 Se recomienda el uso de [trinket](https://trinket.io/) para escribir HTML & CSS en línea. Este proyecto hace uso del siguiente trinket:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['Carta Misteriosa' punto de partida -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Los niños también pueden hacer uso de esta baratija en blanco [ (jumpto.cc/html-blank) ](http://jumpto.cc/html-blank) para escribir su propio HTML & CSS, o alternativamente pueden usar este trinket plantilla [ (jumpto.cc/html-template) ](http://jumpto.cc/html-template).
 
 También hay una baratija que contiene una solución de muestra para los desafíos:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Carta Misteriosa Terminada' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Recursos sin conexión
 
@@ -52,22 +52,22 @@ También puede encontrar una versión completa de los desafíos de este proyecto
 
 ## Objetivos del Aprendizaje
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* Este proyecto introduce a clases en CSS y la habilidad de diseñar elementos en HTML con multiples clases.
+* Imágenes de fondo y fuentes de Google son también presentadas. 
 
 Este proyecto incluye elementos desde los siguientes aspectos del [curríulo de digitalización de Raspberry Pi](http://rpf.io/curriculum):
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [Diseño de elementos básicos en 2D y 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 ## Retos
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* "Personaliza tu mensaje" - Usa los estilos contenidos en las clases de CSS;
+* "Crea un estilo de impresión" - Usa CSS para crear un ejemplo de clases usando una imagen de fondo y una fuente de Google. 
+* "Crea tu propios estilos" - Usa CSS para crear nuevos estilos.
 
-\--- /collapse \---
+\--- /colapsar \---
 
-## \--- collapse \---
+## \--- colapsar \---
 
 ## title: Materiales del proyecto
 
