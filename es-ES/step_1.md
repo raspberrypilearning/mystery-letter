@@ -74,9 +74,9 @@ Este proyecto incluye elementos desde los siguientes aspectos del [curríulo de 
 ## Recursos del proyecto
 
 * [Archivo .zip que contiene todos los recursos del proyecto](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
+* [Archivo Trinket en línea que contiene todos los recursos del proyecto "Carta Misteriosa"](http://jumpto.cc/web-letter)
+* [Plantilla de Trinket en línea](http://jumpto.cc/trinket-template)
+* [Archivo Trinket vacío en línea](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
