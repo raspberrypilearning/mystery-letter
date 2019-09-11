@@ -12,7 +12,7 @@ Pongamos tu mensaje en una página web.
 
 ![captura de pantalla](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ Cambia las palabras a tu mensaje poniendo una palabra en cada `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
 ![captura de pantalla](images/letter-message.png)
 
