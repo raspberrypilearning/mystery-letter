@@ -1,6 +1,6 @@
 ## Editando tu mensaje
 
-Let's get your message onto a webpage.
+Pongamos tu mensaje en una página web.
 
 + Abre este Trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
@@ -8,7 +8,7 @@ Let's get your message onto a webpage.
     
     ![captura de pantalla](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ La etiqueta de párrafo `<p>` es introducida en el proyecto 'Feliz Cumpleaños'. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
 ![captura de pantalla](images/letter-placeholder.png)
 
