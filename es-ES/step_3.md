@@ -8,7 +8,7 @@ Pongamos tu mensaje en una página web.
     
     ![captura de pantalla](images/letter-starter.png)
 
-+ La etiqueta de párrafo `<p>` es introducida en el proyecto 'Feliz Cumpleaños'. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ La etiqueta de párrafo `<p>` es introducida en el proyecto 'Feliz Cumpleaños'. La etiqueta `<span>` es usada para agrupar fragmentos de texto más pequeños dentro de un párrafo para que podamos diseñarlos.
 
 ![captura de pantalla](images/letter-placeholder.png)
 
