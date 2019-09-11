@@ -1,4 +1,4 @@
-## Editar tu mensaje
+## Editando tu mensaje
 
 Let's get your message onto a webpage.
 
