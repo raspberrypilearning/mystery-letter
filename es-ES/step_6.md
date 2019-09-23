@@ -1,25 +1,25 @@
 ## Editar las categorías
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Haz clic en la etiqueta **'style.css'**. Busca el estilo para la categoría CSS `newspaper` que has estado usando.
 
 ![captura de pantalla](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Puedes notar de que hay un punto (final) '.' antes de el nombre de la categoría en el archivo CSS pero no en la etiqueta `<span>` en tu documento HTML.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Ahora echa un vistazo a las otra categorías CSS que usaste en tu carta misteriosa. Puedes ver:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + Como el estilo `magazine1` cambia todo el texto a mayúsculas.
     
-    + How the `magazine2` style puts an image behind the text.
+    + Como el estilo `magazine2` pone una imagen debajo del texto.
 
 ![captura de pantalla](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ Que ocurre si cambias `background-image` por `canvas.png` en `magazine2`? Si prefieres puedes usar en lugar `pink-pattern.png`. 
 
-You can also change the colours in the magazine styles if you like.
+Puedes también cambiar el color en el estilo magazine si prefieres.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Busca el CSS utilizado para rotar e inclinar tus palabras:
 
 ![captura de pantalla](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Intenta cambiando los números para crear diferentes efectos y después verifica tu página.
