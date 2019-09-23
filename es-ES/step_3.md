@@ -8,14 +8,14 @@ Pongamos tu mensaje en una página web.
     
     ![captura de pantalla](images/letter-starter.png)
 
-+ La etiqueta de párrafo `<p>` es introducida en el proyecto 'Feliz Cumpleaños'. La etiqueta `<span>` es usada para agrupar fragmentos de texto más pequeños dentro de un párrafo para que podamos diseñarlos.
++ La etiqueta de párrafo `<p>` es presentada en el proyecto 'Feliz Cumpleaños'. La etiqueta `<span>` es usada para agrupar fragmentos de texto más pequeños dentro de un párrafo para que podamos diseñarlos.
 
 ![captura de pantalla](images/letter-placeholder.png)
 
-+ Cambia las palabras a tu mensaje poniendo una palabra en cada `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ Cambia las palabras a tu mensaje poniendo una palabra en cada `<span>`. Necesitará adicionar or remover las etiquetas `<span>` si tu mensaje tiene diferente longitud. 
 
 ![captura de pantalla](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ Haz clic en el botón Run para verificar tu trinket.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    Si observas las palabras, podrás notar que han sido diseñadas para parecer que han sido adheridas a la página.
