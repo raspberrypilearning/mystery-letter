@@ -74,7 +74,7 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 ## Projektressourcen
 
 * [.zip-Datei mit allen Projektressourcen](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
+* [Online Trinket mit allen 'Geheimnisvoller Brief' Projektressourcen](http://jumpto.cc/web-letter)
 * [Online Trinket-Vorlage](http://jumpto.cc/trinket-template)
 * [Leeres online-Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
