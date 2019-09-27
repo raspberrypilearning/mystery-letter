@@ -1,6 +1,6 @@
 ## Einleitung
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+In diesem Projekt wirst du einen geheimnisvollen Brief erstelle, der so aussieht als wäre jedes Wort aus einer anderen Zeitung, Magazin, Comic oder einer anderen Quelle ausgeschnitten.
 
 ![Screenshot](images/letter-final.png)
 
