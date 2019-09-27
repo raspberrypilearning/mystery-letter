@@ -36,7 +36,7 @@ Dieses Projekt kann wahlweise auch [offline](https://www.codeclubprojects.org/en
 * mystery-letter/style.css
 * mystery-letter/script.js
 * mystery-letter/prefixfree.js
-* mystery-letter/4 x .png images
+* mystery-letter/4 x .png Bilder
 * template/template.html
 * template/style.css
 
@@ -46,14 +46,14 @@ Eine vollständige Version dieses Projekts finden Sie auch im Abschnitt "Ressour
 * mystery-letter-finished/style.css
 * mystery-letter-finished/script.js
 * mystery-letter-finished/prefixfree.js
-* mystery-letter-finished/4 x .png images
+* mystery-letter-finished/4 x .png Bilder
 
 (Alle oben genannten Ressourcen können auch als `.zip`-Dateien für Projekte und für Freiwillige heruntergeladen werden.)
 
 ## Lernziele
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* Dieses Projekt führt CSS Klassen und die Möglichkeit HTML Elemente mit mehreren Klassen zu gestalten ein.
+* Auch Hintergrundbilder und Google Schriftarten werden eingeführt. 
 
 Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
@@ -61,9 +61,9 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 
 ## Herausforderungen
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* “Gestalte deine Nachricht” - Verwende vorgegebene CSS Klassenstile;
+* "Erstelle Cumputer-Ausdruck Stil" - Verwende CSS um eine Beispielklasse mit Hintergrundbild und Google Schriftart nachzubauen. 
+* "Erstelle deine eigenen Stile" - Verwende CSS um neue Stile zu erstellen.
 
 \--- /collapse \---
 
