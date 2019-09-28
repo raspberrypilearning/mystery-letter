@@ -1,14 +1,14 @@
-## Bearbeite deine Botschaft
+## Bearbeite deine Nachricht
 
 Bringen wir deine Nachricht auf eine web page.
 
-+ Öffne diesen Trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Öffne dieses Trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
     Das Projekt sollte so aussehen:
     
     ![Screenshot](images/letter-starter.png)
 
-+ Die Funktion `<p>` wurde im Projekt 'Happy Birthday' eingeführt. Die Funktion `<span>` wird benutzt um kleinere Teile von dem Text in einem Absatz zu groupiren so dass man ihn stylen kann.
++ Das `<p>` Absatz-Tag wurde im Projekt 'Happy Birthday' eingeführt. Die Funktion `<span>` wird benutzt um kleinere Teile von dem Text in einem Absatz zu groupiren so dass man ihn stylen kann.
 
 ![Screenshot](images/letter-placeholder.png)
 
