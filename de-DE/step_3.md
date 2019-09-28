@@ -8,14 +8,14 @@ Bringen wir deine Nachricht auf eine web page.
     
     ![Screenshot](images/letter-starter.png)
 
-+ Das `<p>` Absatz-Tag wurde im Projekt 'Happy Birthday' eingeführt. Die Funktion `<span>` wird benutzt um kleinere Teile von dem Text in einem Absatz zu groupiren so dass man ihn stylen kann.
++ Das `<p>` Absatz-Tag wurde im Projekt 'Happy Birthday' eingeführt. Das `<span>` Tag wird benutzt um kleinere Text-Abschnitte innerhalb eines Absatzes zu gruppieren, um gestalten zu können.
 
 ![Screenshot](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ Ändere die Wörter zu deiner Nachricht indem du jeweils ein Wort in ein `<span>` schreibst. Du wirst `<span>`-Tags hinzufügen oder löschen müssen, falls deine Nachricht eine andere Länge hat. 
 
 ![screenshot](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ Klicke auf "Run", um dein Trinket zu testen.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    Wenn du dir die Wöter ansiehst, kannst du sehen dass sie so gestaltet wurden als wären sie auf die Seite geklebt worden.
