@@ -4,22 +4,22 @@
 
 ![Screenshot](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Beachte dass in der CSS-Datei ein Punkt '.' vor dem Klassennamen steht, nicht aber im `<span>`-Tag im HTML-Dokument.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Jetzt schau dir die anderen CSS-Klassen an die du benutzt hast um deinen geheimnisvollen Brief zu gestalten. Kannst du herausfinden:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + Wie der `magazine1`-Stil den Text in lauter Großbuchstaben verwandelt.
     
-    + How the `magazine2` style puts an image behind the text.
+    + Wie der `magazine2`-Stil ein Bild hinter den Text legt.
 
 ![Screenshot](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ Was passiert wenn du das `background-image` für `magazine2` zu `canvas.png` änderst? Falls du das `pink-pattern.png` lieber magst, kannst du es später zurück ändern. 
 
-You can also change the colours in the magazine styles if you like.
+Du kannst auch die Farben (color) in den magazine-Stilen ändern, wenn du möchtest.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Finde das CSS das verwendet wurde um deine Wörter zu drehen oder zu kippen:
 
-![screenshot](images/letter-rotate-skew.png)
+![Screenshot](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Versuche die Zahlen zu ändern um verschiedene Effekte zu erzeugen und teste dann deine Seite.
