@@ -8,44 +8,44 @@ Jetzt wirst du einen Stil erzeugen der so aussieht als wäre etwas aus einem Com
 
 Keine Angst falls du eine Warnung bekommst die sagt "The Rule is empty". Das wirst du als nächstes korrigieren.
 
-+ Jetzt füge ein bisschen CSS zu der comic CSS-Klasse hinzu. Du kannst auch andere Farben verwenden, wenn du willst. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Jetzt füge ein bisschen CSS zu der comic CSS-Klasse hinzu. Du kannst auch andere Farben verwenden, wenn du willst. Hier gibt es eine List mit jeder Menge Farben: <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![screenshot](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Verwende den Comic-Stil in einigen der `<span>`-Tags in deinem HTML-Dokument und teste deine Seite:
 
 ![Screenshot](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Jetzt kannst du eine lustige Schriftart hinzufügen. Öffne einen neuen Browser-Tab oder ein neues Fenster. Gehe auf <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> und suche nach **"bangers"**:
 
 ![Screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Klicke auf die + "Select this font" Schaltfläche:
 
 ![Screenshot](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Am unteren Rand des Bildschirms wird eine Nachricht erscheinen: "1 Family Selected".
 
 ![Screenshot](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Klicke auf die "1 Family Selected" Nachricht um das Fenster zu öffnen und kopiere den hervorgehobenen Code:
 
 ![Screenshot](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Füge den `<link>`-Code, den du gerade von Google Fonts kopiert hast, in den `<head>` deiner Webseite ein:
 
 ![Screenshot](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Das erlaubt es dir die Bangers Schriftart in deiner Webseite zu verwenden.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Kehre zu Google Fonts zurück und gehe auf der Seite weiter runter und kopiere den font-family Code:
 
 ![Screenshot](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Gehe jetzt zurück zu deiner **"style.css"**-Datei in Trinket und füge den font-family Code in den Comic-Stil ein:
 
 ![Screenshot](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Teste deine Webseite. Das Ergebnis sollte etwa wie folgt aussehen: 
 
 ![Screenshot](images/letter-fonts-output.png)
