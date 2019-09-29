@@ -1,6 +1,6 @@
 ## Klassen bearbeiten
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Klicke auf den **'style.css'** Reiter. Finde den Stil für die `newspaper` CSS-Klasse die du schon benutzt hast.
 
 ![Screenshot](images/letter-newspaper.png)
 
