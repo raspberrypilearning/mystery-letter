@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Aufgabe: Gestalte deinen Botschaftsstil
+## Herausforderung: Gestalte deine Nachricht
 
-Use the provided styles to make your message look like a mystery letter.
+Benutze die vorgegebenen Stile um deine Nachricht wie einen geheimnisvollen Brief aussehen zu lassen.
 
-Add these classes to your `<span>` tags:
+Füge diese Klassen zu deinen `<span>`-Tags hinzu:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,10 +14,10 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+Füge nicht mehr als eine Klasse aus jeder Zeile zu einem bestimmten `<span>`-Tag.
 
-This is how your letter could look:
+So könnte dein Brief aussehen:
 
 ![Screenshot](images/letter-challenge1.png)
 
-Und ergänze den CSS-Code in <0>style.css</0>, um das Bild zu positionieren.
+\--- /challenge \---
