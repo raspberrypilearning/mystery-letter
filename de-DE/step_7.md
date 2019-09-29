@@ -1,14 +1,14 @@
 ## Eine neue Klasse erzeugen
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+Jetzt wirst du einen Stil erzeugen der so aussieht als wäre etwas aus einem Comic ausgeschnitten. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> bietet viele Schriftarten die du kostenlos nutzen kannst.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ Füge eine `comic` Klasse in die **style.css** Datei ein. Nach `magazine2` ist ein guter Platz. Vergiss den Punkt vor dem Klassennamen nicht. 
 
 ![Screenshot](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+Keine Angst falls du eine Warnung bekommst die sagt "The Rule is empty". Das wirst du als nächstes korrigieren.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Jetzt füge ein bisschen CSS zu der comic CSS-Klasse hinzu. Du kannst auch andere Farben verwenden, wenn du willst. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![screenshot](images/letter-comic2.png)
 
