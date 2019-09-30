@@ -1,12 +1,12 @@
 ## Einleitung
 
-In diesem Projekt wirst du einen geheimnisvollen Brief erstelle, der so aussieht als wäre jedes Wort aus einer anderen Zeitung, Magazin, Comic oder einer anderen Quelle ausgeschnitten.
+In diesem Projekt wirst du einen geheimnisvollen Brief erstellen, der so aussieht als wäre jedes Wort aus verschiedenen Zeitungen, Magazinen, Comics oder anderen Quellen ausgeschnitten.
 
 ![Screenshot](images/letter-final.png)
 
 ### Zusätzliche Information für Clubleiter
 
-Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Falls du dieses Projekt ausdrucken musst, verwende bitte die [Druckfreundliche Version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
 ## \--- collapse \---
 
