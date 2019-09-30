@@ -14,7 +14,7 @@ Füge diese Klassen zu deinen `<span>`-Tags hinzu:
 
 + `skewleft`, `skewright`
 
-Füge nicht mehr als eine Klasse aus jeder Zeile zu einem bestimmten `<span>`-Tag.
+Füge nicht mehr als eine Klasse aus jeder Zeile zu einem bestimmten `<span>`-Tag hinzu.
 
 So könnte dein Brief aussehen:
 
