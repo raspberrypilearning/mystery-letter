@@ -1,4 +1,4 @@
-## Klassen bearbeiten
+## Klassen Bearbeiten
 
 + Klicke auf den **'style.css'** Reiter. Finde den Stil für die `newspaper` CSS-Klasse die du schon benutzt hast.
 
