@@ -6,7 +6,7 @@
 
 + Beachte dass in der CSS-Datei ein Punkt '.' vor dem Klassennamen steht, nicht aber im `<span>`-Tag im HTML-Dokument.
 
-+ Jetzt schau dir die anderen CSS-Klassen an die du benutzt hast um deinen geheimnisvollen Brief zu gestalten. Kannst du herausfinden:
++ Jetzt schau dir die anderen CSS-Klassen an die du benutzt hast um deinen geheimnisvollen Brief zu gestalten. Kannst du folgendes herausfinden:
     
     + Wie der `magazine1`-Stil den Text in lauter Großbuchstaben verwandelt.
     
@@ -14,9 +14,9 @@
 
 ![Screenshot](images/letter-magazines.png)
 
-+ Was passiert wenn du das `background-image` für `magazine2` zu `canvas.png` änderst? Falls du das `pink-pattern.png` lieber magst, kannst du es später zurück ändern. 
++ Was passiert wenn du das `background-image` für `magazine2` zu `canvas.png` änderst? Falls du das `pink-pattern.png` lieber magst, kannst du es wieder zurück ändern. 
 
-Du kannst auch die Farben (color) in den magazine-Stilen ändern, wenn du möchtest.
+Wenn du möchtest, kannst du auch die Farben in den magazine-Stilen verändern.
 
 + Finde das CSS das verwendet wurde um deine Wörter zu drehen oder zu kippen:
 
