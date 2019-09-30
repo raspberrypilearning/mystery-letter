@@ -14,7 +14,7 @@ Falls du dieses Projekt ausdrucken musst, verwende bitte die [Druckfreundliche V
 
 ## Einleitung:
 
-In diesem Projekt lernen Kinder CSS Klassen kennen. Sie verwenden mehrere CSS Klassen um Text zu gestalten und lernen wie sie Hintergrundbilder und freie Google Schriftarten in ihrern Projekten verwenden.
+In diesem Projekt lernen Kinder CSS Klassen kennen. Sie verwenden mehrere CSS Klassen um Text zu gestalten und lernen wie man Hintergrundbilder und frei verfügbare Google Schriftarten in Projekten verwendet.
 
 ## Online-Ressourcen
 
@@ -22,7 +22,7 @@ Wir empfehlen [Trinket](https://trinket.io/) als Online-Editor für HTML & CSS. 
 
 * ['Mystery Letter' Einstieg -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Die Kinder können auch dieses leere Trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) verwenden um ihr eigenes HTML & CSS zu schreiben, oder sie können als Alternative dazu dieses Trinket als Vorlage verwenden [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Die Kinder können auch entweder dieses leere Trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) verwenden um ihr eigenes HTML & CSS zu schreiben, oder Gebrauch von dieser Trinket-Vorlage machen [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 Es gibt auch ein Trinket mit einer Beispiellösung für die Herausforderungen:
 
