@@ -2,13 +2,13 @@
 
 ## Herausforderung: Erstelle deine eigenen Stile
 
-Erstelle jetzt deine eigenen Klassenstile und mache deinen geheimnisvollen Brief noch interessanter. Verwende das CSS das du in früheren Projekten gelernt hast und schau auf die Beispiele in **style.css** für Ideen.
+Erstelle jetzt deine eigenen Klassenstile und mache deinen geheimnisvollen Brief noch interessanter. Verwende das CSS das du in früheren Projekten gelernt hast und sammle Ideen in den Beispielen in **style.css**.
 
 Hier ist ein Beispiel:
 
 ![Screenshot](images/letter-fonts-challenge3.png)
 
-Du kannst die Bilder die du verwenden kannst sehen indem du auf den Bilder-Reiter in Trinket klickst. Versuche Bildhintergründe einzustellen indem du eines der enthaltenen Bilder verwendest:
+Klicke auf den Bilder-Reiter in Trinket, um die Bilder zu sehen, die du verwenden kannst. Versuche Bildhintergründe einzustellen indem du eines der enthaltenen Bilder verwendest:
 
 + `rough-paper.png`
 
