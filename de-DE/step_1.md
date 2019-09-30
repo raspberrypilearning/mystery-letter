@@ -26,11 +26,11 @@ Die Kinder können auch entweder dieses leere Trinket [(jumpto.cc/html-blank)](h
 
 Es gibt auch ein Trinket mit einer Beispiellösung für die Herausforderungen:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Geheimnisvoller Brief Fertiggestellt' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Offline-Ressourcen
 
-Dieses Projekt kann wahlweise auch [offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) durchgeführt werden. Sie können auf die Projektressourcen zugreifen, indem Sie auf den Link "Projektmaterial" für dieses Projekt klicken. Dieser Link enthält einen Abschnitt "Projektressourcen" mit Ressourcen, die die Kinder benötigen, um das Projekt offline abschließen zu können. Stelle sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
+Dieses Projekt kann wahlweise auch [offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) durchgeführt werden. Du kannst auf die Projektressourcen zugreifen, indem du auf den Link "Projektmaterial" für dieses Projekt klickst. Dieser Link enthält einen Abschnitt "Projektressourcen" mit Ressourcen, die die Kinder benötigen, um das Projekt offline abschließen zu können. Stelle sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
@@ -40,7 +40,7 @@ Dieses Projekt kann wahlweise auch [offline](https://www.codeclubprojects.org/en
 * template/template.html
 * template/style.css
 
-Eine vollständige Version dieses Projekts finden Sie auch im Abschnitt "Ressourcen für Freiwillige". Diese enthält:
+Eine vollständige Version dieses Projekts findest du auch im Abschnitt "Ressourcen für Freiwillige". Dieser enthält:
 
 * mystery-letter-finished/index.html
 * mystery-letter-finished/style.css
@@ -48,7 +48,7 @@ Eine vollständige Version dieses Projekts finden Sie auch im Abschnitt "Ressour
 * mystery-letter-finished/prefixfree.js
 * mystery-letter-finished/4 x .png Bilder
 
-(Alle oben genannten Ressourcen können auch als `.zip`-Dateien für Projekte und für Freiwillige heruntergeladen werden.)
+(Alle oben genannten Ressourcen können auch als `.zip`-Dateien für Projekte und Freiwillige heruntergeladen werden.)
 
 ## Lernziele
 
