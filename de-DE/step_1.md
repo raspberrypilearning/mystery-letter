@@ -52,7 +52,7 @@ Eine vollständige Version dieses Projekts findest du auch im Abschnitt "Ressour
 
 ## Lernziele
 
-* Dieses Projekt führt CSS Klassen und die Möglichkeit HTML Elemente mit mehreren Klassen zu gestalten ein.
+* Dieses Projekt stellt CSS Klassen und Möglichkeiten HTML Elemente mit mehreren Klassen zu gestalten vor.
 * Auch Hintergrundbilder und Google Schriftarten werden eingeführt. 
 
 Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
@@ -62,21 +62,21 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 ## Herausforderungen
 
 * “Gestalte deine Nachricht” - Verwende vorgegebene CSS Klassenstile;
-* "Erstelle Cumputer-Ausdruck Stil" - Verwende CSS um eine Beispielklasse mit Hintergrundbild und Google Schriftart nachzubauen. 
+* "Erstelle einen Computer-Ausdruck Stil" - Verwende CSS um eine Beispielklasse mit Hintergrundbild und Google Schriftart nachzubauen. 
 * "Erstelle deine eigenen Stile" - Verwende CSS um neue Stile zu erstellen.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Projektmaterial
+## title: Projektmaterialien
 
 ## Projektressourcen
 
 * [.zip-Datei mit allen Projektressourcen](resources/letter-project-resources.zip)
-* [Online Trinket mit allen 'Geheimnisvoller Brief' Projektressourcen](http://jumpto.cc/web-letter)
+* [Online-Trinket mit allen 'Geheimnisvoller Brief' Projektressourcen](http://jumpto.cc/web-letter)
 * [Online Trinket-Vorlage](http://jumpto.cc/trinket-template)
-* [Leeres online-Trinket](http://jumpto.cc/trinket-blank)
+* [Leeres Online-Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
