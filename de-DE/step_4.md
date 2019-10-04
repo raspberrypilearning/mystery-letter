@@ -1,14 +1,11 @@
-## Nutzung der Klassenstile
+## Klassenstile Verwenden
 
-+ Hast du die `class=""` (Klasse) in den `<span>` Tags bemerkt? Du kannst dies benutzen, um mehr als eine Sache auf die gleiche Art und Weise zu stylen, bzw. grafisch darzustellen. 
++ Hast du das `class=""` in den `<span>`-Tags bemerkt? Du kannst das dazu benutzen mehr als eine Sache auf die gleiche Weise zu gestalten.
 
-+ Füge die `magazine1` (Zeitschrift 1) Klasse zu ein paar deiner `<span>` Tags hinzu und teste deine Webseite.
++ Füge die `magazine1`-Klasse zu einigen deiner `<span>`-Tags hinzu und teste deine Webseite.
 
-![screenshot](images/letter-magazine1.png)
+![Screenshot](images/letter-magazine1.png)
 
-+ Du kannst mehr als eine Klasse zu einem Element hinzufügen. Du musst dazwischen nur einen Freiraum lassen. Füge die `big` (große) Klasse zu einer deiner `<span>` Tags hinzu. Teste deine Seite. 
++ Du kannst mehr als eine Klasse zu einem Element hinzufügen. Lass einfach ein Leerzeichen dazwischen frei. Füge die `big`-Klasse zu einem deiner `<span>`-Tags hinzu. Teste deine Webseite. 
 
-![screenshot](images/letter-big.png)
-
-
-
+![Screenshot](images/letter-big.png)
