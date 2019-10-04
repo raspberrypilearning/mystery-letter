@@ -1,8 +1,7 @@
-## Wähle deine Mitteilung aus
+## Wähle deine Nachricht
 
-In Filmen und Büchern werden geheimnisvolle Briefe dazu benutzt, um geheime Mitteilungen zu verschicken. 
+Geheimnisvolle Briefe werden in Filmen und Büchern benutzt um geheime Nachrichten zu schicken.
 
-+ Denk dir eine geheimnisvolle Botschaft aus. 12 Wörter sind hierfür ungefähr die richtige Länge. Wenn dir gerade keine konkrete Botschaft einfallen sollte, kannst du dieses Beispiel hier benutzen: 'Your next clue is in the safe. The code is 65536.' (Dein nächster Hinweis liegt im Safe. Der Code ist 65536.)
++ Denke dir eine geheime Nachricht aus; sie sollte ungefähr 12 Wörter lang sein. Falls dir keine Nachricht einfällt, kannst du dieses Beispiel benutzen: 'Dein nächster Hinweis befindet sich im Tresor. Die Kombination lautet 65536.'
 
-+ Mache dir entweder eine Notiz von dieser Botschaft oder lerne sie auswendig. 
-
++ Schreibe dir die Nachricht auf oder merke sie dir.

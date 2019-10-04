@@ -1,15 +1,15 @@
 --- challenge ---
-## Aufgabe: Erstelle einen Stil, der wie vom Computer ausgedruckt aussieht
 
-Erstelle einen altmodischen, wie vom Computer ausgedruckten Stil und wende diesen Stil bei manchen der Worte an:
+## Herausforderung: Erstelle einen Stil der wie vom Computer ausgedruckt aussieht
 
-![screenshot](images/letter-fonts-printout.png)
+Erstelle einen Stil wie ein altmodischer Computer-Ausdruck und wende ihn auf einige Wörter an:
 
-Du wirst Folgendes benötigen:
+![Screenshot](images/letter-fonts-printout.png)
 
-+ Die `VT323` Schriftfamilie von <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Schau zurück zu Schritt Nr. 5, falls du eine Erinnerungshilfe benötigst, wie man Google-Schriftarten benutzt. 
+Was du noch brauchst:
 
-+ Das `computer-printout-paper.png` (wie vom Computer ausgedruckte) Hintergrundbild. Schau zurück zu Schritt Nr. 4, falls du eine Erinnerungshilfe benötigst, wie man Hintergrundbilder benutzt. 	
++ Die `VT323` Schriftart von <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Schau dir Schritt 5 noch einmal an, falls du eine Erinnerung brauchst wie man Google Fonts verwendet.
 
++ Das `computer-printout-paper.png` Hintergrundbild. Schau dir Schritt 4 noch einmal an, falls du eine Erinnerung brauchst wie man Hintergrundbilder verwendet.
 
 --- /challenge ---

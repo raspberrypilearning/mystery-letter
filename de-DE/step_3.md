@@ -1,21 +1,21 @@
-## Bearbeite deine Botschaft
+## Bearbeite deine Nachricht
 
-Lass uns deine Botschaft auf der Webseite platzieren.
+Bringen wir deine Nachricht auf eine Webseite.
 
-+ Dieses Trinket öffnen: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. 
++ Öffne dieses Trinket: <a href="https://trinket.io/html/8a92ec5e1c" target="_blank">trinket.io/html/8a92ec5e1c</a>.
+    
+    Das Projekt sollte so aussehen:
+    
+    ![Screenshot](images/letter-starter.png)
 
-	Das Projekt sollte so aussehen:
++ Das `<p>` Absatz-Tag wurde im Projekt 'Happy Birthday' eingeführt. Das `<span>` Tag wird benutzt um kleinere Text-Abschnitte innerhalb eines Absatzes zu gruppieren, damit wir sie gestalten können.
 
-	![screenshot](images/letter-starter.png)
+![Screenshot](images/letter-placeholder.png)
 
-+ Das `<p>` “Paragraph” (Absatz) Tag wird im 'Happy Birthday' Projekt eingeführt. Das `<span>` (umspannen) Tag wird benutzt, um kleinere Textstücke in einem Absatz zusammen zu gruppieren, damit wir sie grafisch bearbeiten können, bzw. den Stil ändern können. 
++ Ändere die Wörter zu deiner Nachricht indem du jeweils ein Wort in ein `<span>` schreibst. Du wirst `<span>`-Tags hinzufügen oder löschen müssen, falls deine Nachricht eine andere Länge hat. 
 
-![screenshot](images/letter-placeholder.png)
+![Screenshot](images/letter-message.png)
 
-+ Ändere die Worte in deiner Botschaft, indem du ein Wort in jedes `<span>` Tag setzt. Du wirst die `<span>` Tags entweder hinzufügen oder entfernen müssen, wenn deine Botschaft unterschiedlich lang ist. 
-
-![screenshot](images/letter-message.png)
-
-+ Klicke auf die “Run” (laufen lassen) Taste, um dein Trinket zu testen.
-
-	Wenn du dir die Worte ansiehst, kannst du sehen, dass sie grafisch so dargestellt wurden, als ob sie auf die Seite geklebt worden sind.
++ Klicke auf "Run", um dein Trinket zu testen.
+    
+    Wenn du dir die Wöter ansiehst, kannst du sehen dass sie so gestaltet wurden als wären sie auf die Seite geklebt worden.

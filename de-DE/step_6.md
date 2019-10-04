@@ -1,25 +1,25 @@
-## Klassen bearbeiten
+## Klassen Bearbeiten
 
-+ Klicke auf den __'style.css'__ Reiter. Finde den Stil für die `newspaper` (Zeitung) CSS Klasse, die du benutzt hast.
++ Klicke auf den **'style.css'** Reiter. Finde den Stil für die `newspaper` CSS-Klasse die du schon benutzt hast.
 
-![screenshot](images/letter-newspaper.png)
+![Screenshot](images/letter-newspaper.png)
 
-+ Beachte bitte, dass ein Punkt '.' vor dem Namen der Klasse in der CSS-Datei gesetzt wird, nicht aber im `<span>` Tag deines HTML Dokuments.
++ Beachte dass in der CSS-Datei ein Punkt '.' vor dem Klassennamen steht, nicht aber im `<span>`-Tag im HTML-Dokument.
 
-+ Schau dir jetzt die anderen CSS Klassen an, die du benutzt hast, um deinen geheimnisvollen Brief grafisch zu gestalten. Kannst du Folgendes finden:
++ Jetzt schau dir die anderen CSS-Klassen an die du benutzt hast um deinen geheimnisvollen Brief zu gestalten. Kannst du folgendes herausfinden:
+    
+    + Wie der `magazine1`-Stil den Text in lauter Großbuchstaben verwandelt.
+    
+    + Wie der `magazine2`-Stil ein Bild hinter den Text legt.
 
-	+ Wie der `magazine1` (Zeitschrift 1) Stil den Text zu „durchgehend in Großbuchstaben“ ändert?.
+![Screenshot](images/letter-magazines.png)
 
-	+ Wie der `magazine2` (Zeitschrift 2) Stil ein Bild hinter den Text legt?
++ Was passiert wenn du das `background-image` für `magazine2` zu `canvas.png` änderst? Falls du das `pink-pattern.png` lieber magst, kannst du es wieder zurück ändern. 
 
-![screenshot](images/letter-magazines.png)
+Wenn du möchtest, kannst du auch die Farben in den magazine-Stilen verändern.
 
-+ Was passiert, wenn du das `background-image` (Hintergrundbild) für `magazine2` (Zeitschrift 2) zu `canvas.png` (Leinwand) änderst? Wenn du das `pink-pattern.png` (rosa Muster) lieber magst, kannst du es wieder dahin zurückverwandeln. 
++ Finde das CSS das verwendet wurde um deine Wörter zu drehen oder zu kippen:
 
-Du kannst auch die Farben in den Zeitschriftstilen ändern, wenn du magst.
+![Screenshot](images/letter-rotate-skew.png)
 
-+ Finde den CSS-Code, der benutzt wird, um deine Worte zu drehen und in die Schräglage (ins Kippen) zu bringen:
-
-![screenshot](images/letter-rotate-skew.png)
-
-Probiere mal, die Zahlen zu ändern, um verschiedene Effekte herzustellen und teste dann jedes Mal deine Seite aus. 
+Versuche die Zahlen zu ändern um verschiedene Effekte zu erzeugen und teste dann deine Seite.

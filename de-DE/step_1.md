@@ -1,52 +1,104 @@
-## Einführung 
+## Einleitung
 
-In diesem Projekt wirst du einen geheimnisvollen Brief produzieren, der so aussehen wird, als ob jedes einzelne Wort aus einer anderen Zeitung / Zeitschrift, bzw. aus einem Comic oder aus einer anderen Art von Broschüre ausgeschnitten worden ist. 
+In diesem Projekt wirst du einen geheimnisvollen Brief erstellen, der so aussieht als wäre jedes Wort aus verschiedenen Zeitungen, Magazinen, Comics oder anderen Quellen ausgeschnitten.
 
-![screenshot](images/letter-final.png)
+![Screenshot](images/letter-final.png)
 
-## Online Ressourcen
+### Zusätzliche Information für Clubleiter
 
-Wir empfehlen [trinket](https://trinket.io/) zu benutzen, um HTML und CSS online zu schreiben. Dieses Projekt enthält das folgende Trinket:
+Falls du dieses Projekt ausdrucken musst, verwende bitte die [Druckfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/mystery-letter/print).
 
-+ ['Mystery Letter' starting point  -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+--- collapse ---
+---
+title: Anmerkungen für Clubleiter
+---
 
-Die Kinder können auch von diesem leeren Trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) Gebrauch machen, um ihren eigenen HTML- und CSS-Code zu schreiben, bzw. sie können alternativ dieses Vorlage-Trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template) benutzen.
+## Einleitung:
 
-Es gibt auch ein Trinket, dass eine Lösungsvorlage für die Aufgaben enthält:
+In diesem Projekt lernen Kinder CSS Klassen kennen. Sie verwenden mehrere CSS Klassen um Text zu gestalten und lernen wie man Hintergrundbilder und frei verfügbare Google Schriftarten in Projekten verwendet.
 
-+ ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+## Online-Ressourcen
 
-## Offline Ressourcen
-Dieses Projekt kann [offline fertig gestellt werden](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/), falls bevorzugt. Zugang zu den Projekt-Ressourcen ist durch das Klicken auf den „Projekt-Materialien“ Link für dieses Projekt möglich. Dieser Link enthält einen Abschnitt über „Projekt-Ressourcen“, die u.a. auch Ressourcen beinhalten, welche die Kinder benötigen, um dieses Projekt offline beenden zu können. Achten Sie darauf, dass jedes Kind Zugang zu einer Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
+Wir empfehlen [Trinket](https://trinket.io/) als Online-Editor für HTML & CSS. Dieses Projekt enthält das folgende Trinket:
 
-+ mystery-letter/index.html
-+ mystery-letter/style.css
-+ mystery-letter/script.js
-+ mystery-letter/prefixfree.js
-+ mystery-letter/4 x .png images
-+ template/template.html
-+ template/style.css
+* ['Mystery Letter' Einstieg -- https://trinket.io/html/8a92ec5e1c](https://trinket.io/html/8a92ec5e1c)
 
-Sie können eine fertig gestellte Version dieses Projekts im Abschnitt „Helfer Ressourcen“ finden, welcher u.a. Folgendes enthält:
+Die Kinder können auch entweder dieses leere Trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) verwenden um ihr eigenes HTML & CSS zu schreiben, oder Gebrauch von dieser Trinket-Vorlage machen [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-+ mystery-letter-finished/index.html
-+ mystery-letter-finished/style.css
-+ mystery-letter-finished/script.js
-+ mystery-letter-finished/prefixfree.js
-+ mystery-letter-finished/4 x .png images
+Es gibt auch ein Trinket mit einer Beispiellösung für die Herausforderungen:
 
-(Alle der o.g. Ressourcen können auch als Projekt und Helfer `.zip` Dateien heruntergeladen werden.)
+* ['Geheimnisvoller Brief Fertiggestellt' -- trinket.io/html/a1bc982935](https://trinket.io/html/a1bc982935)
+
+## Offline-Ressourcen
+
+Dieses Projekt kann wahlweise auch [offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) durchgeführt werden. Du kannst auf die Projektressourcen zugreifen, indem du auf den Link "Projektmaterial" für dieses Projekt klickst. Dieser Link enthält einen Abschnitt "Projektressourcen" mit Ressourcen, die die Kinder benötigen, um das Projekt offline abschließen zu können. Stelle sicher, dass jedes Kind Zugriff auf eine Kopie dieser Ressourcen hat. Dieser Abschnitt enthält die folgenden Dateien:
+
+* mystery-letter/index.html
+* mystery-letter/style.css
+* mystery-letter/script.js
+* mystery-letter/prefixfree.js
+* mystery-letter/4 x .png Bilder
+* template/template.html
+* template/style.css
+
+Eine vollständige Version dieses Projekts findest du auch im Abschnitt "Ressourcen für Freiwillige". Dieser enthält:
+
+* mystery-letter-finished/index.html
+* mystery-letter-finished/style.css
+* mystery-letter-finished/script.js
+* mystery-letter-finished/prefixfree.js
+* mystery-letter-finished/4 x .png Bilder
+
+(Alle oben genannten Ressourcen können auch als `.zip`-Dateien für Projekte und Freiwillige heruntergeladen werden.)
 
 ## Lernziele
-+ Dieses Projekt führt die CSS Klassen ein sowie die Möglichkeit, HTML-Elemente mit Hilfe von mehreren Klassen grafisch zu gestalten.
-+ Hintergrundbilder und Google-Schriftarten werden ebenfalls eingeführt. 
 
-Dieses Projekt deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Lehrplans zur digitalen Produktion](http://rpf.io/curriculum):
+* Dieses Projekt stellt CSS Klassen und Möglichkeiten HTML Elemente mit mehreren Klassen zu gestalten vor.
+* Auch Hintergrundbilder und Google Schriftarten werden eingeführt. 
 
-+ [Design Grundlagen: 2D und 3D Assets](https://www.raspberrypi.org/curriculum/design/creator).
+Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
-## Aufgaben
-+ „Style deine eigene Meldung“: Anwendung von bereit gestellten CSS Klassenstilen;
-+ „Stelle einen Stil her, der aussieht wie vom Computer ausgedruckt“: Benutze CSS, um eine Beispielklasse mit Hilfe von Hintergrundbildern und Google-Schriftarten nachzuahmen. 
-+ „Produziere deinen eigenen Stil“: Benutze CSS, um einen neuen Stil herzustellen.
+* [Entwurf von grundlegenden 2D- and 3D-Konstruktionen](https://www.raspberrypi.org/curriculum/design/creator).
 
+## Herausforderungen
+
+* “Gestalte deine Nachricht” - Verwende vorgegebene CSS Klassenstile;
+* "Erstelle einen Computer-Ausdruck Stil" - Verwende CSS um eine Beispielklasse mit Hintergrundbild und Google Schriftart nachzubauen. 
+* "Erstelle deine eigenen Stile" - Verwende CSS um neue Stile zu erstellen.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Projektmaterialien
+---
+
+## Projektressourcen
+
+* [.zip-Datei mit allen Projektressourcen](resources/letter-project-resources.zip)
+* [Online-Trinket mit allen 'Geheimnisvoller Brief' Projektressourcen](https://trinket.io/html/8a92ec5e1c)
+* [Online Trinket-Vorlage](http://jumpto.cc/trinket-template)
+* [Leeres Online-Trinket](http://jumpto.cc/trinket-blank)
+* [template/index.html](resources/template-index.html)
+* [template/style.css](resources/template-style.css)
+* [mystery-letter/index.html](resources/mystery-letter-index.html)
+* [mystery-letter/style.css](resources/mystery-letter-style.css)
+* [mystery-letter/prefixfree.js](resources/mystery-letter-prefixfree.js)
+* [mystery-letter/rough-paper.png](resources/mystery-letter-rough-paper.png)
+* [mystery-letter/canvas.png](resources/mystery-letter-canvas.png)
+* [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
+* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
+
+## Ressourcen für Clubleiter
+
+* [.zip-Datei mit allen fertig gestellten Projektressourcen](resources/letter-volunteer-resources.zip)
+* [Vollständiges Trinket-Projekt (online)](https://trinket.io/html/a1bc982935)
+* [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
+* [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
+* [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
+* [mystery-letter-finished/rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
+* [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
+* [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
+* [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
+
+--- /collapse ---

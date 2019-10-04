@@ -1,49 +1,51 @@
-## Eine neue Klasse erzeugen
+## Eine neue Klasse erstellen
 
-Lass uns einen Stil erzeugen, der aussieht, als ob er aus einem Comic ausgeschnitten wurde. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> bietet jede Menge Schriftarten, die man gratis benutzen kann. 
+Lass uns einen Stil erstellen der so aussieht als wäre etwas aus einem Comic herausgeschnitten worden. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> bietet viele Schriftarten die du kostenlos nutzen kannst.
 
-+ Füge eine `comic` Klasse zur __style.css__ Datei hinzu. Nach `magazine2` (Zeitschrift 2) ist ein günstiger Platz. Vergiss nicht den Punkt for dem Klassennamen! 
++ Füge eine `comic` Klasse in die **style.css** Datei ein. Nach `magazine2` ist ein guter Platz. Vergiss den Punkt vor dem Klassennamen nicht. 
 
-![screenshot](images/letter-comic1.png)
+![Screenshot](images/letter-comic1.png)
 
-Keine Bange, falls du eine Warnmeldung erhältst, in der steht: 'The Rule is empty' (Der Maßstab ist leer.), du wirst dies als nächstes beheben. 
+Keine Angst falls du eine Warnung bekommst die sagt "The Rule is empty". Das wirst du als nächstes korrigieren.
 
-+ Füge jetzt den CSS-Code zur Comic CSS Klasse hinzu. Du kannst die verschiedenen Farben benutzen, wenn du willst. Es gibt eine Liste mit jeder Menge an Farben unter <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Jetzt füge ein bisschen CSS zu der Comic CSS-Klasse hinzu. Du kannst auch andere Farben verwenden wenn du willst. Hier gibt es eine Liste mit jeder Menge Farben: <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![screenshot](images/letter-comic2.png)
+![Screenshot](images/letter-comic2.png)
 
-+ Benutze den Comic-Stil in manchen der `<span>` Tags in deinem HTML Dokument und teste deine Seite:
++ Verwende den Comic-Stil in einigen der `<span>`-Tags in deinem HTML-Dokument und teste deine Seite:
 
-![screenshot](images/letter-comic-output.png)
+![Screenshot](images/letter-comic-output.png)
 
-+ Jetzt kannst du eine tolle Schriftart hinzufügen. Öffne einen neuen Browser-Reiter, bzw. Fenster. Gehe zu <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> und suche nach __'bangers'__:
++ Jetzt kannst du eine lustige Schriftart hinzufügen. Öffne einen neuen Browser-Tab oder ein neues Fenster. Gehe auf <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> und suche nach **"bangers"**:
 
-![screenshot](images/letter-fonts1.png)
+![Screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Klicke auf den “Quick-use” (Schnellnutzung) Knopf:
++ Klicke auf die + "Select this font" Schaltfläche:
 
-![screenshot](images/letter-fonts2.png)
+![Screenshot](images/letter-gfonts-2-annotated.png)
 
-+ Es wird dann eine neue Seite geladen. Scroll-Down bis du Folgendes siehst:
+Am unteren Bildschirmrand wird eine Nachricht erscheinen: "1 Family Selected".
 
-![screenshot](images/letter-fonts-link.png)
+![Screenshot](images/letter-gfonts-3.png)
 
-und kopiere den markierten Code. 
++ Klicke auf die "1 Family Selected" Nachricht um das Fenster zu öffnen und kopiere den hervorgehobenen Code:
 
-+ Füge den `<link>` Code ein, den du soeben von Google-Schriftarten in den `<head>` (Titel) deiner Webseite kopiert hast:
+![Screenshot](images/letter-gfonts-4.png)
 
-![screenshot](images/letter-fonts-head.png)
++ Füge den `<link>`-Code, den du gerade von Google Fonts kopiert hast, in den `<head>` deiner Webseite ein:
 
-Dies ermöglicht dir, die Bangers-Schriftart auf deiner Webseite zu benutzen. 
+![Screenshot](images/letter-fonts-head.png)
 
-+ Gehe zurück zu Google-Schriftarten und Scroll-Down weiter die Seite runter, kopiere dann den Schriftfamilien-Code:
+Das erlaubt es dir die Bangers Schriftart in deiner Webseite zu verwenden.
 
-![screenshot](images/letter-fonts-bangers.png)
++ Kehre zu Google Fonts zurück und gehe auf der Seite weiter nach unten und kopiere den font-family Code:
 
-+ Gehe jetzt zu deiner __'style.css'__ Datei in Trinket zurück und füge den Schriftfamilien-Code in deinen Comic-Stil ein:
+![Screenshot](images/letter-fonts-bangers.png)
 
-![screenshot](images/letter-fonts-comic.png)
++ Gehe jetzt zu deiner **"style.css"**-Datei in Trinket zurück und füge den font-family Code in den Comic-Stil ein:
 
-+ Teste deine Webseite. Das Ergebnis sollte in etwa so aussehen: 
+![Screenshot](images/letter-fonts-comic.png)
 
-![screenshot](images/letter-fonts-output.png)
++ Teste deine Webseite. Das Ergebnis sollte etwa wie folgt aussehen: 
+
+![Screenshot](images/letter-fonts-output.png)

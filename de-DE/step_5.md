@@ -1,24 +1,23 @@
 --- challenge ---
-## Aufgabe: Gestalte deinen Botschaftsstil
 
-Benutze die vorgegebenen Stilrichtungen, damit deine Botschaft wie ein geheimnisvoller Brief aussieht. 
+## Herausforderung: Gestalte deine Nachricht
 
-Füge diese Klassen zu deinen `<span>` Tags hinzu: 
+Benutze die vorgegebenen Stile um deine Nachricht wie einen geheimnisvollen Brief aussehen zu lassen.
 
-+ `newspaper` (Zeitung), `magazine1` (Zeitschrift 1), `magazine2` (Zeitschrift 2)
+Füge diese Klassen zu deinen `<span>`-Tags hinzu:
 
-+ `medium` (mittel), `big` (groß), `reallybig` (riesig groß)
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `rotateleft` (nach links drehen), `rotateright` (nach rechts drehen)
++ `medium`, `big`, `reallybig`
 
-+ `skewleft` (schräg nach links kippen), `skewright` (schräg nach rechts kippen)
++ `rotateleft`, `rotateright`
 
-Füge nicht mehr als eins von jeder Zeile zu einem spezifischen `<span>` Tag hinzu.
++ `skewleft`, `skewright`
 
-So könnte dein Brief u. U. aussehen:
+Füge nicht mehr als eine Klasse aus jeder Zeile zu einem bestimmten `<span>`-Tag hinzu.
 
-![screenshot](images/letter-challenge1.png)
+So könnte dein Brief aussehen:
 
-
+![Screenshot](images/letter-challenge1.png)
 
 --- /challenge ---
