@@ -6,7 +6,7 @@ Vamos a crear un estilo que parezca sacado de una historieta. <a href="http://ju
 
 ![captura de pantalla](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+No tes preocupes si aparece una advertencia diciendo que 'The Rule is empty'; lo arreglarás después.
 
 + Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
