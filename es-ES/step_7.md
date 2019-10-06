@@ -12,7 +12,7 @@ No te preocupes si aparece una advertencia diciendo que 'The Rule is empty'; lo 
 
 ![captura de pantalla](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Use el estilo historieta en alguna de las etiquetas `<span>` en tu documento HTML y verifica tu página:
 
 ![screenshot](images/letter-comic-output.png)
 
