@@ -37,36 +37,36 @@ var self = window.StyleFix = {
 			}
 		};
 
-		process = function() {
+		प्रक्रिया = कार्य () {
 				var css = xhr.responseText;
 				
 				if(css && link.parentNode && (!xhr.status || xhr.status < 400 || xhr.status > 600)) {
 					css = self.fix(css, true, link);
 					
-					// Convert relative URLs to absolute, if needed
+					// यदि आवश्यक हो, तो सापेक्ष URL को पूर्ण में बदलें
 					if(base) {
 						css = css.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function($0, quote, url) {
 							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absolute & or hash-relative
 								return $0;
 							}
 							else if(/^\/\//.test(url)) { // Scheme-relative
-								// May contain sequences like /../ and /./ but those DO work
+								// इसमें /../ और /./ जैसे अनुक्रम होते हैं, लेकिन वे काम करते हैं
 								return 'url("' + base_scheme + url + '")';
 							}
 							else if(/^\//.test(url)) { // Domain-relative
 								return 'url("' + base_domain + url + '")';
 							}
-							else if(/^\?/.test(url)) { // Query-relative
+							else if(/^\?/.test(url)) { // क्वेरी से संबंधित
 								return 'url("' + base_query + url + '")';
 							}
-							else {
-								// Path-relative
+							else{
+								//पथ से संबंधित
 								return 'url("' + base + url + '")';
 							}
 						});
 
-						// behavior URLs shoudn’t be converted (Issue #19)
-						// base should be escaped before added to RegExp (Issue #81)
+						// व्यवहार URL परिवर्तित नहीं किए जाने चाहिए (समस्या # 19)
+						// RegExp में जोड़ा जाने से पहले आधार बच जाना चाहिए (अंक # 81)
 						var escaped_base = base.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");
 						css = css.replace(RegExp('\\b(behavior:\\s*?url\\(\'?"?)' + escaped_base, 'gi'), '$1');
 						}
@@ -80,15 +80,15 @@ var self = window.StyleFix = {
 					parent.insertBefore(style, link);
 					parent.removeChild(link);
 					
-					style.media = link.media; // Duplicate is intentional. See issue #31
+					style.media = link.media; // Duplicate is intentional. अंक # 31 देखें
 				}
 		};
 
-		try {
+		प्रयत्न {
 			xhr.open('GET', url);
 			xhr.send(null);
 		} catch (e) {
-			// Fallback to XDomainRequest if available
+			// यदि उपलब्ध हो तो XDomainRequest पर कमबैक करें
 			if (typeof XDomainRequest != "undefined") {
 				xhr = new XDomainRequest();
 				xhr.onerror = xhr.onprogress = function() {};
@@ -121,13 +121,13 @@ var self = window.StyleFix = {
 	},
 	
 	process: function() {
-		// Linked stylesheets
+		// लिंक्ड स्टाइलशीट
 		$('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
 		
-		// Inline stylesheets
+		// इनलाइन स्टाइलशीट
 		$('style').forEach(StyleFix.styleElement);
 		
-		// Inline styles
+		// इनलाइन स्टाइलशीट
 		$('[style]').forEach(StyleFix.styleAttribute);
 	},
 	
