@@ -1,102 +1,102 @@
-## Introduction
+## Bevezetés
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+Ebben a projektben rejtélylevelet fog létrehozni, amely úgy néz ki, mintha minden szó más újságból, magazinból, képregényből vagy más forrásból származik.
 
 ![screenshot](images/letter-final.png)
 
-### Additional information for club leaders
+### További információk klubvezetőknek
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Ha ki kell nyomtatnia ezt a projektet, kérjük, használja a [nyomtatóbarát](https://projects.raspberrypi.org/en/projects/mystery-letter/print)verziót.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## cím: A klubvezető megjegyzi
 
-## Introduction:
+## Bevezetés:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+Ebben a projektben a gyerekeket bevezetik a CSS órákba. Több CSS osztályt használnak a szöveg stílusához, valamint megtanulják a háttérképek és a Google betűkészletek használatát a projektekben.
 
-## Online Resources
+## Online források
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Javasoljuk a [csecsebecsét](https://trinket.io/) írjunk HTML & CSS az interneten. A projekt a következő csecsebecsét tartalmazza:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* [A „Rejtély levél” kezdőpontja - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+A gyermekek felhasználhatják ezt az üres [csecsebecsét (jumpto.cc/html-blank)](http://jumpto.cc/html-blank) saját HTML & CSS-jük írására is, vagy alternatívaként használhatják ezt a sablonos csecsebecsét [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Van egy csecsebecsét tartalmazó mintamegoldás a kihívásokra:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Rejtély levél kész' - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## Offline források
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+Ez a projekt [elérhető,](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) ha teljesíthető. A projekt erőforrásaihoz a projekt 'Anyagok' linkjére kattintva férhet hozzá. Ez a link egy „Projekt-források” szakaszt tartalmaz, amely olyan forrásokat tartalmaz, amelyek a gyermekek számára szükségesek lesznek a projekt offline eléréséhez. Győződjön meg arról, hogy minden gyermek rendelkezik hozzáféréssel ezeknek az erőforrásoknak a másolatához. Ez a szakasz a következő fájlokat tartalmazza:
 
-* mystery-letter/index.html
-* mystery-letter/style.css
-* mystery-letter/script.js
-* mystery-letter/prefixfree.js
-* mystery-letter/4 x .png images
-* template/template.html
-* template/style.css
+* rejtélyes betű / index.html
+* rejtélyes betű / style.css
+* rejtélyes betű / script.js
+* rejtélyes betű / prefixfree.js
+* rejtély-levél / 4 x .png kép
+* template / template.html
+* template / style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+A projekt kihívásainak komplett változatát az „Önkéntes erőforrások” szakaszban is megtalálhatja, amely a következőket tartalmazza:
 
-* mystery-letter-finished/index.html
-* mystery-letter-finished/style.css
-* mystery-letter-finished/script.js
-* mystery-letter-finished/prefixfree.js
-* mystery-letter-finished/4 x .png images
+* rejtély-levél-kész / index.html
+* rejtély-levél-kész / style.css
+* rejtély-levél-kész / script.js
+* rejtély-levél-kész / prefixfree.js
+* rejtély betűvel kész / 4 x .png kép
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Az összes fenti erőforrás projekt- és önkéntes `.zip` fájlként letölthető.)
 
-## Learning Objectives
+## Tanulási célok
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* Ez a projekt bemutatja a CSS osztályokat és a HTML elemek több osztályra stílusozásának képességét.
+* A háttérképeket és a Google betűkészleteket is bevezetjük. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ez a projekt magában foglalja az elemeket a következő területekre vonatkozik a [Raspberry Pi Digital készítése Curriculum](http://rpf.io/curriculum):
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [Alapvető 2D és 3D eszközök tervezése](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## kihívások
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* „Üzenet stílusa” - alkalmazza a mellékelt CSS osztálystílusokat;
+* „Számítógépes nyomtatási stílus létrehozása” - A CSS használatával hozhat létre egy példaosztályt háttérkép és Google betűkészlet segítségével. 
+* „Készítsen saját stílusokat” - Használjon CSS-t új stílusok létrehozásához.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## cím: Projekt anyagok
 
-## Project resources
+## Projekt források
 
-* [.zip file containing all project resources](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
-* [template/index.html](resources/template-index.html)
-* [template/style.css](resources/template-style.css)
-* [mystery-letter/index.html](resources/mystery-letter-index.html)
-* [mystery-letter/style.css](resources/mystery-letter-style.css)
-* [mystery-letter/prefixfree.js](resources/mystery-letter-prefixfree.js)
-* [mystery-letter/rough-paper.png](resources/mystery-letter-rough-paper.png)
-* [mystery-letter/canvas.png](resources/mystery-letter-canvas.png)
-* [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
-* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
+* [.zip fájl, amely tartalmazza az összes projekt erőforrást](resources/letter-project-resources.zip)
+* [Online talizmán, amely tartalmazza az összes „Mystery Letter” projekt forrását](http://jumpto.cc/web-letter)
+* [Online talizmán sablon](http://jumpto.cc/trinket-template)
+* [Online üres talizmán](http://jumpto.cc/trinket-blank)
+* [template / index.html](resources/template-index.html)
+* [template / style.css](resources/template-style.css)
+* [rejtélyes betű / index.html](resources/mystery-letter-index.html)
+* [rejtélyes betű / style.css](resources/mystery-letter-style.css)
+* [rejtélyes betű / prefixfree.js](resources/mystery-letter-prefixfree.js)
+* [rejtély-betű / durva paper.png](resources/mystery-letter-rough-paper.png)
+* [rejtélyes betű / canvas.png](resources/mystery-letter-canvas.png)
+* [rejtély-betű / pink-pattern.png](resources/mystery-letter-pink-pattern.png)
+* [rejtélyes betű / számítógép-nyomat-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Club leader resources
+## A klubvezető forrásai
 
-* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
-* [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
-* [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
-* [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
-* [mystery-letter-finished/rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
-* [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
-* [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
-* [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
+* [.zip fájl, amely tartalmazza az összes kitöltött projekt erőforrást](resources/letter-volunteer-resources.zip)
+* [Online befejezett Trinket projekt](https://trinket.io/html/1d4d4c5ce1)
+* [rejtély-levél-kész / index.html](resources/mystery-letter-finished-index.html)
+* [rejtély-levél-kész / style.css](resources/mystery-letter-finished-style.css)
+* [rejtély-levél-kész / prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
+* [rejtély-levél-kész / durva paper.png](resources/mystery-letter-finished-rough-paper.png)
+* [rejtély-levél-kész / canvas.png](resources/mystery-letter-finished-canvas.png)
+* [rejtély-levél-kész / pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
+* [rejtélyes betű kész / számítógép-nyomat-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
 
 \--- /collapse \---
