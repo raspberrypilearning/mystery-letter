@@ -1,51 +1,51 @@
-## Create a New Class
+## Crearea unei noi clase
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+Hai să creăm un stil care arată ca și cum a fost decupat dintr-o carte de benzi desenate. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> oferă o mulțime de fonturi care pot fi folosite gratuit.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ Adaug o clasă `comic` în fișierul **style.css**. După `magazine2` e un loc potrivit. Nu uita punctul din fața numelui clasei. 
 
-![screenshot](images/letter-comic1.png)
+![captură de ecran](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+Nu-ți face griji dacă primești o eroare care spune „The Rule is empty”; o vei remedia imediat.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Acum, adaugă câteva proprietăți CSS la clasa CSS comic. Poți folosi diferite culori dacă dorești. Poți găsi o listă cu o mulțime de culori pe <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![screenshot](images/letter-comic2.png)
+![captură de ecran](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Folosește stilul comic într-o etichetă `<span>` din documentul tău HTML și testează-ți pagina:
 
-![screenshot](images/letter-comic-output.png)
+![captură de ecran](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Acum, poți adăuga un font amuzant. Deschide o nouă filă sau fereastră în browser-ul tău. Mergi la <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> și caută **„bangers”**:
 
-![screenshot](images/letter-gfonts-1-annotated.png)
+![captură de ecran](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Dă click pe butonul + „Select this font”:
 
-![screenshot](images/letter-gfonts-2-annotated.png)
+![captură de ecran](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Un mesaj care spune „1 Family Selected” va apărea în partea de jos a ecranului.
 
-![screenshot](images/letter-gfonts-3.png)
+![captură de ecran](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Dă click pe mesajul ”1 Family Selected” pentru a deschide fereastra și apoi copiază codul evidențiat:
 
-![screenshot](images/letter-gfonts-4.png)
+![captură de ecran](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Lipește codul `<link>` pe care l-ai copiat din fonturile Google în interiorul etichetei `<head>` din pagina ta web:
 
-![screenshot](images/letter-fonts-head.png)
+![captură de ecran](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Acesta îți permite să folosești fontul Bangers în pagina ta web.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Întoarce-te la Google Fonts și derulează în jos pentru a copia codul font-family:
 
-![screenshot](images/letter-fonts-bangers.png)
+![captură de ecran](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Acum, mergi înapoi la fișierul tău **„style.css”** din trinket și lipește codul font-family în stilul comic:
 
-![screenshot](images/letter-fonts-comic.png)
+![captură de ecran](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Testează-ți pagina web. Rezultatul ar trebui să arate așa: 
 
-![screenshot](images/letter-fonts-output.png)
+![captură de ecran](images/letter-fonts-output.png)
