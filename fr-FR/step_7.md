@@ -1,51 +1,51 @@
-## Create a New Class
+## Créer une nouvelle classe
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+Créons un style qui a l'air d'avoir été découpé à partir d'une bande dessinée. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> fournit des polices de caractères libres d'utilisation.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ Ajoute la classe `comic` dans le fichier **style.css**. Après `magazine2` par exemple. N'oublie pas le point devant le nom de la classe. 
 
-![screenshot](images/letter-comic1.png)
+![capture d'écran](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+Ne t’inquiète pas si tu reçois un avertissement disant que "la règle est vide" ("The Rule is empty"); Cela va être corrigé.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Ajoute maintenant du CSS à la classe CSS "comic". Tu peux utiliser différentes couleurs si tu le souhaites. Il y a une liste de couleurs à <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![screenshot](images/letter-comic2.png)
+![capture d'écran](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Utilise ce nouveau style dans quelques balises `<span>` de ton document HTML et teste ta page:
 
-![screenshot](images/letter-comic-output.png)
+![capture d'écran](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Maintenant, tu peux ajouter une police de caractères amusante. Ouvre un nouvel onglet ou une nouvelle fenêtre de ton navigateur. Va sur <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et recherche **'bangers'** :
 
-![screenshot](images/letter-gfonts-1-annotated.png)
+![capture d'écran](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Clique sur le bouton "Select this font" :
 
-![screenshot](images/letter-gfonts-2-annotated.png)
+![capture d'écran](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Un message disant "1 Family Selected" apparaîtra en bas de l'écran.
 
-![screenshot](images/letter-gfonts-3.png)
+![capture d'écran](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Clique sur le message "1 Family Selected" pour ouvrir la fenêtre et copie le code en surbrillance :
 
-![screenshot](images/letter-gfonts-4.png)
+![capture d'écran](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Colle le code `<link>` que tu viens de copier des polices Google dans le `<head>` de ta page Web :
 
-![screenshot](images/letter-fonts-head.png)
+![capture d'écran](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Cela te permet d'utiliser la police Bangers dans ta page Web.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Retourne aux polices de caractères Google, fais défiler la page et copie le code "font-family" :
 
-![screenshot](images/letter-fonts-bangers.png)
+![capture d'écran](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Maintenant, retourne à ton fichier **'style.css'** dans Trinket et colle le code "font-family" dans le style "comic" :
 
-![screenshot](images/letter-fonts-comic.png)
+![capture d'écran](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Teste ta page Web. Le résultat devrait ressembler à ceci : 
 
-![screenshot](images/letter-fonts-output.png)
+![capture d'écran](images/letter-fonts-output.png)
