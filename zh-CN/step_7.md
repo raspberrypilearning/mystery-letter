@@ -1,51 +1,51 @@
-## Create a New Class
+## 创建一个新类
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+让我们创造一个样式，它看起来像是从漫画中剪下来的。 <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> 提供了很多可以免费使用的字体。
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ 把 `comic` 类加到 **style.css** 文件中。 在 `magazine2` 之后比较好。 别忘记在类名之前加一个点。 
 
-![screenshot](images/letter-comic1.png)
+![截图](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+如果你看到一个警告写着“规则是空的”，不要担心；我们一会儿就解决。
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ 现在在comic CSS类中写一些CSS。 你喜欢的话可以用不同颜色。 一系列的颜色都在这个文件中： <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>。
 
-![screenshot](images/letter-comic2.png)
+![截屏](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ 在HTML文件的一些`<span>`标签中使用漫画样式，并测试页面：
 
-![screenshot](images/letter-comic-output.png)
+![截图](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ 现在你可以添加有意思的字体。 打开一个新的浏览器窗口。 进入 <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> 并找到 **'bangers'**：
 
-![screenshot](images/letter-gfonts-1-annotated.png)
+![截屏](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ 点击 "Select this font" 按钮：
 
-![screenshot](images/letter-gfonts-2-annotated.png)
+![截屏](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+一条写着 “1 Family Selected”（选中了一个类型）的消息会出现在屏幕底部。
 
-![screenshot](images/letter-gfonts-3.png)
+![截屏](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ 点击 “1 Family Selected” 的消息来打开窗口并复制高亮的代码：
 
-![screenshot](images/letter-gfonts-4.png)
+![截屏](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ 把你刚复制的 Google 字体的 `<link>` 代码添加到网页的 `<head>`：
 
-![screenshot](images/letter-fonts-head.png)
+![截屏](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+这样你就可以在你的网页中使用 Bangers 字体了。
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ 回到 Google字体，向下滚动页面并复制字体类型代码：
 
-![screenshot](images/letter-fonts-bangers.png)
+![截屏](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ 在 trinket 中回到**'style.css'** 文件，把字体类型代码粘贴到漫画样式中：
 
-![screenshot](images/letter-fonts-comic.png)
+![截屏](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ 测试你的网页。 结果应该看起来像这样： 
 
-![screenshot](images/letter-fonts-output.png)
+![截屏](images/letter-fonts-output.png)
