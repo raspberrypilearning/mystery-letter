@@ -1,497 +1,497 @@
-/**
+/ **
  * StyleFix 1.0.3 & PrefixFree 1.0.7
- * @author Lea Verou
- * MIT license
- */
+ * @auteur Lea Verou
+ * Licence MIT
+ * /
 
-(function(){
+(une fonction(){
 
-if(!window.addEventListener) {
-	return;
+if (! window.addEventListener) {
+	revenir;
 }
 
 var self = window.StyleFix = {
-	link: function(link) {
-		try {
-			// Ignore stylesheets with data-noprefix attribute as well as alternate stylesheets
-			if(link.rel !== 'stylesheet' || link.hasAttribute('data-noprefix')) {
-				return;
+	lien: fonction (lien) {
+		essayer {
+			// Ignorer les feuilles de style avec l'attribut data-noprefix ainsi que les feuilles de style alternatives
+			if (link.rel! == 'stylesheet' || link.hasAttribute ('data-noprefix'))) {
+				revenir;
 			}
 		}
-		catch(e) {
-			return;
+		catch (e) {
+			revenir;
 		}
 
-		var url = link.href || link.getAttribute('data-href'),
-		    base = url.replace(/[^\/]+$/, ''),
-		    base_scheme = (/^[a-z]{3,10}:/.exec(base) || [''])[0],
-		    base_domain = (/^[a-z]{3,10}:\/\/[^\/]+/.exec(base) || [''])[0],
+		var url = link.href || link.getAttribute ('data-href'),
+		    base = url.replace (/ [^ \ /] + $ /, ''),
+		    base_scheme = (/ ^[a-z]{3,10}: /. exec (base) || [''])[0],
+		    base_domain = (/ ^[a-z]{3,10}: \ / \ / [^ \ /] + /. exec (base) || [''])[0],
 		    base_query = /^([^?]*)\??/.exec(url)[1],
 		    parent = link.parentNode,
-		    xhr = new XMLHttpRequest(),
-		    process;
+		    xhr = new XMLHttpRequest (),
+		    processus;
 		
-		xhr.onreadystatechange = function() {
-			if(xhr.readyState === 4) {
-				process();
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState === 4) {
+				processus();
 			}
 		};
 
-		process = function() {
+		processus = fonction () {
 				var css = xhr.responseText;
 				
-				if(css && link.parentNode && (!xhr.status || xhr.status < 400 || xhr.status > 600)) {
-					css = self.fix(css, true, link);
+				if (css && link.parentNode && (! xhr.status || xhr.status <400 || xhr.status> 600)) {
+					css = self.fix (css, true, lien);
 					
-					// Convert relative URLs to absolute, if needed
-					if(base) {
-						css = css.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function($0, quote, url) {
-							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absolute & or hash-relative
-								return $0;
+					// Convertit les URL relatives en absolu, si nécessaire
+					si (base) {
+						css = css.replace (/ url \ (\ s *? ((?: "| ')?)?) (. +?) \ 1 \ s *? \) / gi, fonction ($ 0, citation, url) {
+							if (/ ^ ([a-z]{3,10}: | #) / i.test (url)) {// Absolute & ou hash-relative
+								retourne 0 $;
 							}
-							else if(/^\/\//.test(url)) { // Scheme-relative
-								// May contain sequences like /../ and /./ but those DO work
-								return 'url("' + base_scheme + url + '")';
+							else if (/ ^ \ / \ //. test (url)) {// schéma-relatif
+								// Peut contenir des séquences telles que /../ et /./ mais celles-ci fonctionnent
+								retourne 'url ("' + base_scheme + url + '")';
 							}
-							else if(/^\//.test(url)) { // Domain-relative
-								return 'url("' + base_domain + url + '")';
+							else if (/ ^ \ //. test (url)) {// domaine relatif
+								retourne 'url ("' + base_domain + url + '")';
 							}
-							else if(/^\?/.test(url)) { // Query-relative
-								return 'url("' + base_query + url + '")';
+							else if (/ ^ \? /. test (url)) {// Relatif à la requête
+								retourne 'url ("' + base_query + url + '")';
 							}
 							else {
-								// Path-relative
-								return 'url("' + base + url + '")';
+								// relatif au chemin
+								retourne 'url ("' + base + url + '")';
 							}
 						});
 
-						// behavior URLs shoudn’t be converted (Issue #19)
-						// base should be escaped before added to RegExp (Issue #81)
-						var escaped_base = base.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");
-						css = css.replace(RegExp('\\b(behavior:\\s*?url\\(\'?"?)' + escaped_base, 'gi'), '$1');
+						// les URL de comportement ne doivent pas être converties (numéro 19)
+						// base devrait être échappé avant d'être ajouté à RegExp (numéro 81)
+						var escaped_base = base.replace (/([\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/?&&&&&&&&&&&&&&&&&& c'est plus encore.
+						css = css.replace (RegExp ('\\ b (comportement: \\ s *? url \\ (\'? "?)) '+ bases_échappées,' gi '),' $ 1 ');
 						}
 					
-					var style = document.createElement('style');
+					var style = document.createElement ('style');
 					style.textContent = css;
 					style.media = link.media;
 					style.disabled = link.disabled;
-					style.setAttribute('data-href', link.getAttribute('href'));
+					style.setAttribute ('data-href', link.getAttribute ('href'));
 					
-					parent.insertBefore(style, link);
-					parent.removeChild(link);
+					parent.insertBefore (style, lien);
+					parent.removeChild (lien);
 					
-					style.media = link.media; // Duplicate is intentional. See issue #31
+					style.media = link.media; // La duplication est intentionnelle. Voir le numéro 31
 				}
 		};
 
-		try {
-			xhr.open('GET', url);
-			xhr.send(null);
+		essayer {
+			xhr.open ('GET', url);
+			xhr.send (null);
 		} catch (e) {
-			// Fallback to XDomainRequest if available
-			if (typeof XDomainRequest != "undefined") {
-				xhr = new XDomainRequest();
-				xhr.onerror = xhr.onprogress = function() {};
+			// Repli sur XDomainRequest si disponible
+			if (typeof XDomainRequest! = "undefined") {
+				xhr = new XDomainRequest ();
+				xhr.onerror = xhr.onprogress = function () {};
 				xhr.onload = process;
-				xhr.open("GET", url);
-				xhr.send(null);
+				xhr.open ("GET", url);
+				xhr.send (null);
 			}
 		}
 		
-		link.setAttribute('data-inprogress', '');
+		link.setAttribute ('data-inprogress', '');
 	},
 
-	styleElement: function(style) {
-		if (style.hasAttribute('data-noprefix')) {
-			return;
+	styleElement: fonction (style) {
+		if (style.hasAttribute ('data-noprefix'))) {
+			revenir;
 		}
 		var disabled = style.disabled;
 		
-		style.textContent = self.fix(style.textContent, true, style);
+		style.textContent = self.fix (style.textContent, true, style);
 		
-		style.disabled = disabled;
+		style.disabled = désactivé;
 	},
 
-	styleAttribute: function(element) {
-		var css = element.getAttribute('style');
+	styleAttribute: function (element) {
+		var css = element.getAttribute ('style');
 		
-		css = self.fix(css, false, element);
+		css = self.fix (css, false, element);
 		
-		element.setAttribute('style', css);
+		element.setAttribute ('style', css);
 	},
 	
-	process: function() {
-		// Linked stylesheets
-		$('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
+	processus: function () {
+		// feuilles de style liées
+		$ ('link [rel = "stylesheet"]: not ([data-inprogress])'). forEach (StyleFix.link);
 		
-		// Inline stylesheets
-		$('style').forEach(StyleFix.styleElement);
+		// feuilles de style en ligne
+		$ ('style'). forEach (StyleFix.styleElement);
 		
-		// Inline styles
-		$('[style]').forEach(StyleFix.styleAttribute);
+		// styles en ligne
+		$ ('[style]') .forEach (StyleFix.styleAttribute);
 	},
 	
-	register: function(fixer, index) {
+	registre: fonction (fixateur, index) {
 		(self.fixers = self.fixers || [])
-			.splice(index === undefined? self.fixers.length : index, 0, fixer);
+			.splice (index === undefined? self.fixers.length: index, 0, fixateur);
 	},
 	
-	fix: function(css, raw, element) {
-		for(var i=0; i<self.fixers.length; i++) {
+	correctif: fonction (css, raw, element) {
+		pour (var i = 0; i <self.fixers.length; i++) {
 			css = self.fixers[i](css, raw, element) || css;
 		}
 		
 		return css;
 	},
 	
-	camelCase: function(str) {
-		return str.replace(/-([a-z])/g, function($0, $1) { return $1.toUpperCase(); }).replace('-','');
+	camelCase: function (str) {
+		return str.replace (/ - ([a-z]) / g, fonction ($ 0, $ 1) {return $ 1.toUpperCase ();}). replace ('-', '');
 	},
 	
-	deCamelCase: function(str) {
-		return str.replace(/[A-Z]/g, function($0) { return '-' + $0.toLowerCase() });
+	deCamelCase: function (str) {
+		return str.replace (/[A-Z]/ g, fonction ($ 0) {return '-' + $ 0.toLowerCase ()});
 	}
 };
 
-/**************************************
- * Process styles
- **************************************/
-(function(){
-	setTimeout(function(){
-		$('link[rel="stylesheet"]').forEach(StyleFix.link);
+/ ***************************************
+ * Styles de processus
+ *************************************** /
+(une fonction(){
+	setTimeout (function () {
+		$ ('link [rel = "stylesheet"]'). forEach (StyleFix.link);
 	}, 10);
 	
-	document.addEventListener('DOMContentLoaded', StyleFix.process, false);
-})();
+	document.addEventListener ('DOMContentLoaded', StyleFix.process, false);
+}) ();
 
-function $(expr, con) {
-	return [].slice.call((con || document).querySelectorAll(expr));
+fonction $ (expr, con) {
+	return [] .slice.call ((con || document) .querySelectorAll (expr));
 }
 
-})();
+}) ();
 
-/**
+/ **
  * PrefixFree
- */
-(function(root){
+ * /
+(fonction (racine) {
 
-if(!window.StyleFix || !window.getComputedStyle) {
-	return;
+if (! window.StyleFix ||! window.getComputedStyle) {
+	revenir;
 }
 
-// Private helper
-function fix(what, before, after, replacement, css) {
-	what = self[what];
+// aide privée
+fonction fix (quoi, avant, après, remplacement, css) {
+	quoi = soi[what];
 	
-	if(what.length) {
-		var regex = RegExp(before + '(' + what.join('|') + ')' + after, 'gi');
+	si (quelle.longueur) {
+		var regex = RegExp (before + '(' + what.join ('|') + ')' + après, 'gi');
 
-		css = css.replace(regex, replacement);
+		css = css.replace (regex, remplacement);
 	}
 	
 	return css;
 }
 
 var self = window.PrefixFree = {
-	prefixCSS: function(css, raw, element) {
-		var prefix = self.prefix;
+	prefixCSS: fonction (css, raw, element) {
+		préfixe var = self.prefix;
 		
-		// Gradient angles hotfix
-		if(self.functions.indexOf('linear-gradient') > -1) {
-			// Gradients are supported with a prefix, convert angles to legacy
-			css = css.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig, function ($0, delim, repeating, deg) {
-				return delim + (repeating || '') + 'linear-gradient(' + (90-deg) + 'deg';
+		// correctif des angles de dégradé
+		if (self.functions.indexOf ('linear-gradient')> -1) {
+			// Les dégradés sont supportés avec un préfixe, convertissent les angles en héritage
+			css = css.replace (/ (\ s |: |,) (en répétant -)? gradient-linéaire \ (\ s * (-? \ d * \.? \ \ d *) deg / ig, fonction ($ 0, délimiter , en répétant, deg) {
+				retourne delim + (en répétant || '') + 'gradient-linéaire (' + (90-deg) + 'deg';
 			});
 		}
 		
-		css = fix('functions', '(\\s|:|,)', '\\s*\\(', '$1' + prefix + '$2(', css);
-		css = fix('keywords', '(\\s|:)', '(\\s|;|\\}|$)', '$1' + prefix + '$2$3', css);
-		css = fix('properties', '(^|\\{|\\s|;)', '\\s*:', '$1' + prefix + '$2:', css);
+		css = fix ('fonctions', '(\\ s |: |,)', '\\ s * \\ (', '$ 1' + préfixe + '$ 2 (', css);
+		css = fix ('keywords', '(\\ s | :)', '(\\ s |; | \\} | $)', '$ 1' + préfixe + '$2$3', css);
+		css = fix ('propriétés', '(^ | \\ {| \\ s |;)', '\\ s *:', '$ 1' + préfixe + '$ 2:', css);
 		
-		// Prefix properties *inside* values (issue #8)
-		if (self.properties.length) {
-			var regex = RegExp('\\b(' + self.properties.join('|') + ')(?!:)', 'gi');
+		// Propriétés du préfixe * à l'intérieur * des valeurs (numéro 8)
+		si (self.properties.length) {
+			var regex = RegExp ('\\ b (' + self.properties.join ('|') + ') (?! :)', 'gi');
 			
-			css = fix('valueProperties', '\\b', ':(.+?);', function($0) {
-				return $0.replace(regex, prefix + "$1")
+			css = fix ('valueProperties', '\\ b', ': (. +?);', function ($ 0) {
+				return $ 0.replace (regex, préfixe + "$ 1")
 			}, css);
 		}
 		
-		if(raw) {
-			css = fix('selectors', '', '\\b', self.prefixSelector, css);
-			css = fix('atrules', '@', '\\b', '@' + prefix + '$1', css);
+		si (brut) {
+			css = fix ('sélecteurs', '', '\\ b', self.prefixSelector, css);
+			css = fix ('atrules', '@', '\\ b', '@' + préfixe + '$ 1', css);
 		}
 		
-		// Fix double prefixing
-		css = css.replace(RegExp('-' + prefix, 'g'), '-');
+		// Correction du double préfixe
+		css = css.replace (RegExp ('-' + préfixe, 'g'), '-');
 		
-		// Prefix wildcard
-		css = css.replace(/-\*-(?=[a-z]+)/gi, self.prefix);
+		// préfixe joker
+		css = css.replace (/ - \ * - (? =[a-z]+) / gi, self.prefix);
 		
 		return css;
 	},
 	
-	property: function(property) {
-		return (self.properties.indexOf(property) >=0 ? self.prefix : '') + property;
+	property: fonction (propriété) {
+		return (self.properties.indexOf (property)> = 0? self.prefix: '') + propriété;
 	},
 	
-	value: function(value, property) {
-		value = fix('functions', '(^|\\s|,)', '\\s*\\(', '$1' + self.prefix + '$2(', value);
-		value = fix('keywords', '(^|\\s)', '(\\s|$)', '$1' + self.prefix + '$2$3', value);
+	valeur: fonction (valeur, propriété) {
+		value = fix ('functions', '(^ | \\ s |,)', '\\ s * \\ (', '$ 1' + self.prefix + '$ 2 (', valeur);
+		value = fix ('keywords', '(^ | \\ s)', '(\\ s | $)', '$ 1' + self.prefix + '$2$3', valeur);
 
-		if(self.valueProperties.indexOf(property) >= 0) {
-			value = fix('properties', '(^|\\s|,)', '($|\\s|,)', '$1'+self.prefix+'$2$3', value);
+		if (self.valueProperties.indexOf (propriété)> = 0) {
+			value = fix ('properties', '(^ | \\ s |,)', '($ | \\ s |,)', '$ 1' + self.prefix + '$2$3', value);
 		}
 
-		return value;
+		valeur de retour;
 	},
 	
-	// Warning: Prefixes no matter what, even if the selector is supported prefix-less
-	prefixSelector: function(selector) {
-		return selector.replace(/^:{1,2}/, function($0) { return $0 + self.prefix })
+	// Avertissement: les préfixes quoi qu'il arrive, même si le sélecteur est pris en charge sans préfixe
+	prefixSelector: fonction (sélecteur) {
+		return selector.replace (/ ^:{1,2}/, function ($ 0) {return $ 0 + self.prefix})
 	},
 	
-	// Warning: Prefixes no matter what, even if the property is supported prefix-less
-	prefixProperty: function(property, camelCase) {
+	// Attention: les préfixes peu importe les circonstances, même si la propriété est supportée sans préfixe
+	prefixProperty: function (propriété, camelCase) {
 		var prefixed = self.prefix + property;
 		
-		return camelCase? StyleFix.camelCase(prefixed) : prefixed;
+		retourner camelCase? StyleFix.camelCase (préfixé): préfixé;
 	}
 };
 
-/**************************************
- * Properties
- **************************************/
-(function() {
-	var prefixes = {},
-		properties = [],
-		shorthands = {},
-		style = getComputedStyle(document.documentElement, null),
-		dummy = document.createElement('div').style;
+/ ***************************************
+ * Propriétés
+ *************************************** /
+(une fonction() {
+	préfixes var = {},
+		propriétés = [],
+		Raccourcis = {},
+		style = getComputedStyle (document.documentElement, null),
+		dummy = document.createElement ('div'). style;
 	
-	// Why are we doing this instead of iterating over properties in a .style object? Cause Webkit won't iterate over those.
-	var iterate = function(property) {
-		if(property.charAt(0) === '-') {
-			properties.push(property);
+	// Pourquoi faisons-nous cela au lieu d'itérer sur les propriétés d'un objet .style? Parce que Webkit n'ira pas dessus.
+	var iterate = fonction (propriété) {
+		if (property.charAt (0) === '-') {
+			properties.push (propriété);
 			
-			var parts = property.split('-'),
-				prefix = parts[1];
+			var parts = property.split ('-'),
+				préfixe = parties[1];
 				
-			// Count prefix uses
-			prefixes[prefix] = ++prefixes[prefix] || 1;
+			// Nombre de préfixes utilisés
+			préfixes[prefix] = ++ préfixes[prefix] || 1;
 			
-			// This helps determining shorthands
-			while(parts.length > 3) {
-				parts.pop();
+			// Cela aide à déterminer les raccourcis
+			while (parts.length> 3) {
+				parties.pop ();
 				
-				var shorthand = parts.join('-');
+				var shorthand = parts.join ('-');
 
-				if(supported(shorthand) && properties.indexOf(shorthand) === -1) {
-					properties.push(shorthand);
+				if (supporté (raccourci) && properties.indexOf (raccourci) === -1) {
+					properties.push (en abrégé);
 				}
 			}
 		}
 	},
-	supported = function(property) {
-		return StyleFix.camelCase(property) in dummy;
+	pris en charge = fonction (propriété) {
+		renvoie StyleFix.camelCase (propriété) dans le mannequin;
 	}
 	
-	// Some browsers have numerical indices for the properties, some don't
-	if(style.length > 0) {
-		for(var i=0; i<style.length; i++) {
-			iterate(style[i])
+	// Certains navigateurs ont des indices numériques pour les propriétés, d'autres non
+	if (style.length> 0) {
+		pour (var i = 0; i <style.length; i++) {
+			itérer (style[i])
 		}
 	}
 	else {
-		for(var property in style) {
-			iterate(StyleFix.deCamelCase(property));
+		for (propriété var dans le style) {
+			itérer (StyleFix.deCamelCase (propriété));
 		}
 	}
 
-	// Find most frequently used prefix
-	var highest = {uses:0};
-	for(var prefix in prefixes) {
-		var uses = prefixes[prefix];
+	// Trouver le préfixe le plus utilisé
+	var le plus élevé = {uses:0};
+	pour (préfixe var dans les préfixes) {
+		var utilise = préfixes[prefix];
 
-		if(highest.uses < uses) {
-			highest = {prefix: prefix, uses: uses};
+		si (plus.utilisations <utilisations) {
+			le plus élevé = {prefix: prefix, uses: uses};
 		}
 	}
 	
-	self.prefix = '-' + highest.prefix + '-';
-	self.Prefix = StyleFix.camelCase(self.prefix);
+	self.prefix = '-' + upper.prefix + '-';
+	self.Prefix = StyleFix.camelCase (self.prefix);
 	
 	self.properties = [];
 
-	// Get properties ONLY supported with a prefix
-	for(var i=0; i<properties.length; i++) {
-		var property = properties[i];
+	// Obtenir les propriétés UNIQUEMENT prises en charge avec un préfixe
+	pour (var i = 0; i <properties.length; i++) {
+		var propriété = propriétés[i];
 		
-		if(property.indexOf(self.prefix) === 0) { // we might have multiple prefixes, like Opera
-			var unprefixed = property.slice(self.prefix.length);
+		if (property.indexOf (self.prefix) === 0) {// nous pourrions avoir plusieurs préfixes, comme Opera
+			var unprefixed = property.slice (self.prefix.length);
 			
-			if(!supported(unprefixed)) {
-				self.properties.push(unprefixed);
+			si (! pris en charge (non préfixé)) {
+				self.properties.push (sans préfixe);
 			}
 		}
 	}
 	
-	// IE fix
-	if(self.Prefix == 'Ms' 
-	  && !('transform' in dummy) 
-	  && !('MsTransform' in dummy) 
-	  && ('msTransform' in dummy)) {
-		self.properties.push('transform', 'transform-origin');	
+	// correctif IE
+	if (self.Prefix == 'Ms' 
+	  &&! («transformer» en mannequin) 
+	  &&! ('MsTransform' dans le mannequin) 
+	  && ('msTransform' dans le mannequin)) {
+		self.properties.push ('transformer', 'transformer-origin');	
 	}
 	
-	self.properties.sort();
-})();
+	self.properties.sort ();
+}) ();
 
-/**************************************
- * Values
- **************************************/
-(function() {
-// Values that might need prefixing
-var functions = {
-	'linear-gradient': {
-		property: 'backgroundImage',
-		params: 'red, teal'
+/ ***************************************
+ * Valeurs
+ *************************************** /
+(une fonction() {
+// Valeurs pouvant nécessiter un préfixe
+fonctions var = {
+	'gradient linéaire': {
+		propriété: 'backgroundImage',
+		params: 'rouge, sarcelle'
 	},
-	'calc': {
-		property: 'width',
-		params: '1px + 5%'
+	«calc»: {
+		propriété: 'largeur',
+		paramètres: '1px + 5%'
 	},
-	'element': {
-		property: 'backgroundImage',
+	'élément': {
+		propriété: 'backgroundImage',
 		params: '#foo'
 	},
-	'cross-fade': {
-		property: 'backgroundImage',
-		params: 'url(a.png), url(b.png), 50%'
+	"fondu enchaîné": {
+		propriété: 'backgroundImage',
+		params: 'url (a.png), url (b.png), 50%'
 	}
 };
 
 
-functions['repeating-linear-gradient'] =
-functions['repeating-radial-gradient'] =
-functions['radial-gradient'] =
-functions['linear-gradient'];
+fonctions ['repeating-linear-gradient'] =
+fonctions ['repeating-radial-gradient'] =
+fonctions ['radial-gradient'] =
+fonctions ['linear-gradient'];
 
-// Note: The properties assigned are just to *test* support. 
-// The keywords will be prefixed everywhere.
+// Note: Les propriétés assignées sont juste pour * tester * le support. 
+// Les mots-clés seront préfixés partout.
 var keywords = {
 	'initial': 'color',
-	'zoom-in': 'cursor',
-	'zoom-out': 'cursor',
+	'zoom-in': 'curseur',
+	'zoom arrière': 'curseur',
 	'box': 'display',
-	'flexbox': 'display',
+	'flexbox': 'affichage',
 	'inline-flexbox': 'display',
 	'flex': 'display',
 	'inline-flex': 'display',
-	'grid': 'display',
+	'affichage de grille',
 	'inline-grid': 'display',
 	'max-content': 'width',
-	'min-content': 'width',
+	'min-content': 'largeur',
 	'fit-content': 'width',
-	'fill-available': 'width'
+	'remplir-disponible': 'largeur'
 };
 
 self.functions = [];
 self.keywords = [];
 
-var style = document.createElement('div').style;
+var style = document.createElement ('div'). style;
 
-function supported(value, property) {
+fonction prise en charge (valeur, propriété) {
 	style[property] = '';
-	style[property] = value;
+	style[property] = valeur;
 
-	return !!style[property];
+	retour !! style[property];
 }
 
-for (var func in functions) {
-	var test = functions[func],
+for (var func dans les fonctions) {
+	var test = fonctions[func],
 		property = test.property,
-		value = func + '(' + test.params + ')';
+		valeur = func + '(' + test.params + ')';
 	
-	if (!supported(value, property)
-	  && supported(self.prefix + value, property)) {
-		// It's supported, but with a prefix
-		self.functions.push(func);
+	if (! pris en charge (valeur, propriété)
+	  && supporté (self.prefix + value, property)) {
+		// Il est supporté, mais avec un préfixe
+		self.functions.push (func);
 	}
 }
 
-for (var keyword in keywords) {
-	var property = keywords[keyword];
+for (mot-clé var dans mots-clés) {
+	var propriété = mots-clés[keyword];
 
-	if (!supported(keyword, property)
-	  && supported(self.prefix + keyword, property)) {
-		// It's supported, but with a prefix
-		self.keywords.push(keyword);
+	if (! supporté (mot-clé, propriété)
+	  && pris en charge (self.prefix + mot clé, propriété)) {
+		// Il est supporté, mais avec un préfixe
+		self.keywords.push (mot clé);
 	}
 }
 
-})();
+}) ();
 
-/**************************************
- * Selectors and @-rules
- **************************************/
-(function() {
+/ ***************************************
+ * Sélecteurs et règles @
+ *************************************** /
+(une fonction() {
 
 var 
-selectors = {
-	':read-only': null,
-	':read-write': null,
-	':any-link': null,
-	'::selection': null
+sélecteurs = {
+	': lecture seule': null,
+	': lecture-écriture': null,
+	': n'importe quel lien': null,
+	':: selection': null
 },
 
 atrules = {
-	'keyframes': 'name',
+	'images clés': 'nom',
 	'viewport': null,
-	'document': 'regexp(".")'
+	'document': 'regexp (".")'
 };
 
-self.selectors = [];
+sélecteurs autonomes = [];
 self.atrules = [];
 
-var style = root.appendChild(document.createElement('style'));
+var style = root.appendChild (document.createElement ('style'));
 
-function supported(selector) {
-	style.textContent = selector + '{}';  // Safari 4 has issues with style.innerHTML
+fonction supportée (sélecteur) {
+	style.textContent = sélecteur + '{}'; // Safari 4 a des problèmes avec style.innerHTML
 	
-	return !!style.sheet.cssRules.length;
+	return !! style.sheet.cssRules.length;
 }
 
-for(var selector in selectors) {
-	var test = selector + (selectors[selector]? '(' + selectors[selector] + ')' : '');
+pour (sélecteur var dans les sélecteurs) {
+	var test = sélecteur + (sélecteurs[selector]? '(' + sélecteurs[selector] + ')': '');
 		
-	if(!supported(test) && supported(self.prefixSelector(test))) {
-		self.selectors.push(selector);
+	if (! supported (test) && supporté (self.prefixSelector (test)))) {
+		self.selectors.push (sélecteur);
 	}
 }
 
-for(var atrule in atrules) {
-	var test = atrule + ' ' + (atrules[atrule] || '');
+pour (var atrule dans atrules) {
+	var test = atrule + '' + (atrules[atrule] || '');
 	
-	if(!supported('@' + test) && supported('@' + self.prefix + test)) {
-		self.atrules.push(atrule);
+	if (! supporté ('@' + test) && supporté ('@' + self.prefix + test)) {
+		self.atrules.push (atrule);
 	}
 }
 
-root.removeChild(style);
+root.removeChild (style);
 
-})();
+}) ();
 
-// Properties that accept properties as their value
+// Propriétés qui acceptent les propriétés comme valeur
 self.valueProperties = [
 	'transition',
-	'transition-property'
+	'propriété de transition'
 ]
 
-// Add class for current prefix
-root.className += ' ' + self.prefix;
+// Ajouter une classe pour le préfixe actuel
+root.className + = '' + self.prefix;
 
-StyleFix.register(self.prefixCSS);
+StyleFix.register (self.prefixCSS);
 
 
-})(document.documentElement);
+}) (document.documentElement);
