@@ -16,36 +16,36 @@ No te preocupes si aparece una advertencia diciendo que 'The Rule is empty'; lo 
 
 ![screenshot](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Ahora puedes añadir una fuente graciosa. Abre una nueva pestaña o ventana. Ve a <a href="http://jumpto.cc/web-fonts" target="_blank">jump.cc/web.fonts</a> y busca por **'bangers'**:
 
 ![captura de pantalla](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Haz clic en el botón + "Select this font":
 
 ![captura de pantalla](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Un mensaje diciendo "1 Family Selected" aparecerá en la parte inferior de la pantalla.
 
 ![captura de pantalla](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Haz clic en el mensaje "1 Family Selected" para abrir la ventana y copiar el código resaltado:
 
 ![screenshot](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Pega el código `<link>` que acabas de copiar de las fuentes Google en el `<head>` de tu página web:
 
 ![captura de pantalla](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Eso te permitirá usar la fuente Bangers en tu página web.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Regrese a las fuentes de Google, desplácese más abajo en la página y copie el código font-family:
 
 ![captura de pantalla](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Ahora vuelve a tu archivo **'style.css'** en trinket y pega el código font-family en el estilo cómic:
 
 ![captura de pantalla](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Prueba tu página web. El resultado debe parecerse con esto: 
 
 ![captura de pantalla](images/letter-fonts-output.png)
