@@ -1,11 +1,11 @@
-## Using Class Styles
+## Usando Estilos de Classes
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ Notas-te o `class=""` nas tags `<span>`? Podes usar este estilo para estilizar mais do que uma coisa da mesma forma.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ Adiciona a classe `magazine1` em algumas dos teus `<span>`.
 
-![screenshot](images/letter-magazine1.png)
+![captura de tela](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ Podes adicionar mais do que uma classe num elemento. Basta por um espaço entre elas. Adiciona a classes `big` a uma das tags `<span>`. Testa a tua página. 
 
 ![screenshot](images/letter-big.png)
