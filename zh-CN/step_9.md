@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: Create Your Own Styles
+## 挑战：创建你自己的样式
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
+现在创建你自己的类样式，让你的神秘信件更有趣。 使用你在以前的项目中学习过的CSS，也可以查看**style.css** 中的示例。
 
-Here's an example:
+下面是一个例子：
 
-![screenshot](images/letter-fonts-challenge3.png)
+![截屏](images/letter-fonts-challenge3.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
+你可以通过单击 trinket 中的 images 选项查看可用的图像。 尝试使用其中一个图像来设置图像背景：
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+如果你有 trinket 账号，你可以上传自己的图片，就像你在“讲故事”项目中做的那样。
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+在 <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> 找到你喜欢的字体并把`<link>` 和 CSS 代码复制到你的 trinket 中。
 
 \--- /challenge \---
