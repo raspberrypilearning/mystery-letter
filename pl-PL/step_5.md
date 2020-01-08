@@ -1,10 +1,10 @@
 \--- wyzwanie \---
 
-## Challenge: Style Your Message
+## Wyzwanie: Wystylizuj swoją wiadomość
 
-Use the provided styles to make your message look like a mystery letter.
+Użyj udostępnionych stylów aby Twoja wiadomość wyglądała jak tajemniczy list.
 
-Add these classes to your `<span>` tags:
+Dodaj te klasy do swoich tagów `<span>`:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,9 +14,9 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+Nie dodawaj więcej niż jednej klasy z danej linii do danego `<span>`.
 
-This is how your letter could look:
+Twój kod powinien wyglądać tak:
 
 ![zrzut ekranu](images/letter-challenge1.png)
 
