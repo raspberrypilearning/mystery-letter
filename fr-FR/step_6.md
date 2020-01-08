@@ -1,25 +1,25 @@
-## Editing Classes
+## Édite tes classes
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Clique sur l'onglet **'style.css'**. Trouve le style de la classe CSS `newspaper` que tu as utilisé.
 
-![screenshot](images/letter-newspaper.png)
+![capture d'écran](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Note qu'il y a un point "." avant le nom de la classe dans le fichier CSS mais qu'il n'existe pas dans la balise `<span>` de ton document HTML.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Examine maintenant les autres classes CSS que tu as utilisées pour personnaliser ta lettre mystère. Peux-tu trouver :
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + Comment le style `magazine1` modifie le texte en le mettant en majuscule.
     
-    + How the `magazine2` style puts an image behind the text.
+    + Comment le style `magazine2` place une image derrière le texte.
 
-![screenshot](images/letter-magazines.png)
+![capture d'écran](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ Que se passe-t-il si tu modifies l'image d'arrière-plan `background-image` pour la classe `magazine2` à `canvas.png` ? Si tu préfères `pink-pattern.png` tu peux le remettre. 
 
-You can also change the colours in the magazine styles if you like.
+Tu peux également modifier les couleurs dans les styles de magazine si tu le souhaites.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Trouve le CSS utilisé pour faire pivoter et incliner tes mots :
 
-![screenshot](images/letter-rotate-skew.png)
+![capture d'écran](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Essaye de changer les nombres pour créer différents effets, puis teste ta page.
