@@ -1,6 +1,6 @@
 ## Wprowadzenie
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+W tym projekcie stworzysz tajemniczy list, który wygląda, jakby każde słowo zostało wycięte z innej gazety, czasopisma, komiksu lub innego źródła.
 
 ![zrzut ekranu](images/letter-final.png)
 
@@ -14,19 +14,19 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 ## Wprowadzenie:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+W tym projekcie wprowadzamy dzieciom klasy CSS. Używają one wielu klas CSS do stylizowania tekstu, a także uczą się, jak używać obrazów tła i darmowych czcionek Google w swoich projektach.
 
 ## Zasoby Online
 
 Do pisania kodu HTML i CSS online rekomendujemy użytkowanie edytora [trinket](https://trinket.io/). Do tego projektu udostępnione są następujące szablony:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* [Punkt wyjścia „Tajemniczy list” -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Dzieci mogą też używać pustego edytora [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) do pisania swojego kodu HTML i CSS lub skorzystać z tego szablonu [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 Dostępny jest także projekt zawierający przykładowe rozwiązania wyzwań:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* [„Ukończony Tajemniczy list”' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Zasoby Offline
 
@@ -36,7 +36,7 @@ Ten projekt można także [wykonać offline](https://www.codeclubprojects.org/en
 * mystery-letter/style.css
 * mystery-letter/script.js
 * mystery-letter/prefixfree.js
-* mystery-letter/4 x .png images
+* obrazy mystery-letter/4 x .png
 * template/template.html
 * template/style.css
 
@@ -46,14 +46,14 @@ Ukończoną wersję zadań z tego projektu można również znaleźć w sekcji "
 * mystery-letter-finished/style.css
 * mystery-letter-finished/script.js
 * mystery-letter-finished/prefixfree.js
-* mystery-letter-finished/4 x .png images
+* obrazy mystery-letter-finished/4 x .png
 
 (Wszystkie powyższe zasoby można również pobrać jako pliki `.zip`.)
 
 ## Cele dydaktyczne
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* Ten projekt wprowadza do klas CSS i umiejętności stylizowania elementów HTML z wieloma klasami.
+* Wprowadzone są też obrazy tła i czcionki Google. 
 
 Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
@@ -61,9 +61,9 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 ## Zadania
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* “Stylizuj Twoją wiadomość” - Zastosuj udostępnione klasy stylów CSS;
+* “Utwórz styl wydruku komputerowego” - Użyj CSS do utworzenia przykładowej klasy przy użyciu obrazu tła i czcionki Google. 
+* "Utwórz swoje własne style" - Użyj CSS do tworzenia nowych stylów.
 
 \--- /collapse \---
 
@@ -74,7 +74,7 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 ## Zasoby projektu
 
 * [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
+* [Trinket online zawierający wszystkie materiały do projektu "Tajemniczy List"](http://jumpto.cc/web-letter)
 * [Pusty szablon Trinket](http://jumpto.cc/trinket-template)
 * [Pusty Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
