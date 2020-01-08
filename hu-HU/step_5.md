@@ -1,23 +1,23 @@
-\--- challenge \---
+\--- kihívás \---
 
-## Challenge: Style Your Message
+## Kihívás: stílusosítsa az üzenetet
 
-Use the provided styles to make your message look like a mystery letter.
+Használja a mellékelt stílusokat, hogy üzenete rejtélyes levélnek tűnjön.
 
-Add these classes to your `<span>` tags:
+Adja hozzá ezeket az osztályokat a `<span>` címkékhez:
 
-+ `newspaper`, `magazine1`, `magazine2`
++ `újság`, `magazin1`, `magazin2`
 
-+ `medium`, `big`, `reallybig`
++ `közepes`, `nagy`, `valóban nagy`
 
-+ `rotateleft`, `rotateright`
++ `forgó balra`, `forgó helyzetben`
 
-+ `skewleft`, `skewright`
++ `balra`, `balra`
 
-Don't add more than one from each line to a particular `<span>`.
+Ne adjon hozzá egynél többet egy sorból egy adott `<span>`.
 
-This is how your letter could look:
+Így nézhet ki a levele:
 
 ![screenshot](images/letter-challenge1.png)
 
-\--- /challenge \---
+\--- / challenge \---
