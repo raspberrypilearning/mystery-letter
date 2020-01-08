@@ -6,13 +6,13 @@ Mesajınızın gizemli bir mektup gibi görünmesini sağlamak için verilen sti
 
 Bu sınıfları `<span>` etiketlerinize ekleyin:
 
-+ `gazete`, `dergi1`, `dergi2`
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `orta`, `buyuk`, `cokbuyuk`
++ `medium`, `big`, `reallybig`
 
-+ `soladondur`, `sagadondur`
++ `rotateleft`, `rotateright`
 
-+ `solaeg`, `sagaeg`
++ `skewleft`, `skewright`
 
 Bir `<span>` içine her satırdaki sınıflardan sadece bir tanesini ekle.
 
