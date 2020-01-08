@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## 挑战：设置你的信息样式
 
-Use the provided styles to make your message look like a mystery letter.
+使用提供的样式使你的消息看起来像一封神秘信件。
 
-Add these classes to your `<span>` tags:
+添加这些类到你的`<span>`标签：
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,10 +14,10 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+不要在每行中向一个特定的`<span>`添加一个以上。
 
-This is how your letter could look:
+你的信件可以是这样的：
 
-![screenshot](images/letter-challenge1.png)
+![截屏](images/letter-challenge1.png)
 
 \--- /challenge \---
