@@ -4,9 +4,9 @@
 
 ![Screenshot](images/letter-newspaper.png)
 
-+ Beachte dass in der CSS-Datei ein Punkt '.' vor dem Klassennamen steht, nicht aber im `<span>`-Tag im HTML-Dokument.
++ Beachte, dass in der CSS-Datei ein Punkt '.' vor dem Klassennamen steht, nicht aber im `<span>`-Tag im HTML-Dokument.
 
-+ Jetzt schau dir die anderen CSS-Klassen an die du benutzt hast um deinen geheimnisvollen Brief zu gestalten. Kannst du folgendes herausfinden:
++ Jetzt schau dir die anderen CSS-Klassen an, die du benutzt hast, um deinen geheimnisvollen Brief zu gestalten. Kannst du Folgendes herausfinden:
     
     + Wie der `magazine1`-Stil den Text in lauter Großbuchstaben verwandelt.
     
@@ -18,8 +18,8 @@
 
 Wenn du möchtest, kannst du auch die Farben in den magazine-Stilen verändern.
 
-+ Finde das CSS das verwendet wurde um deine Wörter zu drehen oder zu kippen:
++ Finde das CSS, das verwendet wurde, um deine Wörter zu drehen oder zu kippen:
 
 ![Screenshot](images/letter-rotate-skew.png)
 
-Versuche die Zahlen zu ändern um verschiedene Effekte zu erzeugen und teste dann deine Seite.
+Versuche die Zahlen zu ändern, um verschiedene Effekte zu erzeugen und teste dann deine Seite.
