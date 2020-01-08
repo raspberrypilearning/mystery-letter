@@ -2,7 +2,7 @@
 
 + `<span>` etiketleri içinde `class=""` kısmını fark ettiniz mi? Bunu birden fazla şeyi aynı şekilde stillendirmek için kullanabilirsiniz.
 
-+ `dergi1` sınıfını birkaç tane `<span>` etiketine ekleyin ve web sayfanızı test edin.
++ `magazine1` sınıfını birkaç tane `<span>` etiketine ekleyin ve web sayfanızı test edin.
 
 ![ekran görüntüsü](images/letter-magazine1.png)
 
