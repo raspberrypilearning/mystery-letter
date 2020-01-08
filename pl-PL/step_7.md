@@ -1,51 +1,51 @@
-## Create a New Class
+## Tworzenie nowej klasy
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+Stwórzmy styl, który wygląda jakby został wycięty z komiksu. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> dostarcza mnóstwo czcionek, z których można korzystać bezpłatnie.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ Dodaj klasę `comic` w pliku **style.css**. Miejsce za `magazine2` będzie odpowiednie. Nie zapomnij o kropce przed nazwą klasy. 
 
 ![zrzut ekranu](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+Nie martw się, jeśli pojawi się ostrzeżenie 'The Rule is empty' (Reguła jest pusta); naprawisz to później.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Teraz dodaj jakiś styl CSS do komiksowej klasy CSS. Możesz użyć różnych kolorów jeśli chcesz. Mnóstwo kolorów znajdziesz w <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![zrzut ekranu](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Użyj komiksowego stylu w niektórych tagach `<span>` w swoim dokumencie HTML i przetestuj swoją stronę:
 
 ![zrzut ekranu](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Teraz możesz dodać zabawną czcionkę. Otwórz nową kartę lub okno przeglądarki. Przejdź do strony <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> i wyszukaj **"bangers”**:
 
 ![zrzut ekranu](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Kliknij przycisk + "Select this font" (Dodaj tą czcionkę):
 
 ![zrzut ekranu](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Na dole ekranu pojawi się wiadomość "1 Family Selected".
 
 ![zrzut ekranu](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Kliknij na komunikat „1 Family Selected", aby otworzyć okno i skopiować podświetlony kod:
 
 ![zrzut ekranu](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Wklej kod `<link>`, który właśnie skopiowałeś z czcionek Google, do sekcji `<head>` swojej strony:
 
 ![zrzut ekranu](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Dzięki temu możesz używać czcionki Bangers na swojej stronie.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Wróć do czcionek Google, przewiń stronę w dół i skopiuj kod rodziny czcionek font-family:
 
 ![zrzut ekranu](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Teraz wróć do pliku **„style.css”** w trinkecie i wklej kod font-family do stylu komiksowego (comic):
 
 ![zrzut ekranu](images/letter-fonts-comic.png)
 
-+ Przetestuj swoją stronę. The result should look something like this: 
++ Przetestuj swoją stronę. Efekt powinien być taki jak poniżej: 
 
 ![zrzut ekranu](images/letter-fonts-output.png)
