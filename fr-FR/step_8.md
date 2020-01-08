@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## Défi: Créer un style Écran d'ordinateur
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+Crée un style d'affichage Ordinateur à l'ancienne et applique-le à certains mots :
 
-![screenshot](images/letter-fonts-printout.png)
+![capture d'écran](images/letter-fonts-printout.png)
 
-You will need:
+Tu auras besoin de :
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ La police de caractères `VT323` à partir du site <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Reviens à l'étape 5 si tu as besoin d'un rappel sur l'utilisation des polices de caractères Google.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
++ L'image `ordinateur-printout-paper.png`. Reviens à l'étape 4 si tu as besoin d'un rappel pour utiliser des images d'arrière-plan.
 
 \--- /challenge \---
