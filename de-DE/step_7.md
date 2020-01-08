@@ -1,6 +1,6 @@
 ## Eine neue Klasse erstellen
 
-Lass uns einen Stil erstellen der so aussieht als wäre etwas aus einem Comic herausgeschnitten worden. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> bietet viele Schriftarten die du kostenlos nutzen kannst.
+Lass uns einen Stil erstellen, der so aussieht, als wäre etwas aus einem Comic herausgeschnitten worden. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> bietet viele Schriftarten die du kostenlos nutzen kannst.
 
 + Füge eine `comic` Klasse in die **style.css** Datei ein. Nach `magazine2` ist ein guter Platz. Vergiss den Punkt vor dem Klassennamen nicht. 
 
@@ -28,7 +28,7 @@ Am unteren Bildschirmrand wird eine Nachricht erscheinen: "1 Family Selected".
 
 ![Screenshot](images/letter-gfonts-3.png)
 
-+ Klicke auf die "1 Family Selected" Nachricht um das Fenster zu öffnen und kopiere den hervorgehobenen Code:
++ Klicke auf die "1 Family Selected" Nachricht, um das Fenster zu öffnen und kopiere den hervorgehobenen Code:
 
 ![Screenshot](images/letter-gfonts-4.png)
 
