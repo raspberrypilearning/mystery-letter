@@ -6,7 +6,7 @@ En este proyecto crearás una carta misteriosa en la cual cada palabra ha sido r
 
 ### Información adicional para líderes de club
 
-Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Si necesita imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
 ## \--- collapse \---
 
@@ -14,17 +14,17 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 ## Introducción:
 
-En este proyecto los niños serán introducidos al concepto de clases en CSS. Ellos usarán clases en CSS para diseñar textos y también aprenderán a usar imágenes de fondo y fuentes gratis de Google en sus proyectos.
+En este proyecto los niños serán introducidos al concepto de categorías o clases en CSS. Ellos usarán categorías en CSS para diseñar textos y también aprenderán a usar imágenes de fondo y fuentes gratis de Google en sus proyectos.
 
 ## Recursos en línea
 
-Se recomienda el uso de [trinket](https://trinket.io/) para escribir HTML & CSS en línea. Este proyecto hace uso del siguiente trinket:
+Se recomienda el uso de [trinket](https://trinket.io/) para escribir HTML & CSS en línea. Este proyecto usa el siguiente trinket:
 
 * ['Carta Misteriosa' punto de partida -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Los niños también pueden hacer uso de esta baratija en blanco [ (jumpto.cc/html-blank) ](http://jumpto.cc/html-blank) para escribir su propio HTML & CSS, o alternativamente pueden usar este trinket plantilla [ (jumpto.cc/html-template) ](http://jumpto.cc/html-template).
+Los niños también pueden hacer uso de este trinket en blanco [ (jumpto.cc/html-blank) ](http://jumpto.cc/html-blank) para escribir su propio HTML & CSS, o alternativamente pueden usar este trinket plantilla [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-También hay una baratija que contiene una solución de muestra para los desafíos:
+También hay un trinket que contiene una solución de muestra para los desafíos:
 
 * ['Carta Misteriosa Terminada' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
@@ -52,10 +52,10 @@ También puede encontrar una versión completa de los desafíos de este proyecto
 
 ## Objetivos del Aprendizaje
 
-* Este proyecto introduce a clases en CSS y la habilidad de diseñar elementos en HTML con multiples clases.
+* Este proyecto introduce a categorías en CSS y a la habilidad de diseñar elementos en HTML con multiples categorías.
 * Imágenes de fondo y fuentes de Google son también presentadas. 
 
-Este proyecto incluye elementos desde los siguientes aspectos del [curríulo de digitalización de Raspberry Pi](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes contenidos del [curríulo de digitalización de Raspberry Pi](http://rpf.io/curriculum):
 
 * [Diseño de elementos básicos en 2D y 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
