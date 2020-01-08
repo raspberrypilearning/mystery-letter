@@ -1,25 +1,25 @@
-## Editing Classes
+## Editarea claselor
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Dă click pe tab-ul **„style.css”**. Găsește stilul pentru clasa CSS `newspaper` pe care ai folosit-o.
 
-![screenshot](images/letter-newspaper.png)
+![captură de ecran](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Observă cum există un punct „ . ” înaintea numelui fiecărei clase în fișierul CSS, dar nu și în eticheta `<span>` din documentul tău HTML.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Acum uită-te la celelalte clase CSS pe care le-ai folosit pentru a-ți stiliza scrisoarea misteriosă. Poți să găsești:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + Cum stilul `magazine1` schimbă textul în majuscule (litere mari).
     
-    + How the `magazine2` style puts an image behind the text.
+    + Cum stilul `magazine2` pune o imagine înaintea textului.
 
-![screenshot](images/letter-magazines.png)
+![captură de ecran](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ Ce se întâmplă dacă schimbi `background-image` pentru `magazine2` în `canvas.png`? Dacă preferi `pink-pattern.png` poți să îl schimbi înapoi. 
 
-You can also change the colours in the magazine styles if you like.
+Poți schimba și culorile în stilurile magazine dacă dorești.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Găsește codul CSS folosit pentru a roti și înclina literele tale:
 
-![screenshot](images/letter-rotate-skew.png)
+![captură de ecran](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Încearcă să schimbi numerele pentru a crea diferite efecte, iar apoi testează-ți pagina.
