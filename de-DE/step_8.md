@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Herausforderung: Erstelle einen Stil der wie vom Computer ausgedruckt aussieht
+## Herausforderung: Erstelle einen Stil, der wie vom Computer ausgedruckt aussieht
 
 Erstelle einen Stil wie ein altmodischer Computer-Ausdruck und wende ihn auf einige Wörter an:
 
