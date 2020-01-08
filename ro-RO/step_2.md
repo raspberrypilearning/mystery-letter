@@ -1,7 +1,7 @@
-## Choose Your Message
+## Alegerea mesajului tău
 
-Mystery letters are used in films and books to send secret messages.
+Scrisorile misterioase sunt folosite în filme și cărți pentru a trimite mesaje secrete.
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ Gândește-te la un mesaj misterios; 12 cuvinte are lungimea perfectă. Dacă nu te poți gândi la un mesaj, poți să folosești exemplu: „Următorul tău indiciu este în seif. Codul este 65536.”
 
-+ Either make a note of your message or remember it.
++ Notează-ți mesajul sau memorează-l.
