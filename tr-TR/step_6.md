@@ -8,13 +8,13 @@
 
 + Şimdi gizemli mektubunuza stil vermek için kullandığınız diğer CSS sınıflarına bakın. Şunları bulabilir misin:
     
-    + `dergi1` stilinin metnin tamamını nasıl tüm büyük harflere dönüştürdüğünü.
+    + `magazine1` stilinin metnin tamamını nasıl tüm büyük harflere dönüştürdüğünü.
     
-    + `dergi2` stilinin metnin tamamını nasıl tüm büyük harflere dönüştürdüğünü.
+    + `magazine2` stilinin nasıl metnin arkasına bir resim koyduğunu.
 
 ![ekran görüntüsü](images/letter-magazines.png)
 
-+ `dergi2` için `background-image` kısmını `canvas.png` ile değiştirirseniz ne olur? `pink-pattern.png` tercih ederseniz, geri değiştirebilirsiniz. 
++ `magazine2` için `background-image` kısmını `canvas.png` ile değiştirirseniz ne olur? `pink-pattern.png` tercih ederseniz, geri değiştirebilirsiniz. 
 
 İsterseniz dergi stillerindeki renkleri de değiştirebilirsiniz.
 
