@@ -1,82 +1,82 @@
-## Introduction
+## 简介
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+在这个项目中，你将创建一封神秘信件，看起来每个单词都是从不同的报纸、杂志、漫画或其他地方剪下来的。
 
-![screenshot](images/letter-final.png)
+![截屏](images/letter-final.png)
 
-### Additional information for club leaders
+### 俱乐部导师的附加信息
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+如果您需要打印此项目，请使用[合适打印版本](https://projects.raspberrypi.org/en/projects/mystery-letter/print) 。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: 俱乐部导师说明
 
-## Introduction:
+## 介绍：
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+在这个项目中，介绍了CSS的类。 学习使用多个CSS类来设计文本的样式，并学习如何在项目中使用背景图像和免费的谷歌字体。
 
-## Online Resources
+## 在线资源
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+我们推荐使用[trinket](https://trinket.io/) 来在线完成 HTML & CSS 的代码。 这个项目包括以下 trinket：
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* [“神秘信件” 的开始部分 -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+孩子们也可以用这个空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 来编写自己的 HTML & CSS，或者他们可以用 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。
 
-There is also a trinket containing a sample solution to the challenges:
+以下的trinket代码包含编写挑战的示范解决方案：
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* [“完成的神秘信件” -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## 离线资源
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+如有需要，本项目可以[离线完成](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/)。 你可以点击本项目的“项目资料”链接访问项目资源。 这个链接包含一个 “项目资源” 部分，里面有孩子们完成该项目所需的离线资源。 请确保每个孩子都可以访问这些资源。 这部分包含如下文件：
 
 * mystery-letter/index.html
 * mystery-letter/style.css
 * mystery-letter/script.js
 * mystery-letter/prefixfree.js
-* mystery-letter/4 x .png images
+* mystery-letter/4 x .png 图像
 * template/template.html
 * template/style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+你也可以在 “志愿者资源'”部分找到该项目挑战的完整版本，里面包含：
 
 * mystery-letter-finished/index.html
 * mystery-letter-finished/style.css
 * mystery-letter-finished/script.js
 * mystery-letter-finished/prefixfree.js
-* mystery-letter-finished/4 x .png images
+* mystery-letter-finished/4 x .png 图像
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(上述所有资源均可下载为项目和志愿者`.zip`文件。)
 
-## Learning Objectives
+## 学习目标
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* 这个项目介绍了CSS类和使用多个类来设计HTML元素样式的能力。
+* 也介绍了背景图像和谷歌字体。 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+本项目涵盖[Raspberry Pi数字制作课程](http://rpf.io/curriculum)的如下几方面内容：
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [设计基本的 2D 和 3D 资源](https://www.raspberrypi.org/curriculum/design/creator) 。
 
-## Challenges
+## 挑战
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* “设计消息的样式”——应用提供的CSS类样式；
+* “创建一个计算机打印输出样式”——使用CSS重新创建一个使用背景图像和谷歌字体的示例类。 
+* “创建自己的样式”——使用CSS创建新样式。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: 项目资源
 
-## Project resources
+## 项目资源
 
-* [.zip file containing all project resources](resources/letter-project-resources.zip)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
+* [包含所有项目资源的.zip文件](resources/letter-project-resources.zip)
+* [包含所有“神秘信件”项目资源的在线Trinket](http://jumpto.cc/web-letter)
+* [在线 Trinket 模板](http://jumpto.cc/trinket-template)
+* [在线空白 Trinket 项目](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
@@ -87,10 +87,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Club leader resources
+## 俱乐部导师资源
 
-* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
-* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
+* [包含所有完成项目资源的.zip文件](resources/letter-volunteer-resources.zip)
+* [在线已完成的Trinket项目](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
 * [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
