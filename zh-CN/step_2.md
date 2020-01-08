@@ -1,7 +1,7 @@
-## Choose Your Message
+## 选择你的消息
 
-Mystery letters are used in films and books to send secret messages.
+在电影和书籍中，神秘信件被用来传递秘密信息。
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ 想一条神秘消息；12个字大概是合适的长度。 如果你想不出一条信息，你可以用这个例子：“你的下一条线索在保险柜里。 密码是65536。”
 
-+ Either make a note of your message or remember it.
++ 要么写下你的消息，要么记住它。
