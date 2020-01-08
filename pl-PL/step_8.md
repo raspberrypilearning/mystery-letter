@@ -1,15 +1,15 @@
-\--- wyzwanie \---
+\--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## Wyzwanie: Utwórz styl wydruku komputerowego
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+Utwórz staromodny styl wydruku komputerowego i zastosuj go do niektórych słów:
 
 ![zrzut ekranu](images/letter-fonts-printout.png)
 
-You will need:
+Będziesz potrzebować:
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ Rodzinę czcionek `VT323` z <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Wróć do kroku 5, jeśli potrzebujesz przypomnienia jak używać czcionki Google.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
++ Obraz tła `computer-printout-paper.png`. Wróć do kroku 4, jeśli potrzebujesz przypomnienia jak używać obrazy tła.
 
 \--- /challenge \---
