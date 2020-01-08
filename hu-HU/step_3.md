@@ -1,21 +1,21 @@
-## Editing Your Message
+## Az üzenet szerkesztése
 
-Let's get your message onto a webpage.
+Tegyük az üzenetét egy weboldalra.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Nyissa meg ezt az csecsebecsét: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    A projektnek így kell kinéznie:
     
     ![screenshot](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ A `<p>` bekezdést a „Happy Birthday” projekt vezette be. A `<span>` címkét kisebb szövegrészek csoportosítására használják egy bekezdésben, hogy stílusokat alakítsunk ki.
 
 ![screenshot](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ Cserélje ki a szavakat az üzenetre úgy, hogy minden szót egy-egy `<span>`-be ír. `<span>` címkét kell hozzáadnia vagy eltávolítania, ha az üzenet más hosszú. 
 
 ![screenshot](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ Kattintson a Futtatás gombra az csecsebecsének teszteléséhez.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    Ha megnézi a szavakat, láthatja, hogy azok úgy lett kialakítva, hogy úgy nézzenek ki, mint az oldal.
