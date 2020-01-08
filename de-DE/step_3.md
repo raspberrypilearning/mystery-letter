@@ -18,4 +18,4 @@ Bringen wir deine Nachricht auf eine Webseite.
 
 + Klicke auf "Run", um dein Trinket zu testen.
     
-    Wenn du dir die Wöter ansiehst, kannst du sehen dass sie so gestaltet wurden als wären sie auf die Seite geklebt worden.
+    Wenn du dir die Wörter ansiehst, kannst du sehen, dass sie so gestaltet wurden, als wären sie auf die Seite geklebt worden.
