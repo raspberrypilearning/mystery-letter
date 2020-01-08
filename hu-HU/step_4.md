@@ -1,11 +1,11 @@
-## Using Class Styles
+## Osztálystílusok használata
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ Észrevetted a `class = ""` et a `<span>` címkékben? Ezt felhasználhatja egynél több dolog azonos stílusú kialakítására.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ Adja hozzá a `magazin1` osztályt néhány `<span>` címkéhez, és tesztelje weboldalát.
 
 ![screenshot](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ Egy elemhez egynél több osztályt is felvehet. Csak hagyjon szóközt a között. Adja hozzá a `nagy` osztályt a `<span>` címkék egyikéhez. Tesztelje az oldalt. 
 
 ![screenshot](images/letter-big.png)
