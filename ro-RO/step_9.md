@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: Create Your Own Styles
+## Provocare: creează-ți propriile stiluri
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
+Acum, creează-ți propriile clase de stiluri și fă-ți scrisoarea misterioasă și mai interesantă. Folosește codul CSS pe care l-ai învățat în proiectele anterioare și uită-te în exemplele din **style.css** pentru idei.
 
-Here's an example:
+Iată un exemplu:
 
-![screenshot](images/letter-fonts-challenge3.png)
+![captură de ecran](images/letter-fonts-challenge3.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
+Poți vedea că imaginile care sunt disponibile pentru utilizare dânt click pe tab-ul Images din trinket. Încearcă să setezi imagini de fundal folosing una dintre imaginile incluse:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+Dacă au un cont trinket, poți încărca singur imaginile dorite ca și în proiectul „Spune o poveste”.
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+Găsește fonturi care îți plac pe <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> și copiază codul `<link>` și CSS-ul în trinket-ul tău pentru a le folosi.
 
 \--- /challenge \---
