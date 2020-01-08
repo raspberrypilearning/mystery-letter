@@ -2,7 +2,7 @@
 
 Bir çizgi romandan kesilmiş gibi görünen bir stil yaratalım. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> , kullanımı ücretsiz yazı tiplerini sağlar.
 
-+ **style.css** dosyasına `cizgiroman` sınıfı ekleyin. `dergi2`'den sonrası iyi bir yer. Sınıf adının önündeki noktayı unutma. 
++ **style.css** dosyasına `cizgiroman` sınıfı ekleyin. `magazine2`'den sonrası iyi bir yer. Sınıf adının önündeki noktayı unutma. 
 
 ![ekran görüntüsü](images/letter-comic1.png)
 
