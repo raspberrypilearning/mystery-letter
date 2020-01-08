@@ -1,85 +1,85 @@
-span
+envergure
 {
 	display: inline-block; 
-	margin: 8px; 
-	box-shadow: 1px 2px 2px grey; 
+	padding: 8px; 
+	boîte-ombre: 1px 2px 2px grey; 
 }
 
 body {
  	background-color: white;
 	padding: 30px;
-	max-width: 450px;
-	margin: auto;
+	largeur maximale: 450px;
+	marge: auto;
 }
 
-.newspaper {
-	background-color: antiquewhite;
+.journal {
+	couleur de fond: antiquewhite;
 	font-family: "Times New Roman";
-	font-weight: bold;
+	poids de police: gras;
 }
 
-.magazine1  {
- 	background-color: teal;
- 	color:white;
+.magazine1 {
+ 	couleur de fond: sarcelle;
+ 	Couleur blanche;
  	font-family: Verdana;
-	font-weight: 900;
-	text-transform: uppercase; 
+	poids de police: 900;
+	text-transform: majuscule; 
 }
 
 .magazine2 {
-	background-image: url('pink-pattern.png');
-  	color: fuchsia;
+	background-image: url ('pink-pattern.png');
+  	couleur: fuchsia;
   	font-family: Verdana;
-	font-weight: 900;
+	poids de police: 900;
 }
 
-.comic {
- 	background-color: yellow;
-  	color: red;
-  	font-weight: bold;
+.bande dessinée {
+ 	couleur de fond: jaune;
+  	La couleur rouge;
+  	poids de police: gras;
 }
 
-.manuscript {
-	background-image: url('rough-paper.png');
-	color: saddlebrown;
-	font-family: 'Italianno', cursive;
-	font-style: italic;
+.manuscrit {
+	background-image: url ('rough-paper.png');
+	couleur: poil brun;
+	famille de polices: 'Italianno', cursive;
+	style de police: italique;
 }
 
-.printout {
-	background-image: url('computer-printout-paper.png');
+.imprimer {
+	background-image: url ('computer-printout-paper.png');
 	color: black;
-	font-family: 'VT323', sans-serif;
-	font-size: larger;
+	famille de polices: 'VT323', sans-serif;
+	taille de police: plus grande;
 }
 
-.medium {
+.moyen {
 	font-size: 15px;
 	padding: 6px;
 }
 
-.big {
+.gros {
 	font-size: 20px;
 	padding: 8px;
 }
 
-.reallybig {
+.vraiment gros {
 	font-size: 30px;
 	padding: 10px;
 }
 
-.rotateleft {
-	transform: rotate(-5deg);
+.tourne à gauche {
+	transformer: faire pivoter (-5deg);
 }
 
-.rotateright {
+.tourner à droite {
 	transform: rotate(5deg);
 }
 
 .skewleft {
-	transform: skewX(10deg);
+	transformer: skewX (10deg);
 }
 
 .skewright {
-	transform: skewX(-10deg);
+	transformer: skewX (-10deg);
 }
