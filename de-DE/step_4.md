@@ -1,6 +1,6 @@
 ## Klassenstile Verwenden
 
-+ Hast du das `class=""` in den `<span>`-Tags bemerkt? Du kannst das dazu benutzen mehr als eine Sache auf die gleiche Weise zu gestalten.
++ Hast du das `class=""` in den `<span>`-Tags bemerkt? Du kannst das dazu benutzen, mehr als eine Sache auf die gleiche Weise zu gestalten.
 
 + Füge die `magazine1`-Klasse zu einigen deiner `<span>`-Tags hinzu und teste deine Webseite.
 
