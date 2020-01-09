@@ -6,7 +6,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-title: Mystery Letter
+title: 수수께끼 편지
 description: 여러 스타일로 꾸며진 수수께끼 편지를 만들어 봅시다!
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
@@ -17,7 +17,7 @@ software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
-  - title: 들어가며
+  - title: 소개
   - title: 비밀 메시지 고르기
   - title: 메시지 수정하기
   - title: 클래스(class) 스타일 사용하기
