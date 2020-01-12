@@ -1,6 +1,6 @@
 ## Usar estilos Class
 
-+ Reparaste en la `class=""` en las etiquetas `<span>`? Puedes usarla para diseñar más de una cosa de la misma manera.
++ ¿Reparaste en la `class=""` en las etiquetas `<span>`? Puedes usarlas para diseñar más de una cosa de la misma manera.
 
 + Añade la clase `magazine1` a algunas de tus etiquetas `<span>` y prueba tu página web.
 
