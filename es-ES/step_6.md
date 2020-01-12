@@ -14,7 +14,7 @@
 
 ![captura de pantalla](images/letter-magazines.png)
 
-+ Que ocurre si cambias `background-image` por `canvas.png` en `magazine2`? Si prefieres puedes usar en lugar `pink-pattern.png`. 
++ ¿Que ocurre si cambias `background-image` por `canvas.png` en `magazine2`? Si prefieres puedes usar en lugar `pink-pattern.png`. 
 
 Puedes también cambiar el color en el estilo magazine si prefieres.
 
@@ -22,4 +22,4 @@ Puedes también cambiar el color en el estilo magazine si prefieres.
 
 ![captura de pantalla](images/letter-rotate-skew.png)
 
-Intenta cambiando los números para crear diferentes efectos y después verifica tu página.
+Intenta cambiar los números para crear diferentes efectos y después verifica tu página.
