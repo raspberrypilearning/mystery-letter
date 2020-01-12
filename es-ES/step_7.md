@@ -14,7 +14,7 @@ No te preocupes si aparece una advertencia diciendo que 'The Rule is empty'; lo 
 
 + Usa el estilo historieta en alguna de las etiquetas `<span>` en tu documento HTML y verifica tu página:
 
-![screenshot](images/letter-comic-output.png)
+![captura de pantalla](images/letter-comic-output.png)
 
 + Ahora puedes añadir una fuente graciosa. Abre una nueva pestaña o ventana. Ve a <a href="http://jumpto.cc/web-fonts" target="_blank">jump.cc/web.fonts</a> y busca por **'bangers'**:
 
@@ -30,7 +30,7 @@ Un mensaje diciendo "1 Family Selected" aparecerá en la parte inferior de la pa
 
 + Haz clic en el mensaje "1 Family Selected" para abrir la ventana y copiar el código resaltado:
 
-![screenshot](images/letter-gfonts-4.png)
+![captura de pantalla](images/letter-gfonts-4.png)
 
 + Pega el código `<link>` que acabas de copiar de las fuentes Google en el `<head>` de tu página web:
 
@@ -38,7 +38,7 @@ Un mensaje diciendo "1 Family Selected" aparecerá en la parte inferior de la pa
 
 Eso te permitirá usar la fuente Bangers en tu página web.
 
-+ Regrese a las fuentes de Google, desplácese más abajo en la página y copie el código font-family:
++ Regresa a las fuentes de Google, desplázate más abajo en la página y copia el código font-family:
 
 ![captura de pantalla](images/letter-fonts-bangers.png)
 
