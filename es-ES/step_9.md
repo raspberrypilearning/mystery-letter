@@ -1,8 +1,8 @@
-\--- desafío \---
+\--- challenge \---
 
 ## Reto: Crear tus propios estilos
 
-Ahora cree su propio estilo y haga su carta misteriosa aún mas interesante. Use lo aprendido acerca de CSS en proyectos anteriores y revise los ejemplos en **style.css** para ideas.
+Ahora crea tu propio estilo y haz tu carta misteriosa aún más interesante. Usa lo aprendido acerca de CSS en proyectos anteriores y revisa los ejemplos en **style.css** para obtener ideas.
 
 Aquí está un ejemplo:
 
