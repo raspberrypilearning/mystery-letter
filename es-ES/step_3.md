@@ -1,4 +1,4 @@
-## Editando tu mensaje
+## Edita tu mensaje
 
 Pongamos tu mensaje en una página web.
 
