@@ -2,7 +2,7 @@
 
 Vamos a crear un estilo que parezca sacado de una historieta. <a href="http://jumpto.cc/web-fonts" target="_blank">junto.cc/web-fonts</a> contiene un montón de fuentes de libre uso.
 
-+ Adicione la categoría `comic` en el archivo **style.css**. Un buen lugar es después de `magazine2`. No olvide poner el punto en frente del nombre de la categoría. 
++ Añade la categoría `comic` en el archivo **style.css**. Un buen lugar es después de `magazine2`. No olvides poner el punto en frente del nombre de la categoría. 
 
 ![captura de pantalla](images/letter-comic1.png)
 
@@ -12,7 +12,7 @@ No te preocupes si aparece una advertencia diciendo que 'The Rule is empty'; lo 
 
 ![captura de pantalla](images/letter-comic2.png)
 
-+ Use el estilo historieta en alguna de las etiquetas `<span>` en tu documento HTML y verifica tu página:
++ Usa el estilo historieta en alguna de las etiquetas `<span>` en tu documento HTML y verifica tu página:
 
 ![screenshot](images/letter-comic-output.png)
 
