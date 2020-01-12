@@ -1,4 +1,4 @@
-\--- desafío \---
+\--- challenge \---
 
 ## Reto: Cambiar el estilo de tu mensaje
 
@@ -14,10 +14,10 @@ Añade estas clases a tus etiquetas `<span>`:
 
 + `rotateleft`, `rotateright`
 
-No adicione más de una clase de cada linea para un `<span>` en particular.
+No añadas más de una clase de cada línea para un `<span>` en particular.
 
-Así es como tu carta debe lucir:
+Así es como tu carta debe verse:
 
 ![captura de pantalla](images/letter-challenge1.png)
 
-\--- /desafío \---
+\--- /challenge \---
