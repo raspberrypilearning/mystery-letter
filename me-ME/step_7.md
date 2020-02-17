@@ -1,51 +1,51 @@
-## Kreiraj novu klasu
+## Create a New Class
 
-Kreirajmo stil koji izgleda kao da je izrezan iz stripa (comic). Na <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> možeš pronaći veliki broj fontova besplatnih za upotrebu.
+Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
 
-+ Dodaj klasu `comic` u **style.css** datoteku. Poslije `magazine2` je dobro mjesto. Ne zaboravi tačku ispred naziva klase. 
++ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
 
 ![screenshot](images/letter-comic1.png)
 
-Ne brini ako dobiješ upozorenje 'The rule is empty' (Pravilo je prazno); to ćeš uskoro popraviti.
+Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
 
-+ Sada dodaj malo CSS-a u CSS klasu comic. Ako želiš, možeš da koristiš različite boje. Na <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a> možeš naći spisak velikog broja boja.
++ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![screenshot](images/letter-comic2.png)
 
-+ Upotrijebi stil comic u nekoliko `<span>` oznaka u svom HTML dokumentu i provjeri svoju stranicu:
++ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
 
 ![screenshot](images/letter-comic-output.png)
 
-+ Sada možeš da dodaš neki zabavan font. Otvori novu karticu ili prozor pregledača. Idi na <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> i potraži **'bangers'**:
++ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
 
 ![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Klikni na dugme + ''Select this font'' (Odaberi ovaj font):
++ Click on the + "Select this font" button:
 
 ![screenshot](images/letter-gfonts-2-annotated.png)
 
-Na dnu ekrana pojaviće se poruka "1 Family Selected".
+A message saying "1 Family Selected" will appear at the bottom on the screen.
 
 ![screenshot](images/letter-gfonts-3.png)
 
-+ Klikni na poruku "1 Family Selected" da se otvori prozor i kopiraj označeni kôd:
++ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
 
 ![screenshot](images/letter-gfonts-4.png)
 
-+ Unesi kôd `<link>` kopiran iz Google fonts u `<head>` svoje veb-stranice:
++ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
 
 ![screenshot](images/letter-fonts-head.png)
 
-To će ti omogućiti da koristiš font Bangers na svojoj veb-stranici.
+This allows you to use the Bangers font in your webpage.
 
-+ Vrati se na Google fonts, pomjeri sadržaj stranice nadolje i kopiraj sljedeći 'font-family' kôd:
++ Return to Google fonts and scroll further down the page and copy the font-family code:
 
 ![screenshot](images/letter-fonts-bangers.png)
 
-+ Sada se vrati u svoju **'style.css'** datoteku u trinketu i prenesi kopirani 'font-family' kôd u stil comic:
++ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
 
 ![screenshot](images/letter-fonts-comic.png)
 
-+ Isprobaj svoju veb-stranicu. Rezultat bi trebalo da izgleda slično ovome: 
++ Test your webpage. The result should look something like this: 
 
 ![screenshot](images/letter-fonts-output.png)
