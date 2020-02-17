@@ -4,9 +4,9 @@ Let's get your message onto a webpage.
 
 + Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    परियोजना इस तरह दिखनी चाहिए:
+    The project should look like this:
     
-    ![स्क्रीनशॉट](images/letter-starter.png)
+    ![screenshot](images/letter-starter.png)
 
 + The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
@@ -14,7 +14,7 @@ Let's get your message onto a webpage.
 
 + Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
-![स्क्रीनशॉट](images/letter-message.png)
+![screenshot](images/letter-message.png)
 
 + Click the Run button to test your trinket.
     
