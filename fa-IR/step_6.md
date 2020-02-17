@@ -1,25 +1,25 @@
-## ویرایش کلاس ها
+## Editing Classes
 
-+ با کلیک بر روی **'را ببندید'** تب. سبک را برای کلاس `روزنامه` CSS که از آن استفاده کرده اید پیدا کنید.
++ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
 
-![تصویری](images/letter-newspaper.png)
+![screenshot](images/letter-newspaper.png)
 
-+ توجه داشته باشید که یک نقطه (توقف کامل) وجود دارد '.' قبل از نام کلاس در فایل CSS، اما نه در تگ `<span>` در سند HTML شما.
++ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
-+ در حال حاضر به کلاس های CSS دیگر که شما استفاده می کنید به سبک نامه رمز و راز خود را نگاه کنید. می توانید پیدا کنید:
++ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
     
-    + چگونه سبک `magazine1` متن را به تمام حروف بزرگ (capital) تغییر می دهد.
+    + How the `magazine1` style changes the text to all uppercase (capital) letters.
     
-    + چگونه سبک `magazine2` یک تصویر را پشت متن قرار می دهد.
+    + How the `magazine2` style puts an image behind the text.
 
-![تصویری](images/letter-magazines.png)
+![screenshot](images/letter-magazines.png)
 
-+ چه اتفاقی می افتد اگر `تصویر زمینه` برای `مجله <code>` تا `canvas.png`؟ اگر شما ترجیح می `صورتی pattern.png` شما می توانید آن را به عقب را تغییر دهید. 
++ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
 
-اگر دوست دارید، میتوانید رنگها را در سبک مجله نیز تغییر دهید.
+You can also change the colours in the magazine styles if you like.
 
-+ CSS مورد استفاده برای چرخاندن و تکان دادن (تکان دادن) کلمات خود را پیدا کنید:
++ Find the CSS used to rotate and skew (tilt) your words:
 
-![تصویری](images/letter-rotate-skew.png)
+![screenshot](images/letter-rotate-skew.png)
 
-سعی کنید شماره ها را تغییر دهید تا اثرات مختلف ایجاد کنید و سپس صفحه خود را آزمایش کنید.
+Try changing the numbers to create different effects and then testing your page.
