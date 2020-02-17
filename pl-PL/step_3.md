@@ -1,4 +1,4 @@
-## Redagowanie Twojej wiadomości
+## Edytowanie Twojej wiadomości
 
 Umieśćmy wiadomość na stronie web.
 
@@ -8,7 +8,7 @@ Umieśćmy wiadomość na stronie web.
     
     ![zrzut ekranu](images/letter-starter.png)
 
-+ Tag paragrafu `<p>` został wprowadzony w projekcie "Wszystkiego Najlepszego". Tag `<span>` jest używany do grupowania małych fragmentów tekstu aby mogły być wyświetlane w określonym stylu.
++ Tag paragrafu `<p>` został wprowadzony w projekcie "Wszystkiego Najlepszego z okazji urodzin". Tag `<span>` jest używany do grupowania małych fragmentów tekstu aby mogły być wyświetlane w określonym stylu.
 
 ![zrzut ekranu](images/letter-placeholder.png)
 
@@ -18,4 +18,4 @@ Umieśćmy wiadomość na stronie web.
 
 + Kliknij Run, aby przetestować swój kod.
     
-    Jeśli popatrzysz na słowa, zobaczysz że zostały one stylizowane tak, aby wyglądały jakby były przymocowane do strony.
+    Jeśli popatrzysz na słowa, zobaczysz że zostały one wystylizowane tak, aby wyglądały jakby były przymocowane do strony.
