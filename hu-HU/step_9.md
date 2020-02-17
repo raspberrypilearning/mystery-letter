@@ -1,21 +1,21 @@
-\--- kihívás \---
+\--- challenge \---
 
-## Kihívás: Készítse el saját stílusát
+## Challenge: Create Your Own Styles
 
-Most készítse el saját osztálystílusát, és még érdekesebbé tegye a rejtélyt tartalmazó levelet. Használja a korábbi projektekben megismert CSS-t, és ötletekért tekintse meg a **style.css** példákat.
+Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
 
-Íme egy példa:
+Here's an example:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
-A rendelkezésre álló képeket a csecsebecsék Képek fülére kattintva tekintheti meg. Próbáljon meg beállítani a háttérképet a mellékelt képek egyikével:
+You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
 
-+ `durva paper.png`
++ `rough-paper.png`
 
 + `canvas.png`
 
-Ha van csecsebecséje, feltöltheti saját képeit, ahogyan a 'Mondd el egy történetet' projektben.
+If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
 
-Keresse meg a kedvelt betűkészleteket a <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> és másolás céljából másolja a `<link>` és CSS kódot a csecsebecsékbe.
+Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
 
-\--- / challenge \---
+\--- /challenge \---
