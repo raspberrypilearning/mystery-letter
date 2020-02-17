@@ -2,9 +2,9 @@
 
 Let's get your message onto a webpage.
 
-+ Otvori ovaj trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    Projekt bi trebao izgledati ovako:
+    The project should look like this:
     
     ![screenshot](images/letter-starter.png)
 
