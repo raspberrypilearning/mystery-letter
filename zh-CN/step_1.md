@@ -6,7 +6,7 @@
 
 ### 俱乐部导师的附加信息
 
-如果您需要打印此项目，请使用[合适打印版本](https://projects.raspberrypi.org/en/projects/mystery-letter/print) 。
+如果您需要打印此项目，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/mystery-letter/print) 。
 
 ## \--- collapse \---
 
@@ -14,7 +14,7 @@
 
 ## 介绍：
 
-在这个项目中，介绍了CSS的类。 学习使用多个CSS类来设计文本的样式，并学习如何在项目中使用背景图像和免费的谷歌字体。
+在这个项目中，介绍了CSS的类。 他们将学习使用多个CSS类来设计文本的样式，并学习如何在项目中使用背景图像和免费的谷歌字体。
 
 ## 在线资源
 
@@ -22,7 +22,7 @@
 
 * [“神秘信件” 的开始部分 -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-孩子们也可以用这个空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 来编写自己的 HTML & CSS，或者他们可以用 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。
+孩子们也可以用这个空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 来编写自己的 HTML & CSS，或者他们可以用这个 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。
 
 以下的trinket代码包含编写挑战的示范解决方案：
 
