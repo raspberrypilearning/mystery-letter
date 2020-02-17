@@ -1,11 +1,11 @@
-## Menggunakan Gaya Kelas
+## Using Class Styles
 
-+ Apakah Anda memperhatikan `class = ""` dalam tag `<span>`? Anda dapat menggunakan ini untuk menata lebih dari satu hal dengan cara yang sama.
++ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
 
-+ Tambahkan kelas `magazine1` ke beberapa tag `<span>` dan uji halaman web Anda.
++ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
 
-![tangkapan layar](images/letter-magazine1.png)
+![screenshot](images/letter-magazine1.png)
 
-+ Anda dapat menambahkan lebih dari satu kelas ke elemen. Sisakan ruang di antaranya. Tambahkan kelas `besar` ke salah satu dari tag `<span>`. Uji halaman Anda. 
++ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
 
-![tangkapan layar](images/letter-big.png)
+![screenshot](images/letter-big.png)
