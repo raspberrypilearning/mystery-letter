@@ -1,21 +1,21 @@
-## تحرير رسالتك
+## Editing Your Message
 
-دعنا ننقل رسالتك إلى صفحة ويب.
+Let's get your message onto a webpage.
 
-+ افتح مشروع trinket هذا: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    الآن يجب أن يبدو الملف الخاص بك مثل هذا:
+    The project should look like this:
     
-    ![لقطة الشاشة](images/letter-starter.png)
+    ![screenshot](images/letter-starter.png)
 
-+ و `<p>` هو عرض العلامة فقرة في مشروع "عيد ميلاد سعيد". تُستخدم علامة `<span>` لتجميع أجزاء نص أصغر داخل فقرة حتى نتمكن من تصميمها.
++ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
-![لقطة شاشة](images/letter-placeholder.png)
+![screenshot](images/letter-placeholder.png)
 
-+ تغيير الكلمات إلى رسالتك عن طريق وضع كلمة واحدة في كل `<span>`. ستحتاج إلى إضافة أو إزالة علامات `<span>` إذا كانت رسالتك بطول مختلف. 
++ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
-![لقطة شاشة](images/letter-message.png)
+![screenshot](images/letter-message.png)
 
-+ انقر فوق الزر "تشغيل" لاختبار حلية الخاص بك.
++ Click the Run button to test your trinket.
     
-    إذا نظرت إلى الكلمات ، يمكنك أن ترى أنه تم تصميمها لتبدو وكأنها عالقة في الصفحة.
+    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
