@@ -1,85 +1,85 @@
-arasz
+span
 {
-	kijelző: inline-block; 
-	margin: 8 képpont; 
-	box-shadow: 1x 2xx 2xx szürke; 
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
 }
 
-test {
- 	háttér szín: fehér;
-	párnázat: 30 képpont;
-	maximális szélesség: 450 képpont;
+body {
+ 	background-color: white;
+	padding: 30px;
+	max-width: 450px;
 	margin: auto;
 }
 
 .newspaper {
-	háttér szín: antikfehér;
-	betűtípus-család: "Times New Roman";
-	betűsúly: félkövér;
+	background-color: antiquewhite;
+	font-family: "Times New Roman";
+	font-weight: bold;
 }
 
-.magazine1 {
- 	háttér szín: réce;
- 	fehér szín;
- 	betűtípus-család: Verdana;
-	betűsúly: 900;
-	szöveg-transzformáció: nagybetűs; 
+.magazine1  {
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
 }
 
 .magazine2 {
-	háttérkép: url ('pink-pattern.png');
-  	szín: fukszia;
-  	betűtípus-család: Verdana;
-	betűsúly: 900;
+	background-image: url('pink-pattern.png');
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
 }
 
-.komikus {
- 	háttér szín: sárga;
-  	piros szín;
-  	betűsúly: félkövér;
+.comic {
+ 	background-color: yellow;
+  	color: red;
+  	font-weight: bold;
 }
 
 .manuscript {
-	háttérkép: url ('rough-paper.png');
-	szín: nyeregbarna;
-	betűtípus-család: 'Italianno', kurzív;
-	betűtípus: dőlt;
+	background-image: url('rough-paper.png');
+	color: saddlebrown;
+	font-family: 'Italianno', cursive;
+	font-style: italic;
 }
 
-.kinyomtatni {
-	háttérkép: url ('computer-print-paper.png');
-	fekete szín;
-	betűtípus-család: 'VT323', sans-serif;
-	betűméret: nagyobb;
+.printout {
+	background-image: url('computer-printout-paper.png');
+	color: black;
+	font-family: 'VT323', sans-serif;
+	font-size: larger;
 }
 
 .medium {
-	betűméret: 15 képpont;
-	párnázat: 6 képpont;
+	font-size: 15px;
+	padding: 6px;
 }
 
-.nagy {
-	betűméret: 20 képpont;
-	párnázat: 8 képpont;
+.big {
+	font-size: 20px;
+	padding: 8px;
 }
 
-.nagyon nagy {
-	betűméret: 30 képpont;
-	párnázat: 10 képpont;
+.reallybig {
+	font-size: 30px;
+	padding: 10px;
 }
 
-.forgasd balra {
-	transzformáció: forgatás (-5 fok);
+.rotateleft {
+	transform: rotate(-5deg);
 }
 
-.forgasd jobbra {
-	transzformáció: forgatás (5 fok);
+.rotateright {
+	transform: rotate(5deg);
 }
 
 .skewleft {
-	transzformáció: skewX (10deg);
+	transform: skewX(10deg);
 }
 
 .skewright {
-	transzformáció: skewX (-10 ° C);
+	transform: skewX(-10deg);
 }
