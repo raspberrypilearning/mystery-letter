@@ -1,11 +1,11 @@
-## Folosirea claselor de stiluri
+## Using Class Styles
 
-+ Ai observat `class=""` în etichetele `<span>`? Poți să folosești asta pentru a stiliza mai mult de un lucru în același fel.
++ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
 
-+ Adaugă clasa `magazine1` la câteva dintre etichetele `<span>` și testează-ți pagina.
++ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
 
-![captură de ecran](images/letter-magazine1.png)
+![screenshot](images/letter-magazine1.png)
 
-+ Poți adăuga mai mult de o clasă la un element. Doar lasă un spațiu între clase. Adaugi clasa `big` la una dintre etichetele tale `<span>`. Testează-ți pagina. 
++ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
 
-![captură de ecran](images/letter-big.png)
+![screenshot](images/letter-big.png)
