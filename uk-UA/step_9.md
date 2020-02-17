@@ -6,7 +6,7 @@
 
 Тут приклади:
 
-![screenshot](images / letter-starter.png)
+![screenshot](images/letter-fonts-challenge3.png)
 
 Ви можете побачити картинки, натиснувши на вкладку Зображення в trinket. Спробуйте помістити фони зображення, використовуючи одну з поданих картинок:
 
