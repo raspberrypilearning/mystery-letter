@@ -6,15 +6,15 @@ Let's get your message onto a webpage.
     
     The project should look like this:
     
-    ![captura de pantalla](images/letter-starter.png)
+    ![screenshot](images/letter-starter.png)
 
 + The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
-![captura de pantalla](images/letter-placeholder.png)
+![screenshot](images/letter-placeholder.png)
 
 + Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
-![captura de pantalla](images/letter-message.png)
+![screenshot](images/letter-message.png)
 
 + Click the Run button to test your trinket.
     
