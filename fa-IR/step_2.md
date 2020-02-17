@@ -1,7 +1,7 @@
-## پیام خود را انتخاب کنید
+## Choose Your Message
 
-نامه های رمز و راز در فیلم ها و کتاب ها برای ارسال پیام های مخفی استفاده می شود.
+Mystery letters are used in films and books to send secret messages.
 
-+ فکر می کنم یک پیام رمز و راز است 12 کلمه در مورد طول مناسب است. اگر نمیتوانید از یک پیام فکر کنید، می توانید از مثال استفاده کنید: «سرنوشت بعدی شما در ایمن است. کد 65536 است.
++ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
 
-+ یا یک یادداشت از پیام خود داشته باشید یا آن را بخاطر داشته باشید.
++ Either make a note of your message or remember it.
