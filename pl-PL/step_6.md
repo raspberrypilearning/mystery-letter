@@ -6,7 +6,7 @@
 
 + Zauważ, że jest tam kropka '.' przed nazwą klasy w pliku CSS, ale nie ma jej w tagu `<span>` w Twoim dokumencie HTML.
 
-+ Teraz spójrz na inne klasy CSS, których użyłeś do stylizowania swojego tajemniczego listu. Czy potrafisz znaleźć:
++ Teraz spójrz na inne klasy CSS, których użyłeś do stylizowania swojego tajemniczego listu. Czy możesz znaleźć:
     
     + Jak styl `magazine1` zmienia tekst na same wielkie litery.
     
