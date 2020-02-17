@@ -2,7 +2,7 @@
 
 + Натисніть на знак **'style.css'**. Знайдіть стиль для CSS класу `газети`, який ви використовували.
 
-![screenshot](images / letter-newspaper.png)
+![screenshot](images/letter-newspaper.png)
 
 + Зауважте, що перед назвою класу в CSS файлі є крапка '.', але не в `<span>` тегу у вашому HTML документі.
 
@@ -12,7 +12,7 @@
     
     + Як стиль`журнал2` поміщає зображення за текст.
 
-![screenshot](images / letter-magazines.png)
+![screenshot](images/letter-magazines.png)
 
 + Що трапляється, коли ви змінюєте `фонове-зображення` для `журнал2` на `canvas.png`? Якщо ви надаєте перевагу `pink-pattern.png`, ви можете змінити її назад. 
 
@@ -20,6 +20,6 @@
 
 + Знайдіть CSS, що використовується для оберту ті нахилення ваших слів:
 
-![screenshot](images / letter-rotate-skew.png)
+![screenshot](images/letter-rotate-skew.png)
 
 Спробуйте змінити числа, щоб створити різні ефекти і тоді протестуйте свою сторінку.
