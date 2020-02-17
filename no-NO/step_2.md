@@ -1,7 +1,7 @@
-## Velg meldingen din
+## Choose Your Message
 
-Mysteriebokstaver brukes i filmer og bøker for å sende hemmelige meldinger.
+Mystery letters are used in films and books to send secret messages.
 
-+ Tenk på et mysterium budskap; 12 ord handler om riktig lengde. Hvis du ikke kan tenke på en melding, kan du bruke eksemplet: 'Din neste ledetråd er i safe. Koden er 65536. '
++ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
 
-+ Legg merke til meldingen din eller husk den.
++ Either make a note of your message or remember it.
