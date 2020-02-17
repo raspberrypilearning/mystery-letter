@@ -1,21 +1,21 @@
-\--- چالش \---
+\--- challenge \---
 
-## چالش: سبک های خود را ایجاد کنید
+## Challenge: Create Your Own Styles
 
-حالا سبک های کلاس های خود را ایجاد کنید و نامه رمز و راز خود را جالب تر کنید. از CSS استفاده کنید که در پروژه های قبلی آموخته اید و به نمونه هایی از **style.css** برای ایده ها نگاه کنید.
+Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
 
-در اینجا یک مثال است:
+Here's an example:
 
-![تصویری](images/letter-fonts-challenge3.png)
+![screenshot](images/letter-fonts-challenge3.png)
 
-شما می توانید تصاویری را که برای استفاده استفاده می شود را مشاهده کنید، با کلیک بر روی زبانه تصاویر در شلوار نازک. سعی کنید پس زمینه های تصویری را با استفاده از یکی از تصاویر گنجانده شده تنظیم کنید:
+You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
 
-+ `روپوش کاغذی.png`
++ `rough-paper.png`
 
 + `canvas.png`
 
-اگر یک حساب کاربری شیک داشته باشید، می توانید تصاویر خود را آپلود کنید همانطور که در پروژه «گفتن یک داستان» انجام دادید.
+If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
 
-پیدا کردن فونتهایی که در <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> دوست دارید و کد `<link>` و CSS خود را برای استفاده از آنها کپی کنید.
+Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
 
-\--- \--- چالش \---
+\--- /challenge \---
