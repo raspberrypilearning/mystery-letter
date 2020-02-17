@@ -1,15 +1,15 @@
-\--- چالش \---
+\--- challenge \---
 
-## چالش: ایجاد یک نسخه چاپی کامپیوتری
+## Challenge: Create A Computer Printout Style
 
-ایجاد یک نسخه چاپی قدیمی از کامپیوتر و استفاده از آن به برخی از کلمات:
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-![تصویری](images/letter-fonts-printout.png)
+![screenshot](images/letter-fonts-printout.png)
 
-شما نیاز خواهید داشت:
+You will need:
 
-+ `فونت VT323` از <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. در صورت نیاز به یادآوری در مورد استفاده از فونتهای Google، به مرحله 5 مراجعه کنید.
++ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
 
-+ `computer-printout-paper.png` تصویر پس زمینه. اگر به یک یادآوری در مورد استفاده از تصاویر پس زمینه نیاز دارید، به مرحله 4 مراجعه کنید.
++ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
 
-\--- \--- چالش \---
+\--- /challenge \---
