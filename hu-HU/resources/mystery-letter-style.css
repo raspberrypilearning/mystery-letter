@@ -1,65 +1,65 @@
-arasz
+span
 {
-	kijelző: inline-block; 
-	margin: 8 képpont; 
-	box-shadow: 1x 2xx 2xx szürke; 
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
 }
 
-test {
- 	háttér szín: fehér;
-	párnázat: 30 képpont;
-	maximális szélesség: 350 képpont;
+body {
+ 	background-color: white;
+	padding: 30px;
+	max-width: 350px;
 	margin: auto;
 }
 
 .newspaper {
-	háttér szín: antikfehér;
-	betűtípus-család: "Times New Roman", Times, serif;
-	betűsúly: félkövér;
+	background-color: antiquewhite;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
 }
 
-.magazine1 {
- 	háttér szín: réce;
- 	fehér szín;
- 	betűtípus-család: Verdana;
-	betűsúly: 900;
-	szöveg-transzformáció: nagybetűs; 
+.magazine1  {
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
 }
 
 .magazine2 {
-	háttérkép: url ('pink-pattern.png');
-  	szín: fukszia;
-  	betűtípus-család: Verdana;
-	betűsúly: 900;
+	background-image: url('pink-pattern.png');
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
 }
 
 .medium {
-	betűméret: 20 képpont;
-	párnázat: 8 képpont;
+	font-size: 20px;
+	padding: 8px;
 }
 
-.nagy {
-	betűméret: 30 képpont;
-	párnázat: 10 képpont;
+.big {
+	font-size: 30px;
+	padding: 10px;
 }
 
-.nagyon nagy {
-	betűméret: 40 képpont;
-	párnázat: 15 képpont;
+.reallybig {
+	font-size: 40px;
+	padding: 15px;
 }
 
-.forgasd balra {
-	transzformáció: forgatás (-5 fok);
+.rotateleft {
+	transform: rotate(-5deg);
 }
 
-.forgasd jobbra {
-	transzformáció: forgatás (5 fok);
+.rotateright {
+	transform: rotate(5deg);
 }
 
 .skewleft {
-	transzformáció: skewX (10deg);
+	transform: skewX(10deg);
 }
 
 .skewright {
-	transzformáció: skewX (-10 ° C);
+	transform: skewX(-10deg);
 }
