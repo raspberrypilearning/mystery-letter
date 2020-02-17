@@ -2,7 +2,7 @@
 
 + Clica no separador **'style.css'**. Procura o estilo para a classe CSS `newspaper` que tens usado.
 
-![captura de tela](images/letter-newspaper.png)
+![captura de ecrã](images/letter-newspaper.png)
 
 + Observa que há um ponto (ponto final) '.' antes do nome da classe no arquivo CSS, mas não na tag `<span>` no teu documento HTML.
 
