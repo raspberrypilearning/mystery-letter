@@ -1,21 +1,21 @@
-## Mengedit Pesan Anda
+## Editing Your Message
 
-Mari pesan Anda ke halaman web.
+Let's get your message onto a webpage.
 
-+ Buka trinket ini: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    Proyek akan terlihat seperti ini:
+    The project should look like this:
     
-    ![tangkapan layar](images/letter-starter.png)
+    ![screenshot](images/letter-starter.png)
 
-+ Tag `<p>` paragraf diperkenalkan dalam proyek 'Selamat Ulang Tahun'. Tag `<span>` digunakan untuk mengelompokkan potongan-potongan teks yang lebih kecil di dalam paragraf sehingga kita dapat mengaturnya.
++ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
-![tangkapan layar](images/letter-placeholder.png)
+![screenshot](images/letter-placeholder.png)
 
-+ Ubah kata-kata ke pesan Anda dengan menempatkan satu kata di setiap `<span>`. Anda perlu menambahkan atau menghapus tag `<span>` jika panjang pesan Anda berbeda. 
++ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
-![tangkapan layar](images/letter-message.png)
+![screenshot](images/letter-message.png)
 
-+ Klik tombol Run untuk menguji trinket Anda.
++ Click the Run button to test your trinket.
     
-    Jika Anda melihat kata-kata, Anda dapat melihat bahwa mereka telah ditata untuk terlihat seperti mereka terjebak di halaman.
+    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
