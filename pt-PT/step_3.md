@@ -1,6 +1,6 @@
 ## Edita a Tua Mensagem
 
-Vamos colocar sua mensagem em uma página da web.
+Vamos colocar a tua mensagem em uma página da web.
 
 + Abre este trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
