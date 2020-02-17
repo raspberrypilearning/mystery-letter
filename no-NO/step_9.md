@@ -1,21 +1,21 @@
-\--- utfordring \---
+\--- challenge \---
 
-## Utfordring: Lag dine egne stiler
+## Challenge: Create Your Own Styles
 
-Opprett nå dine egne klassestiler og gjør mysteriet ditt enda mer interessant. Bruk CSS som du har lært i tidligere prosjekter, og se på eksemplene i **style.css** for ideer.
+Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
 
-Her er et eksempel:
+Here's an example:
 
-![skjermbilde](images/letter-fonts-challenge3.png)
+![screenshot](images/letter-fonts-challenge3.png)
 
-Du kan se bildene som er tilgjengelige for bruk ved å klikke på Bilder-fanen i pyntegjenstander. Prøv å sette inn bakgrunnsbilder ved hjelp av ett av de medfølgende bildene:
+You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
 
-+ `grov-paper.png`
++ `rough-paper.png`
 
 + `canvas.png`
 
-Hvis du har en sånn konto, kan du laste opp egne bilder som du gjorde i "Tell a Story" -prosjektet.
+If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
 
-Finn fonter som du liker på <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> og kopier deres `<link>` og CSS-koden til handlekurven din for å bruke dem.
+Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
 
-\--- /utfordring \---
+\--- /challenge \---
