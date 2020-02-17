@@ -4,7 +4,7 @@
 
 Create an old-fashioned computer printout style and apply it to some of the words:
 
-![captura de pantalla](images/letter-fonts-printout.png)
+![screenshot](images/letter-fonts-printout.png)
 
 You will need:
 
