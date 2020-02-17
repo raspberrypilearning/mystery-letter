@@ -6,7 +6,7 @@ Neste projecto, vais criar uma carta mistério, que parece que cada palavra foi 
 
 ### Informação adicional para os lideres dos clubes
 
-Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+Se precisares de imprimir este projeto, por favor, usa a [versão para impressão](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
 ## \--- collapse \---
 
@@ -30,7 +30,7 @@ Há também um trinket que contém uma amostra de solução para os desafios:
 
 ## Recursos Offline
 
-Este projeto pode ser [concluído offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) se preferires. Pode aceder aos recursos do projeto clicando no link "Materiais do Projeto" deste projeto. Este link contém uma secção "Recursos do projeto", que inclui recursos que as crianças precisam para concluir este projeto offline. Certifiqua-te de que cada criança tem acesso a uma cópia destes recursos. Esta secção inclui os seguintes arquivos:
+Este projeto pode ser [concluído offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) se preferires. Podes aceder aos recursos do projeto clicando no link "Materiais do Projeto" deste projeto. Este link contém uma secção "Recursos do projeto", que inclui recursos que as crianças precisam para concluir este projeto offline. Certifiqua-te de que cada criança tem acesso a uma cópia destes recursos. Esta secção inclui os seguintes ficheiros:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
@@ -61,8 +61,8 @@ Este projeto abrange elementos das seguintes vertentes do [ Currículo Raspberry
 
 ## Desafios
 
-* "Estiliza sua mensagem" - Aplicar estilos de classe CSS fornecidos;
-* "Cria um estilo de impressão do computador" - use CSS para recriar uma classe de exemplo usando uma imagem de fundo e uma fonte do Google. 
+* "Estiliza a tua mensagem" - Aplicar estilos de classe CSS fornecidos;
+* "Cria um estilo de impressão do computador" - usa CSS para recriar uma classe de exemplo usando uma imagem de fundo e uma fonte do Google. 
 * "Criar o teu próprio estilo" - Usa CSS para criar novos estilos.
 
 \--- /collapse \---
