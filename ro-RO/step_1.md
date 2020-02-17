@@ -1,82 +1,82 @@
-## Introducere
+## Introduction
 
-În acest proiect, vei crea o scrisoare misterioasă care arată ca și cum fiecare cuvânt a fost tăiat din diferite ziare, reviste, cărți de benzi desenate sau alte părți.
+In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
 
-![captură de ecran](images/letter-final.png)
+![screenshot](images/letter-final.png)
 
-### Informații suplimentare pentru conducătorii de club
+### Additional information for club leaders
 
-Dacă vrei să printezi acest proiect, folosește [Versiunea printabilă](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
 ## \--- collapse \---
 
-## title: Note pentru conducătorul clubului
+## title: Club leader notes
 
-## Introducere:
+## Introduction:
 
-În acest proiect, copiii sunt introduși în clasele CSS. Ei folosesc mai multe clase CSS pentru a stiliza text și pentru a învăța cum să folosească imagini de fundal și fonturi gratuite Google în proiectele lor.
+In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
 
-## Resurse online
+## Online Resources
 
-Recomandăm utilizarea [trinket](https://trinket.io/) pentru a scrie HTML & CSS online. Acest proiect conține următorul trinket:
+We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
 
-* [Punctul de început pentru „Scrisoare misterioasă” -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Copiii pot, de asemenea, să folosească acest trinket gol [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pentru a scrie propriul cod HTML & CSS sau, alternativ, acest șablon trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Există, de asemenea, un trinket care conține un exemplu de soluție pentru provocări:
+There is also a trinket containing a sample solution to the challenges:
 
-* [„Scrisoare misterioasă” finalizat -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Resurse offline
+## Offline Resources
 
-Acest proiect poate fi [completat offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) dacă dorești. Poți accesa resursele proiectului dând click pe link-ul „Materiale pentru proiect”. Acest link conține o secțiune „Resursele proiectului” ce include materialele de care copiii vor avea nevoie pentru realizarea proiectului offline. Asigură-te că fiecare copil are acces la câte o copie din aceste resurse. Secțiunea include următoarele fișiere:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
 * mystery-letter/script.js
 * mystery-letter/prefixfree.js
-* mystery-letter/4 x imagini .png
+* mystery-letter/4 x .png images
 * template/template.html
 * template/style.css
 
-De asemenea, poți găsi o versiune completă a provocărilor din acest proiect în secțiunea „Resursele voluntarilor”, care conține:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 * mystery-letter-finished/index.html
 * mystery-letter-finished/style.css
 * mystery-letter-finished/script.js
 * mystery-letter-finished/prefixfree.js
-* mystery-letter-finished/4 x imagini .png
+* mystery-letter-finished/4 x .png images
 
-(Toate resursele de mai sus se pot descărca ca și fișiere `.zip` pentru proiecte și voluntari.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Obiective de învățare
+## Learning Objectives
 
-* Acest proiect introduce clasele CSS și abilitatea de a stiliza elementele HTML cu clase multiple.
-* Sunt prezentate și imaginile de fundal și fonturile Google. 
+* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
+* Background images and Google fonts are also introduced. 
 
-Acest proiect acoperă elemente din următoarele domenii ale curriculumului [Raspberry Pi Digital Making](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Proiectarea elementelor grafice 2D și 3D de bază](https://www.raspberrypi.org/curriculum/design/creator).
+* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Provocări
+## Challenges
 
-* „Stilizează-ți mesajul” - Aplică stilurile claselor CSS puse la dispoziție;
-* „Creează un șablon de printare” - Folosește CSS pentru a recrea o clasă de exemplu folosind o imagine de fundal și un font Google. 
-* „Creează-ți propriile stiluri” - Folosește CSS pentru a crea noi stiluri.
+* “Style your message” - Apply provided CSS class styles;
+* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
+* “Create your own styles” - Use CSS to create new styles.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Materiale pentru proiect
+## title: Project materials
 
-## Resursele proiectului
+## Project resources
 
-* [fișier .zip care conține toate resursele proiectului](resources/letter-project-resources.zip)
-* [Trinket online care conține toate resursele proiectului „Scrisoare misterioasă”](http://jumpto.cc/web-letter)
-* [Șablon Trinket online](http://jumpto.cc/trinket-template)
-* [Trinket online gol](http://jumpto.cc/trinket-blank)
+* [.zip file containing all project resources](resources/letter-project-resources.zip)
+* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
+* [Online Trinket template](http://jumpto.cc/trinket-template)
+* [Online blank Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
@@ -87,10 +87,10 @@ Acest proiect acoperă elemente din următoarele domenii ale curriculumului [Ras
 * [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Resurse pentru conducătorul clubului
+## Club leader resources
 
-* [fișier .zip care conține toate resursele proiectului, completate](resources/letter-volunteer-resources.zip)
-* [Proiect Trinket online, completat](https://trinket.io/html/1d4d4c5ce1)
+* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
 * [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
