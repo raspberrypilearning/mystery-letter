@@ -1,25 +1,25 @@
-## Uređivanje klasa
+## Editing Classes
 
-+ Klikni na karticu **'style.css'**. Pronađi stil za CSS klasu ` newspaper` koju smo koristili.
++ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
 
 ![screenshot](images/letter-newspaper.png)
 
-+ Imaj u vidu da se ispred naziva klase u CSS datoteci nalazi tačka '.', ali ne i unutar oznake `<span>` u tvom HTML dokumentu.
++ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
-+ Sada pogledaj ostale CSS klase koje smo koristili za stilizovanje zagonetnog pisma. Možeš li da pronađeš:
++ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
     
-    + Kako se u stilu `magazine1` sva slova u tekstu mijenjaju u velika.
+    + How the `magazine1` style changes the text to all uppercase (capital) letters.
     
-    + Kako se u stilu `magazine2` postavlja slika iza teksta.
+    + How the `magazine2` style puts an image behind the text.
 
 ![screenshot](images/letter-magazines.png)
 
-+ Šta se dešava ako promijeniš `background-image` (pozadinsku sliku) za `magazine2` u `canvas.png`? Ako ti se više sviđa `pink-pattern.png`, možeš da je vratiš. 
++ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
 
-Ako želiš, možeš da promijeniš i boje u 'magazine' stilovima.
+You can also change the colours in the magazine styles if you like.
 
-+ Pronađi CSS korišćen za rotiranje (rotate) i iskošavanje (skew) tvojih riječi:
++ Find the CSS used to rotate and skew (tilt) your words:
 
 ![screenshot](images/letter-rotate-skew.png)
 
-Pokušaj da mijenjaš brojeve kako bi napravio/napravila različite efekte, a zatim isprobaj svoju stranicu.
+Try changing the numbers to create different effects and then testing your page.
