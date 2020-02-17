@@ -4,8 +4,8 @@
 
 + Adiciona a classe `magazine1` em algumas dos teus `<span>`.
 
-![captura de tela](images/letter-magazine1.png)
+![captura de ecrã](images/letter-magazine1.png)
 
 + Podes adicionar mais do que uma classe num elemento. Basta por um espaço entre elas. Adiciona a classes `big` a uma das tags `<span>`. Testa a tua página. 
 
-![screenshot](images/letter-big.png)
+![captura de ecrã](images/letter-big.png)
