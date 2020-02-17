@@ -1,102 +1,102 @@
-## Introduksjon
+## Introduction
 
-I dette prosjektet oppretter du et mysteriumbrev som ser ut som hvert ord har blitt kuttet fra et annet avis, magasin, tegneserie eller annen kilde.
+In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
 
-![skjermbilde](images/letter-final.png)
+![screenshot](images/letter-final.png)
 
-### Tilleggsinformasjon for klubbledere
+### Additional information for club leaders
 
-Hvis du trenger å skrive ut dette prosjektet, bruk [Utskriftsvennlig versjon](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
-## \--- kollaps \---
+## \--- collapse \---
 
-## tittel: Klubbleder notater
+## title: Club leader notes
 
-## Introduksjon:
+## Introduction:
 
-I dette prosjektet blir barn introdusert til CSS-klasser. De bruker flere CSS-klasser til å skrive tekst og også lære å bruke bakgrunnsbilder og gratis Google-fonter i sine prosjekter.
+In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
 
-## Online ressurser
+## Online Resources
 
-Vi anbefaler at du bruker [trinket](https://trinket.io/) til å skrive HTML & CSS online. Dette prosjektet inneholder følgende trinket:
+We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
 
-* ['Mystery Letter' utgangspunkt - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Barn kan også benytte seg av denne tomme pynten [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) å skrive sin egen HTML & CSS, eller alternativt kan de bruke denne malepinken [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Det er også en pyntegjenstander som inneholder en prøveoppløsning til utfordringene:
+There is also a trinket containing a sample solution to the challenges:
 
-* ['Mystery Letter Finished' - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Offline Resources
 
-Dette prosjektet kan være [fullført offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) hvis det er foretrukket. Du kan få tilgang til prosjektressursene ved å klikke på lenken "Project Materials" for dette prosjektet. Denne lenken inneholder en del "Prosjektressurser", som inneholder ressurser som barn trenger for å fullføre dette prosjektet uten nett. Sørg for at hvert barn har tilgang til en kopi av disse ressursene. Denne delen inneholder følgende filer:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-* mystery-brev / index.html
-* mystery-brev / style.css
-* mystery-brev / script.js
-* mystery-brev / prefixfree.js
-* mystery-letter / 4 x. png bilder
-* mal / template.html
-* mal / style.css
+* mystery-letter/index.html
+* mystery-letter/style.css
+* mystery-letter/script.js
+* mystery-letter/prefixfree.js
+* mystery-letter/4 x .png images
+* template/template.html
+* template/style.css
 
-Du kan også finne en fullført versjon av prosjektets utfordringer i delen Frivillige ressurser, som inneholder:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-* mystery-brevet ferdig / index.html
-* mystery-brevet ferdig / style.css
-* mystery-brev ferdig / script.js
-* mystery-brev ferdig / prefixfree.js
-* mystery-letter-ferdige / 4 x. png bilder
+* mystery-letter-finished/index.html
+* mystery-letter-finished/style.css
+* mystery-letter-finished/script.js
+* mystery-letter-finished/prefixfree.js
+* mystery-letter-finished/4 x .png images
 
-(Alle ressursene ovenfor er også nedlastbare som prosjekt og frivillig `.zip` filer.)
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Læringsmål
+## Learning Objectives
 
-* Dette prosjektet introduserer CSS-klasser og evnen til å style HTML-elementer med flere klasser.
-* Bakgrunnsbilder og Google-skrifter blir også introdusert. 
+* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
+* Background images and Google fonts are also introduced. 
 
-Dette prosjektet dekker elementer fra følgende tråder av [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Design grunnleggende 2D og 3D eiendeler](https://www.raspberrypi.org/curriculum/design/creator).
+* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## utfordringer
+## Challenges
 
-* "Stil meldingen din" - Legg til gitt CSS-klassestiler;
-* "Opprett en datamaskin utskrift stil" - Bruk CSS til å gjenskape et eksempel klasse ved hjelp av et bakgrunnsbilde og Google font. 
-* "Lag dine egne stiler" - Bruk CSS til å lage nye stiler.
+* “Style your message” - Apply provided CSS class styles;
+* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
+* “Create your own styles” - Use CSS to create new styles.
 
-\--- / kollaps \---
+\--- /collapse \---
 
-## \--- kollaps \---
+## \--- collapse \---
 
-## tittel: Prosjektmaterialer
+## title: Project materials
 
-## Prosjektressurser
+## Project resources
 
-* [.zip-fil som inneholder alle prosjektressurser](resources/letter-project-resources.zip)
-* [Online Trinket som inneholder alle 'Mystery Letter' prosjektressurser](http://jumpto.cc/web-letter)
-* [Online Trinket-mal](http://jumpto.cc/trinket-template)
+* [.zip file containing all project resources](resources/letter-project-resources.zip)
+* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
+* [Online Trinket template](http://jumpto.cc/trinket-template)
 * [Online blank Trinket](http://jumpto.cc/trinket-blank)
-* [mal / index.html](resources/template-index.html)
-* [mal / style.css](resources/template-style.css)
-* [mystery-brev / index.html](resources/mystery-letter-index.html)
-* [mystery-brev / style.css](resources/mystery-letter-style.css)
-* [mystery-brev / prefixfree.js](resources/mystery-letter-prefixfree.js)
-* [mystery-brev / grov-paper.png](resources/mystery-letter-rough-paper.png)
-* [mystery-brev / canvas.png](resources/mystery-letter-canvas.png)
-* [mystery-brev / rosa-pattern.png](resources/mystery-letter-pink-pattern.png)
-* [mystery-brev / PC-utskrift-paper.png](resources/mystery-letter-computer-printout-paper.png)
+* [template/index.html](resources/template-index.html)
+* [template/style.css](resources/template-style.css)
+* [mystery-letter/index.html](resources/mystery-letter-index.html)
+* [mystery-letter/style.css](resources/mystery-letter-style.css)
+* [mystery-letter/prefixfree.js](resources/mystery-letter-prefixfree.js)
+* [mystery-letter/rough-paper.png](resources/mystery-letter-rough-paper.png)
+* [mystery-letter/canvas.png](resources/mystery-letter-canvas.png)
+* [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
+* [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Klubblederressurser
+## Club leader resources
 
-* [.zip-fil som inneholder alle ferdige prosjektressurser](resources/letter-volunteer-resources.zip)
-* [Online gjennomført Trinket-prosjekt](https://trinket.io/html/1d4d4c5ce1)
-* [mystery-brevet ferdig / index.html](resources/mystery-letter-finished-index.html)
-* [mystery-brevet ferdig / style.css](resources/mystery-letter-finished-style.css)
-* [mystery-brev ferdig / prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
-* [mystery-brevet ferdig / grov-paper.png](resources/mystery-letter-finished-rough-paper.png)
-* [mystery-brevet ferdig / canvas.png](resources/mystery-letter-finished-canvas.png)
-* [mystery-brevet ferdig / rosa-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
-* [mystery-brevet ferdig / PC-utskrift-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
+* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
+* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
+* [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
+* [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
+* [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
+* [mystery-letter-finished/rough-paper.png](resources/mystery-letter-finished-rough-paper.png)
+* [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
+* [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
+* [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
 
-\--- / kollaps \---
+\--- /collapse \---
