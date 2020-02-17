@@ -1,21 +1,21 @@
-## Uređivanje poruke
+## Editing Your Message
 
-Postavimo tvoju poruku na veb-stranicu.
+Let's get your message onto a webpage.
 
-+ Otvori sljedeći trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    Projekat treba da izgleda ovako:
+    The project should look like this:
     
     ![screenshot](images/letter-starter.png)
 
-+ Sa oznakom za pasus `<p>` upoznali smo se u projektu 'Srećan rođendan'. Oznaka `<span>` koristi se za grupisanje manjih dijelova teksta unutar pasusa, kako bismo ih mogli stilizovati.
++ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
 ![screenshot](images/letter-placeholder.png)
 
-+ Zamijeni riječi svojom porukom, stavljajući po jednu riječ unutar svake oznake `<span>`. Ako se dužina tvoje poruke razlikuje od predložene, biće potrebno da dodaš ili ukloniš oznake `<span>`. 
++ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
 ![screenshot](images/letter-message.png)
 
-+ Klikni na dugme Run da isprobaš svoj trinket.
++ Click the Run button to test your trinket.
     
-    Ako pogledaš riječi, uočićeš da su stilizovane tako da izgledaju kao da su zalijepljene na stranicu.
+    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
