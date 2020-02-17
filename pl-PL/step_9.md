@@ -1,8 +1,8 @@
-\--- challenge \---
+\--- wyzwanie \---
 
 ## Wyzwanie: Utwórz swoje własne style
 
-Teraz stwórz swoje własne style klas i uczyń swój tajemniczy list jeszcze bardziej interesującym. Skorzystaj z CSS, którego nauczyłeś się w poprzednich projektach i zainspiruj się przykładami w **style.css**.
+Teraz stwórz swoje własne style klas i uczyń swój tajemniczy list jeszcze bardziej interesującym. Skorzystaj z CSS, którego nauczyłeś się w poprzednich projektach i zainspiruj się przykładami z **style.css**.
 
 Oto przykład:
 
