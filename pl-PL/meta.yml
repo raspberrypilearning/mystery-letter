@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
 title: Tajemniczy list
-description: Naucz się, jak stworzyć list z każdym słowem w innym stylu.
+description: Stwórz tajemniczy list z wieloma różnymi stylami.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
@@ -24,14 +24,14 @@ steps:
   - 
     title: Edytowanie Twojej wiadomości
   - 
-    title: Użycie stylów klas
+    title: Korzystanie ze stylów klas
   - 
-    title: 'Wyzwanie: Stylizuj swoją wiadomość'
+    title: 'Wyzwanie: Wystylizuj swoją wiadomość'
   - 
     title: Edytowanie klas
   - 
-    title: Tworzenie nowej klasy
+    title: Stwórz nową klasę
   - 
-    title: 'Wyzwanie: Utwórz styl wydruku komputerowego'
+    title: 'Wyzwanie: Stwórz styl wydruku komputerowego'
   - 
-    title: 'Wyzwanie: Utwórz swój własny styl'
+    title: 'Wyzwanie: Stwórz swój własny styl'
