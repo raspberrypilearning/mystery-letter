@@ -1,4 +1,4 @@
-\--- challenge \---
+\--- wyzwanie \---
 
 ## Wyzwanie: Utwórz styl wydruku komputerowego
 
