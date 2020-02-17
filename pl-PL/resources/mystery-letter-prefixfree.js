@@ -32,7 +32,7 @@ var self = window.StyleFix = {
 		    process;
 		
 		xhr.onreadystatechange = function() {
-			xhr.onreadystatechange = function() {
+			if(xhr.readyState === 4) {
 				process();
 			}
 		};
