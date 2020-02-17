@@ -6,7 +6,7 @@ Now create your own class styles and make your mystery letter even more interest
 
 Here's an example:
 
-![captura de pantalla](images/letter-fonts-challenge3.png)
+![screenshot](images/letter-fonts-challenge3.png)
 
 You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
 
