@@ -1,18 +1,18 @@
-## Introducción
+## Introduction
 
 In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
 
-![captura de pantalla](images/letter-final.png)
+![screenshot](images/letter-final.png)
 
-### Información adicional para los líderes del club
+### Additional information for club leaders
 
-Si necesita imprimir este proyecto, use la [versión para imprimir](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
 
 ## \--- collapse \---
 
-## title: Notas para el líder del club
+## title: Club leader notes
 
-## Introducción:
+## Introduction:
 
 In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
 
@@ -50,16 +50,16 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
-## Objetivos del Aprendizaje
+## Learning Objectives
 
 * This project introduces CSS classes and the ability to style HTML elements with multiple classes.
 * Background images and Google fonts are also introduced. 
 
-Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Desafíos
+## Challenges
 
 * “Style your message” - Apply provided CSS class styles;
 * “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
@@ -69,7 +69,7 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Materiales del proyecto
+## title: Project materials
 
 ## Project resources
 
@@ -87,7 +87,7 @@ Este proyecto incluye elementos de los siguientes aspectos del [Raspberry Pi Dig
 * [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Recursos del líder del club
+## Club leader resources
 
 * [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
 * [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
