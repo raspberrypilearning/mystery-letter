@@ -1,51 +1,51 @@
-## Opprett en ny klasse
+## Create a New Class
 
-La oss lage en stil som ser ut som den er blitt kuttet fra en tegneserie. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> gir mange skrifter som er gratis å bruke.
+Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
 
-+ Legg til en `tegneserie` klasse i **style.css** filen. Etter `magazine2` er et bra sted. Ikke glem punktet foran klassenavnet. 
++ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
 
-![skjermbilde](images/letter-comic1.png)
+![screenshot](images/letter-comic1.png)
 
-Ikke bekymre deg hvis du får en advarsel som sier at 'Regelen er tom'; du vil fikse det neste.
+Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
 
-+ Legg nå litt CSS til den komiske CSS-klassen. Du kan bruke forskjellige farger hvis du vil. Det er en liste over mange farger på <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![skjermbilde](images/letter-comic2.png)
+![screenshot](images/letter-comic2.png)
 
-+ Bruk tegneseriestilen i noen av `<span>` kodene i HTML-dokumentet ditt, og test siden din:
++ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
 
-![skjermbilde](images/letter-comic-output.png)
+![screenshot](images/letter-comic-output.png)
 
-+ Nå kan du legge til en morsom skrift. Åpne en ny nettleserfane eller et vindu. Gå til <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> og søk etter **'bangers'**:
++ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
 
-![skjermbilde](images/letter-gfonts-1-annotated.png)
+![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Klikk på + "Velg denne skrift" -knappen:
++ Click on the + "Select this font" button:
 
-![skjermbilde](images/letter-gfonts-2-annotated.png)
+![screenshot](images/letter-gfonts-2-annotated.png)
 
-En melding som sier "1 familie valgt" vises nederst på skjermen.
+A message saying "1 Family Selected" will appear at the bottom on the screen.
 
-![skjermbilde](images/letter-gfonts-3.png)
+![screenshot](images/letter-gfonts-3.png)
 
-+ Klikk på meldingen "1 familie valgt" for å åpne vinduet og kopiere den uthevede koden:
++ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
 
-![skjermbilde](images/letter-gfonts-4.png)
+![screenshot](images/letter-gfonts-4.png)
 
-+ Lim inn `<link>` koden du nettopp kopiert fra Google-skrifter til `<head>` på nettsiden din:
++ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
 
-![skjermbilde](images/letter-fonts-head.png)
+![screenshot](images/letter-fonts-head.png)
 
-Dette lar deg bruke Bangers-skrifttypen på websiden din.
+This allows you to use the Bangers font in your webpage.
 
-+ Gå tilbake til Google-skrifttyper og bla lenger ned på siden og kopier fontfamiliekoden:
++ Return to Google fonts and scroll further down the page and copy the font-family code:
 
-![skjermbilde](images/letter-fonts-bangers.png)
+![screenshot](images/letter-fonts-bangers.png)
 
-+ Gå nå tilbake til din **'style.css'** fil i pyntegjenstander og lim inn font-familien koden til tegneseriestilen:
++ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
 
-![skjermbilde](images/letter-fonts-comic.png)
+![screenshot](images/letter-fonts-comic.png)
 
-+ Test nettsiden din. Resultatet skal se slik ut: 
++ Test your webpage. The result should look something like this: 
 
-![skjermbilde](images/letter-fonts-output.png)
+![screenshot](images/letter-fonts-output.png)
