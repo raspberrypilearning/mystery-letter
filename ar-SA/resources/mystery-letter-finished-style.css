@@ -1,85 +1,85 @@
-امتداد
+span
 {
 	display: inline-block; 
 	margin: 8px; 
-	مربع الظل: 1px 2px 2px رمادي ؛ 
+	box-shadow: 1px 2px 2px grey; 
 }
 
 body {
  	background-color: white;
-	الحشوة: 30px؛
-	أقصى عرض: 450 بكسل ؛
-	الهامش: السيارات ؛
+	padding: 30px;
+	max-width: 450px;
+	margin: auto;
 }
 
-.جريدة {
-	لون الخلفية: antiquewhite؛
-	font-family: "Times New Roman" ؛
-	وزن الخط: غامق ؛
+.newspaper {
+	background-color: antiquewhite;
+	font-family: "Times New Roman";
+	font-weight: bold;
 }
 
-.magazine1 {
- 	لون الخلفية: البط البري.
- 	اللون الابيض؛
- 	font-family: Verdana؛
-	وزن الخط: 900 ؛
-	تحويل النص: أحرف كبيرة ؛ 
+.magazine1  {
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
 }
 
 .magazine2 {
-	صورة الخلفية: url ('pink-pattern.png') ؛
-  	اللون: الفوشيه.
-  	font-family: Verdana؛
-	وزن الخط: 900 ؛
+	background-image: url('pink-pattern.png');
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
 }
 
-.رسوم متحركة {
- 	لون الخلفية: أصفر.
-  	لون احمر؛
-  	وزن الخط: غامق ؛
+.comic {
+ 	background-color: yellow;
+  	color: red;
+  	font-weight: bold;
 }
 
-مخطوطة
-	صورة خلفية: url ('rough-paper.png') ؛
-	اللون: سرج ؛
-	الخط الأسرة: 'Italianno' ، مخطوطة.
-	نمط الخط: مائل؛
+.manuscript {
+	background-image: url('rough-paper.png');
+	color: saddlebrown;
+	font-family: 'Italianno', cursive;
+	font-style: italic;
 }
 
-.اطبع {
-	background-image: url ('computer-printout-paper.png') ؛
-	لون أسود؛
-	font-family: 'VT323'، sans-serif؛
-	حجم الخط: أكبر ؛
+.printout {
+	background-image: url('computer-printout-paper.png');
+	color: black;
+	font-family: 'VT323', sans-serif;
+	font-size: larger;
 }
 
-.متوسط {
-	حجم الخط: 15 بكسل ؛
-	الحشوة: 6px؛
+.medium {
+	font-size: 15px;
+	padding: 6px;
 }
 
-.كبير {
-	حجم الخط: 20 بكسل ؛
+.big {
+	font-size: 20px;
 	padding: 8px;
 }
 
 .reallybig {
-	حجم الخط: 30 بكسل ؛
-	الحشوة: 10px؛
+	font-size: 30px;
+	padding: 10px;
 }
 
-.استدر يسارا {
-	تحويل: تدوير (-5deg) ؛
+.rotateleft {
+	transform: rotate(-5deg);
 }
 
-.الوقت
-	تحويل: تدوير (5deg) ؛
+.rotateright {
+	transform: rotate(5deg);
 }
 
 .skewleft {
-	تحويل: skewX (10deg) ؛
+	transform: skewX(10deg);
 }
 
-.حقوق
-	تحويل: skewX (-10deg) ؛
+.skewright {
+	transform: skewX(-10deg);
 }
