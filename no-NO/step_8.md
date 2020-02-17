@@ -1,15 +1,15 @@
-\--- utfordring \---
+\--- challenge \---
 
-## Utfordring: Opprett en datamaskinutskriftsstil
+## Challenge: Create A Computer Printout Style
 
-Lag en gammeldags utskriftstype og bruk den på noen av ordene:
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-![skjermbilde](images/letter-fonts-printout.png)
+![screenshot](images/letter-fonts-printout.png)
 
-Du vil trenge:
+You will need:
 
-+ `VT323` skriftfamilie fra <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/webfonts</a>. Se tilbake i trinn 5 hvis du trenger en påminnelse om bruk av Google-skrifter.
++ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
 
-+ The `computer-printout-paper.png` bakgrunnsbilde. Se tilbake i trinn 4 hvis du trenger en påminnelse om bruk av bakgrunnsbilder.
++ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
 
-\--- /utfordring \---
+\--- /challenge \---
