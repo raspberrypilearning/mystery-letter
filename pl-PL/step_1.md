@@ -14,13 +14,13 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 ## Wprowadzenie:
 
-W tym projekcie wprowadzamy dzieciom klasy CSS. Używają one wielu klas CSS do stylizowania tekstu, a także uczą się, jak używać obrazów tła i darmowych czcionek Google w swoich projektach.
+W tym projekcie wprowadzamy dzieciom klasy CSS. Używają oni wielu klas CSS do stylizowania tekstu, a także uczą się, jak używać obrazów jako tła i darmowych czcionek Google w swoich projektach.
 
 ## Zasoby Online
 
-Do pisania kodu HTML i CSS online rekomendujemy użytkowanie edytora [trinket](https://trinket.io/). Do tego projektu udostępnione są następujące szablony:
+Do pisania kodu HTML i CSS online rekomendujemy używanie edytora [trinket](https://trinket.io/). Do tego projektu udostępnione są następujące szablony:
 
-* [Punkt wyjścia „Tajemniczy list” -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* [Punkt początkowy „Tajemniczego listu” -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Dzieci mogą też używać pustego edytora [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) do pisania swojego kodu HTML i CSS lub skorzystać z tego szablonu [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
@@ -53,7 +53,7 @@ Ukończoną wersję zadań z tego projektu można również znaleźć w sekcji "
 ## Cele dydaktyczne
 
 * Ten projekt wprowadza do klas CSS i umiejętności stylizowania elementów HTML z wieloma klasami.
-* Wprowadzone są też obrazy tła i czcionki Google. 
+* Wprowadzone są też obrazy jako tła i czcionki Google. 
 
 Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
@@ -61,9 +61,9 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 ## Zadania
 
-* “Stylizuj Twoją wiadomość” - Zastosuj udostępnione klasy stylów CSS;
-* “Utwórz styl wydruku komputerowego” - Użyj CSS do utworzenia przykładowej klasy przy użyciu obrazu tła i czcionki Google. 
-* "Utwórz swoje własne style" - Użyj CSS do tworzenia nowych stylów.
+* “Wystylizuj swoją wiadomość” - Zastosuj udostępnione klasy stylów CSS;
+* “Utwórz styl wydruku komputerowego” - Użyj CSS do utworzenia przykładowej klasy przy użyciu obrazu jako tła i czcionki Google. 
+* "Stwórz swoje własne style" - Użyj CSS do tworzenia nowych stylów.
 
 \--- /collapse \---
 
