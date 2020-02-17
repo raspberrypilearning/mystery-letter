@@ -1,25 +1,25 @@
-## Osztályok szerkesztése
+## Editing Classes
 
-+ Kattintson a **'style.css'** fülre. Keresse meg a használt `újság` CSS osztály stílusát.
++ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
 
 ![screenshot](images/letter-newspaper.png)
 
-+ Vegye figyelembe, hogy van egy pont (pont). az osztály neve előtt a CSS fájlban, de nem a HTML dokumentum `<span>` címkéjében.
++ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
-+ Most nézd meg azokat a többi CSS osztályt, amelyekkel rejtélyes levelet írtál. Meg tudod találni:
++ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
     
-    + Hogy a `magazine1` stílus megváltozik a szöveg nagybetűs (tőke) betűkkel.
+    + How the `magazine1` style changes the text to all uppercase (capital) letters.
     
-    + Hogyan helyezi el a képet a `magazin2` stílusa?
+    + How the `magazine2` style puts an image behind the text.
 
 ![screenshot](images/letter-magazines.png)
 
-+ Mi történik, ha megváltoztatja a `background-image` a `magazine2` , hogy `canvas.png`? Ha inkább a `pink-pattern.png` képet szeretné, megváltoztathatja. 
++ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
 
-Megváltoztathatja a magazin stílusainak színeit is, ha úgy tetszik.
+You can also change the colours in the magazine styles if you like.
 
-+ Keresse meg a szavak elforgatásához és elfordításához (döntéséhez) használt CSS-t:
++ Find the CSS used to rotate and skew (tilt) your words:
 
 ![screenshot](images/letter-rotate-skew.png)
 
-Próbálja meg megváltoztatni a számokat, hogy különféle effektusokat hozzon létre, majd tesztelje az oldalt.
+Try changing the numbers to create different effects and then testing your page.
