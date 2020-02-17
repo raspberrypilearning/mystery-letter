@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## Desafio: Cria um Estilo de impressão de computador
 
 Cria um estilo de impressão de computador de antigamente e aplica-o a algumas das palavras:
 
