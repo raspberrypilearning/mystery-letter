@@ -1,497 +1,497 @@
-/ **
- * A StyleFix 1.0.3 és a PrefixFree 1.0.7
+/**
+ * StyleFix 1.0.3 & PrefixFree 1.0.7
  * @author Lea Verou
- * MIT licenc
- * /
+ * MIT license
+ */
 
-(funkció(){
+(function(){
 
-if (! window.addEventListener) {
-	Visszatérés;
+if(!window.addEventListener) {
+	return;
 }
 
 var self = window.StyleFix = {
-	link: function (link) {
-		próbálja meg {
-			// Figyelmen kívül hagyja az data-noprefix attribútummal rendelkező stíluslapokat, valamint az alternatív stíluslapokat
-			if (link.rel! == 'stíluslap' || link.hasAttribute ('data-noprefix')) {
-				Visszatérés;
+	link: function(link) {
+		try {
+			// Ignore stylesheets with data-noprefix attribute as well as alternate stylesheets
+			if(link.rel !== 'stylesheet' || link.hasAttribute('data-noprefix')) {
+				return;
 			}
 		}
-		fogás (e) {
-			Visszatérés;
+		catch(e) {
+			return;
 		}
 
-		var url = link.href || link.getAttribute ( 'data-href'),
-		    base = url.csere (/ [^ \ /] + $ /, ''),
-		    base_scheme = (/ ^[a-z]{3,10}: /. Exe (alap) || [''])[0],
-		    base_domain = (/ ^[a-z]{3,10}: \ / \ / [^ \ /] + /. exec (base) || [''])[0],
-		    base_query = /^([^?**)\??/.exec(url)[1],
+		var url = link.href || link.getAttribute('data-href'),
+		    base = url.replace(/[^\/]+$/, ''),
+		    base_scheme = (/^[a-z]{3,10}:/.exec(base) || [''])[0],
+		    base_domain = (/^[a-z]{3,10}:\/\/[^\/]+/.exec(base) || [''])[0],
+		    base_query = /^([^?]*)\??/.exec(url)[1],
 		    parent = link.parentNode,
-		    xhr = új XMLHttpRequest (),
-		    folyamat;
+		    xhr = new XMLHttpRequest(),
+		    process;
 		
-		xhr.onreadystatechange = function () {
-			if (xhr.readyState === 4) {
-				folyamat();
+		xhr.onreadystatechange = function() {
+			if(xhr.readyState === 4) {
+				process();
 			}
 		};
 
-		folyamat = függvény () {
+		process = function() {
 				var css = xhr.responseText;
 				
-				if (css && link.parentNode && (! xhr.status || xhr.status <400 || xhr.status> 600)) {
-					css = self.fix (css, true, link);
+				if(css && link.parentNode && (!xhr.status || xhr.status < 400 || xhr.status > 600)) {
+					css = self.fix(css, true, link);
 					
-					// Szükség esetén konvertálja a relatív URL-eket abszolút értékre
-					if (alap) {
-						css = css.replace (/ url (\ s *? ((?: "| ')?) (. +?) \ 1 \ s *? \) / gi, function ($ 0, árajánlat, url) {
-							if (/ ^ ([a-z]{3,10}: | #) / i.test (url)) {// abszolút & vagy hash-relatív
-								vissza 0 dollár;
+					// Convert relative URLs to absolute, if needed
+					if(base) {
+						css = css.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function($0, quote, url) {
+							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absolute & or hash-relative
+								return $0;
 							}
-							egyébként, ha (/ ^ \ / \ //. teszt (url)) {// Rendszer-relatív
-								// Tartalmazhat olyan sorozatokat, mint a /../ és /./, de ezek működnek
-								return 'url (' '+ base_scheme + url +' ") ';
+							else if(/^\/\//.test(url)) { // Scheme-relative
+								// May contain sequences like /../ and /./ but those DO work
+								return 'url("' + base_scheme + url + '")';
 							}
-							egyébként, ha (/ ^ \ //. teszt (URL)) {// Tartomány-relatív
-								return 'url (' '+ alap_domain + url +' ") ';
+							else if(/^\//.test(url)) { // Domain-relative
+								return 'url("' + base_domain + url + '")';
 							}
-							egyébként, ha (/ ^ \? /. teszt (url)) {// Lekérdezés-relatív
-								return 'url (' '+ base_query + url +' ") ';
+							else if(/^\?/.test(url)) { // Query-relative
+								return 'url("' + base_query + url + '")';
 							}
-							más {
-								// Út-relatív
-								visszatér 'url (' '+ bázis + url +' ')';
+							else {
+								// Path-relative
+								return 'url("' + base + url + '")';
 							}
 						});
 
-						// a viselkedés URL-jeit nem szabad konvertálni (19. szám)
-						// az alapról el kell kerülni, mielőtt hozzáadná a RegExp-hez (81. szám)
-						var escaped_base = base.replace (/( ^ \\\\\\\\\\\\\\\\\\\\\\\\\((())) / g, "\\ $ 1");
-						css = css.replace (RegExp ('\\ b (viselkedés: \\ s *? url \\ (\'? "?) '+ menekülési alap,' gi '),' $ 1 ');
+						// behavior URLs shoudn’t be converted (Issue #19)
+						// base should be escaped before added to RegExp (Issue #81)
+						var escaped_base = base.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");
+						css = css.replace(RegExp('\\b(behavior:\\s*?url\\(\'?"?)' + escaped_base, 'gi'), '$1');
 						}
 					
-					var stílus = document.createElement ('stílus');
+					var style = document.createElement('style');
 					style.textContent = css;
 					style.media = link.media;
 					style.disabled = link.disabled;
-					style.setAttribute ('data-href', link.getAttribute ('href'));
+					style.setAttribute('data-href', link.getAttribute('href'));
 					
-					parent.insertBefore (stílus, link);
-					parent.removeChild (link);
+					parent.insertBefore(style, link);
+					parent.removeChild(link);
 					
-					style.media = link.media; // A másolat szándékos. Lásd a 31. számot
+					style.media = link.media; // Duplicate is intentional. See issue #31
 				}
 		};
 
-		próbálja meg {
-			xhr.open ('GET', url);
-			xhr.send (null);
-		} fogás (e) {
-			// Visszaváltás az XDomainRequesthez, ha rendelkezésre áll
-			if (typeof XDomainRequest! = "meghatározatlan") {
-				xhr = új XDomainRequest ();
-				xhr.onerror = xhr.onprogress = function () {};
-				xhr.onload = folyamat;
-				xhr.open ("GET", url);
-				xhr.send (null);
+		try {
+			xhr.open('GET', url);
+			xhr.send(null);
+		} catch (e) {
+			// Fallback to XDomainRequest if available
+			if (typeof XDomainRequest != "undefined") {
+				xhr = new XDomainRequest();
+				xhr.onerror = xhr.onprogress = function() {};
+				xhr.onload = process;
+				xhr.open("GET", url);
+				xhr.send(null);
 			}
 		}
 		
-		link.setAttribute ('adat-folyamatban', '');
+		link.setAttribute('data-inprogress', '');
 	},
 
-	styleElement: függvény (stílus) {
-		if (style.hasAttribute ('data-noprefix')) {
-			Visszatérés;
+	styleElement: function(style) {
+		if (style.hasAttribute('data-noprefix')) {
+			return;
 		}
-		var tiltva = style.disabled;
+		var disabled = style.disabled;
 		
-		style.textContent = self.fix (style.textContent, true, style);
+		style.textContent = self.fix(style.textContent, true, style);
 		
-		style.disabled = letiltva;
+		style.disabled = disabled;
 	},
 
-	styleAttribute: function (elem) {
-		var css = element.getAttribute ('stílus');
+	styleAttribute: function(element) {
+		var css = element.getAttribute('style');
 		
-		css = self.fix (css, hamis, elem);
+		css = self.fix(css, false, element);
 		
-		element.setAttribute ('stílus', css);
+		element.setAttribute('style', css);
 	},
 	
-	folyamat: function () {
-		// Összekapcsolt stíluslapok
-		$ ('link [rel = "stíluslap"]: nem ([data-inprogress])'). forEach (StyleFix.link);
+	process: function() {
+		// Linked stylesheets
+		$('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
 		
-		// Beépített stíluslapok
-		$ ( 'Stílus'). Foreach (StyleFix.styleElement);
+		// Inline stylesheets
+		$('style').forEach(StyleFix.styleElement);
 		
-		// Beépített stílusok
-		$ ('[style]') .forEach (StyleFix.styleAttribute);
+		// Inline styles
+		$('[style]').forEach(StyleFix.styleAttribute);
 	},
 	
-	regisztráció: funkció (rögzítő, index) {
+	register: function(fixer, index) {
 		(self.fixers = self.fixers || [])
-			.splice (index === nincs meghatározva? self.fixers.length: index, 0, fixer);
+			.splice(index === undefined? self.fixers.length : index, 0, fixer);
 	},
 	
-	javítás: függvény (css, nyers, elem) {
-		for (var i = 0; i <self.fixers.length; i++) {
-			css = önálló rögzítők[i](css, nyers, elem) || css;
+	fix: function(css, raw, element) {
+		for(var i=0; i<self.fixers.length; i++) {
+			css = self.fixers[i](css, raw, element) || css;
 		}
 		
-		visszatérési css;
+		return css;
 	},
 	
-	camelCase: function (str) {
-		return str.replace (/ - ([a-z]) / g, function ($ 0, $ 1) {return $ 1.toUpperCase ();}).
+	camelCase: function(str) {
+		return str.replace(/-([a-z])/g, function($0, $1) { return $1.toUpperCase(); }).replace('-','');
 	},
 	
-	deCamelCase: function (str) {
-		return str.replace (/[A-Z]/ g, függvény ($ 0) {return '-' + $ 0.toLowerCase ()});
+	deCamelCase: function(str) {
+		return str.replace(/[A-Z]/g, function($0) { return '-' + $0.toLowerCase() });
 	}
 };
 
-/ **************************************
- * Folyamatstílusok
- ************************************** /
-(funkció(){
-	setTimeout (function () {
-		$ ( 'Link [rel = "stylesheet"]'). Foreach (StyleFix.link);
+/**************************************
+ * Process styles
+ **************************************/
+(function(){
+	setTimeout(function(){
+		$('link[rel="stylesheet"]').forEach(StyleFix.link);
 	}, 10);
 	
-	document.addEventListener ('DOMContentLoaded', StyleFix.process, hamis);
-}) ();
+	document.addEventListener('DOMContentLoaded', StyleFix.process, false);
+})();
 
-függvény $ (expr, con) {
-	visszatérés [] .slicice.call ((con || dokumentum) .querySelectorAll (expr));
+function $(expr, con) {
+	return [].slice.call((con || document).querySelectorAll(expr));
 }
 
-}) ();
+})();
 
-/ **
+/**
  * PrefixFree
- * /
-(Funkció (root) {
+ */
+(function(root){
 
-if (! window.StyleFix ||! window.getComputedStyle) {
-	Visszatérés;
+if(!window.StyleFix || !window.getComputedStyle) {
+	return;
 }
 
-// Magántulajdonos
-funkciója javítás (mi, csere előtt, után, css) {
-	mi = ön[what];
+// Private helper
+function fix(what, before, after, replacement, css) {
+	what = self[what];
 	
-	if (mi.hossz) {
-		var regex = RegExp (+ 'előtt (' + mi.join ('|') + ')' + után, 'gi');
+	if(what.length) {
+		var regex = RegExp(before + '(' + what.join('|') + ')' + after, 'gi');
 
-		css = css.replace (regex, pótlás);
+		css = css.replace(regex, replacement);
 	}
 	
-	visszatérési css;
+	return css;
 }
 
 var self = window.PrefixFree = {
-	prefixCSS: function (css, raw, elem) {
+	prefixCSS: function(css, raw, element) {
 		var prefix = self.prefix;
 		
-		// Színátmeneti szögek gyorsjavítása
-		if (self.functions.indexOf ('lineáris gradiens')> -1) {
-			// A színátmeneteket előtag támogatja, a szöget örökössé konvertálva
-			css = css.replace (/ (\ s |: |,) (ismétlődő -)? lineáris gradiens \ (\ s * (-? \ d * \.? dd) deg / ig, function ($ 0, delim , ismétlődő, deg) {
-				return delim + (ismétlődő || '') + 'lineáris gradiens (' + (90 fok) + 'deg';
+		// Gradient angles hotfix
+		if(self.functions.indexOf('linear-gradient') > -1) {
+			// Gradients are supported with a prefix, convert angles to legacy
+			css = css.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig, function ($0, delim, repeating, deg) {
+				return delim + (repeating || '') + 'linear-gradient(' + (90-deg) + 'deg';
 			});
 		}
 		
-		css = fix ('funkciók', '(\\ s |: |,)', '\\ s * \\ (', '$ 1' + előtag + '$ 2 (', css);
-		css = fix ('kulcsszavak', '(\\ s | :)', '(\\ s |; | \\} | $)', '$ 1' + előtag + '$2$3', css);
-		css = fix ('tulajdonságok', '(^ | \\ {| \\ s |;)', '\\ s *:', '$ 1' + előtag + '$ 2:', css);
+		css = fix('functions', '(\\s|:|,)', '\\s*\\(', '$1' + prefix + '$2(', css);
+		css = fix('keywords', '(\\s|:)', '(\\s|;|\\}|$)', '$1' + prefix + '$2$3', css);
+		css = fix('properties', '(^|\\{|\\s|;)', '\\s*:', '$1' + prefix + '$2:', css);
 		
-		// Prefix tulajdonságok * belül * értékek (8. szám)
-		if (saját.tulajdon.hossz) {
-			var regex = RegExp ('\\ b (' + saját.tulajdonságok.join ('|') + ') (?! :)', 'gi');
+		// Prefix properties *inside* values (issue #8)
+		if (self.properties.length) {
+			var regex = RegExp('\\b(' + self.properties.join('|') + ')(?!:)', 'gi');
 			
-			css = fix ('valueProperties', '\\ b', ': (. +?);', function ($ 0) {
-				vissza 0 dollár csere (regex, előtag + "$ 1")
+			css = fix('valueProperties', '\\b', ':(.+?);', function($0) {
+				return $0.replace(regex, prefix + "$1")
 			}, css);
 		}
 		
-		if (nyers) {
-			css = fix ('választók', '', '\\ b', self.prefixSelector, css);
-			css = fix ('atrules', '@', '\\ b', '@' + előtag + '$ 1', css);
+		if(raw) {
+			css = fix('selectors', '', '\\b', self.prefixSelector, css);
+			css = fix('atrules', '@', '\\b', '@' + prefix + '$1', css);
 		}
 		
-		// Dupla előtag javítása
-		css = css.replace (RegExp ('-' + előtag, 'g'), '-');
+		// Fix double prefixing
+		css = css.replace(RegExp('-' + prefix, 'g'), '-');
 		
-		// Előtag helyettesítő karakter
-		css = css.csere (/ - \ * - (? =[a-z]+) / gi, self.prefix);
+		// Prefix wildcard
+		css = css.replace(/-\*-(?=[a-z]+)/gi, self.prefix);
 		
-		visszatérési css;
+		return css;
 	},
 	
-	tulajdonság: funkció (tulajdonság) {
-		visszatérés (self.properties.indexOf (ingatlan)> = 0? self.prefix: '') + tulajdonság;
+	property: function(property) {
+		return (self.properties.indexOf(property) >=0 ? self.prefix : '') + property;
 	},
 	
-	érték: függvény (érték, tulajdonság) {
-		érték = javítás ('függvények', '(^ | \\ s |,)', '\\ s * \\ (', '$ 1' + saját.prefix + '$ 2 (', érték);
-		value = fix ('kulcsszavak', '(^ | \\ s)', '(\\ s | $)', '$ 1' + saját.prefix + '$2$3', érték);
+	value: function(value, property) {
+		value = fix('functions', '(^|\\s|,)', '\\s*\\(', '$1' + self.prefix + '$2(', value);
+		value = fix('keywords', '(^|\\s)', '(\\s|$)', '$1' + self.prefix + '$2$3', value);
 
-		if (self.valueProperties.indexOf (tulajdonság)> = 0) {
-			value = fix ('tulajdonságok', '(^ | \\ s |,)', '($ | \\ s |,)', '$ 1' + saját.prefix + '$2$3', érték);
+		if(self.valueProperties.indexOf(property) >= 0) {
+			value = fix('properties', '(^|\\s|,)', '($|\\s|,)', '$1'+self.prefix+'$2$3', value);
 		}
 
-		visszatérési érték;
+		return value;
 	},
 	
-	// Figyelem: Az előtagok nem számítanak, még akkor is, ha a választókészülék előtag nélküli
-	prefixSelector: funkció (választó) {
-		return selector.replace (/ ^:{1,2}/, függvény ($ 0) {return 0 $ + self.prefix})
+	// Warning: Prefixes no matter what, even if the selector is supported prefix-less
+	prefixSelector: function(selector) {
+		return selector.replace(/^:{1,2}/, function($0) { return $0 + self.prefix })
 	},
 	
-	// Figyelem: Az előtagok nem számítanak, még akkor is, ha a tulajdonság előtag nélküli
-	prefixProperty: function (tulajdonság, camelCase) {
-		var prefixed = self.prefix + tulajdonság;
+	// Warning: Prefixes no matter what, even if the property is supported prefix-less
+	prefixProperty: function(property, camelCase) {
+		var prefixed = self.prefix + property;
 		
-		vissza a camelCase? StyleFix.camelCase (prefixed): prefixed;
+		return camelCase? StyleFix.camelCase(prefixed) : prefixed;
 	}
 };
 
-/ **************************************
- * Tulajdonságok
- ************************************** /
-(függvény () {
+/**************************************
+ * Properties
+ **************************************/
+(function() {
 	var prefixes = {},
-		tulajdonságok = [],
+		properties = [],
 		shorthands = {},
-		style = getComputedStyle (document.documentElement, null),
-		dummy = document.createElement ('div') stílus;
+		style = getComputedStyle(document.documentElement, null),
+		dummy = document.createElement('div').style;
 	
-	// Miért csináljuk ezt ahelyett, hogy egy .style objektum tulajdonságait iteráljuk? Mert a Webkit nem ismétlődik ezek felett.
-	var iterate = függvény (tulajdonság) {
-		if (property.charAt (0) === '-') {
-			properties.push (tulajdonság);
+	// Why are we doing this instead of iterating over properties in a .style object? Cause Webkit won't iterate over those.
+	var iterate = function(property) {
+		if(property.charAt(0) === '-') {
+			properties.push(property);
 			
-			var parts = property.split ('-'),
-				előtag =[1]rész;
+			var parts = property.split('-'),
+				prefix = parts[1];
 				
-			// A gróf előtag használata
-			előtagok[prefix] = ++ előtagok[prefix] || 1;
+			// Count prefix uses
+			prefixes[prefix] = ++prefixes[prefix] || 1;
 			
-			// Ez segít meghatározni a rövidítményeket
-			míg (alkatrészhossz> 3) {
-				parts.pop ();
+			// This helps determining shorthands
+			while(parts.length > 3) {
+				parts.pop();
 				
-				var shorthand = parts.join ('-');
+				var shorthand = parts.join('-');
 
-				if (támogatott (rövidített) && tulajdonságok.indexOf (rövidített) === -1) {
-					properties.push (rövidítés);
+				if(supported(shorthand) && properties.indexOf(shorthand) === -1) {
+					properties.push(shorthand);
 				}
 			}
 		}
 	},
-	támogatott = funkció (tulajdonság) {
-		visszaadja a StyleFix.camelCase (tulajdonságot) dummy-ban;
+	supported = function(property) {
+		return StyleFix.camelCase(property) in dummy;
 	}
 	
-	// Néhány böngészőnek numerikus indexei vannak a tulajdonságokra, mások nem
-	if (stílus.hossz> 0) {
-		for (var i = 0; i <style.length; i++) {
-			iterál ([i]stílus)
+	// Some browsers have numerical indices for the properties, some don't
+	if(style.length > 0) {
+		for(var i=0; i<style.length; i++) {
+			iterate(style[i])
 		}
 	}
-	más {
-		for (var tulajdonság stílusban) {
-			iterate (StyleFix.deCamelCase (tulajdonság));
+	else {
+		for(var property in style) {
+			iterate(StyleFix.deCamelCase(property));
 		}
 	}
 
-	// Keresse meg a leggyakrabban használt előtagot
-	var legmagasabb = {uses:0};
-	for (var prefix az előtagokban) {
-		var használja = előtagok[prefix];
+	// Find most frequently used prefix
+	var highest = {uses:0};
+	for(var prefix in prefixes) {
+		var uses = prefixes[prefix];
 
-		if (legmagasabb.felhasználás <felhasználás) {
-			legmagasabb = {prefix: prefix, uses: uses};
+		if(highest.uses < uses) {
+			highest = {prefix: prefix, uses: uses};
 		}
 	}
 	
-	self.prefix = '-' + legmagasabb.prefix + '-';
-	self.Prefix = StyleFix.camelCase (self.prefix);
+	self.prefix = '-' + highest.prefix + '-';
+	self.Prefix = StyleFix.camelCase(self.prefix);
 	
-	öntulajdon = =];
+	self.properties = [];
 
-	// Tulajdonságok beszerzése CSAK előtaggal támogatva
-	for (var i = 0; i <properties.length; i++) {
-		var tulajdonság = tulajdonságok[i];
+	// Get properties ONLY supported with a prefix
+	for(var i=0; i<properties.length; i++) {
+		var property = properties[i];
 		
-		if (property.indexOf (self.prefix) === 0) {// több előtaggal is rendelkezhetünk, például az Opera
-			var unprefixed = tulajdonság.selyem (saját.prefix.hossz);
+		if(property.indexOf(self.prefix) === 0) { // we might have multiple prefixes, like Opera
+			var unprefixed = property.slice(self.prefix.length);
 			
-			if (! támogatott (nem rögzített)) {
-				self.properties.push (előtag nélküli);
+			if(!supported(unprefixed)) {
+				self.properties.push(unprefixed);
 			}
 		}
 	}
 	
 	// IE fix
-	if (self.Prefix == 'Ms' 
-	  &&! ("átalakítás" a próbabábutban) 
-	  &&! ('MsTransform' in dummy) 
+	if(self.Prefix == 'Ms' 
+	  && !('transform' in dummy) 
+	  && !('MsTransform' in dummy) 
 	  && ('msTransform' in dummy)) {
-		self.properties.push ('átalakítás', 'átalakulás eredete');	
+		self.properties.push('transform', 'transform-origin');	
 	}
 	
-	self.properties.sort ();
-}) ();
+	self.properties.sort();
+})();
 
-/ **************************************
- * Értékek
- ************************************** /
-(függvény () {
-// Azok az értékek, amelyek előtagot igényelhetnek
-var funkciók = {
-	'lineáris gradiens': {
-		tulajdonság: 'backgroundImage',
-		params: 'vörös, kékeszöld'
+/**************************************
+ * Values
+ **************************************/
+(function() {
+// Values that might need prefixing
+var functions = {
+	'linear-gradient': {
+		property: 'backgroundImage',
+		params: 'red, teal'
 	},
 	'calc': {
-		tulajdonság: „szélesség”,
-		params: '1xx + 5%'
+		property: 'width',
+		params: '1px + 5%'
 	},
-	'elem': {
-		tulajdonság: 'backgroundImage',
+	'element': {
+		property: 'backgroundImage',
 		params: '#foo'
 	},
-	„kereszteződés”: {
-		tulajdonság: 'backgroundImage',
-		params: „url (a.png), url (b.png), 50%”
+	'cross-fade': {
+		property: 'backgroundImage',
+		params: 'url(a.png), url(b.png), 50%'
 	}
 };
 
 
-függvények ['ismétlődő-lineáris-gradiens'] =
-függvények ['ismétlődő-radiális-gradiens'] =
-függvények ['radiális gradiens'] =
-funkciók [ 'lineáris-gradiens'];
+functions['repeating-linear-gradient'] =
+functions['repeating-radial-gradient'] =
+functions['radial-gradient'] =
+functions['linear-gradient'];
 
-// Megjegyzés: A hozzárendelt tulajdonságok csak * tesztelés * támogatására vonatkoznak. 
-// A kulcsszavak előtaggal vannak ellátva mindenütt.
-var kulcsszavak = {
-	'kezdeti': 'szín',
-	'nagyítás': 'kurzor',
-	'kicsinyítés': 'kurzor',
+// Note: The properties assigned are just to *test* support. 
+// The keywords will be prefixed everywhere.
+var keywords = {
+	'initial': 'color',
+	'zoom-in': 'cursor',
+	'zoom-out': 'cursor',
 	'box': 'display',
 	'flexbox': 'display',
 	'inline-flexbox': 'display',
 	'flex': 'display',
-	'inline-flex': 'kijelző',
-	'rács': 'kijelző',
+	'inline-flex': 'display',
+	'grid': 'display',
 	'inline-grid': 'display',
-	„maximális tartalom”: „szélesség”,
-	„minimális tartalom”: „szélesség”,
-	„fit-content”: „szélesség”,
-	'kitölthető': 'szélesség'
+	'max-content': 'width',
+	'min-content': 'width',
+	'fit-content': 'width',
+	'fill-available': 'width'
 };
 
-önfunkciók = [];
+self.functions = [];
 self.keywords = [];
 
-var stílus = document.createElement ('div'). stílus;
+var style = document.createElement('div').style;
 
-támogatott funkció (érték, tulajdonság) {
-	stílus[property] = '';
-	stílus[property] = érték;
+function supported(value, property) {
+	style[property] = '';
+	style[property] = value;
 
-	visszatérés !! stílus[property];
+	return !!style[property];
 }
 
-for (függvények függvényében) {
-	var teszt =[func]függvény,
-		tulajdonság = teszt.tulajdon,
+for (var func in functions) {
+	var test = functions[func],
+		property = test.property,
 		value = func + '(' + test.params + ')';
 	
-	if (! támogatott (érték, tulajdonság)
-	  && támogatott (self.prefix + érték, tulajdonság)) {
-		// Támogatott, de előtaggal
-		self.functions.push (func);
+	if (!supported(value, property)
+	  && supported(self.prefix + value, property)) {
+		// It's supported, but with a prefix
+		self.functions.push(func);
 	}
 }
 
-for (var kulcsszó a kulcsszavakban) {
-	var tulajdonság =[keyword]kulcsszó;
+for (var keyword in keywords) {
+	var property = keywords[keyword];
 
-	if (! támogatott (kulcsszó, tulajdonság)
-	  && támogatott (self.prefix + kulcsszó, tulajdonság)) {
-		// Támogatott, de előtaggal
-		self.keywords.push (kulcsszó);
+	if (!supported(keyword, property)
+	  && supported(self.prefix + keyword, property)) {
+		// It's supported, but with a prefix
+		self.keywords.push(keyword);
 	}
 }
 
-}) ();
+})();
 
-/ **************************************
- * Kiválasztók és @ szabályok
- ************************************** /
-(függvény () {
+/**************************************
+ * Selectors and @-rules
+ **************************************/
+(function() {
 
 var 
-választók = {
-	': csak olvasható': null,
-	': read-write': null,
-	': any-link': null,
-	':: válogatás': null
+selectors = {
+	':read-only': null,
+	':read-write': null,
+	':any-link': null,
+	'::selection': null
 },
 
 atrules = {
-	„kulcskeretek”: „név”,
-	'nézetablak': null,
-	'document': 'regexp (".")'
+	'keyframes': 'name',
+	'viewport': null,
+	'document': 'regexp(".")'
 };
 
-önválasztók = [];
+self.selectors = [];
 self.atrules = [];
 
-var style = root.appendChild (document.createElement ('style'));
+var style = root.appendChild(document.createElement('style'));
 
-támogatott funkció (választó) {
-	style.textContent = választó + '{}'; // A Safari 4 problémái vannak a style.innerHTML-rel
+function supported(selector) {
+	style.textContent = selector + '{}';  // Safari 4 has issues with style.innerHTML
 	
-	visszatérés !! style.sheet.cssRules.length;
+	return !!style.sheet.cssRules.length;
 }
 
-for (var választó a választókban) {
-	var teszt = választó + (választók[selector]? '(' +[selector] + 'választógomb)': '');
+for(var selector in selectors) {
+	var test = selector + (selectors[selector]? '(' + selectors[selector] + ')' : '');
 		
-	if (! támogatott (teszt) && támogatott (self.prefixSelector (teszt))) {
-		self.selectors.push (választó);
+	if(!supported(test) && supported(self.prefixSelector(test))) {
+		self.selectors.push(selector);
 	}
 }
 
-for (var atrule in atrules) {
-	var teszt = atrule + '' + (atrules[atrule] || '');
+for(var atrule in atrules) {
+	var test = atrule + ' ' + (atrules[atrule] || '');
 	
-	if (! támogatott ('@' + teszt) && támogatott ('@' + self.prefix + teszt)) {
-		self.atrules.push (atrule);
+	if(!supported('@' + test) && supported('@' + self.prefix + test)) {
+		self.atrules.push(atrule);
 	}
 }
 
-root.removeChild (stílus);
+root.removeChild(style);
 
-}) ();
+})();
 
-// Tulajdonságok, amelyek tulajdonságokat értékként fogadnak el
+// Properties that accept properties as their value
 self.valueProperties = [
-	'átmenet',
-	„Átmenetifém-tulajdonság”
+	'transition',
+	'transition-property'
 ]
 
-// Osztály hozzáadása az aktuális előtaghoz
-root.className + = '' + self.prefix;
+// Add class for current prefix
+root.className += ' ' + self.prefix;
 
-StyleFix.register (self.prefixCSS);
+StyleFix.register(self.prefixCSS);
 
 
-}) (Document.documentElement);
+})(document.documentElement);
