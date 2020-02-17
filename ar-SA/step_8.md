@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## التحدي: أنشئ نمط طباعة الكمبيوتر
+## Challenge: Create A Computer Printout Style
 
-قم بإنشاء نمط مطبوع للكمبيوتر على الطراز القديم وتطبيقه على بعض الكلمات:
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-![لقطة شاشة](images/letter-fonts-printout.png)
+![screenshot](images/letter-fonts-printout.png)
 
-سوف تحتاج:
+You will need:
 
-+ عائلة الخطوط `VT323` من <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. انظر إلى الخطوة 5 إذا كنت بحاجة إلى تذكير باستخدام خطوط Google.
++ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
 
-+ صورة خلفية `computer-printout-paper.png`. انظر إلى الخطوة 4 إذا كنت بحاجة إلى تذكير باستخدام صور الخلفية.
++ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
 
-\--- challenge/ \---
+\--- /challenge \---
