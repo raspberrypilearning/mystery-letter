@@ -1,25 +1,25 @@
-## Editarea claselor
+## Editing Classes
 
-+ Dă click pe tab-ul **„style.css”**. Găsește stilul pentru clasa CSS `newspaper` pe care ai folosit-o.
++ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
 
-![captură de ecran](images/letter-newspaper.png)
+![screenshot](images/letter-newspaper.png)
 
-+ Observă cum există un punct „ . ” înaintea numelui fiecărei clase în fișierul CSS, dar nu și în eticheta `<span>` din documentul tău HTML.
++ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
-+ Acum uită-te la celelalte clase CSS pe care le-ai folosit pentru a-ți stiliza scrisoarea misteriosă. Poți să găsești:
++ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
     
-    + Cum stilul `magazine1` schimbă textul în majuscule (litere mari).
+    + How the `magazine1` style changes the text to all uppercase (capital) letters.
     
-    + Cum stilul `magazine2` pune o imagine înaintea textului.
+    + How the `magazine2` style puts an image behind the text.
 
-![captură de ecran](images/letter-magazines.png)
+![screenshot](images/letter-magazines.png)
 
-+ Ce se întâmplă dacă schimbi `background-image` pentru `magazine2` în `canvas.png`? Dacă preferi `pink-pattern.png` poți să îl schimbi înapoi. 
++ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
 
-Poți schimba și culorile în stilurile magazine dacă dorești.
+You can also change the colours in the magazine styles if you like.
 
-+ Găsește codul CSS folosit pentru a roti și înclina literele tale:
++ Find the CSS used to rotate and skew (tilt) your words:
 
-![captură de ecran](images/letter-rotate-skew.png)
+![screenshot](images/letter-rotate-skew.png)
 
-Încearcă să schimbi numerele pentru a crea diferite efecte, iar apoi testează-ți pagina.
+Try changing the numbers to create different effects and then testing your page.
