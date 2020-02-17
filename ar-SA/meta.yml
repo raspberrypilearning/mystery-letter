@@ -6,32 +6,32 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-title: رسالة غامضة
-description: إنشاء رسالة غامضة باستخدام أنماط كثيرة مختلفة.
+title: Mystery Letter
+description: Create a mystery letter with lots of different styles.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
-site_areas: codeclub, python
+site_areas: projects
 hardware: ''
 software: html-css-javascript
-version: 3
+version: 3.1
 last_tested: 2017-01-01
 steps:
   - 
-    title: المقدمة
+    title: Introduction
   - 
-    title: اختر رسالتك
+    title: Choose Your Message
   - 
-    title: تحرير رسالتك
+    title: Editing Your Message
   - 
-    title: استخدام أنماط الفئات
+    title: Using Class Styles
   - 
-    title: 'التحدي: حدِّد أنماط رسالتك'
+    title: 'Challenge: Style Your Message'
   - 
-    title: تحرير الفئات
+    title: Editing Classes
   - 
-    title: إنشاء فئة جديدة
+    title: Create a New Class
   - 
-    title: 'التحدي: أنشئ نمط طباعة الكمبيوتر'
+    title: 'Challenge: Create A Computer Printout Style'
   - 
-    title: 'التحدي: أنشئ أنماطًا من عندك'
+    title: 'Challenge: Create Your Own Styles'
