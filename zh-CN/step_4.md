@@ -6,6 +6,6 @@
 
 ![截屏](images/letter-magazine1.png)
 
-+ 可以给元素添加多个类。 只需要在其中添加一个空格。 将 `big` 类添加到你的一个`<span>`标签中。 测试你的网页。 
++ 可以给一个元素添加多个类。 只需要在类之间以空格隔开。 将 `big` 类添加到你的一个`<span>`标签中。 测试你的网页。 
 
-![截图](images/letter-big.png)
+![截屏](images/letter-big.png)
