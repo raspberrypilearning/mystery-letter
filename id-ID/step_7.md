@@ -1,51 +1,51 @@
-## Buat Kelas Baru
+## Create a New Class
 
-Mari buat gaya yang terlihat seperti dipotong dari Komik. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> menyediakan banyak font yang gratis untuk digunakan.
+Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
 
-+ Tambahkan kelas `komik` dalam **file style.css**. Setelah `magazine2` adalah tempat yang bagus. Jangan lupa titik di depan nama kelas. 
++ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
 
-![tangkapan layar](images/letter-comic1.png)
+![screenshot](images/letter-comic1.png)
 
-Jangan khawatir jika Anda mendapat peringatan yang mengatakan bahwa 'Aturan itu kosong'; Anda akan memperbaikinya selanjutnya.
+Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
 
-+ Sekarang tambahkan beberapa CSS ke kelas CSS komik. Anda dapat menggunakan warna yang berbeda jika Anda suka. Ada daftar banyak warna pada <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![tangkapan layar](images/letter-comic2.png)
+![screenshot](images/letter-comic2.png)
 
-+ Gunakan gaya komik di beberapa tag `<span>` di dokumen HTML Anda dan uji halaman Anda:
++ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
 
-![tangkapan layar](images/letter-comic-output.png)
+![screenshot](images/letter-comic-output.png)
 
-+ Sekarang Anda dapat menambahkan font yang menyenangkan. Buka tab atau jendela browser baru. Pergi ke <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> dan cari **'bangers'**:
++ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
 
-![tangkapan layar](images/letter-gfonts-1-annotated.png)
+![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Klik tombol + "Pilih font ini":
++ Click on the + "Select this font" button:
 
-![tangkapan layar](images/letter-gfonts-2-annotated.png)
+![screenshot](images/letter-gfonts-2-annotated.png)
 
-Pesan yang mengatakan "1 Keluarga Dipilih" akan muncul di bagian bawah layar.
+A message saying "1 Family Selected" will appear at the bottom on the screen.
 
-![tangkapan layar](images/letter-gfonts-3.png)
+![screenshot](images/letter-gfonts-3.png)
 
-+ Klik pada pesan "1 Family Selected" untuk membuka jendela dan menyalin kode yang disorot:
++ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
 
-![tangkapan layar](images/letter-gfonts-4.png)
+![screenshot](images/letter-gfonts-4.png)
 
-+ Tempel kode `<link>` yang baru saja Anda salin dari Google font ke `<head>` halaman web Anda:
++ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
 
-![tangkapan layar](images/letter-fonts-head.png)
+![screenshot](images/letter-fonts-head.png)
 
-Ini memungkinkan Anda untuk menggunakan font Bangers di halaman web Anda.
+This allows you to use the Bangers font in your webpage.
 
-+ Kembali ke Google font dan gulirkan lebih jauh ke bawah halaman dan salin kode font-family:
++ Return to Google fonts and scroll further down the page and copy the font-family code:
 
-![tangkapan layar](images/letter-fonts-bangers.png)
+![screenshot](images/letter-fonts-bangers.png)
 
-+ Sekarang kembali ke file **'style.css' Anda** di trinket dan tempel kode font-family ke dalam gaya komik:
++ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
 
-![tangkapan layar](images/letter-fonts-comic.png)
+![screenshot](images/letter-fonts-comic.png)
 
-+ Uji halaman web Anda. Hasilnya akan terlihat seperti ini: 
++ Test your webpage. The result should look something like this: 
 
-![tangkapan layar](images/letter-fonts-output.png)
+![screenshot](images/letter-fonts-output.png)
