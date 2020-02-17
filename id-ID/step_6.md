@@ -1,25 +1,25 @@
-## Kelas Editing
+## Editing Classes
 
-+ Klik pada tab **'style.css'**. Temukan gaya untuk `koran` kelas CSS yang telah Anda gunakan.
++ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
 
-![tangkapan layar](images/letter-newspaper.png)
+![screenshot](images/letter-newspaper.png)
 
-+ Perhatikan bahwa ada titik (berhenti penuh) '.' sebelum nama kelas di file CSS tetapi tidak di tag `<span>` di dokumen HTML Anda.
++ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
-+ Sekarang lihat kelas CSS lain yang Anda gunakan untuk menata surat misteri Anda. Dapatkah Anda menemukan:
++ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
     
-    + Bagaimana gaya `magazine1` mengubah teks menjadi huruf besar semua (huruf kapital).
+    + How the `magazine1` style changes the text to all uppercase (capital) letters.
     
-    + Bagaimana gaya `magazine2` menempatkan gambar di belakang teks.
+    + How the `magazine2` style puts an image behind the text.
 
-![tangkapan layar](images/letter-magazines.png)
+![screenshot](images/letter-magazines.png)
 
-+ Apa yang terjadi jika Anda mengubah `gambar latar belakang` untuk `majalah2` hingga `kanvas.png`? Jika Anda lebih suka `pink-pattern.png` Anda dapat mengubahnya kembali. 
++ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
 
-Anda juga dapat mengubah warna dalam gaya majalah jika Anda suka.
+You can also change the colours in the magazine styles if you like.
 
-+ Temukan CSS yang digunakan untuk memutar dan memiringkan (tilt) kata-kata Anda:
++ Find the CSS used to rotate and skew (tilt) your words:
 
-![tangkapan layar](images/letter-rotate-skew.png)
+![screenshot](images/letter-rotate-skew.png)
 
-Coba ubah angka untuk membuat efek yang berbeda dan kemudian uji halaman Anda.
+Try changing the numbers to create different effects and then testing your page.
