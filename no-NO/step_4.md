@@ -1,11 +1,11 @@
-## Bruke klassestiler
+## Using Class Styles
 
-+ Har du merket `class = ""` i `<span>` kodene? Du kan bruke dette til å stilere mer enn én ting på samme måte.
++ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
 
-+ Legg til `magazine1` klassen til noen av dine `<span>` koder og test nettsiden din.
++ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
 
-![skjermbilde](images/letter-magazine1.png)
+![screenshot](images/letter-magazine1.png)
 
-+ Du kan legge til mer enn en klasse til et element. Bare la det være mellomrom. Legg til `stor` klassen til en av dine `<span>` koder. Test siden din. 
++ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
 
-![skjermbilde](images/letter-big.png)
+![screenshot](images/letter-big.png)
