@@ -1,37 +1,37 @@
 ---
-hero_image: images / banner.png
-theme: رنگ زرد
+hero_image: images/banner.png
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1، design-1، programming-0، phys-comp-0، manufacture-0، community-0
-title: نامه اسرار آمیز
-description: یک نامه رمز و راز با تعداد زیادی از سبک های مختلف ایجاد کنید.
+curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
+title: Mystery Letter
+description: Create a mystery letter with lots of different styles.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
-interests: هنر
+interests: art
 technologies: html-css-javascript
-site_areas: پروژه ها
+site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
   - 
-    title: معرفی
+    title: Introduction
   - 
-    title: پیام خود را انتخاب کنید
+    title: Choose Your Message
   - 
-    title: ویرایش پیام شما
+    title: Editing Your Message
   - 
-    title: با استفاده از سبک های کلاس
+    title: Using Class Styles
   - 
-    title: 'چالش: سبک پیام شما'
+    title: 'Challenge: Style Your Message'
   - 
-    title: ویرایش کلاس ها
+    title: Editing Classes
   - 
-    title: یک کلاس جدید ایجاد کنید
+    title: Create a New Class
   - 
-    title: 'چالش: ایجاد یک نسخه چاپی کامپیوتری'
+    title: 'Challenge: Create A Computer Printout Style'
   - 
-    title: 'چالش: سبک های خود را ایجاد کنید'
+    title: 'Challenge: Create Your Own Styles'
