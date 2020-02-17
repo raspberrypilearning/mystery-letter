@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Provocare: crează un șablon de printare
+## Challenge: Create A Computer Printout Style
 
-Creează un stil cu model și adaugă-l la câteva cuvinte:
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-![captură de ecran](images/letter-fonts-printout.png)
+![screenshot](images/letter-fonts-printout.png)
 
-Vei avea nevoie de:
+You will need:
 
-+ Familia de fonturi `VT323` din <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Mergi înapoi la Pasul 5 dacă ai nevoie să-ți reamintești cum se folosește Google Fonts.
++ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
 
-+ Imaginea de fundal `computer-printout-paper.png`. Mergi înapoi la Pasul 4 dacă ai nevoie să-ți reamintești cum se folosesc imaginile de fundal.
++ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
 
 \--- /challenge \---
