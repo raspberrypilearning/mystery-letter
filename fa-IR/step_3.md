@@ -1,21 +1,21 @@
-## ویرایش پیام شما
+## Editing Your Message
 
-بیایید پیام خود را بر روی یک صفحه وب دریافت کنیم.
+Let's get your message onto a webpage.
 
-+ این نکته را باز کنید: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    این پروژه باید چنین باشد:
+    The project should look like this:
     
-    ![تصویری](images/letter-starter.png)
+    ![screenshot](images/letter-starter.png)
 
-+ برچسب پاراگراف `<p>` در پروژه تولدت مبارک معرفی شده است. برچسب `<span>` برای گروه بندی قطعات کوچکتر متن در یک پاراگراف استفاده می شود تا بتوانیم آنها را سبک کنیم.
++ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
 
-![تصویری](images/letter-placeholder.png)
+![screenshot](images/letter-placeholder.png)
 
-+ کلمات را به پیام خود تغییر دهید با قرار دادن یک کلمه در هر `<span>`. اگر پیام شما دارای طول های متفاوت باشد، باید برچسب های `<span>` را اضافه یا حذف کنید. 
++ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
-![تصویری](images/letter-message.png)
+![screenshot](images/letter-message.png)
 
-+ بر روی دکمه Run کلیک کنید تا تست خود را انجام دهید.
++ Click the Run button to test your trinket.
     
-    اگر به کلمات نگاه کنید، می توانید ببینید که آنها مدل شده اند تا به نظر برسد که روی صفحه قرار گرفته اند.
+    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
