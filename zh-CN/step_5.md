@@ -1,25 +1,23 @@
 --- challenge ---
+
 ## 挑战：设置你的信息样式
 
-使用所提供的样式来使你的信息看起来像神秘信件。 
+使用提供的样式使你的消息看起来像一封神秘信件。
 
-向你的 `<span>` 标记添加以下这些类： 
+添加这些类到你的`<span>`标签：
 
-+ `newspaper`（报纸）、`magazine1`（杂志 1）、`magazine2`（杂志 2）
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `medium`（中）、`big`（大）、`reallybig`（特大）
++ `medium`, `big`, `reallybig`
 
-+ `rotateleft`（向左旋转）、`rotateright`（向右旋转）
++ `rotateleft`, `rotateright`
 
-+ `skewleft`（向左倾斜）、`skewright`（向右倾斜）
++ `skewleft`, `skewright`
 
-请不要向一个特定的 `<span>` 添加来自同一行的多个类。
+不要在每行中向一个特定的`<span>`添加一个以上。
 
-你的文字应如下所示：
+你的信件可以是这样的：
 
-![screenshot](images/letter-challenge1.png)
-
-
-
+![截屏](images/letter-challenge1.png)
 
 --- /challenge ---

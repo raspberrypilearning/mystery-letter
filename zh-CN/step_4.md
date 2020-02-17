@@ -1,18 +1,11 @@
 ## 使用类样式
 
++ 你注意到在 `<span>` 标签里的 `class=""` 了吗？ 你可以用相同的方式使用此样式设置多个对象。
 
++ 将 `magazine1` 类添加到几个`<span>`标签中，然后测试你的网页。
 
-+ 你是否注意到了 `<span>` 标记中的 `class=""`？你可以用它来以同样的方式设置多项内容的样式。 
+![截屏](images/letter-magazine1.png)
 
-+ 向你的一些 `<span>` 标记添加 `magazine1`（杂志 1）类，并测试你的网页。
++ 可以给一个元素添加多个类。 只需要在类之间以空格隔开。 将 `big` 类添加到你的一个`<span>`标签中。 测试你的网页。 
 
-![screenshot](images/letter-magazine1.png)
-
-
-
-+ 你可以向一个元素添加多个类。只需在类之间留一个空格。向其中一个 `<span>` 标记添加 `big`（大）类。测试你的页面。 
-
-![screenshot](images/letter-big.png)
-
-
-
+![截屏](images/letter-big.png)
