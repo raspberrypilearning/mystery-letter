@@ -36,7 +36,7 @@ A message saying "1 Family Selected" will appear at the bottom on the screen.
 
 ![screenshot](images/letter-fonts-head.png)
 
-Isso permite que você use a fonte Bangers na sua página da web.
+This allows you to use the Bangers font in your webpage.
 
 + Volte para o Google Fonts e vá até a página e copie o código da 'font-family':
 
