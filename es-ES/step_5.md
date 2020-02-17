@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Reto: Cambiar el estilo de tu mensaje
+## Challenge: Style Your Message
 
-Usa los estilos disponibles para hacer que tus mensajes parezcan una carta misteriosa.
+Use the provided styles to make your message look like a mystery letter.
 
-Añade estas clases a tus etiquetas `<span>`:
+Add these classes to your `<span>` tags:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -12,12 +12,12 @@ Añade estas clases a tus etiquetas `<span>`:
 
 + `rotateleft`, `rotateright`
 
-+ `rotateleft`, `rotateright`
++ `skewleft`, `skewright`
 
-No añadas más de una clase de cada línea para un `<span>` en particular.
+Don't add more than one from each line to a particular `<span>`.
 
-Así es como tu carta debe verse:
+This is how your letter could look:
 
-![captura de pantalla](images/letter-challenge1.png)
+![screenshot](images/letter-challenge1.png)
 
 \--- /challenge \---
