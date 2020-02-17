@@ -12,4 +12,4 @@ You will need:
 
 + The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
 
-\--- challenge \---
+\--- /challenge \---
