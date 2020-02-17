@@ -6,13 +6,13 @@
 
 ![截图](images/letter-comic1.png)
 
-如果你看到一个警告写着“规则是空的”，不要担心；我们一会儿就解决。
+如果你看到一个警告写着“规则是空的（The Rule is empty）”，不要担心；我们一会儿就解决。
 
-+ 现在在comic CSS类中写一些CSS。 你喜欢的话可以用不同颜色。 一系列的颜色都在这个文件中： <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>。
++ 现在在comic CSS类中写一些CSS代码。 你喜欢的话可以用不同颜色。 这个文件中包含了许多不同的颜色列表： <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>。
 
 ![截屏](images/letter-comic2.png)
 
-+ 在HTML文件的一些`<span>`标签中使用漫画样式，并测试页面：
++ 在HTML文件的一些`<span>`标签中使用漫画（comic）样式，并测试页面：
 
 ![截图](images/letter-comic-output.png)
 
@@ -32,7 +32,7 @@
 
 ![截屏](images/letter-gfonts-4.png)
 
-+ 把你刚复制的 Google 字体的 `<link>` 代码添加到网页的 `<head>`：
++ 把你刚复制的 Google 字体的 `<link>` 代码添加到网页的 `<head>`中：
 
 ![截屏](images/letter-fonts-head.png)
 
