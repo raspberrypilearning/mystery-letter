@@ -1,497 +1,497 @@
-/ **
- * StyleFix 1.0.3 و PrefixFree 1.0.7
- * @ Author ليا فيرو
- * رخصة معهد ماساتشوستس للتكنولوجيا
- * /
+/**
+ * StyleFix 1.0.3 & PrefixFree 1.0.7
+ * @author Lea Verou
+ * MIT license
+ */
 
-(وظيفة(){
+(function(){
 
-if (! window.addEventListener) {
-	إرجاع؛
+if(!window.addEventListener) {
+	return;
 }
 
 var self = window.StyleFix = {
-	الرابط: وظيفة (رابط) {
-		محاولة {
-			// تجاهل صفحات الأنماط ذات سمة noprefix للبيانات وكذلك أوراق الأنماط البديلة
-			if (link.rel! == 'stylesheet' || link.hasAttribute ('data-noprefix')) {
-				إرجاع؛
+	link: function(link) {
+		try {
+			// Ignore stylesheets with data-noprefix attribute as well as alternate stylesheets
+			if(link.rel !== 'stylesheet' || link.hasAttribute('data-noprefix')) {
+				return;
 			}
 		}
-		قبض (ه) {
-			إرجاع؛
+		catch(e) {
+			return;
 		}
 
-		var url = link.href || link.getAttribute ( 'بيانات أ href')،
-		    base = url.replace (/ [^ \ /] + $ /، '')،
-		    base_scheme = (/ ^[a-z]{3,10}: /. exec (base) || [''])[0]،
-		    base_domain = (/ ^[a-z]{3,10}: \ / \ / [^ \ /] + /. exec (base) || [''])[0]،
-		    base_query = /^([^؟]*)\؟؟/.exec(url)[1]،
-		    الوالد = link.parentNode ،
-		    xhr = XMLHttpRequest () جديد ،
-		    معالجة؛
+		var url = link.href || link.getAttribute('data-href'),
+		    base = url.replace(/[^\/]+$/, ''),
+		    base_scheme = (/^[a-z]{3,10}:/.exec(base) || [''])[0],
+		    base_domain = (/^[a-z]{3,10}:\/\/[^\/]+/.exec(base) || [''])[0],
+		    base_query = /^([^?]*)\??/.exec(url)[1],
+		    parent = link.parentNode,
+		    xhr = new XMLHttpRequest(),
+		    process;
 		
-		xhr.onreadystatechange = function () {
-			if (xhr.readyState === 4) {
-				معالجة()؛
+		xhr.onreadystatechange = function() {
+			if(xhr.readyState === 4) {
+				process();
 			}
-		}؛
+		};
 
-		العملية = الوظيفة () {
-				var css = xhr.responseText؛
+		process = function() {
+				var css = xhr.responseText;
 				
-				if (css && link.parentNode && (! xhr.status || xhr.status <400 || xhr.status> 600)) {
-					css = self.fix (css، true، link)؛
+				if(css && link.parentNode && (!xhr.status || xhr.status < 400 || xhr.status > 600)) {
+					css = self.fix(css, true, link);
 					
-					/ / قم بتحويل عناوين URL النسبية إلى مطلق ، إذا لزم الأمر
-					إذا (الأساس) {
-						css = css.replace (/ url \ (\ s *؟ ((؟: "| ')؟) (. +؟) \ 1 \ s *؟ \) / gi ، الدالة ($ 0 ، اقتباس ، url) {
-							إذا (/ ^ ([a-z]{3,10}: | #) / i.test (url)) {// مطلق & أو has-النسبي
-								إرجاع $ 0؛
+					// Convert relative URLs to absolute, if needed
+					if(base) {
+						css = css.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function($0, quote, url) {
+							if(/^([a-z]{3,10}:|#)/i.test(url)) { // Absolute & or hash-relative
+								return $0;
 							}
-							آخر إذا (/ ^ \ / \ / /. اختبار (رابط)) {// مخطط النسبي
-								// قد يحتوي على تسلسلات مثل /../ و /./ لكن تلك تعمل
-								إرجاع 'url ("' + base_scheme + url + '")'؛
+							else if(/^\/\//.test(url)) { // Scheme-relative
+								// May contain sequences like /../ and /./ but those DO work
+								return 'url("' + base_scheme + url + '")';
 							}
-							آخر إذا (/ ^ \ //. test (url)) {// المجال النسبي
-								إرجاع 'url ("' + base_domain + url + '")'؛
+							else if(/^\//.test(url)) { // Domain-relative
+								return 'url("' + base_domain + url + '")';
 							}
-							آخر إذا كان (/ ^ \؟ /. test (url)) {// استعلام نسبي
-								إرجاع 'url ("' + base_query + url + '")'؛
+							else if(/^\?/.test(url)) { // Query-relative
+								return 'url("' + base_query + url + '")';
 							}
 							else {
-								// المسار النسبي
-								إرجاع 'url ("' + base + url + '")'؛
+								// Path-relative
+								return 'url("' + base + url + '")';
 							}
-						})؛
+						});
 
-						// عناوين URL للسلوك لا يجب تحويلها (العدد 19)
-						يجب الهروب // base قبل إضافتها إلى RegExp (الإصدار رقم 81)
-						var escaped_base = base.replace (/( Budap\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*)
-						css = css.replace (RegExp ('\\ b (السلوك: \\ s *؟ url \\ (\'؟ "؟) '+ escaped_base،' gi ')،' $ 1 ')؛
+						// behavior URLs shoudn’t be converted (Issue #19)
+						// base should be escaped before added to RegExp (Issue #81)
+						var escaped_base = base.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");
+						css = css.replace(RegExp('\\b(behavior:\\s*?url\\(\'?"?)' + escaped_base, 'gi'), '$1');
 						}
 					
-					var style = document.createElement ('style')؛
-					style.textContent = css؛
-					style.media = link.media؛
-					style.disabled = link.disabled؛
-					style.setAttribute ('data-href'، link.getAttribute ('href'))؛
+					var style = document.createElement('style');
+					style.textContent = css;
+					style.media = link.media;
+					style.disabled = link.disabled;
+					style.setAttribute('data-href', link.getAttribute('href'));
 					
-					parent.insertBefore (النمط ، الرابط) ؛
-					parent.removeChild (وصلة).
+					parent.insertBefore(style, link);
+					parent.removeChild(link);
 					
-					style.media = link.media؛ // التكرار مقصود. انظر القضية رقم 31
+					style.media = link.media; // Duplicate is intentional. See issue #31
 				}
-		}؛
+		};
 
-		محاولة {
-			xhr.open ('GET'، url)؛
-			xhr.send (خالية)؛
+		try {
+			xhr.open('GET', url);
+			xhr.send(null);
 		} catch (e) {
-			// احتياطي إلى XDomainRequest إذا كانت متوفرة
-			if (typeof XDomainRequest! = "undefined") {
-				xhr = جديد XDomainRequest () ؛
-				xhr.onerror = xhr.onprogress = function () {}؛
-				xhr.onload = process؛
-				xhr.open ("GET" ، url) ؛
-				xhr.send (خالية)؛
+			// Fallback to XDomainRequest if available
+			if (typeof XDomainRequest != "undefined") {
+				xhr = new XDomainRequest();
+				xhr.onerror = xhr.onprogress = function() {};
+				xhr.onload = process;
+				xhr.open("GET", url);
+				xhr.send(null);
 			}
 		}
 		
-		link.setAttribute ('data-inprogress'، '')؛
-	}،
+		link.setAttribute('data-inprogress', '');
+	},
 
-	styleElement: function (style) {
-		if (style.hasAttribute ('data-noprefix')) {
-			إرجاع؛
+	styleElement: function(style) {
+		if (style.hasAttribute('data-noprefix')) {
+			return;
 		}
-		var معطل = style.disabled؛
+		var disabled = style.disabled;
 		
-		style.textContent = self.fix (style.textContent، true، style)؛
+		style.textContent = self.fix(style.textContent, true, style);
 		
-		style.disabled = معطل ؛
-	}،
+		style.disabled = disabled;
+	},
 
-	styleAttribute: function (element) {
-		var css = element.getAttribute ('style')؛
+	styleAttribute: function(element) {
+		var css = element.getAttribute('style');
 		
-		css = self.fix (css، false، element)؛
+		css = self.fix(css, false, element);
 		
-		element.setAttribute ('style'، css)؛
-	}،
+		element.setAttribute('style', css);
+	},
 	
-	العملية: وظيفة () {
-		// أوراق الأنماط المرتبطة
-		$ ('link [rel = "stylesheet"]: not ([data-inprogress])'). forEach (StyleFix.link)؛
+	process: function() {
+		// Linked stylesheets
+		$('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
 		
-		// أوراق الأنماط المضمنة
-		. $ ( 'أسلوب') forEach (StyleFix.styleElement)؛
+		// Inline stylesheets
+		$('style').forEach(StyleFix.styleElement);
 		
-		// الأنماط المضمنة
-		$ ('[style]') .forEach (StyleFix.styleAttribute) ؛
-	}،
+		// Inline styles
+		$('[style]').forEach(StyleFix.styleAttribute);
+	},
 	
-	تسجيل: وظيفة (المثبت ، الفهرس) {
+	register: function(fixer, index) {
 		(self.fixers = self.fixers || [])
-			.splice (الفهرس === غير محدد؟ self.fixers.length: index، 0، fixer)؛
-	}،
+			.splice(index === undefined? self.fixers.length : index, 0, fixer);
+	},
 	
-	إصلاح: وظيفة (المغلق ، الخام ، عنصر) {
-		من أجل (var i = 0 ؛ i <self.fixers.length; i++) {
-			css = self.fixers[i](css، raw، element) || المغلق.
+	fix: function(css, raw, element) {
+		for(var i=0; i<self.fixers.length; i++) {
+			css = self.fixers[i](css, raw, element) || css;
 		}
 		
-		العودة المغلق.
-	}،
+		return css;
+	},
 	
-	camelCase: function (str) {
-		return str.replace (/ - ([a-z]) / g ، دالة ($ 0 ، $ 1) {return $ 1.toUpperCase ()؛}). replace ('-'، '')؛
-	}،
+	camelCase: function(str) {
+		return str.replace(/-([a-z])/g, function($0, $1) { return $1.toUpperCase(); }).replace('-','');
+	},
 	
-	deCamelCase: function (str) {
-		return str.replace (/[A-Z]/ g، function ($ 0) {return '-' + $ 0.toLowerCase ()})؛
+	deCamelCase: function(str) {
+		return str.replace(/[A-Z]/g, function($0) { return '-' + $0.toLowerCase() });
 	}
-}؛
+};
 
-/ **************************************
- * أساليب العملية
- ************************************** /
-(وظيفة(){
-	setTimeout (وظيفة () {
-		$ ( 'الرابط [يختلط = "أنماط"]') forEach (StyleFix.link)؛
+/**************************************
+ * Process styles
+ **************************************/
+(function(){
+	setTimeout(function(){
+		$('link[rel="stylesheet"]').forEach(StyleFix.link);
 	}, 10);
 	
-	document.addEventListener ('DOMContentLoaded' ، StyleFix.process ، false) ؛
-}) ()؛
+	document.addEventListener('DOMContentLoaded', StyleFix.process, false);
+})();
 
-الدالة $ (expr ، con) {
-	return [] .slice.call ((con || document) .querySelectorAll (expr))؛
+function $(expr, con) {
+	return [].slice.call((con || document).querySelectorAll(expr));
 }
 
-}) ()؛
+})();
 
-/ **
+/**
  * PrefixFree
- * /
-(وظيفة (الجذر) {
+ */
+(function(root){
 
-if (! window.StyleFix ||! window.getComputedStyle) {
-	إرجاع؛
+if(!window.StyleFix || !window.getComputedStyle) {
+	return;
 }
 
-// المساعد الخاص
-إصلاح الوظيفة (ما ، قبل ، بعد ، الاستبدال ، المغلق) {
-	ماذا = الذات[what]؛
+// Private helper
+function fix(what, before, after, replacement, css) {
+	what = self[what];
 	
-	if (what.length) {
-		var regex = RegExp (قبل + '(' + what.join ('|') + ')' + بعد ، 'gi') ؛
+	if(what.length) {
+		var regex = RegExp(before + '(' + what.join('|') + ')' + after, 'gi');
 
-		css = css.replace (regex، replacement)؛
+		css = css.replace(regex, replacement);
 	}
 	
-	العودة المغلق.
+	return css;
 }
 
 var self = window.PrefixFree = {
-	prefixCSS: function (css، raw، element) {
-		فار بادئة = self.prefix؛
+	prefixCSS: function(css, raw, element) {
+		var prefix = self.prefix;
 		
-		// زوايا التدرج الإصلاح
-		if (self.functions.indexOf ('linear-gradient')> -1) {
-			يتم دعم // التدرجات مع بادئة ، وتحويل الزوايا إلى إرث
-			css = css.replace (/ (\ s |: |،) (التكرار -) - التدرج الخطي \ (\ s * (-؟ \ d * \.؟ \ d *) deg / ig ، الدالة ($ 0 ، delim ، تكرار ، درجة) {
-				return delim + (التكرار || '') + 'التدرج الخطي (' + (90 درجة) + 'deg'؛
-			})؛
+		// Gradient angles hotfix
+		if(self.functions.indexOf('linear-gradient') > -1) {
+			// Gradients are supported with a prefix, convert angles to legacy
+			css = css.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig, function ($0, delim, repeating, deg) {
+				return delim + (repeating || '') + 'linear-gradient(' + (90-deg) + 'deg';
+			});
 		}
 		
-		css = fix ('jobs'، '(\\ s |: |،)'، '\\ s * \\ ('، '$ 1' + بادئة + '$ 2 ('، css)؛
-		css = fix ('الكلمات الأساسية'، '(\\ s | :)'، '(\\ s |؛ | \\} | $)'، '$ 1' + بادئة + '$2$3'، css)؛
-		css = fix ('properties'، '(^ | \\ {| \\ s |؛)'، '\\ s *:'، '$ 1' + بادئة + '$ 2:'، css)؛
+		css = fix('functions', '(\\s|:|,)', '\\s*\\(', '$1' + prefix + '$2(', css);
+		css = fix('keywords', '(\\s|:)', '(\\s|;|\\}|$)', '$1' + prefix + '$2$3', css);
+		css = fix('properties', '(^|\\{|\\s|;)', '\\s*:', '$1' + prefix + '$2:', css);
 		
-		خصائص البادئة * داخل * القيم (القضية رقم 8)
-		إذا (self.properties.length) {
-			var regex = RegExp ('\\ b (' + self.properties.join ('|') + ') (؟! :)'، 'gi')؛
+		// Prefix properties *inside* values (issue #8)
+		if (self.properties.length) {
+			var regex = RegExp('\\b(' + self.properties.join('|') + ')(?!:)', 'gi');
 			
-			css = fix ('valueProperties'، '\\ b'، ': (. +؟)؛'، function ($ 0) {
-				إرجاع $ 0.replace (regex ، بادئة + "$ 1")
-			} ، المغلق) ؛
+			css = fix('valueProperties', '\\b', ':(.+?);', function($0) {
+				return $0.replace(regex, prefix + "$1")
+			}, css);
 		}
 		
-		إذا (الخام) {
-			css = fix ('المحددات' ، '' ، '\\ b' ، self.prefixSelector ، css) ؛
-			css = fix ('atrules'، '@'، '\\ b'، '@' + بادئة + '$ 1'، css)؛
+		if(raw) {
+			css = fix('selectors', '', '\\b', self.prefixSelector, css);
+			css = fix('atrules', '@', '\\b', '@' + prefix + '$1', css);
 		}
 		
-		// إصلاح البادئة مزدوجة
-		css = css.replace (RegExp ('-' + بادئة ، 'g') ، '-')؛
+		// Fix double prefixing
+		css = css.replace(RegExp('-' + prefix, 'g'), '-');
 		
-		// البدل البدل
-		css = css.replace (/ - \ * - (؟ =[a-z]+) / gi، self.prefix)؛
+		// Prefix wildcard
+		css = css.replace(/-\*-(?=[a-z]+)/gi, self.prefix);
 		
-		العودة المغلق.
-	}،
+		return css;
+	},
 	
-	الخاصية: وظيفة (الملكية) {
-		الإرجاع (self.properties.indexOf (property)> = 0؟ self.prefix: '') + property؛
-	}،
+	property: function(property) {
+		return (self.properties.indexOf(property) >=0 ? self.prefix : '') + property;
+	},
 	
-	القيمة: وظيفة (القيمة ، الممتلكات) {
-		value = fix ('وظائف' ، '(^ | \\ s | ،)' ، '\\ s * \\ ('، '$ 1' + self.prefix + '$ 2 ('، value)؛
-		value = fix ('الكلمات الأساسية' ، '(^ | \\ s)' ، '(\\ s | $)' ، '$ 1' + self.prefix + '$2$3' ، value)؛
+	value: function(value, property) {
+		value = fix('functions', '(^|\\s|,)', '\\s*\\(', '$1' + self.prefix + '$2(', value);
+		value = fix('keywords', '(^|\\s)', '(\\s|$)', '$1' + self.prefix + '$2$3', value);
 
-		if (self.valueProperties.indexOf (property)> = 0) {
-			value = fix ('properties'، '(^ | \\ s |،)'، '($ | \\ s |،)'، '$ 1' + self.prefix + '$2$3'، value)؛
+		if(self.valueProperties.indexOf(property) >= 0) {
+			value = fix('properties', '(^|\\s|,)', '($|\\s|,)', '$1'+self.prefix+'$2$3', value);
 		}
 
-		قيمة الإرجاع؛
-	}،
+		return value;
+	},
 	
-	// تحذير: البادئات لا يهم ، حتى لو كان المحدد مدعومًا بادئة أقل
-	prefixSelector: وظيفة (محدد) {
-		return selector.replace (/ ^:{1,2}/، function ($ 0) {return $ 0 + self.prefix})
-	}،
+	// Warning: Prefixes no matter what, even if the selector is supported prefix-less
+	prefixSelector: function(selector) {
+		return selector.replace(/^:{1,2}/, function($0) { return $0 + self.prefix })
+	},
 	
-	// تحذير: البادئات لا يهم ، حتى لو كانت الخاصية مدعومة بادئة أقل
-	prefixProperty: function (property، camelCase) {
-		var prefixed = self.prefix + property؛
+	// Warning: Prefixes no matter what, even if the property is supported prefix-less
+	prefixProperty: function(property, camelCase) {
+		var prefixed = self.prefix + property;
 		
-		العودة camelCase؟ StyleFix.camelCase (مسبوقة): بادئة ؛
+		return camelCase? StyleFix.camelCase(prefixed) : prefixed;
 	}
-}؛
+};
 
-/ **************************************
- * الخصائص
- ************************************** /
-(وظيفة() {
-	بادئات var = {} ،
-		الخصائص = [] ،
-		الاختصارات = {} ،
-		style = getComputedStyle (document.documentElement، null)،
-		dummy = document.createElement ('div'). style؛
+/**************************************
+ * Properties
+ **************************************/
+(function() {
+	var prefixes = {},
+		properties = [],
+		shorthands = {},
+		style = getComputedStyle(document.documentElement, null),
+		dummy = document.createElement('div').style;
 	
-	// لماذا نقوم بهذا بدلاً من التكرار على الخصائص في كائن .style؟ قضية Webkit لن تتكرر على هؤلاء.
-	var iterate = function (property) {
-		if (property.charAt (0) === '-') {
-			properties.push (الملكية)؛
+	// Why are we doing this instead of iterating over properties in a .style object? Cause Webkit won't iterate over those.
+	var iterate = function(property) {
+		if(property.charAt(0) === '-') {
+			properties.push(property);
 			
-			var parts = property.split ('-') ،
-				بادئة = أجزاء[1]؛
+			var parts = property.split('-'),
+				prefix = parts[1];
 				
-			يستخدم // بادئة العد
-			بادئات[prefix] = ++ بادئات[prefix] || 1؛
+			// Count prefix uses
+			prefixes[prefix] = ++prefixes[prefix] || 1;
 			
-			// هذا يساعد على تحديد الاختزال
-			بينما (أجزاء. طول> 3) {
-				parts.pop ()؛
+			// This helps determining shorthands
+			while(parts.length > 3) {
+				parts.pop();
 				
-				فار الاختزال = parts.join ('-') ؛
+				var shorthand = parts.join('-');
 
-				إذا (معتمد (اختزال) && properties.indexOf (اختزال) === -1) {
-					properties.push (اختزال)؛
+				if(supported(shorthand) && properties.indexOf(shorthand) === -1) {
+					properties.push(shorthand);
 				}
 			}
 		}
-	}،
-	مدعوم = وظيفة (خاصية) {
-		إرجاع StyleFix.camelCase (property) في دمية ؛
+	},
+	supported = function(property) {
+		return StyleFix.camelCase(property) in dummy;
 	}
 	
-	// بعض المتصفحات بها مؤشرات رقمية للخصائص ، وبعضها لا
-	if (style.length> 0) {
-		من أجل (var i = 0 ؛ i <style.length; i++) {
-			التكرار (النمط[i])
+	// Some browsers have numerical indices for the properties, some don't
+	if(style.length > 0) {
+		for(var i=0; i<style.length; i++) {
+			iterate(style[i])
 		}
 	}
 	else {
-		لـ (خاصية var بأسلوب) {
-			أعاد (StyleFix.deCamelCase (الملكية))؛
+		for(var property in style) {
+			iterate(StyleFix.deCamelCase(property));
 		}
 	}
 
-	/ / البحث عن البادئة الأكثر استخداما
-	فار أعلى = {uses:0}؛
-	لـ (بادئة var في البادئات) {
-		يستخدم var = بادئات[prefix]؛
+	// Find most frequently used prefix
+	var highest = {uses:0};
+	for(var prefix in prefixes) {
+		var uses = prefixes[prefix];
 
-		إذا (top.uses <الاستخدامات) {
-			أعلى = {prefix: prefix, uses: uses}؛
+		if(highest.uses < uses) {
+			highest = {prefix: prefix, uses: uses};
 		}
 	}
 	
-	self.prefix = '-' + higher.prefix + '-'؛
-	self.Prefix = StyleFix.camelCase (self.prefix)؛
+	self.prefix = '-' + highest.prefix + '-';
+	self.Prefix = StyleFix.camelCase(self.prefix);
 	
-	self.properties = []؛
+	self.properties = [];
 
-	// احصل على العقارات المدعومة فقط مع بادئة
-	من أجل (var i = 0 ؛ i <properties.length; i++) {
-		var property = properties[i]؛
+	// Get properties ONLY supported with a prefix
+	for(var i=0; i<properties.length; i++) {
+		var property = properties[i];
 		
-		if (property.indexOf (self.prefix) === 0) {// قد يكون لدينا بادئات متعددة ، مثل Opera
-			var unprefixed = property.slice (self.prefix.length)؛
+		if(property.indexOf(self.prefix) === 0) { // we might have multiple prefixes, like Opera
+			var unprefixed = property.slice(self.prefix.length);
 			
-			إذا كانت (! مدعومة (غير مثبتة)) {
-				self.properties.push (غير المسبوقة ببادئة)؛
+			if(!supported(unprefixed)) {
+				self.properties.push(unprefixed);
 			}
 		}
 	}
 	
 	// IE fix
-	إذا (self.Prefix == 'Ms' 
-	  &&! ("تحويل" في دمية) 
-	  &&! ("MsTransform" في دمية) 
+	if(self.Prefix == 'Ms' 
+	  && !('transform' in dummy) 
+	  && !('MsTransform' in dummy) 
 	  && ('msTransform' in dummy)) {
-		self.properties.push ("تحويل" ، "تحويل أصل") ؛	
+		self.properties.push('transform', 'transform-origin');	
 	}
 	
-	self.properties.sort ()؛
-}) ()؛
+	self.properties.sort();
+})();
 
-/ **************************************
- * القيم
- ************************************** /
-(وظيفة() {
-// القيم التي قد تحتاج إلى بادئة
-وظائف var = {
-	'الخطي التدرج': {
-		الخاصية: "backgroundImage" ،
-		params: "الأحمر ، البط البري"
-	}،
+/**************************************
+ * Values
+ **************************************/
+(function() {
+// Values that might need prefixing
+var functions = {
+	'linear-gradient': {
+		property: 'backgroundImage',
+		params: 'red, teal'
+	},
 	'calc': {
-		الخاصية: "العرض" ،
-		params: "1px + 5٪"
-	}،
-	'جزء': {
-		الخاصية: "backgroundImage" ،
+		property: 'width',
+		params: '1px + 5%'
+	},
+	'element': {
+		property: 'backgroundImage',
 		params: '#foo'
-	}،
-	"التلاشي المتقاطع": {
-		الخاصية: "backgroundImage" ،
-		params: "url (a.png) ، url (b.png) ، 50٪"
+	},
+	'cross-fade': {
+		property: 'backgroundImage',
+		params: 'url(a.png), url(b.png), 50%'
 	}
-}؛
+};
 
 
-الدوال ['التدرج المتكرر الخطي'] =
-الدوال ['التدرج المتكرر نصف القطري'] =
-الدوال ['التدرج الشعاعي'] =
-وظائف [ 'الخطية التدرج'].
+functions['repeating-linear-gradient'] =
+functions['repeating-radial-gradient'] =
+functions['radial-gradient'] =
+functions['linear-gradient'];
 
-// ملاحظة: الخصائص المعينة هي فقط ل * اختبار * الدعم. 
-/ / سيتم بادئة الكلمات الرئيسية في كل مكان.
-فار الكلمات الرئيسية = {
-	"الأولي": "اللون" ،
-	"التكبير": "المؤشر" ،
-	"التصغير": "المؤشر" ،
-	"المربع": "عرض" ،
-	"فليكس بوكس": "عرض" ،
-	'inline-flexbox': 'display'،
-	"المرن": "العرض" ،
-	"المضمنة المرنة": "عرض" ،
-	'عرض الشبكة'،
-	"الشبكة المضمنة": "عرض" ،
-	"أقصى محتوى": "عرض" ،
-	"المحتوى الأقل": "العرض" ،
-	"محتوى مناسب": "عرض" ،
-	"ملء متاح": "عرض"
-}؛
+// Note: The properties assigned are just to *test* support. 
+// The keywords will be prefixed everywhere.
+var keywords = {
+	'initial': 'color',
+	'zoom-in': 'cursor',
+	'zoom-out': 'cursor',
+	'box': 'display',
+	'flexbox': 'display',
+	'inline-flexbox': 'display',
+	'flex': 'display',
+	'inline-flex': 'display',
+	'grid': 'display',
+	'inline-grid': 'display',
+	'max-content': 'width',
+	'min-content': 'width',
+	'fit-content': 'width',
+	'fill-available': 'width'
+};
 
-وظائف الذات = [] ؛
-self.keywords = []؛
+self.functions = [];
+self.keywords = [];
 
-var style = document.createElement ('div'). style؛
+var style = document.createElement('div').style;
 
-وظيفة مدعومة (القيمة ، الممتلكات) {
-	النمط[property] = '' ؛
-	النمط[property] = القيمة ؛
+function supported(value, property) {
+	style[property] = '';
+	style[property] = value;
 
-	return !! style[property]؛
+	return !!style[property];
 }
 
-من أجل (var func في الوظائف) {
-	فار اختبار = وظائف[func]،
-		خاصية = test.property ،
-		value = func + '(' + test.params + ')'؛
+for (var func in functions) {
+	var test = functions[func],
+		property = test.property,
+		value = func + '(' + test.params + ')';
 	
-	إذا (! المدعومة (القيمة ، الممتلكات)
-	  && مدعوم (self.prefix + value ، property)) {
-		// إنه مدعوم ، لكن مع بادئة
-		self.functions.push (ظائفها)؛
+	if (!supported(value, property)
+	  && supported(self.prefix + value, property)) {
+		// It's supported, but with a prefix
+		self.functions.push(func);
 	}
 }
 
-لـ (var الكلمة الأساسية في الكلمات الأساسية) {
-	var property = الكلمات الأساسية[keyword]؛
+for (var keyword in keywords) {
+	var property = keywords[keyword];
 
-	إذا (! المدعومة (الكلمة الرئيسية ، الممتلكات)
-	  && مدعوم (self.prefix + الكلمة الأساسية ، الملكية)) {
-		// إنه مدعوم ، لكن مع بادئة
-		self.keywords.push (الكلمة)؛
+	if (!supported(keyword, property)
+	  && supported(self.prefix + keyword, property)) {
+		// It's supported, but with a prefix
+		self.keywords.push(keyword);
 	}
 }
 
-}) ()؛
+})();
 
-/ **************************************
- * محددات و @ قواعد
- ************************************** /
-(وظيفة() {
+/**************************************
+ * Selectors and @-rules
+ **************************************/
+(function() {
 
-فار 
-محددات = {
-	': للقراءة فقط': لاغية ،
-	': القراءة والكتابة': لاغية ،
-	': أي رابط': لاغٍ ،
-	':: التحديد': فارغة
-}،
+var 
+selectors = {
+	':read-only': null,
+	':read-write': null,
+	':any-link': null,
+	'::selection': null
+},
 
 atrules = {
-	'إطارات مفتاحية': 'name' ،
-	"viewport": لاغٍ ،
-	'المستند': 'regexp (".")'
-}؛
+	'keyframes': 'name',
+	'viewport': null,
+	'document': 'regexp(".")'
+};
 
-مختارات ذاتية = [] ؛
-ذبائح ذاتية = [] ؛
+self.selectors = [];
+self.atrules = [];
 
-var style = root.appendChild (document.createElement ('style')) ؛
+var style = root.appendChild(document.createElement('style'));
 
-وظيفة مدعومة (محدد) {
-	style.textContent = selector + '{}'؛ // Safari 4 لديه مشاكل مع style.innerHTML
+function supported(selector) {
+	style.textContent = selector + '{}';  // Safari 4 has issues with style.innerHTML
 	
-	return !! style.sheet.cssRules.length؛
+	return !!style.sheet.cssRules.length;
 }
 
-من أجل (var select في المحددات) {
-	فار اختبار = محدد + (محددات[selector]؟ '(' + محددات[selector] + ')': '')؛
+for(var selector in selectors) {
+	var test = selector + (selectors[selector]? '(' + selectors[selector] + ')' : '');
 		
-	إذا (! المدعومة (اختبار) && المدعومة (self.prefixSelector (اختبار))) {
-		self.selectors.push (محدد)؛
+	if(!supported(test) && supported(self.prefixSelector(test))) {
+		self.selectors.push(selector);
 	}
 }
 
-من أجل (var atrule at atules) {
-	var test = atrule + '' + (atrules[atrule] || '')؛
+for(var atrule in atrules) {
+	var test = atrule + ' ' + (atrules[atrule] || '');
 	
-	إذا (! المدعومة ('@' + اختبار) && المدعومة ('@' + self.prefix + test)) {
-		self.atrules.push (atrule)؛
+	if(!supported('@' + test) && supported('@' + self.prefix + test)) {
+		self.atrules.push(atrule);
 	}
 }
 
-root.removeChild (نمط)؛
+root.removeChild(style);
 
-}) ()؛
+})();
 
-// الخصائص التي تقبل الخصائص كقيمة لها
+// Properties that accept properties as their value
 self.valueProperties = [
-	'انتقال'،
-	"انتقال الملكية"
+	'transition',
+	'transition-property'
 ]
 
-/ / أضف فئة للبادئة الحالية
-root.className + = '' + self.prefix؛
+// Add class for current prefix
+root.className += ' ' + self.prefix;
 
-StyleFix.register (self.prefixCSS)؛
+StyleFix.register(self.prefixCSS);
 
 
-}) (document.documentElement)؛
+})(document.documentElement);
