@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Izazov: Kreiraj sopstvene stilove
+## Challenge: Create Your Own Styles
 
-Sada kreiraj sopstvene stilove klase i svoje zagonetno pismo učini još zanimljivijim. Koristi naučeno o CSS-u u prethodnim projektima, a za ideje pogledaj primjere u **style.css** datoteci.
+Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
 
-Ovdje je primjer:
+Here's an example:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
-Slike koje su dostupne za upotrebu možeš da pregledaš kada klikneš na karticu za slike u trinketu. Pokušaj da postaviš pozadinske slike koristeći jednu od datih slika:
+You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-Ako imaš trinket nalog, možeš učitati i sopstvene slike, kao što smo uradili u projektu 'Ispričaj priču'.
+If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
 
-Na <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> nađi fontove koji ti se sviđaju i kopiraj njihov `<link>` i CSS kôd u svoj trinket kako bi ih mogao/mogla koristiti.
+Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
 
 \--- /challenge \---
