@@ -1,23 +1,23 @@
-\--- چالش \---
+\--- challenge \---
 
-## چالش: سبک پیام شما
+## Challenge: Style Your Message
 
-از سبک های ارائه شده استفاده کنید تا پیامتان مانند یک نامه رمز و راز باشد.
+Use the provided styles to make your message look like a mystery letter.
 
-این کلاس ها را به `<span>` برچسب اضافه کنید:
+Add these classes to your `<span>` tags:
 
-+ `روزنامه`، `مجله`، `مجله`
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `متوسط`، `بزرگ`، `واقعا`
++ `medium`, `big`, `reallybig`
 
-+ `rotateleft`، `rotateright`
++ `rotateleft`, `rotateright`
 
-+ `skewleft`، `skewright`
++ `skewleft`, `skewright`
 
-اضافه کردن بیش از یک از هر خط به یک خاص `<span>`.
+Don't add more than one from each line to a particular `<span>`.
 
-این چگونه نامه شما می تواند نگاه کند:
+This is how your letter could look:
 
-![تصویری](images/letter-challenge1.png)
+![screenshot](images/letter-challenge1.png)
 
-\--- \--- چالش \---
+\--- /challenge \---
