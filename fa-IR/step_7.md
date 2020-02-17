@@ -1,51 +1,51 @@
-## یک کلاس جدید ایجاد کنید
+## Create a New Class
 
-بیایید یک سبک ایجاد کنیم که شبیه آن از کمیک است. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> بارهای فونت هایی را که برای استفاده رایگان هستند فراهم می کند.
+Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
 
-+ یک کلاس `کمیک` در **file style.css** کنید. پس از `magazine2` محل خوبی است. نقطه را در مقابل نام کلاس فراموش نکنید 
++ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
 
-![تصویری](images/letter-comic1.png)
+![screenshot](images/letter-comic1.png)
 
-نگران نباشید اگر هشدار دریافت کنید که «قانون خالی است»؛ شما بعدا برطرف میکنید
+Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
 
-+ حالا برخی از CSS ها را به کلاس Comic CSS اضافه کنید. اگر دوست دارید، می توانید از رنگ های مختلف استفاده کنید. یک لیست از بارهای رنگ در <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colors</a>.
++ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![تصویری](images/letter-comic2.png)
+![screenshot](images/letter-comic2.png)
 
-+ استفاده از سبک کمیک در برخی از تگ های `<span>` در سند HTML خود و تست صفحه خود:
++ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
 
-![تصویری](images/letter-comic-output.png)
+![screenshot](images/letter-comic-output.png)
 
-+ حالا شما می توانید یک فونت سرگرم کننده اضافه کنید. یک برگه یا پنجره مرورگر جدید را باز کنید. برو به <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> و جستجو برای **'bangers'**:
++ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
 
-![تصویری](images/letter-gfonts-1-annotated.png)
+![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ بر روی دکمه + "انتخاب این فونت" کلیک کنید:
++ Click on the + "Select this font" button:
 
-![تصویری](images/letter-gfonts-2-annotated.png)
+![screenshot](images/letter-gfonts-2-annotated.png)
 
-پیامی که "1 خانواده انتخاب شده" در پایین صفحه ظاهر می شود.
+A message saying "1 Family Selected" will appear at the bottom on the screen.
 
-![تصویری](images/letter-gfonts-3.png)
+![screenshot](images/letter-gfonts-3.png)
 
-+ روی پیغام "1 Family Selected" کلیک کنید تا پنجره باز شود و کدهای برجسته را کپی کنید:
++ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
 
-![تصویری](images/letter-gfonts-4.png)
+![screenshot](images/letter-gfonts-4.png)
 
-+ کد `<link>` را وارد کنید که از فونت های Google به `<head>` صفحه وب خود کپی کرده اید:
++ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
 
-![تصویری](images/letter-fonts-head.png)
+![screenshot](images/letter-fonts-head.png)
 
-این به شما اجازه می دهد تا از فونت Bangers در صفحه وب خود استفاده کنید.
+This allows you to use the Bangers font in your webpage.
 
-+ بازگشت به فونت گوگل و پیمایش بیشتر در صفحه و کپی کد فونت-خانواده:
++ Return to Google fonts and scroll further down the page and copy the font-family code:
 
-![تصویری](images/letter-fonts-bangers.png)
+![screenshot](images/letter-fonts-bangers.png)
 
-+ در حال حاضر به بازگشت به خود را **'را ببندید'** فایل در گول زنک و چسباندن کد فونت خانواده به سبک کمیک:
++ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
 
-![تصویری](images/letter-fonts-comic.png)
+![screenshot](images/letter-fonts-comic.png)
 
-+ تست وب سایت خود را. نتیجه باید چیزی شبیه به این باشد: 
++ Test your webpage. The result should look something like this: 
 
-![تصویری](images/letter-fonts-output.png)
+![screenshot](images/letter-fonts-output.png)
