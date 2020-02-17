@@ -1,23 +1,23 @@
-\--- utfordring \---
+\--- challenge \---
 
-## Utfordring: Stil meldingen din
+## Challenge: Style Your Message
 
-Bruk de angitte stilene for å få meldingen til å se ut som et mysteriumbrev.
+Use the provided styles to make your message look like a mystery letter.
 
-Legg til disse klassene i `<span>` kodene dine:
+Add these classes to your `<span>` tags:
 
-+ `avis`, `magazine1`, `magazine2`
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `medium`, `stor`, `reallybig`
++ `medium`, `big`, `reallybig`
 
-+ `rotateleft`, `rotatør`
++ `rotateleft`, `rotateright`
 
 + `skewleft`, `skewright`
 
-Ikke legg til mer enn en fra hver linje til en bestemt `<span>`.
+Don't add more than one from each line to a particular `<span>`.
 
-Slik kan brevet ditt se ut:
+This is how your letter could look:
 
-![skjermbilde](images/letter-challenge1.png)
+![screenshot](images/letter-challenge1.png)
 
-\--- /utfordring \---
+\--- /challenge \---
