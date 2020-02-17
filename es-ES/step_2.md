@@ -1,7 +1,7 @@
-## Escoge tu mensaje
+## Choose Your Message
 
-Cartas misteriosas son usadas en películas y libros para enviar mensajes secretos.
+Mystery letters are used in films and books to send secret messages.
 
-+ Piensa en un misterioso mensaje que contiene alrededor de 12 palabras. Si no se te ocurre nada para el mensaje puede usar este ejemplo: 'Tu próxima pista está en la caja fuerte. El código es 65536.'
++ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
 
-+ Si prefieres puedes anotar tu mensaje o recordarlo.
++ Either make a note of your message or remember it.
