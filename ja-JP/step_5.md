@@ -18,6 +18,6 @@ Don't add more than one from each line to a particular `<span>`.
 
 This is how your letter could look:
 
-![スクリーンショット](images/letter-challenge1.png)
+![screenshot](images/letter-challenge1.png)
 
 \--- /challenge \---
