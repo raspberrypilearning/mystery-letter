@@ -1,10 +1,10 @@
 ## 编辑类
 
-+ 点击 **'style.css'** 选项。 找到你一直使用的`newspaper` CSS类的样式。
++ 点击 **'style.css'** 选项卡。 找到你已经在使用的`newspaper` CSS类的样式。
 
 ![截屏](images/letter-newspaper.png)
 
-+ 注意在CSS文件的类名之前有一个点 “.” ，而在HTML文档的`<span>`标记之前没有点。
++ 注意在CSS文件中每个类名之前有一个点 “.” ，而在HTML文档的`<span>`标记中使用它们时没有点。
 
 + 现在看看其他用来改变神秘信件的样式的CSS类。 找一找：
     
