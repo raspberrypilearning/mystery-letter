@@ -1,28 +1,25 @@
-## 编辑类 
+## 编辑类
 
++ 点击 **'style.css'** 选项卡。 找到你已经在使用的`newspaper` CSS类的样式。
 
+![截屏](images/letter-newspaper.png)
 
-+ 点击 __“style.css”__ 选项卡。找到你对 `newspaper`（报纸）CSS 类所使用的样式。
++ 注意在CSS文件中每个类名之前有一个点 “.” ，而在HTML文档的`<span>`标记中使用它们时没有点。
 
-![screenshot](images/letter-newspaper.png)
++ 现在看看其他用来改变神秘信件的样式的CSS类。 找一找：
+    
+    + `magazine1`样式如何将文本更改为所有大写字母。
+    
+    + `magazine2` 样式如何把一个图片放到文字的后面。
 
-+ 请注意 CSS 文件中的类名称前面有一个小点（句号）“.”，而非在你 HTML 文件内的 `<span>` 标记中。
+![截屏](images/letter-magazines.png)
 
-+ 现在查看你用于设置神秘信件样式的其他 CSS 类。你能否发现：
++ 当你把 `magazine2` 的 `background-image` 改成 `canvas.png` 会发生什么？ 你如果更喜欢 `pink-pattern.png`，可以改回来。 
 
-	+ ​`magazine1`（杂志 1）样式是如何将文本字母变为全部大写的。
+如果你喜欢，你也可以改变杂志（magazine）样式的颜色。
 
-	+ `magazine2`（杂志 2）样式是如何将图片放在文本后面的。
++ 找到用来旋转和倾斜你的文字的CSS：
 
-![screenshot](images/letter-magazines.png)
+![截屏](images/letter-rotate-skew.png)
 
-+ 如果你将 `magazine2`（杂志 2）的 `background-image`（背景图片）变换为 `canvas.png` 会怎样？如果你更喜欢 `pink-pattern.png`，你可以将它更换回来。 
-
-如果你喜欢，你还可以更改杂志样式中的颜色。
-
-+ 找到用于旋转和倾斜文字的 CSS：
-
-![screenshot](images/letter-rotate-skew.png)
-
-尝试更改数值以产生不同的效果，然后测试你的页面。 
-
+尝试更改数字以创建不同的效果，然后测试你的网页。
