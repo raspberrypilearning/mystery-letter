@@ -1,9 +1,10 @@
 --- challenge ---
-## Défi: Style ton message
 
-Utilise les styles deja présent pour tourner ton message en lettre mystère.
+## Défi: Personnalise ton message
 
-Ajoute ces classes à tes élements `<span>`:
+Utilise les styles fournis pour que ton message ressemble à une lettre mystère.
+
+Ajoute ces classes à tes balises `<span>` :
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -13,13 +14,10 @@ Ajoute ces classes à tes élements `<span>`:
 
 + `skewleft`, `skewright`
 
-N'ajoute pas plus d'une classe par ligne à un élément `<span>` en particulier.
+N'ajoute pas plus d'un élément de chaque ligne à un `<span>` particulier.
 
-Voici à quoi ta lettre devrais ressembler:
+Voici à quoi pourrait ressembler ta lettre:
 
-![screenshot](images/letter-challenge1.png)
-
-
-
+![capture d'écran](images/letter-challenge1.png)
 
 --- /challenge ---

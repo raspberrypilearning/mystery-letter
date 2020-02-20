@@ -1,26 +1,25 @@
 ## Édite tes classes
 
-+ Clique sur l'onglet __'style.css'__. Trouve le style pour la classe `newspaper` que tu viens d'utiliser.
++ Clique sur l'onglet **'style.css'**. Trouve le style de la classe CSS `newspaper` que tu as utilisé.
 
-![screenshot](images/letter-newspaper.png)
+![capture d'écran](images/letter-newspaper.png)
 
-+ Remarque qu'il y a un point '.' avant chaque nom de tes classes dans ton fichier CSS mais pas sur tes éléments `<span>` dans ton document HTML.
++ Note qu'il y a un point "." avant le nom de la classe dans le fichier CSS mais qu'il n'existe pas dans la balise `<span>` de ton document HTML.
 
-+ Maintenant regarde les autres classes CSS que tu as utiliser pour stylé ta lettre mystère. Peut tu trouver:
++ Examine maintenant les autres classes CSS que tu as utilisées pour personnaliser ta lettre mystère. Peux-tu trouver :
+    
+    + Comment le style `magazine1` modifie le texte en le mettant en majuscule.
+    
+    + Comment le style `magazine2` place une image derrière le texte.
 
-	+ Comment la classe `magazine1` change le texte en le rendant tout en majuscules.
+![capture d'écran](images/letter-magazines.png)
 
-	+ Comment la classe `magazine2` ajoute une image derrière le texte.
++ Que se passe-t-il si tu modifies l'image d'arrière-plan `background-image` pour la classe `magazine2` à `canvas.png` ? Si tu préfères `pink-pattern.png` tu peux le remettre. 
 
-![screenshot](images/letter-magazines.png)
+Tu peux également modifier les couleurs dans les styles de magazine si tu le souhaites.
 
-+ Que se passe-t-il si tu change la propriété `background-image` de la classe `magazine2` en `canvas.png`? Si tu préferes l'image `pink-pattern.png` tu peux toujours la remettre.
++ Trouve le CSS utilisé pour faire pivoter et incliner tes mots :
 
-Tu peux aussi changer les couleurs dans tes styles de magazine si tu veux.
+![capture d'écran](images/letter-rotate-skew.png)
 
-+ Trouve le code CSS utilisé pour tourner (`rotate` en anglais) ou incliner (`skew` en anglais) tes mots:
-
-![screenshot](images/letter-rotate-skew.png)
-
-Essaye de changer les nombres pour créer differents effets et ensuite les tester sur ta page.
-
+Essaye de changer les nombres pour créer différents effets, puis teste ta page.

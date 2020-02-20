@@ -1,14 +1,11 @@
 ## Utilisation des classes CSS
 
-+ As-tu remarqué la propriété `class=""` dans les éléments `<span>` ? Tu peux utiliser ceci pour stylé plusieurs choses d'une seule facon.
++ As-tu remarqué le `class = ""` dans les balises `<span>` ? Tu peux l'utiliser pour personnaliser plus d'une chose de la même manière.
 
-+ Ajoute la classe `magazine1` à quelques elements `<span>` et test ta page web.
++ Ajoute la classe `magazine1` à quelques-unes de tes balises `<span>` et teste ta page Web.
 
-![screenshot](images/letter-magazine1.png)
+![capture d'écran](images/letter-magazine1.png)
 
-+ Tu peux ajouter plus d'une classe un élément. Laisse juste un espace entre chaque classes. Ajoute la class `big` à un de tes éléments`<span>`. Test ta page.
++ Tu peux ajouter plus d'une classe à un élément. Laisse juste un espace entre les deux. Ajoute la classe `big` à l’un de tes balises `<span>`. Teste ta page. 
 
-![screenshot](images/letter-big.png)
-
-
-
+![capture d'écran](images/letter-big.png)

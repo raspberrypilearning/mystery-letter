@@ -1,15 +1,15 @@
 --- challenge ---
-## Défi:  Créer un style écran d'ordinateur
 
-Créer un style écran d'ordinateur à l'ancienne et applique ce style sur quelques-uns de tes mots:
+## Défi: Créer un style Écran d'ordinateur
 
-![screenshot](images/letter-fonts-printout.png)
+Crée un style d'affichage Ordinateur à l'ancienne et applique-le à certains mots :
+
+![capture d'écran](images/letter-fonts-printout.png)
 
 Tu auras besoin de :
 
-+ La police `VT323` que tu peux trouver ici <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Retourne à l'étape 5 si tu as besoin de revoir comment ajouter une police Google.
++ La police de caractères `VT323` à partir du site <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Reviens à l'étape 5 si tu as besoin d'un rappel sur l'utilisation des polices de caractères Google.
 
-+ De l'image de fond `computer-printout-paper.png`. Retourne à l'étape 4 si tu as besoin de revoir comment utiliser les images de fonds.
-
++ L'image `ordinateur-printout-paper.png`. Reviens à l'étape 4 si tu as besoin d'un rappel pour utiliser des images d'arrière-plan.
 
 --- /challenge ---
