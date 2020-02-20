@@ -1,0 +1,85 @@
+envergure
+{
+	display: inline-block; 
+	padding: 8px; 
+	boîte-ombre: 1px 2px 2px grey; 
+}
+
+body {
+ 	background-color: white;
+	padding: 30px;
+	largeur maximale: 450px;
+	marge: auto;
+}
+
+.journal {
+	couleur de fond: antiquewhite;
+	font-family: "Times New Roman";
+	poids de police: gras;
+}
+
+.magazine1 {
+ 	couleur de fond: sarcelle;
+ 	Couleur blanche;
+ 	font-family: Verdana;
+	poids de police: 900;
+	text-transform: majuscule; 
+}
+
+.magazine2 {
+	background-image: url ('pink-pattern.png');
+  	couleur: fuchsia;
+  	font-family: Verdana;
+	poids de police: 900;
+}
+
+.bande dessinée {
+ 	couleur de fond: jaune;
+  	La couleur rouge;
+  	poids de police: gras;
+}
+
+.manuscrit {
+	background-image: url ('rough-paper.png');
+	couleur: poil brun;
+	famille de polices: 'Italianno', cursive;
+	style de police: italique;
+}
+
+.imprimer {
+	background-image: url ('computer-printout-paper.png');
+	color: black;
+	famille de polices: 'VT323', sans-serif;
+	taille de police: plus grande;
+}
+
+.moyen {
+	font-size: 15px;
+	padding: 6px;
+}
+
+.gros {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.vraiment gros {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.tourne à gauche {
+	transformer: faire pivoter (-5deg);
+}
+
+.tourner à droite {
+	transform: rotate(5deg);
+}
+
+.skewleft {
+	transformer: skewX (10deg);
+}
+
+.skewright {
+	transformer: skewX (-10deg);
+}

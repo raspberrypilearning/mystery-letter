@@ -1,49 +1,51 @@
 ## Créer une nouvelle classe
 
-On va maintenant créer un nouveau style qui ressemble à une page de bande-dessinnée. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> te donneras plein d'exemples que tu peux utiliser gratuitement.
+Créons un style qui a l'air d'avoir été découpé à partir d'une bande dessinée. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> fournit des polices de caractères libres d'utilisation.
 
-+ Ajoute la classe `comic` dans ton fichier __style.css__. A la suite de `magazine2` est une bonne idée. N'oublie pas le point au debut de ta classe.
++ Ajoute la classe `comic` dans le fichier **style.css**. Après `magazine2` par exemple. N'oublie pas le point devant le nom de la classe. 
 
-![screenshot](images/letter-comic1.png)
+![capture d'écran](images/letter-comic1.png)
 
-Ne t'inquiètes pas si tu vois une erreur comme 'The Rule is empty' (la règle est vide), on va fixer cela plutard.
+Ne t’inquiète pas si tu reçois un avertissement disant que "la règle est vide" ("The Rule is empty"); Cela va être corrigé.
 
-+ Maintenant, ajouter plus de CSS à ta nouvelle classe. Tu peux utiliser différentes couleurs si tu veux. Il y a plein de couleurs derrière ce lien <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>
++ Ajoute maintenant du CSS à la classe CSS "comic". Tu peux utiliser différentes couleurs si tu le souhaites. Il y a une liste de couleurs à <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![screenshot](images/letter-comic2.png)
+![capture d'écran](images/letter-comic2.png)
 
-+ Utilise les styles de la classe comic sur quelques éléments `<span>` dans ton document HTML et teste ta page:
++ Utilise ce nouveau style dans quelques balises `<span>` de ton document HTML et teste ta page:
 
-![screenshot](images/letter-comic-output.png)
+![capture d'écran](images/letter-comic-output.png)
 
-+ Maintenant tu peux ajouter une police un peu plus rigolote. Ouvre un nouvel onglet dans ton navigateur. Va sur la page <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et recherche le mot __'bangers'__:
++ Maintenant, tu peux ajouter une police de caractères amusante. Ouvre un nouvel onglet ou une nouvelle fenêtre de ton navigateur. Va sur <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et recherche **'bangers'** :
 
-![screenshot](images/letter-fonts1.png)
+![capture d'écran](images/letter-gfonts-1-annotated.png)
 
-+ Clique sur le bouton 'Quick-use' (demande l'aide de ton professeur si tu as besoin):
++ Clique sur le bouton "Select this font" :
 
-![screenshot](images/letter-fonts2.png)
+![capture d'écran](images/letter-gfonts-2-annotated.png)
 
-+ Une nouvelle page va se charger. Fait défiler ta page jusqu'a ce que tu vois:
+Un message disant "1 Family Selected" apparaîtra en bas de l'écran.
 
-![screenshot](images/letter-fonts-link.png)
+![capture d'écran](images/letter-gfonts-3.png)
 
-Et copie le texte souligné.
++ Clique sur le message "1 Family Selected" pour ouvrir la fenêtre et copie le code en surbrillance :
 
-+ Copie le code `<link>` que tu viens de copier depuis Google fonts dans ton élément `<head>` de ta page.
+![capture d'écran](images/letter-gfonts-4.png)
 
-![screenshot](images/letter-fonts-head.png)
++ Colle le code `<link>` que tu viens de copier des polices Google dans le `<head>` de ta page Web :
 
-Ceci va te permettre d'utiliser la police Bangers dans ta page.
+![capture d'écran](images/letter-fonts-head.png)
 
-+ Retourne sur ta page Google fonts et fait défiler ta liste encore plus et copie le code `font-family`:
+Cela te permet d'utiliser la police Bangers dans ta page Web.
 
-![screenshot](images/letter-fonts-bangers.png)
++ Retourne aux polices de caractères Google, fais défiler la page et copie le code "font-family" :
 
-+ Maintenant, retourne sur ton fichier __'style.css'__ dans trinket et colle le code `font-family` dans ta classe comic:
+![capture d'écran](images/letter-fonts-bangers.png)
 
-![screenshot](images/letter-fonts-comic.png)
++ Maintenant, retourne à ton fichier **'style.css'** dans Trinket et colle le code "font-family" dans le style "comic" :
 
-+ Test ta page web. Le resultat devrais ressembler à ceci:
+![capture d'écran](images/letter-fonts-comic.png)
 
-![screenshot](images/letter-fonts-output.png)
++ Teste ta page Web. Le résultat devrait ressembler à ceci : 
+
+![capture d'écran](images/letter-fonts-output.png)
