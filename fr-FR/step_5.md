@@ -16,7 +16,7 @@ Ajoute ces classes à tes balises `<span>` :
 
 N'ajoute pas plus d'un élément de chaque ligne à un `<span>` particulier.
 
-Voici à quoi pourrait ressembler ta lettre:
+Voici à quoi pourrait ressembler ta lettre :
 
 ![capture d'écran](images/letter-challenge1.png)
 
