@@ -14,7 +14,7 @@ Tu peux voir les images disponibles en cliquant sur l'onglet Images dans Trinket
 
 + `canvas.png`
 
-Si tu as un compte Trinket, tu peux envoyer les images de ton choix, comme tu l'as fait dans le projet «Raconte une histoire».
+Si tu as un compte Trinket, tu peux envoyer les images de ton choix, comme tu l'as fait dans le projet « Raconte une histoire ».
 
 Trouve des polices de caractères que tu aimes sur <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et copie les balises `<link>` et le code CSS dans ton Trinket pour les utiliser.
 
