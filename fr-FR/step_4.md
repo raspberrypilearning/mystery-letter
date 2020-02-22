@@ -1,6 +1,6 @@
 ## Utilisation des classes CSS
 
-+ As-tu remarqué le `class = ""` dans les balises `<span>` ? Tu peux l'utiliser pour personnaliser plus d'une chose de la même manière.
++ As-tu remarqué le `class=""` dans les balises `<span>` ? Tu peux l'utiliser pour personnaliser plus d'une chose de la même manière.
 
 + Ajoute la classe `magazine1` à quelques-unes de tes balises `<span>` et teste ta page Web.
 
