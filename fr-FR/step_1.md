@@ -16,17 +16,17 @@ Si vous avez besoin d'imprimer ce projet, voici la [version imprimable](https://
 
 Dans ce projet, les enfants sont initiés aux classes CSS. Ils utiliseront plusieurs classes CSS pour styliser du texte et apprendront également à utiliser des images d'arrière-plan et des polices Google gratuites dans leurs projets.
 
-## Ressources en-ligne
+## Ressources en ligne
 
-Nous vous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire les codes HTML & CSS en ligne. Ce projet contient le Trinket suivant:
+Nous vous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire les codes HTML & CSS en ligne. Ce projet contient le Trinket suivant :
 
-* [Point de départ de "Lettre mystère" - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* [Point de départ de « Lettre mystère » - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Les enfants peuvent également utiliser ce Trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou utiliser ce Trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 Il y a aussi un Trinket contenant un exemple de solution pour les défis :
 
-* ["Lettre mystère terminée" - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* [« Lettre mystère terminée » - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## Ressources hors-ligne
 
