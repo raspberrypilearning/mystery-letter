@@ -6,9 +6,9 @@ Créons un style qui a l'air d'avoir été découpé à partir d'une bande dessi
 
 ![capture d'écran](images/letter-comic1.png)
 
-Ne t’inquiète pas si tu reçois un avertissement disant que "la règle est vide" ("The Rule is empty"); Cela va être corrigé.
+Ne t’inquiète pas si tu reçois un avertissement disant que « la règle est vide » (« The Rule is empty »); Cela va être corrigé.
 
-+ Ajoute maintenant du CSS à la classe CSS "comic". Tu peux utiliser différentes couleurs si tu le souhaites. Il y a une liste de couleurs à <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Ajoute maintenant du CSS à la classe CSS « comic ». Tu peux utiliser différentes couleurs si tu le souhaites. Il y a une liste de couleurs à <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![capture d'écran](images/letter-comic2.png)
 
