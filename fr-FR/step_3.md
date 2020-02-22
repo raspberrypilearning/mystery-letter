@@ -8,7 +8,7 @@
     
     ![capture d'écran](images/letter-starter.png)
 
-+ La balise paragraphe `<p>` est introduite dans le projet "Joyeux anniversaire". La balise `<span>` sert à regrouper des morceaux de texte plus petits dans un paragraphe afin que nous puissions les styler.
++ La balise paragraphe `<p>` est introduite dans le projet « Joyeux anniversaire ». La balise `<span>` sert à regrouper des morceaux de texte plus petits dans un paragraphe afin que nous puissions les styler.
 
 ![capture d'écran](images/letter-placeholder.png)
 
