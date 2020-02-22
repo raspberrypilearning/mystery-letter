@@ -30,7 +30,7 @@ Il y a aussi un Trinket contenant un exemple de solution pour les défis :
 
 ## Ressources hors-ligne
 
-Ce projet peut être [réalisé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/). Vous pouvez accéder aux ressources du projet en cliquant sur le lien "Matériel pour projet". Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont un accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
+Ce projet peut être [réalisé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/). Vous pouvez accéder aux ressources du projet en cliquant sur le lien « Matériel pour projet ». Ce lien contient une section "Ressources du projet" qui inclut les ressources dont les enfants auront besoin pour compléter le projet hors-ligne. Assurez-vous que les enfants ont un accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 * mystery-letter/index.html
 * mystery-letter/style.css
@@ -40,7 +40,7 @@ Ce projet peut être [réalisé hors-ligne](https://www.codeclubprojects.org/en-
 * template/template.html
 * template/style.css
 
-Vous pouvez aussi trouver une version terminée du projet dans la section "Ressources du bénévole" qui contient :
+Vous pouvez aussi trouver une version terminée du projet dans la section « Ressources du bénévole » qui contient :
 
 * mystery-letter-finish/index.html
 * mystery-letter-finish/style.css
@@ -61,9 +61,9 @@ Ce projet couvre les éléments suivants du [Programme Raspberry Pi de Créativi
 
 ## Défis
 
-* “Personnalise ton message” - Appliquez les styles de classe CSS fournis;
-* “Créer un style Écran d'ordinateur” - Utilisez CSS pour recréer un exemple de classe à l'aide d'une image d'arrière-plan et d'une police Google. 
-* “Créer ton propre style” - Utilisez CSS pour créer de nouveaux styles.
+* « Personnalise ton message » - Appliquez les styles de classe CSS fournis;
+* « Créer un style Écran d'ordinateur » - Utilisez CSS pour recréer un exemple de classe à l'aide d'une image d'arrière-plan et d'une police Google. 
+* « Créer ton propre style » - Utilisez CSS pour créer de nouveaux styles.
 
 \--- /collapse \---
 
@@ -74,7 +74,7 @@ Ce projet couvre les éléments suivants du [Programme Raspberry Pi de Créativi
 ## Ressources pour le projet
 
 * [Fichier .zip contenant toutes les ressources du projet](resources/letter-project-resources.zip)
-* [Trinket contenant toutes les ressources du projet 'Lettre mystère'](http://jumpto.cc/web-letter)
+* [Trinket contenant toutes les ressources du projet « Lettre mystère »](http://jumpto.cc/web-letter)
 * [Modèle de Trinket en ligne](http://jumpto.cc/trinket-template)
 * [Trinket vierge](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
