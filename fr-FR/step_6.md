@@ -1,6 +1,6 @@
 ## Édite tes classes
 
-+ Clique sur l'onglet **'style.css'**. Trouve le style de la classe CSS `newspaper` que tu as utilisé.
++ Clique sur l'onglet **« style.css »**. Trouve le style de la classe CSS `newspaper` que tu as utilisé.
 
 ![capture d'écran](images/letter-newspaper.png)
 
