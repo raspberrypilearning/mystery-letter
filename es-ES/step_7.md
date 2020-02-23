@@ -1,32 +1,32 @@
-## Create a New Class
+## Crear una nueva categoría
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+Vamos a crear un estilo que parezca sacado de una historieta. <a href="http://jumpto.cc/web-fonts" target="_blank">junto.cc/web-fonts</a> contiene un montón de fuentes de libre uso.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ Añade la categoría `comic` en el archivo **style.css**. Un buen lugar es después de `magazine2`. No olvides poner el punto en frente del nombre de la categoría. 
 
-![screenshot](images/letter-comic1.png)
+![captura de pantalla](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+No te preocupes si aparece una advertencia diciendo que 'The Rule is empty'; lo arreglarás después.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Ahora añada algún CSS a la categoría CSS comic. Puedes usar diferentes colores si prefieres. Hay una lista con montones de colores en <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![screenshot](images/letter-comic2.png)
+![captura de pantalla](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Usa el estilo historieta en alguna de las etiquetas `<span>` en tu documento HTML y verifica tu página:
 
-![screenshot](images/letter-comic-output.png)
+![captura de pantalla](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Ahora puedes añadir una fuente graciosa. Abre una nueva pestaña o ventana. Ve a <a href="http://jumpto.cc/web-fonts" target="_blank">jump.cc/web.fonts</a> y busca por **'bangers'**:
 
-![screenshot](images/letter-gfonts-1-annotated.png)
+![captura de pantalla](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Haz clic en el botón + "Select this font":
 
-![screenshot](images/letter-gfonts-2-annotated.png)
+![captura de pantalla](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+Un mensaje diciendo "1 Family Selected" aparecerá en la parte inferior de la pantalla.
 
-![screenshot](images/letter-gfonts-3.png)
+![captura de pantalla](images/letter-gfonts-3.png)
 
 + Click on the "1 Family Selected" message to open the window and copy the highlighted code:
 
