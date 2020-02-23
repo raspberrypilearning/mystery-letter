@@ -28,24 +28,24 @@ Un mensaje diciendo "1 Family Selected" aparecerá en la parte inferior de la pa
 
 ![captura de pantalla](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Haz clic en el mensaje "1 Family Selected" para abrir la ventana y copiar el código resaltado:
 
-![screenshot](images/letter-gfonts-4.png)
+![captura de pantalla](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Pega el código `<link>` que acabas de copiar de las fuentes Google en el `<head>` de tu página web:
 
-![screenshot](images/letter-fonts-head.png)
+![captura de pantalla](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Eso te permitirá usar la fuente Bangers en tu página web.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Regresa a las fuentes de Google, desplázate más abajo en la página y copia el código font-family:
 
-![screenshot](images/letter-fonts-bangers.png)
+![captura de pantalla](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Ahora vuelve a tu archivo **'style.css'** en trinket y pega el código font-family en el estilo cómic:
 
-![screenshot](images/letter-fonts-comic.png)
+![captura de pantalla](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Prueba tu página web. El resultado debe parecerse con esto: 
 
-![screenshot](images/letter-fonts-output.png)
+![captura de pantalla](images/letter-fonts-output.png)
