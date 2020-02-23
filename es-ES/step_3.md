@@ -1,21 +1,21 @@
-## Editing Your Message
+## Edita tu mensaje
 
-Let's get your message onto a webpage.
+Pongamos tu mensaje en una página web.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Abre este Trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    El proyecto debería parecerse a esto:
     
-    ![screenshot](images/letter-starter.png)
+    ![captura de pantalla](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ La etiqueta de párrafo `<p>` ha sido presentada en el proyecto 'Feliz Cumpleaños'. La etiqueta `<span>` se usa para agrupar fragmentos de texto más pequeños dentro de un párrafo para que podamos diseñarlos.
 
-![screenshot](images/letter-placeholder.png)
+![captura de pantalla](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ Cambia las palabras a tu mensaje poniendo una palabra en cada una `<span>`. Deberá agregar o quitar etiquetas `<span>` si su mensaje tiene una longitud diferente. 
 
-![screenshot](images/letter-message.png)
+![captura de pantalla](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ Haz clic en el botón Run para verificar tu trinket.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    Si observa las palabras, puede ver que han sido diseñadas para que parezcan pegadas a la página.
