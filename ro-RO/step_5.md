@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## Provocare: stilizează-ți mesajul
 
-Use the provided styles to make your message look like a mystery letter.
+Folosește stilurile puse la dispoziție pentru a face mesajul tău să arate ca și o scrisoare misterioasă.
 
-Add these classes to your `<span>` tags:
+Adaugă aceste clase la etichetele tale `<span>`:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,10 +14,10 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+Nu adăuga mai mult de o clasă de pe o anumită linie într-un singur `<span>`.
 
-This is how your letter could look:
+Așa ar putea să arate scrisoarea ta:
 
-![screenshot](images/letter-challenge1.png)
+![captură de ecran](images/letter-challenge1.png)
 
 \--- /challenge \---
