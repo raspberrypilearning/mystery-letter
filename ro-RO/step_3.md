@@ -1,21 +1,21 @@
-## Editing Your Message
+## Editarea mesajului tău
 
-Let's get your message onto a webpage.
+Hai să pune mesajul tău într-o pagină web.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Deschide acest trinket. <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    Proiectul ar trebui să arate astfel:
     
-    ![screenshot](images/letter-starter.png)
+    ![captură de ecran](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ Eticheta paragrafului `<p>` este introdusă în proiectul „La mulți ani”. Eticheta `<span>` este folosită pentru a grupa părți mai mici de text în interiorul unui paragraf pentru a le putea stiliza.
 
-![screenshot](images/letter-placeholder.png)
+![captură de ecran](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ Schimbă cuvintele din mesajul tău punând fiecare cuvânt într-un `<span>`. Va trebui să adaugi sau să ștergi etichetele `<span>` dacă mesajul tău are o lungime diferită. 
 
-![screenshot](images/letter-message.png)
+![captură de ecran](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ Dă click pe butonul Run pentru a testa trinket-ul tău.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    Dacă te uiți la cuvinte, poți vedea că ele au fost stilizate ca și cum ele au lipite de pagină.
