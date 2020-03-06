@@ -1,6 +1,6 @@
 ## Editarea claselor
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Dă click pe tab-ul **„style.css”**. Găsește stilul pentru clasa CSS `newspaper` pe care ai folosit-o.
 
 ![screenshot](images/letter-newspaper.png)
 
