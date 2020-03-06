@@ -1,4 +1,4 @@
-## Create a New Class
+## Crearea unei noi clase
 
 Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
 
