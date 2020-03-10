@@ -1,24 +1,29 @@
 --- challenge ---
+
 ## Reto: Crear tus propios estilos
 
-Crea tus propios estilos de categoría y haz que tu carta misteriosa sea aún más interesante. Usa el CSS que has aprendido en proyectos anteriores y fíjate en los ejemplos que hay en __style.css__, como nuevas ideas.
+Ahora crea tu propio estilo y haz tu carta misteriosa aún más interesante. Usa lo aprendido acerca de CSS en proyectos anteriores y revisa los ejemplos en **style.css** para obtener ideas.
 
-Aquí tienes un ejemplo:
+Aquí está un ejemplo:
 
-![screenshot](images/letter-fonts-challenge3.png)
+![captura de pantalla](images/letter-fonts-challenge3.png)
 
-Puedes ver las imágenes que hay disponibles en trinket, si haces clic en la pestaña "Images".
-Intenta establecer fondos de imagen usando una de las imágenes incluidas:
+Puede ver las imágenes disponibles haciendo clic en la pestaña Images en trinket. Intenta colocar imágenes de fondo usando una de las imágenes añadidas:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-Si tienes una cuenta de trinket, puedes cargar tus propias imágenes, como hiciste en el proyecto 'Cuenta una historia'.
+Si tienes una cuenta en trinket puede subir imágenes de tu propia autoría como lo hiciste en el proyecto 'Contando una historia'.
 
-Busca tipos de letra que te gusten en <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> y copia su `<enlace>` y código CSS en tu trinket para poder usarlos.
-
-
-
+Encuentra las fuentes de tu preferencia en <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> y copia los `<link>` y códigos CSS en su trinket para usarlos.
 
 --- /challenge ---
+
+
+***
+Traducción aportada por la comunidad
+
+Este proyecto fue traducido por José María Honrado y revisado por Laura Lurati.
+
+Nuestros increíbles voluntarios de traducción nos ayudan a dar a los niños de todo el mundo la oportunidad de aprender a programar. Puedes ayudarnos a llegar a más niños traduciendo nuestros proyectos. Consigue más información en [rpf.io/translate](https://rpf.io/translate).

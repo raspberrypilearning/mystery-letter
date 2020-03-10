@@ -1,25 +1,23 @@
 --- challenge ---
+
 ## Reto: Cambiar el estilo de tu mensaje
 
-Usa los estilos que te indicamos a continuación para hacer que tu mensaje parezca una carta misteriosa.
+Usa los estilos disponibles para hacer que tus mensajes parezcan una carta misteriosa.
 
-Añade estas categorías a tus etiquetas `<span>`:
+Añade estas clases a tus etiquetas `<span>`:
 
-+ `newspaper` (periódico), `magazine1` (revista1), `magazine2` (revista2)
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `medium` (medio), `big` (grande), `reallybig` (muy grande)
++ `medium`, `big`, `reallybig`
 
-+ `rotateleft` (rotar izquierda), `rotateright` (rotar derecha)
++ `rotateleft`, `rotateright`
 
-+ `skewleft` (inclinar izquierda), `skewright` (inclinar derecha)
++ `rotateleft`, `rotateright`
 
-No añadas más de una categoría de cada línea a un `<span>` en concreto.
+No añadas más de una clase de cada línea para un `<span>` en particular.
 
-Tu carta debería de parecerse a ésta:
+Así es como tu carta debe verse:
 
-![screenshot](images/letter-challenge1.png)
-
-
-
+![captura de pantalla](images/letter-challenge1.png)
 
 --- /challenge ---
