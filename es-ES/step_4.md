@@ -1,14 +1,11 @@
-## Usar estilos Class 
+## Usar estilos Class
 
-+ ¿Te has fijado en el texto `class=""` (significa "categoría") que está en las etiquetas `<span>`? Puedes usarlo para dar el mismo estilo a más de una cosa.
++ ¿Reparaste en la `class=""` en las etiquetas `<span>`? Puedes usarlas para diseñar más de una cosa de la misma manera.
 
-+ Añade la categoría `magazine1` a algunas de tus etiquetas `<span>` y prueba tu página web.
++ Añade la clase `magazine1` a algunas de tus etiquetas `<span>` y prueba tu página web.
 
-![screenshot](images/letter-magazine1.png)
+![captura de pantalla](images/letter-magazine1.png)
 
-+ Puedes añadir más de una categoría a un elemento. Sólo tienes que dejar un espacio entre las dos. Añade la categoría `big` a una de tus etiquetas `<span>`. Prueba tu página web.
++ Puedes añadir más de una clase a un elemento. Solamente deja un espacio en el medio. Añade la clase `big` a uno de tus etiquetas `<span>`. Prueba tu página. 
 
-![screenshot](images/letter-big.png)
-
-
-
+![captura de pantalla](images/letter-big.png)

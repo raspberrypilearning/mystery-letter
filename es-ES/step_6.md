@@ -1,26 +1,25 @@
 ## Editar las categorías
 
-+ Haz clic en la pestaña __'style.css'__. Busca el estilo de la categoría de CSS `newspaper` que has estado usando.
++ Haz clic en la etiqueta **'style.css'**. Busca el estilo para la categoría CSS `newspaper` que has estado usando.
 
-![screenshot](images/letter-newspaper.png)
+![captura de pantalla](images/letter-newspaper.png)
 
-+ Fíjate que hay un punto '.' antes del nombre de la categoría en el archivo de CSS, pero no en la etiqueta `<span>` de tu documento HTML.
++ Puedes notar de que hay un punto (final) '.' antes de el nombre de la categoría en el archivo CSS pero no en la etiqueta `<span>` en tu documento HTML.
 
-+ Ahora busca las otras categorías de CSS que has usado para dar estilo a tu carta misteriosa. Intenta encontrar:
++ Ahora echa un vistazo a las otra categorías CSS que usaste en tu carta misteriosa. Puedes ver:
+    
+    + Como el estilo `magazine1` cambia todo el texto a mayúsculas.
+    
+    + Como el estilo `magazine2` pone una imagen debajo del texto.
 
-	+ Cómo el estilo `magazine1` cambia todo el texto a mayúsculas ("text-transform" significa transformar texto).
+![captura de pantalla](images/letter-magazines.png)
 
-	+ Cómo el estilo `magazine2` coloca una imagen por detrás del texto ("background-image" significa imagen de fondo).
++ ¿Que ocurre si cambias `background-image` por `canvas.png` en `magazine2`? Si prefieres puedes usar en lugar `pink-pattern.png`. 
 
-![screenshot](images/letter-magazines.png)
+Puedes también cambiar el color en el estilo magazine si prefieres.
 
-+ ¿Qué pasa si cambias la imagen de fondo (`background-image`) de `magazine2` a `canvas.png`? Si te gusta más `pink-pattern.png`, puedes volver a dejarlo como estaba.
++ Busca el CSS utilizado para rotar e inclinar tus palabras:
 
-También puedes cambiar los colores en los estilos magazine, si quieres.
+![captura de pantalla](images/letter-rotate-skew.png)
 
-+ Busca el CSS que se usa para rotar (rotate) e inclinar (skew) tus palabras:
-
-![screenshot](images/letter-rotate-skew.png)
-
-Intenta cambiar los valores para crear diferentes efectos y después prueba tu página.
-
+Intenta cambiar los números para crear diferentes efectos y después verifica tu página.

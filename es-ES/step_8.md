@@ -1,15 +1,15 @@
 --- challenge ---
-## Reto: Crear un estilo de impresión de ordenador 
 
-Crea un estilo que imite una impresión de ordenador a la antigua, y aplícalo a algunas de las palabras:
+## Reto: Crear un estilo de impresión de ordenador
 
-![screenshot](images/letter-fonts-printout.png)
+Crea un antiguo estilo de impresión de ordenador y úsalo para algunas palabras:
+
+![captura de pantalla](images/letter-fonts-printout.png)
 
 Necesitarás:
 
-+ El tipo de letra `VT323` de <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Revisa el paso 5 si no recuerdas cómo usar Google fonts.
++ La familia de fuentes `VT323` de <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web/fonts</a>. Regresa al paso 5 si necesitas rememorar el uso de las fuentes Google.
 
-+ La imagen de fondo `computer-printout-paper.png`. Revisa el paso 4 si necesitas recordar cómo usar las imágenes de fondo. 	
-
++ La imagen de fondo `computer-printout-paper.png`. Regresa al paso 4 si necesitas recordar acerca del uso de imágenes de fondo.
 
 --- /challenge ---

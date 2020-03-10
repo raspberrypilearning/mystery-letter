@@ -1,23 +1,21 @@
-## Editar tu mensaje
+## Edita tu mensaje
 
-Vamos a publicar tu mensaje en una página web.
+Pongamos tu mensaje en una página web.
 
-+ Abre este trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. Si estás leyendo este proyecto online, también puedes usar la versión incrustada de Trinket que encontrarás a continuación.
++ Abre este Trinket: <a href="https://trinket.io/html/a214a16b4e" target="_blank">trinket.io/html/a214a16b4e</a>.
+    
+    El proyecto debería parecerse a esto:
+    
+    ![captura de pantalla](images/letter-starter.png)
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/b5fbcf112e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
++ La etiqueta de párrafo `<p>` ha sido presentada en el proyecto 'Feliz Cumpleaños'. La etiqueta `<span>` se usa para agrupar fragmentos de texto más pequeños dentro de un párrafo para que podamos diseñarlos.
 
-+ La etiqueta de párrafo `<p>` se explica en el proyecto 'Feliz cumpleaños'. La etiqueta `<span>` se usa para agrupar unidades más pequeñas de texto dentro de un párrafo y poderles dar estilo.
+![captura de pantalla](images/letter-placeholder.png)
 
-![screenshot](images/letter-placeholder.png)
++ Cambia las palabras a tu mensaje poniendo una palabra en cada una `<span>`. Deberá agregar o quitar etiquetas `<span>` si su mensaje tiene una longitud diferente. 
 
-+ Cambia las palabras por las de tu mensaje, poniendo una palabra en cada `<span>`. Tendrás que añadir o eliminar etiquetas de `<span>` si tu mensaje tiene una longitud diferente.
+![captura de pantalla](images/letter-message.png)
 
-![screenshot](images/letter-message.png)
-
-+ Haz clic en el botón "Run" para probar tu trinket.
-
-	Si te fijas en las palabras, verás que ha cambiado su estilo para que parezca que han sido pegadas en la página.
-
++ Haz clic en el botón Run para verificar tu trinket.
+    
+    Si observa las palabras, puede ver que han sido diseñadas para que parezcan pegadas a la página.
