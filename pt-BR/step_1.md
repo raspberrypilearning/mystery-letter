@@ -73,7 +73,7 @@ Este projeto abrange elementos das seguintes vertentes do [Curriculo de Criaçã
 
 ## Recursos do Projeto
 
-* [Arquivo .zip contendo todos os recursos do projeto](resources/letter-project-resources.zip)
+* [Arquivo .zip contendo todos os recursos do projeto](https://rpf.io/p/en/mystery-letter-go)
 * [Online Trinket contendo todos os recursos do projeto 'Carta Misteriosa'](http://jumpto.cc/web-letter)
 * [Template Online Trinket](http://jumpto.cc/trinket-template)
 * [Online Trinket em branco](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Este projeto abrange elementos das seguintes vertentes do [Curriculo de Criaçã
 
 ## Recursos para líderes de clube
 
-* [arquivo .zip contém todos os recursos do projeto](resources/letter-volunteer-resources.zip)
+* [arquivo .zip contém todos os recursos do projeto](https://rpf.io/p/en/mystery-letter-go)
 * [Projeto Trinket online e completo](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
