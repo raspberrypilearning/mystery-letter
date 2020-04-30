@@ -73,7 +73,7 @@
 
 ## Проектні ресурси
 
-* [.zip file, що містить всі русурси проекту](resources/letter-project-resources.zip)
+* [.zip file, що містить всі русурси проекту](https://rpf.io/p/en/mystery-letter-go)
 * [Online Trinket містить всі проектні ресурси 'Загадкового Листа'](http://jumpto.cc/web-letter)
 * [Шаблон Online Trinket](http://jumpto.cc/trinket-template)
 * [Пустий Online Trinket](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@
 
 ## Ресурси лідера клубу
 
-* [.zip файл, що містить всі проектні ресурси](resources/letter-volunteer-resources.zip)
+* [.zip файл, що містить всі проектні ресурси](https://rpf.io/p/en/mystery-letter-go)
 * [Завершений Trinket проект онлайн](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
