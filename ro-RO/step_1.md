@@ -73,7 +73,7 @@ Acest proiect acoperă elemente din următoarele domenii ale curriculumului [Ras
 
 ## Resursele proiectului
 
-* [fișier .zip care conține toate resursele proiectului](resources/letter-project-resources.zip)
+* [fișier .zip care conține toate resursele proiectului](https://rpf.io/p/en/mystery-letter-go)
 * [Trinket online care conține toate resursele proiectului „Scrisoare misterioasă”](http://jumpto.cc/web-letter)
 * [Șablon Trinket online](http://jumpto.cc/trinket-template)
 * [Trinket online gol](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Acest proiect acoperă elemente din următoarele domenii ale curriculumului [Ras
 
 ## Resurse pentru conducătorul clubului
 
-* [fișier .zip care conține toate resursele proiectului, completate](resources/letter-volunteer-resources.zip)
+* [fișier .zip care conține toate resursele proiectului, completate](https://rpf.io/p/en/mystery-letter-go)
 * [Proiect Trinket online, completat](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
