@@ -73,7 +73,7 @@
 
 ## Πόροι έργου
 
-* [αρχείο .zip που περιέχει όλους τους πόρους του έργου](resources/letter-project-resources.zip)
+* [αρχείο .zip που περιέχει όλους τους πόρους του έργου](https://rpf.io/p/en/mystery-letter-go)
 * [Online Trinket που περιέχει όλους τους πόρους του έργου 'Μυστήρια Επιστολή'](http://jumpto.cc/web-letter)
 * [Online πρότυπο Trinket](http://jumpto.cc/trinket-template)
 * [Online κενό Trinket](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@
 
 ## Πόροι συντονιστή ομάδας
 
-* [αρχείο .zip που περιέχει όλους τους πόρους του έργου](resources/letter-volunteer-resources.zip)
+* [αρχείο .zip που περιέχει όλους τους πόρους του έργου](https://rpf.io/p/en/mystery-letter-go)
 * [Online ολοκληρωμένο έργο στο Τrinket](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
