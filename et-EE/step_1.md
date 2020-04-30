@@ -73,7 +73,7 @@ Selles projektis käsitletakse elemente [Raspberry Pi digitaalse tegemise õppek
 
 ## Projekti ressursid
 
-* [.zip-fail, mis sisaldab kõiki projekti ressursse](resources/letter-project-resources.zip)
+* [.zip-fail, mis sisaldab kõiki projekti ressursse](https://rpf.io/p/en/mystery-letter-go)
 * [Trinket veebis, mis sisaldab kõiki projekti "Salakiri" ressursse](http://jumpto.cc/web-letter)
 * [Veebi-trinketi näidis](http://jumpto.cc/trinket-template)
 * [Tühi trinket veebis](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Selles projektis käsitletakse elemente [Raspberry Pi digitaalse tegemise õppek
 
 ## Ringijuhendaja ressursid
 
-* [.zip-fail, mis sisaldab kõiki lõpetatud projekti ressursse](resources/letter-volunteer-resources.zip)
+* [.zip-fail, mis sisaldab kõiki lõpetatud projekti ressursse](https://rpf.io/p/en/mystery-letter-go)
 * [Lõpetatud Trinketi projekt veebis](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
