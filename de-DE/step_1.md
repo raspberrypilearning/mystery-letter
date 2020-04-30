@@ -73,7 +73,7 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 
 ## Projektressourcen
 
-* [.zip-Datei mit allen Projektressourcen](resources/letter-project-resources.zip)
+* [.zip-Datei mit allen Projektressourcen](https://rpf.io/p/en/mystery-letter-go)
 * [Online-Trinket mit allen 'Geheimnisvoller Brief' Projektressourcen](http://jumpto.cc/web-letter)
 * [Online Trinket-Vorlage](http://jumpto.cc/trinket-template)
 * [Leeres Online-Trinket](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 
 ## Ressourcen für Clubleiter
 
-* [.zip-Datei mit allen fertig gestellten Projektressourcen](resources/letter-volunteer-resources.zip)
+* [.zip-Datei mit allen fertig gestellten Projektressourcen](https://rpf.io/p/en/mystery-letter-go)
 * [Vollständiges Trinket-Projekt (online)](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
