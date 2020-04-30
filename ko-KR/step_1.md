@@ -73,7 +73,7 @@
 
 ## 프로젝트 자료들
 
-* [프로젝트의 모든 자료가 들어있는 .zip 파일](resources/letter-project-resources.zip)
+* [프로젝트의 모든 자료가 들어있는 .zip 파일](https://rpf.io/p/en/mystery-letter-go)
 * [수수께끼 편지 프로젝트 자료가 포함된 온라인 Trinket](http://jumpto.cc/web-letter)
 * [온라인 Trinket 템플릿](http://jumpto.cc/trinket-template)
 * [빈 Trinket](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@
 
 ## 교육자를 위한 자료
 
-* [완성된 모든 프로젝트 자료가 들어있는 .zip 파일](resources/letter-volunteer-resources.zip)
+* [완성된 모든 프로젝트 자료가 들어있는 .zip 파일](https://rpf.io/p/en/mystery-letter-go)
 * [완성된 온라인 Trinket 프로젝트](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
