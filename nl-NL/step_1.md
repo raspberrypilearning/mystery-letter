@@ -73,7 +73,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ## Projectbronnen
 
-* [.zip-bestand met alle projectbronnen](resources/letter-project-resources.zip)
+* [.zip-bestand met alle projectbronnen](https://rpf.io/p/en/mystery-letter-go)
 * [Online Trinket met alle 'Mystery Letter'-projectbronnen](http://jumpto.cc/web-letter)
 * [Online Trinket-sjabloon](http://jumpto.cc/trinket-template)
 * [Online lege Trinket](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi
 
 ## Clubleiderbronnen
 
-* [.zip-bestand met alle voltooide projectresources](resources/letter-volunteer-resources.zip)
+* [.zip-bestand met alle voltooide projectresources](https://rpf.io/p/en/mystery-letter-go)
 * [Online voltooid Trinket-project](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
