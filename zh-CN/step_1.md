@@ -73,7 +73,7 @@
 
 ## 项目资源
 
-* [包含所有项目资源的.zip文件](resources/letter-project-resources.zip)
+* [包含所有项目资源的.zip文件](https://rpf.io/p/en/mystery-letter-go)
 * [包含所有“神秘信件”项目资源的在线Trinket](http://jumpto.cc/web-letter)
 * [在线 Trinket 模板](http://jumpto.cc/trinket-template)
 * [在线空白 Trinket 项目](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@
 
 ## 俱乐部导师资源
 
-* [包含所有完成项目资源的.zip文件](resources/letter-volunteer-resources.zip)
+* [包含所有完成项目资源的.zip文件](https://rpf.io/p/en/mystery-letter-go)
 * [在线已完成的Trinket项目](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
