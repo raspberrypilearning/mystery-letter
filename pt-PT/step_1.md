@@ -73,7 +73,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Currículo Raspberry
 
 ## Recursos do Projeto
 
-* [arquivo .zip contendo todos os recursos do projeto](resources/letter-project-resources.zip)
+* [arquivo .zip contendo todos os recursos do projeto](https://rpf.io/p/en/mystery-letter-go)
 * [Trinket on-line contendo todos os recursos do projeto "Carta Mistério"](http://jumpto.cc/web-letter)
 * [Trinket modelo on-line](http://jumpto.cc/trinket-template)
 * [Trinket em branco on-line](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Currículo Raspberry
 
 ## Recursos para o Líder do Clube
 
-* [Arquivo .zip contendo todos os recursos do projeto concluídos](resources/letter-volunteer-resources.zip)
+* [Arquivo .zip contendo todos os recursos do projeto concluídos](https://rpf.io/p/en/mystery-letter-go)
 * [Projeto Trinket concluido on-line](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
