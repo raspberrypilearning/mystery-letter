@@ -73,7 +73,7 @@ Ce projet couvre les éléments suivants du [Programme Raspberry Pi de Créativi
 
 ## Ressources pour le projet
 
-* [Fichier .zip contenant toutes les ressources du projet](resources/letter-project-resources.zip)
+* [Fichier .zip contenant toutes les ressources du projet](https://rpf.io/p/en/mystery-letter-go)
 * [Trinket contenant toutes les ressources du projet « Lettre mystère »](http://jumpto.cc/web-letter)
 * [Modèle de Trinket en ligne](http://jumpto.cc/trinket-template)
 * [Trinket vierge](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Ce projet couvre les éléments suivants du [Programme Raspberry Pi de Créativi
 
 ## Ressources pour le responsable de club
 
-* [Fichier .zip contenant toutes les ressources du projet terminé](resources/letter-volunteer-resources.zip)
+* [Fichier .zip contenant toutes les ressources du projet terminé](https://rpf.io/p/en/mystery-letter-go)
 * [Projet Trinket en ligne terminé](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finish/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finish/style.css](resources/mystery-letter-finished-style.css)
