@@ -73,7 +73,7 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 ## Zasoby projektu
 
-* [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](resources/letter-project-resources.zip)
+* [Plik .zip zawierający wszystkie zasoby potrzebne do wykonania projektu](https://rpf.io/p/en/mystery-letter-go)
 * [Trinket online zawierający wszystkie materiały do projektu "Tajemniczy List"](http://jumpto.cc/web-letter)
 * [Pusty szablon Trinket](http://jumpto.cc/trinket-template)
 * [Pusty Trinket](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 ## Zasoby dla lidera klubu
 
-* [Plik .zip zawierający zasoby z ukończonym projektem](resources/letter-volunteer-resources.zip)
+* [Plik .zip zawierający zasoby z ukończonym projektem](https://rpf.io/p/en/mystery-letter-go)
 * [Trinket zawierający ukończony projekt](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
