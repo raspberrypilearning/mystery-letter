@@ -73,7 +73,7 @@ Bu proje, [Raspberry Pi Sayısal Yapım Müfredatı](http://rpf.io/curriculum)'n
 
 ## Proje kaynakları
 
-* [tüm proje kaynaklarını içeren .zip dosyası](resources/letter-project-resources.zip)
+* [tüm proje kaynaklarını içeren .zip dosyası](https://rpf.io/p/en/mystery-letter-go)
 * [Tüm 'Gizemli Mektup' proje kaynaklarını içeren çevrimiçi Trinket](http://jumpto.cc/web-letter)
 * [Çevrimiçi Trinket şablonu](http://jumpto.cc/trinket-template)
 * [Çevrimiçi boş Trinket](http://jumpto.cc/trinket-blank)
@@ -89,7 +89,7 @@ Bu proje, [Raspberry Pi Sayısal Yapım Müfredatı](http://rpf.io/curriculum)'n
 
 ## Kulüp lideri kaynakları
 
-* [tamamlanmış tüm proje kaynaklarını içeren .zip dosyası](resources/letter-volunteer-resources.zip)
+* [tamamlanmış tüm proje kaynaklarını içeren .zip dosyası](https://rpf.io/p/en/mystery-letter-go)
 * [Çevrimiçi tamamlanmış Trinket projesi](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
