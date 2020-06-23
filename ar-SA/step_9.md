@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: Create Your Own Styles
+## تحدي: قم بإنشاء أنماطاً من إختيارك
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in **style.css** for ideas.
+الآن قم بإنشاء أنماط الصنوف الخاصة بك وجعل رسالة الغموض أكثر إثارة للإهتمام. استخدم CSS التي تعلمتها في المشروعات السابقة وانظر إلى الأمثلة في **style.css** للأفكار.
 
-Here's an example:
+إليك المثال التالي:
 
-![screenshot](images/letter-fonts-challenge3.png)
+![لقطة الشاشة](images/letter-fonts-challenge3.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket. Try setting image backgrounds using one of the included images:
+يمكنك مشاهدة الصور المتاحة للاستخدام من خلال النقر فوق علامة التبويب " Images" في trinket. حاول تعيين خلفيات صور باستخدام إحدى الصور الموجودة:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+إذا كان لديك حساب trinket، يمكنك تحميل صور خاصة بك كما فعلت في مشروع "أخبر قصة".
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+ابحث عن الخطوط التي تريد في<a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> وانسخ ال `<link>` لملف CSS في trinket حتى يمكنك استخدامها.
 
 \--- /challenge \---
