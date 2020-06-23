@@ -1,51 +1,51 @@
-## Create a New Class
+## Креирајте нову класу
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+Креирајмо стил који изгледа као да је изрезан из Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> пружа мноштво фонтова који се могу слободно користити.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ Додајте `comic` класу у **style.css** датотеку. Након ` magazine2` је добро место. Не заборавите тачку испред имена класе. 
 
-![screenshot](images/letter-comic1.png)
+![снимак екрана](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+Не брините ако добијете упозорење да је „The Rule is empty“; то ћеш поправити следеће.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Сада додајте ЦСС у comic ЦСС класу. Ако желите, можете користити различите боје. На списку <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a> постоји листа боја.
 
-![screenshot](images/letter-comic2.png)
+![слика екрана](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Користите стил comic у неким од ознака `<span>` у ХТМЛ документу и тестирајте своју страницу:
 
-![screenshot](images/letter-comic-output.png)
+![слика екрана](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ Сада можете додати забаван фонт. Отворите нову картицу или прозор интернет прегледача. Идите на <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> и тражите **'bangers'**:
 
-![screenshot](images/letter-gfonts-1-annotated.png)
+![слика екрана](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Кликните на дугме + „Select this font“:
 
-![screenshot](images/letter-gfonts-2-annotated.png)
+![снимак екрана](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+На дну екрана ће се појавити порука "1 Family Selected".
 
-![screenshot](images/letter-gfonts-3.png)
+![слика екрана](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Кликните на поруку "1 Family Selected" да отворите прозор и копирате означени код:
 
-![screenshot](images/letter-gfonts-4.png)
+![слика екрана](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Залепите `<link>` код који сте управо копирали из Гоогле фонтова у `<head>` своје веб странице:
 
-![screenshot](images/letter-fonts-head.png)
+![слика екрана](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Ово вам омогућава да користите фонт Бангерс на својој веб страници.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Вратите се на Гоогле фонтове и померите се надоле по страни и копирајте font-family код:
 
-![screenshot](images/letter-fonts-bangers.png)
+![слика екрана](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ Сада се вратите на своју **'style.css'** датотеку у тринкету и залепите font-family код у стил comic:
 
-![screenshot](images/letter-fonts-comic.png)
+![слика екрана](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ Тестирајте своју страницу. Резултат би требало да изгледа овако: 
 
-![screenshot](images/letter-fonts-output.png)
+![слика екрана](images/letter-fonts-output.png)
