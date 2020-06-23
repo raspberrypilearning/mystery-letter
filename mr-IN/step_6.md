@@ -4,22 +4,22 @@
 
 ![screenshot](images/letter-newspaper.png)
 
-+ लक्षात घ्या कि सीएसएस (CSS) फाईल च्या वर्गाच्या पहिले एक टिपके (फुल्ल स्टॉप) '.' आहे, पण तुमच्या एचटीएमएल (HTML) डॉक्युमेंट च्या `<span>` टॅग मध्ये तसं नाहीये.
++ लक्षात घ्या कि सीएसएस (CSS) फाइलच्या वर्गाच्या पहिले एक ठिपके (फुल्ल स्टॉप) '.' आहे, पण तुमच्या एचटीएमएल (HTML) डॉक्युमेंट च्या `<span>` टॅग मध्ये तसं नाहीये.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. तुम्ही शोधू शकता:
++ आता तुम्ही तुमच्या रहस्यमयी पत्राची शैली वापरत असलेल्या इतर सीएसएस (CSS) वर्गांकडे पहा. तुम्ही शोधू शकता:
     
     + `magazine1` शैली कसे मजकूर ला सर्व अपरकेस (मोठ्या) अक्षरामध्ये बदलते.
     
-    + How the `magazine2` style puts an image behind the text.
+    + `magazine2` शैली कसे मजकूराच्या मागे चित्र ठेवते.
 
 ![screenshot](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ तुम्ही `magazine2` साठी `background-image` ला `canvas.png` मधे बदलल्यास काय होते? तुम्ही `pink-pattern.png` पसंत केल्यास तुम्ही ते परत बदलू शकता. 
 
-You can also change the colours in the magazine styles if you like.
+तुम्हाला आवडत असल्यास तुम्ही मासिकाच्या शैलीतील रंग देखील बदलू शकता.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ तुमचे शब्द फिरवायला आणि स्क्यू (टिल्ट करण्यासाठी) वापरलेले सीएसएस (CSS) शोधा:
 
 ![screenshot](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+भिन्न प्रभाव तयार करण्यासाठी संख्या बदलण्याचा प्रयत्न करा आणि नंतर तुमच्या पेजची तपासणी घ्या.
