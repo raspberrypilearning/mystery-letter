@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-title: Mystery Letter
-description: Create a mystery letter with lots of different styles.
+title: ಮಿಸ್ಟರಿ ಲೆಟರ್
+description: ವಿಭಿನ್ನ ಶೈಲಿಗಳೊಂದಿಗೆ ನಿಗೂಢ ಪತ್ರವನ್ನು ರಚಿಸಿ.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
@@ -18,20 +18,20 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Choose Your Message
+    title: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಆರಿಸಿ
   - 
-    title: Editing Your Message
+    title: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
   - 
-    title: Using Class Styles
+    title: ವರ್ಗ ಶೈಲಿಗಳನ್ನು ಬಳಸುವುದು
   - 
-    title: 'Challenge: Style Your Message'
+    title: 'ಸವಾಲು: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ'
   - 
-    title: Editing Classes
+    title: ವರ್ಗಗಳನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
   - 
-    title: Create a New Class
+    title: ಹೊಸ ವರ್ಗವನ್ನು ರಚಿಸಿ
   - 
-    title: 'Challenge: Create A Computer Printout Style'
+    title: 'ಸವಾಲು: ಕಂಪ್ಯೂಟರ್ ಪ್ರಿಂಟ್ಔಟ್ ಶೈಲಿಯನ್ನು ರಚಿಸಿ'
   - 
-    title: 'Challenge: Create Your Own Styles'
+    title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಶೈಲಿಗಳನ್ನು ರಚಿಸಿ'
