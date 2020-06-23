@@ -1,23 +1,23 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## ಸವಾಲು: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ
 
-Use the provided styles to make your message look like a mystery letter.
+ಒದಗಿಸಿದ ಶೈಲಿಗಳನ್ನು ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ರಹಸ್ಯ ಪತ್ರದಂತೆ ಕಾಣುವಂತೆ ಮಾಡಿ.
 
-Add these classes to your `<span>` tags:
+ನಿಮ್ಮ `<span>` ಟ್ಯಾಗ್‌ಗಳಿಗೆ ಈ ವರ್ಗವನ್ನು ಸೇರಿಸಿ:
 
-+ `newspaper`, `magazine1`, `magazine2`
++ ` ನ್ಯೂಸ್ ಪೇಪರ್ `, ` ಮ್ಯಾಗಜೀನ್ 1 `, ` ಮ್ಯಾಗಜೀನ್ 2 `
 
-+ `medium`, `big`, `reallybig`
++ ` ಮೀಡಿಯಂ `, ` ಬಿಗ್ `, ` ರಿಯಲಿಬಿಗ್ `
 
-+ `rotateleft`, `rotateright`
++ ` ರೊಟೇಟ್ ಲೆಫ್ಟ  `, ` ರೊಟೇಟ್ರೈಟ `
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+ಪ್ರತಿ ಸಾಲಿನಿಂದ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ನಿರ್ದಿಷ್ಟ `<span>` ಗೆ ಸೇರಿಸಬೇಡಿ.
 
-This is how your letter could look:
+ನಿಮ್ಮ ಪತ್ರವು ಹೀಗೆ ಕಾಣುತ್ತದೆ:
 
-![screenshot](images/letter-challenge1.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-challenge1.png)
 
 \--- /challenge \---
