@@ -1,11 +1,11 @@
-## Using Class Styles
+## استخدام أنماط الفئات
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ هل لاحظت ` ""=class` في `<span>`؟ يمكنك استخدام هذا لتصميم أكثر من شيء بالطريقة نفسها.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ إضافة فئة `magazine1` لعدد قليل من العلامات الخاصة بك `<span>` واختبار صفحة الويب الخاصة بك.
 
-![screenshot](images/letter-magazine1.png)
+![لقطة الشاشة](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ يمكنك إضافة أكثر من فئة إلى عنصر. فقط اترك مسافة بينهما. إضافة فئة `كبير` لأحد `<span>` العلامات الخاصة بك. اختبر صفحتك 
 
-![screenshot](images/letter-big.png)
+![لقطة شاشة](images/letter-big.png)
