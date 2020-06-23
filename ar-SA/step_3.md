@@ -2,7 +2,7 @@
 
 دعنا ننقل رسالتك إلى صفحة ويب.
 
-+ افتح مشروع trinket هذا: <a href="https://trinket.io/html/4ee2259a75" target="_blank">jumpto.cc/web-letter</a>.
++ افتح مشروع trinket هذا: <a href="https://trinket.io/html/4ee2259a75" target="_blank">trinket.io/html/4ee2259a75</a>.
     
     الآن يجب أن يبدو الملف الخاص بك مثل هذا:
     
