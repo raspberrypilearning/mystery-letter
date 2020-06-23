@@ -1,84 +1,83 @@
 ## المقدمة
 
-في هذا المشروع، ستنشئ رسالة غامضة تبدو وكأن كل كلمة فيها قُصَّت من جريدة أو صحيفة أو مجلة هزلية مختلفة أو أي مصدر آخر. 
+في هذا المشروع، ستنشئ رسالة غامضة باللغة الانكليزية التي تبدو وكأن كل كلمة فيها قد قُصَّت من جريدة أو مجلة أو رسوم هزلية مختلفة أو من أي مصدر آخر.
 
-![screenshot](images/letter-final.png)
+![لقطة الشاشة](images/letter-final.png)
 
 ### معلومات إضافية لقادة النادي
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/mystery-letter/print).
-
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/ar-SA/projects/mystery-letter/print).
 
 --- collapse ---
----
-title: ملاحظات قادة النادي
----
 
+## العنوان: ملاحظات قادة النادي
 
-## المقدمة:
-في هذا المشروع، سيتعرف الأطفال على فئات CSS. حيث سيستخدمون العديد من فئات CSS لتحديد نمط النص، كما سيتعلمون كيفية استخدام صور الخلفية وخطوط Google المجانية في مشاريعهم. 
+## مقدمة:
 
+في هذا المشروع، سيتعرف الأطفال على فئات CSS. حيث سيستخدمون العديد من فئات CSS لتحديد نمط النص، كما سيتعلمون كيفية استخدام صور الخلفية وخطوط Google المجانية في مشاريعهم.
 
 ## الموارد المتوفرة على الإنترنت
 
-نوصي باستخدام [trinket](https://trinket.io/) لكتابة ملفات HTML وCSS على الإنترنت. يحتوي هذا المشروع على ملف trinket التالي:
+نوصي باستخدام [trinket](https://trinket.io/) لكتابة ملفات HTML و & CSS على الإنترنت. يحتوي هذا المشروع على ملف trinket التالي:
 
-+ ['رسالة غامضة' مشروع البدء  -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['رسالة غامضة' مشروع البداية -- trinket.io/html/4ee2259a75](https://trinket.io/html/4ee2259a75)
 
-يمكن أن يستخدم الأطفال أيضًا ملف trinket الفارغ هذا [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) لكتابة ملفات HTML و CSS، أو يمكنهم استخدام قالب trinket هذا [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+يمكن أن يستخدم الأطفال أيضًا ملف trinket الفارغ هذا [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) لكتابة ملفات HTML & CSS الخاصة بهم، أو يمكنهم استخدام قالب trinket هذا [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 كما يوجد مشروع trinket يحتوي على نموذج حل للتحديات:
 
-+ ['مشروع رسالة غامضة مُكتمل' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['مشروع رسالة غامضة مُكتمل' -- trinket.io/html/c40d6e8ba0](https://trinket.io/html/c40d6e8ba0)
 
 ## الموارد المتوفرة دون اتصال بالإنترنت
-بالنسبة إلى هذا المشروع، يمكن [إكماله دون اتصال بالإنترنت](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) إذا كنت تفضل ذلك. يمكنك الوصول إلى موارد المشروع من خلال النقر فوق رابط "مواد المشروع" الخاص بهذا المشروع. يحتوي هذا الرابط على قسم "موارد المشروع"، الذي يتضمن الموارد التي يحتاج إليها الأطفال لإكمال هذا المشروع دون اتصال بالإنترنت. تأكد من أن كل طفل لديه حق الوصول إلى نسخة من هذه الموارد. يتضمن هذا القسم الملفات التالية:
 
-+ mystery-letter/index.html
-+ mystery-letter/style.css
-+ mystery-letter/script.js
-+ mystery-letter/prefixfree.js
-+ mystery-letter/4 x .png images
-+ template/template.html
-+ template/style.css
+إن كنت تفضل إكمال المشروع [دون الحاجة لإتصال بالإنترنت](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) فيمكنك ذلك. يمكنك الوصول إلى موارد المشروع من خلال النقر فوق رابط "مواد المشروع" الخاص بهذا المشروع. يحتوي هذا الرابط على قسم "موارد المشروع"، الذي يتضمن الموارد التي يحتاج إليها الأطفال لإكمال هذا المشروع من دون اتصال بالإنترنت. تأكد من أن كل طفل لديه حق الوصول إلى نسخة من هذه الموارد. يتضمن هذا القسم الملفات التالية:
 
-يمكنك أيضًا العثور على نسخة كاملة من تحديات هذا المشروع في قسم "موارد المتطوعين" الذي يحتوي على:
+* mystery-letter/index.html
+* mystery-letter/style.css
+* mystery-letter/script.js
+* mystery-letter/prefixfree.js
+* mystery-letter/4 x .png images
+* template/template.html
+* template/style.css
 
-+ mystery-letter-finished/index.html
-+ mystery-letter-finished/style.css
-+ mystery-letter-finished/script.js
-+ mystery-letter-finished/prefixfree.js
-+ mystery-letter-finished/4 x .png images
+يمكنك أيضاً الحصول على النسخة الكاملة لهذا المشروع في قسم "موارد المتطوعين" والذي يحتوي على:
 
-(جميع الموارد المذكورة أعلاه قابلة للتنزيل أيضًا كملفات .zip للمشاريع والمتطوعين).
+* mystery-letter-finished/index.html
+* mystery-letter-finished/style.css
+* mystery-letter-finished/script.js
+* mystery-letter-finished/prefixfree.js
+* mystery-letter/4 x .png images
 
-## أهداف التعلم
-+ يتناول هذا المشروع فئات CSS والقدرة على تحديد أنماط عناصر HTML باستخدام فئات متعددة.
-+ يتناول المشروع أيضًا خطوط Google. 
+(جميع الموارد المذكورة أعلاه قابلة للتنزيل أيضًا كملفات `.zip` للمشاريع والمتطوعين)
 
-يتناول هذا المشروع عناصر من الصفوف التالية من [المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum):
+## أهداف التعليم
 
-+ [الأصول الأساسية للتصميمات ثنائية الأبعاد وثلاثية الأبعاد](https://www.raspberrypi.org/curriculum/design/creator).
+* يتناول هذا المشروع فئات CSS والقدرة على تحديد أنماط عناصر HTML باستخدام فئات متعددة.
+* يتناول المشروع أيضاً خطوط Google وصور الخلفية. 
 
-## التحديات:
-+ "حدِّد أنماط رسالتك" - استخدام أنماط فئات CSS؛
-+ "أنشئ نمط طباعة الكمبيوتر" - استخدام CSS لإعادة إنشاء مثيل فئة باستخدام صورة خلفية وخط Google. 
-+ "أنشئ أنماطًا من عندك" - استخدام CSS لإنشاء أنماط جديدة.
+يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
 
+* [التصاميم الأساسية لنماذج ثنائية وثلاثية الأبعاد](https://www.raspberrypi.org/curriculum/design/creator).
 
+## التحديات
 
---- /collapse ---
+* "حدِّد أنماط رسالتك" - استخدام أنماط فئات CSS؛
+* "أنشئ نمط طباعة للكمبيوتر" - استخدم CSS لإعادة إنشاء مثال لفئة باستخدام صورة خلفية وخط Google. 
+* "أنشئ أنماطاً خاصة بك" - استخدم CSS لإنشاء أنماط جديدة.
 
+--- collapse ---
 
 --- collapse ---
 ---
 title: مواد المشروع
 ---
-## موارد المشروع
-* [ملف .zip يحتوي على كل موارد المشروع](resources/letter-project-resources.zip)
-* [Trinket عبر الإنترنت يحتوي على كل موارد المشروع 'رسالة غامضة'](http://jumpto.cc/web-letter)
+
+## مصادر المشروع
+
+* [ملف .zip يحتوي على جميع موارد المشروع](https://rpf.io/p/ar-SA/mystery-letter-go)
+* [Trinket عبر الإنترنت يحتوي على كل موارد مشروع 'رسالة غامضة'](https://trinket.io/html/4ee2259a75)
 * [قالب Trinket عبر الإنترنت](http://jumpto.cc/trinket-template)
-* [Trinket فارغ عبر الإنترنت](http://jumpto.cc/trinket-blank)
+* [ملف Trinket فارغ](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
@@ -90,8 +89,9 @@ title: مواد المشروع
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
 ## موارد قادة النادي
-* [ملف .zip يحتوي على كل موارد المشاريع المكتملة](resources/letter-volunteer-resources.zip)
-* [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/html/1d4d4c5ce1)
+
+* [ملف .zip يحتوي على جميع موارد المشروع المكتملة](https://rpf.io/p/ar-SA/mystery-letter-go)
+* [مشروع Trinket المكتمل على الإنترنت](https://trinket.io/html/c40d6e8ba0)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
 * [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)

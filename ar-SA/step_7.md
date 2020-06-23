@@ -1,54 +1,51 @@
-## إنشاء فئة جديدة 
+## قم بإنشاء فئة جديدة
 
-لننشئ نمطًا يبدو كأنه قُصَّ من مجلة هزلية. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> يوفر الكثير من الخطوط للاستخدام المجاني. 
+دعنا ننشأ نمطاً يبدو كأنه تم قصه من مقطع فكاهي. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> يوفر الكثير من الخطوط المجانية للاستخدام.
 
++ أضف صنف `comic` في ملف **style.css**. بعد `magazine2` هو مكان جيد. لا تنسى النقطة أمام اسم الصنف. 
 
+![لقطة الشاشة](images/letter-comic1.png)
 
-+ أضف فئة `comic` في الملف __style.css__. وسيكون من الأفضل إضافته بعد الفئة `magazine2`. لا تنسَ وضع النقطة قبل اسم الفئة. 
+لا تقلق إذا تلقيت تحذيراً يقول "'The Rule is empty" ؛ عليك إصلاح ذلك في الخطوة التالية.
 
-![screenshot](images/letter-comic1.png)
++ أضف الآن بعض CSS إلى فئة comic CSS. يمكنك استخدام ألوان مختلفة إذا أردت. هناك قائمة مليئة بالألوان المختلفة في <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-إذا ظهرت لك رسالة التحذير 'The Rule is empty'، فلا داعي للقلق؛ ستصلح هذا الخطأ لاحقًا.
+![لقطة الشاشة](images/letter-comic2.png)
 
-+ أضف الآن بعض قيم CSS إلى الفئة (comic) في ملف CSS. ويمكنك استخدام ألوان مختلفة إذا أردتَ. توجد قائمة تتضمن ألوانًا كثيرة على <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ استخدم الصنف comic في `<span>` في مستند HTML الخاص بك واختبر صفحتك:
 
-![screenshot](images/letter-comic2.png)
+![لقطة الشاشة](images/letter-comic-output.png)
 
-+ استخدم نمط الفئة (comic) في بعض أوسمة `<span>` في مستند HTML واختبر الصفحة:
++ الآن يمكنك إضافة خط ممتع. افتح علامة تبويب أو نافذة متصفح جديدة. إنتقل إلى <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> وابحث عن **'Mada'**:
 
-![screenshot](images/letter-comic-output.png)
+![لقطة الشاشة](images/letter-gfonts-1-annotated.png)
 
-+ يمكنك الآن إضافة خط هزلي. افتح علامة تبويب أو نافذة جديدة على المتصفح. انتقل إلى <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> وابحث عن __'bangers'__:
++ انقر فوق الزر "تحديد هذا الخط" +:
 
-![screenshot](images/letter-fonts1.png)
+![لقطة الشاشة](images/letter-gfonts-2-annotated.png)
 
-+ انقر فوق الزر Quick-use (استخدام سريع):
+ستظهر رسالة تقول "تم اختيار عائلة واحدة" في أسفل الشاشة.
 
-![screenshot](images/letter-fonts2.png)
+![لقطة الشاشة](images/letter-gfonts-3.png)
 
-+ سيتم تحميل صفحة جديدة. مرِّر إلى أسفل إلى أن ترى هذا الجزء من الصفحة:
++ انقر على رسالة "1 Family Selected" لفتح النافذة ونسخ الرمز المميز:
 
-![screenshot](images/letter-fonts-link.png)
+![لقطة الشاشة](images/letter-gfonts-4.png)
 
-وانسخ التعليمة البرمجية المظللة. 
++ الصق الكود `<link>` الذي نسخته للتو من خطوط Google إلى `<head>` في ملف ال HTML الخاص بك:
 
-+ ألصق التعليمة البرمجية `<link>` التي نسختَها للتو من Google Fonts داخل الوسم `<head>` في صفحة الويب:
+![لقطة الشاشة](images/letter-fonts-head.png)
 
-![screenshot](images/letter-fonts-head.png)
+هذا يسمح لك باستخدام الخط Bangers في صفحة الويب الخاصة بك.
 
-يسمح لك ذلك باستخدام الخط Bangers في صفحة الويب. 
++ ارجع إلى خطوط Google وانتقل إلى أسفل الصفحة وانسخ font-family:
 
-+ عُد إلى Google Fonts ومرِّر إلى أسفل الصفحة مرة أخرى ثم انسخ التعليمة البرمجية font-family:
+![لقطة الشاشة](images/letter-fonts-bangers.png)
 
-![screenshot](images/letter-fonts-bangers.png)
++ انتقل الآن إلى ملف **'style.css'** في trinket والصق رمز عائلة الخط في النمط comic:
 
-+ عُد الآن إلى الملف __'style.css'__ على trinket وألصق التعليمة البرمجية font-family داخل نمط الفئة (comic):
+![لقطة الشاشة](images/letter-fonts-comic.png)
 
-![screenshot](images/letter-fonts-comic.png)
++ اختبر صفحة الويب الخاصة بك. يجب أن تبدو النتيجة كالتالي: 
 
-+ اختبر صفحة الويب. ستكون النتيجة بالشكل التالي تقريبًا: 
-
-![screenshot](images/letter-fonts-output.png)
-
-
-
+![لقطة الشاشة](images/letter-fonts-output.png)

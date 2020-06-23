@@ -1,5 +1,4 @@
 ---
-
 hero_image: images/banner.png
 theme: yellow
 duration: 2
@@ -15,15 +14,15 @@ technologies: html-css-javascript
 site_areas: projects
 hardware: ''
 software: html-css-javascript
-version: 3
+version: 3.1
 last_tested: 2017-01-01
-steps: 
-- title: المقدمة
-- title: اختيار رسالتك
-- title: تحرير رسالتك
-- title: استخدام أنماط الفئات
-- title: 'التحدي: حدِّد أنماط رسالتك'
-- title: تحرير الفئات
-- title: إنشاء فئة جديدة
-- title: 'التحدي: أنشئ نمط طباعة الكمبيوتر'
-- title: 'التحدي: أنشئ أنماطًا من عندك'
+steps:
+  - title: المقدمة
+  - title: اختيار رسالتك
+  - title: تحرير رسالتك
+  - title: استخدام أنماط الفئات
+  - title: 'التحدي: حدِّد أنماط رسالتك'
+  - title: تحرير الفئات
+  - title: إنشاء فئة جديدة
+  - title: 'التحدي: أنشئ نمط طباعة الكمبيوتر'
+  - title: 'التحدي: أنشئ أنماطًا من إختيارك'

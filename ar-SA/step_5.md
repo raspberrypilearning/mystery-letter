@@ -1,25 +1,23 @@
 --- challenge ---
-## التحدي: حدِّد أنماط رسالتك
 
-استخدم الأنماط المتوفرة لتجعل رسالتك تبدو غامضة. 
+## تحدي: قم بتحديد نمط لرسالتك
 
-أضف هذه الفئات إلى أوسمة `<span>`: 
+استخدم الأنماط المتوفرة لجعل رسالتك تبدو كحرف غامض.
 
-+ `newspaper`، `magazine1`، `magazine2`
+أضف هذه الفئات إلى علامات `<span>` الخاصة بك:
 
-+ `medium`، `big`، `reallybig`
++ `newspaper`, `magazine1`, `magazine2`
 
-+ `rotateleft`، `rotateright`
++ `medium`, `big`, `reallybig`
 
-+ `skewleft`، `skewright`
++ `rotateleft`, `rotateright`
 
-لا تُضِف أكثر من فئة واحدة من كل سطر إلى وسم `<span>` واحد.
++ `skewleft`, `skewright`
 
-يمكن أن يكون شكل الرسالة كما يلي:
+لا تقم بإضافة أكثر من واحد لكل سطر معين `<span>`.
 
-![screenshot](images/letter-challenge1.png)
+هكذا ممكن أن تبدوا رسالتك:
 
-
-
+![لقطة الشاشة](images/letter-challenge1.png)
 
 --- /challenge ---
