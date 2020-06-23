@@ -1,25 +1,25 @@
-## Editing Classes
+## Уређивање класа
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ Кликните на ** 'style.css'** картицу. Пронађите стил за `newspaper` ЦСС класу коју сте користили.
 
-![screenshot](images/letter-newspaper.png)
+![слика екрана](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Примјетите да постоји тачка '.' пре назива класе у ЦСС датотеци, али не и ознака `<span>` у вашем ХТМЛ документу.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Сада погледајте остале ЦСС класе које сте користили за стилизовање свог мистериозног писма. Можете ли пронаћи:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + Како `magazine1` стил мења текст у сва велика слова.
     
-    + How the `magazine2` style puts an image behind the text.
+    + Како `magazine2` стил поставља слику иза текста.
 
-![screenshot](images/letter-magazines.png)
+![снимак екрана](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ Шта се догађа ако промените `background-image` за ` magazine2` у `canvas.png` ? Ако више волите `pink-pattern.png` можете да га вратите назад. 
 
-You can also change the colours in the magazine styles if you like.
+Такође можете променити боје у стиловима магазина ако желите.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Пронађите ЦСС који се користи за ротирање и нагибање (нагињање) ваших речи:
 
-![screenshot](images/letter-rotate-skew.png)
+![слика екрана](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Покушајте да промените бројеве да бисте створили различите ефекте, а затим тестирајте своју страницу.
