@@ -1,7 +1,7 @@
-## Choose Your Message
+## तुमचा संदेश निवडा
 
-Mystery letters are used in films and books to send secret messages.
+रहस्यमयी पत्र चित्रपट आणि पुस्तकांमध्ये गुप्त संदेश पाठविण्यासाठी वापरले जातात.
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ एका रहस्यमयी संदेशाचा विचार करा; 12 शब्द ही योग्य लांबी आहे. तुम्ही एखाद्या संदेशाचा विचार करू शकत नसल्यास तुम्ही हे उदाहरण वापरू शकता: 'तुमचा पुढील सुगावा तिजोरीत आहे. कोड 65536 आहे.'
 
-+ Either make a note of your message or remember it.
++ एकतर तुमच्या संदेशाची नोंद घ्या किंवा ती लक्षात ठेवा.
