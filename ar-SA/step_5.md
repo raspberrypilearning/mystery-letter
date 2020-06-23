@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## تحدي: قم بتحديد نمط لرسالتك
 
-Use the provided styles to make your message look like a mystery letter.
+استخدم الأنماط المتوفرة لجعل رسالتك تبدو كحرف غامض.
 
-Add these classes to your `<span>` tags:
+أضف هذه الفئات إلى علامات `<span>` الخاصة بك:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,10 +14,10 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+لا تقم بإضافة أكثر من واحد لكل سطر معين `<span>`.
 
-This is how your letter could look:
+هكذا ممكن أن تبدوا رسالتك:
 
-![screenshot](images/letter-challenge1.png)
+![لقطة الشاشة](images/letter-challenge1.png)
 
 \--- /challenge \---
