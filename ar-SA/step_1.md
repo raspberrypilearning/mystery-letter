@@ -24,7 +24,7 @@
 
 يمكن أن يستخدم الأطفال أيضًا ملف trinket الفارغ هذا [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) لكتابة ملفات HTML & CSS الخاصة بهم، أو يمكنهم استخدام قالب trinket هذا [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-كما يوجد أيضا مشروع trinket الذي يحتوي على نموذج حل للتحديات \--- challenge \---:
+كما يوجد مشروع trinket يحتوي على نموذج حل للتحديات:
 
 * ['مشروع رسالة غامضة مُكتمل' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
