@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## आव्हान: तुम्चा संदेश स्टाईल करा
 
 Use the provided styles to make your message look like a mystery letter.
 
