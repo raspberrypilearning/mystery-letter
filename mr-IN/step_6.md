@@ -1,14 +1,14 @@
-## Editing Classes
+## वर्ग बदलणे
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ **'style.css'** टॅब वर क्लिक करा. तुम्ही ज्या `newspaper` सीएसएस (CSS) वर्ग ला वापरताय त्याची शैली शोधा.
 
 ![screenshot](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ लक्षात घ्या कि सीएसएस (CSS) फाईल च्या वर्गाच्या पहिले एक टिपके (फुल्ल स्टॉप) '.' आहे, पण तुमच्या एचटीएमएल (HTML) डॉक्युमेंट च्या `<span>` टॅग मध्ये तसं नाहीये.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Now look at the other CSS classes that you used to style your mystery letter. तुम्ही शोधू शकता:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + `magazine1` शैली कसे मजकूर ला सर्व अपरकेस (मोठ्या) अक्षरामध्ये बदलते.
     
     + How the `magazine2` style puts an image behind the text.
 
