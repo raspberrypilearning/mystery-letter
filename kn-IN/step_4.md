@@ -1,11 +1,11 @@
-## Using Class Styles
+## ವರ್ಗ ಶೈಲಿಗಳನ್ನು ಬಳಸುವುದು
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ ನೀವು ` class=""` in the `<span>` ಟ್ಯಾಗ್ ಗಳನ್ನು ಗಮನಿಸಿದ್ದೀರಾ? ಇದೇ ರೀತಿಯಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ವಿಷಯಗಳನ್ನು ಸ್ಟೈಲ್ ಮಾಡಲು ನೀವು ಇದನ್ನು ಬಳಸಬಹುದು.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ ನೀವು ` ಮ್ಯಾಗಜೀನ್ 1` ವರ್ಗವನ್ನು ಕೆಲವು `<span>` ಟ್ಯಾಗ್ ಗಳಿಗೆ ಸೇರಿಸಿ ನಿಮ್ಮ ವೆಬ್‌ಪುಟವನ್ನು ಪರೀಕ್ಷಿಸಬಹುದು.
 
-![screenshot](images/letter-magazine1.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ ನೀವು ಒಂದು ಅಂಶಕ್ಕೆ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ವರ್ಗಗಳನ್ನು ಸೇರಿಸಬಹುದು. ನಡುವೆ ಜಾಗವನ್ನು ಬಿಡಿ. ನಿಮ್ಮ `big` ವರ್ಗವನ್ನು `<span>`ಟ್ಯಾಗ್‌ಗೆ ಸೇರಿಸಿ. ನಿಮ್ಮ ವೆಬ್‌ಪುಟವನ್ನು ಪರೀಕ್ಷಿಸಿ. 
 
-![screenshot](images/letter-big.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-big.png)
