@@ -1,25 +1,25 @@
-## Editing Classes
+## ವರ್ಗವನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ **'style.css'** ಟ್ಯಾಬ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. `ಪತ್ರಿಕೆ` CSS ವರ್ಗಕ್ಕಾಗಿ ನೀವು ಬಳಸುತ್ತಿರುವ ಶೈಲಿಯನ್ನು ಹುಡುಕಿ.
 
-![screenshot](images/letter-newspaper.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ CSS ಫೈಲ್‌ನಲ್ಲಿ ವರ್ಗದ ಹೆಸರಿನ ಮೊದಲು ಡಾಟ್ (ಫುಲ್ ಸ್ಟಾಪ್) '.' ಇದೆ ಎಂದು ಗಮನಿಸಿ. ಆದರೆ ನಿಮ್ಮ HTML ಡಾಕ್ಯುಮೆಂಟ್‌ನ `<span>` ಟ್ಯಾಗ್‌ನಲ್ಲಿಲ್ಲ.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ ಈಗ ನಿಮ್ಮ ರಹಸ್ಯ ಪತ್ರವನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲು ನೀವು ಬಳಸಿದ ಇತರ CSS ವರ್ಗಗಳನ್ನು ನೋಡಿ. ನೀವು ಕಂಡುಕೊಳ್ಳಬಹುದೇ:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + `ಮ್ಯಾಗಜೀನ್ 1` ಶೈಲಿಯು ಪಠ್ಯವನ್ನು ಎಲ್ಲಾ ದೊಡ್ಡಕ್ಷರ (ದೊಡ್ಡಕ್ಷರ) ಅಕ್ಷರಗಳಿಗೆ ಹೇಗೆ ಬದಲಾಯಿಸುತ್ತದೆ.
     
-    + How the `magazine2` style puts an image behind the text.
+    + ಹೇಗೆ ` ಮ್ಯಾಗಜೀನ್ 2 ` ಶೈಲಿಯು ಪಠ್ಯದ ಹಿಂದೆ ಚಿತ್ರವನ್ನು ಇರಿಸುತ್ತದೆ.
 
-![screenshot](images/letter-magazines.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ ನೀವು `ಮ್ಯಾಗಜೀನ್ 2` ನ `ಹಿನ್ನೆಲೆ-ಚಿತ್ರವನ್ನು` `canvas.png` ಗೆ ಬದಲಾಯಿಸಿದರೆ ಏನಾಗುತ್ತದೆ? ನೀವು ಬಯಸಿದರೆ ಅದನ್ನು ಮತ್ತೆ `pink-pattern.png ` ಗೆ ಬದಲಾಯಿಸಬಹುದು. 
 
-You can also change the colours in the magazine styles if you like.
+ನೀವು ಬಯಸಿದರೆ ಮ್ಯಾಗಜೀನ್ ಶೈಲಿಗಳಲ್ಲಿನ ಬಣ್ಣಗಳನ್ನು ಸಹ ನೀವು ಬದಲಾಯಿಸಬಹುದು.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ ನಿಮ್ಮ ಪದಗಳನ್ನು ತಿರುಗಿಸಲು ಮತ್ತು ಓರೆಯಾಗಿಸಲು (ಓರೆಯಾಗಿಸಲು) ಬಳಸುವ CSS ಅನ್ನು ಹುಡುಕಿ:
 
-![screenshot](images/letter-rotate-skew.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+ವಿಭಿನ್ನ ಪರಿಣಾಮಗಳನ್ನು ರಚಿಸಲು ಸಂಖ್ಯೆಗಳನ್ನು ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಿ ಮತ್ತು ನಂತರ ನಿಮ್ಮ ಪುಟವನ್ನು ಪರೀಕ್ಷಿಸಿ.
