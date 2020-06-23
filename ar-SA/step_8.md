@@ -1,15 +1,15 @@
 --- challenge ---
-## التحدي: أنشئ نمط طباعة الكمبيوتر
 
-أنشئ نمط طباعة الكمبيوتر القديم واستخدمه مع بعض الكلمات:
+## تحدي: قم بإنشاء نمط طباعة الكمبيوتر
 
-![screenshot](images/letter-fonts-printout.png)
+قم بإنشاء نمط مطبوع للكمبيوتر على الطراز القديم وتطبيقه على بعض الكلمات:
 
-ستحتاج إلى:
+![لقطة الشاشة](images/letter-fonts-printout.png)
 
-+ خط `VT323` من font family من <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. عُد إلى الخطوة 5 إذا كنت تحتاج إلى تذكير بكيفية استخدام Google Fonts. 
+سوف تحتاج:
 
-+ صورة الخلفية `computer-printout-paper.png`. عُد إلى الخطوة 4 إذا كنت تحتاج إلى تذكير بكيفية استخدام صور الخلفية. 	
++ عائلة خطوط `VT323` من <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. انظر إلى الخطوة 5 إذا كنت بحاجة إلى تذكير باستخدام خطوط Google.
 
++ صورة خلفية `computer-printout-paper.png`. انظر إلى الخطوة 4 إذا كنت بحاجة إلى تذكير باستخدام صور الخلفية.
 
 --- /challenge ---
