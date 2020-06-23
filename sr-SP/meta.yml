@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-title: Mystery Letter
-description: Create a mystery letter with lots of different styles.
+title: Мистериозно писмо
+description: Креирајте мистериозно писмо с пуно различитих стилова.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
@@ -18,20 +18,20 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Увод
   - 
-    title: Choose Your Message
+    title: Изаберите своју поруку
   - 
-    title: Editing Your Message
+    title: Уређивање поруке
   - 
-    title: Using Class Styles
+    title: Коришћење стилова класе
   - 
-    title: 'Challenge: Style Your Message'
+    title: 'Изазов: Стилизујте своју поруку'
   - 
-    title: Editing Classes
+    title: Уређивање класа
   - 
-    title: Create a New Class
+    title: Креирајте нову класу
   - 
-    title: 'Challenge: Create A Computer Printout Style'
+    title: 'Изазов: Креирајте стил za штампањe на рачунару'
   - 
-    title: 'Challenge: Create Your Own Styles'
+    title: 'Изазов: Креирајте сопствене стилове'
