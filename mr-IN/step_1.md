@@ -22,15 +22,15 @@
 
 * ['रहस्यमयी पत्र' प्रारंभ -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+HTML & CSS लिहीण्यासाठी मुलं रिकाम्या trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) चाही उपयोग करू शकतात अथवा वैकल्पिकरित्या ते ह्या टेंपलेट trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template) चा देखील उपयोग करू शकतात.
 
 There is also a trinket containing a sample solution to the challenges:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['रहस्यमयी पत्र पूर्ण झाले' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 ## ऑफलाइन संसाधने
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+प्राधान्य असल्यास हा प्रोजेक्ट [ऑफलाइन पूर्ण केला जाऊ शकतो](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/). तुम्ही या प्रोजेक्टचे संसाधने 'प्रोजेक्ट साहित्य (Project Materials)' लिंक वर​ क्लिक करून मिळवू शकता. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. प्रत्येक मुलास या संसाधनांच्या प्रतीवर प्रवेश असल्याचे सुनिश्चित करा. या विभागात खालील फायली समाविष्ट आहेत:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
