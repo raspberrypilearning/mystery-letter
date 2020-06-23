@@ -2,9 +2,9 @@
 
 ## आव्हान: तुम्चा संदेश स्टाईल करा
 
-Use the provided styles to make your message look like a mystery letter.
+तुमचा संदेश एक रहस्यमयी पत्रासारखे दिसण्यासाठी प्रदान केलेल्या स्टाइल वापरा.
 
-Add these classes to your `<span>` tags:
+हे वर्ग तुमच्या `<span>` टॅगमध्ये जोडा:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,9 +14,9 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+एका विशिष्ट `<span>` ला प्रत्येक ओळीतून एकापेक्षा जास्त जोडू नका.
 
-This is how your letter could look:
+तुमची पत्र अशी दिसू शकतील:
 
 ![screenshot](images/letter-challenge1.png)
 
