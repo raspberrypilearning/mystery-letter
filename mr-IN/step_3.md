@@ -1,21 +1,21 @@
-## Editing Your Message
+## तुमचा संदेश बदला
 
-Let's get your message onto a webpage.
+तुमचा संदेश वेबपेज वर आणूया.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ हा trinket उघडा: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    प्रोजेक्ट असा दिसायला हवा:
     
     ![screenshot](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ हा `<p>` परिच्छेद टॅग 'हैप्पी बर्थडे' प्रोजेक्ट मध्ये सादर केला गेला होता. ह्या `<span>` टॅगचा वापर परिच्छेदाच्या आत मजकूराच्या लहान तुकड्यांना गटबद्ध करण्यासाठी केला जातो जेणेकरून आम्ही त्यास स्टाईल करू शकू.
 
 ![screenshot](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ प्रत्येक `<span>` मध्ये एक शब्द टाकून तुमच्या संदेशासाठी शब्द बदला. तुमचा संदेश भिन्न लांबीचा असल्यास तुम्हाला `<span>` टॅग जोडण्याची किंवा काढण्याची गरज पडेल. 
 
 ![screenshot](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ तुमच्या trinket ची तपासणी घेण्यासाठी Run बटण वर क्लिक करा.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    जर तुम्ही शब्दांकडे पाहिले तर तुम्हाला ते पृष्ठावर अडकल्यासारखे दिसेल.
