@@ -1,51 +1,51 @@
-## Create a New Class
+## قم بإنشاء فئة جديدة
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+دعنا ننشأ نمطاً يبدو كأنه تم قصه من مقطع فكاهي. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> يوفر الكثير من الخطوط المجانية للاستخدام.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ أضف صنف `comic` في ملف **style.css**. بعد `magazine2` هو مكان جيد. لا تنسى النقطة أمام اسم الصنف. 
 
-![screenshot](images/letter-comic1.png)
+![لقطة الشاشة](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+لا تقلق إذا تلقيت تحذيراً يقول "'The Rule is empty" ؛ عليك إصلاح ذلك في الخطوة التالية.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ أضف الآن بعض CSS إلى فئة comic CSS. يمكنك استخدام ألوان مختلفة إذا أردت. هناك قائمة مليئة بالألوان المختلفة في <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
-![screenshot](images/letter-comic2.png)
+![لقطة الشاشة](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ استخدم الصنف comic في `<span>` في مستند HTML الخاص بك واختبر صفحتك:
 
-![screenshot](images/letter-comic-output.png)
+![لقطة الشاشة](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ الآن يمكنك إضافة خط ممتع. افتح علامة تبويب أو نافذة متصفح جديدة. إنتقل إلى <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> وابحث عن **'Mada'**:
 
-![screenshot](images/letter-gfonts-1-annotated.png)
+![لقطة الشاشة](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ انقر فوق الزر "تحديد هذا الخط" +:
 
-![screenshot](images/letter-gfonts-2-annotated.png)
+![لقطة الشاشة](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+ستظهر رسالة تقول "تم اختيار عائلة واحدة" في أسفل الشاشة.
 
-![screenshot](images/letter-gfonts-3.png)
+![لقطة الشاشة](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ انقر على رسالة "1 Family Selected" لفتح النافذة ونسخ الرمز المميز:
 
-![screenshot](images/letter-gfonts-4.png)
+![لقطة الشاشة](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ الصق الكود `<link>` الذي نسخته للتو من خطوط Google إلى `<head>` في ملف ال HTML الخاص بك:
 
-![screenshot](images/letter-fonts-head.png)
+![لقطة الشاشة](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+هذا يسمح لك باستخدام الخط Bangers في صفحة الويب الخاصة بك.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ ارجع إلى خطوط Google وانتقل إلى أسفل الصفحة وانسخ font-family:
 
-![screenshot](images/letter-fonts-bangers.png)
+![لقطة الشاشة](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ انتقل الآن إلى ملف **'style.css'** في trinket والصق رمز عائلة الخط في النمط comic:
 
-![screenshot](images/letter-fonts-comic.png)
+![لقطة الشاشة](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ اختبر صفحة الويب الخاصة بك. يجب أن تبدو النتيجة كالتالي: 
 
-![screenshot](images/letter-fonts-output.png)
+![لقطة الشاشة](images/letter-fonts-output.png)
