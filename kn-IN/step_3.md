@@ -1,21 +1,21 @@
-## Editing Your Message
+## ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
 
-Let's get your message onto a webpage.
+ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ವೆಬ್‌ಪುಟದಲ್ಲಿ ಪಡೆಯೋಣ.
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ ಈ trinket ತೆರೆಯಿರಿ: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
     
-    The project should look like this:
+    ಯೋಜನೆಯು ಈ ರೀತಿ ಕಾಣಿಸಬೇಕು:
     
-    ![screenshot](images/letter-starter.png)
+    ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-starter.png)
 
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ `<p>` ಪ್ಯಾರಾಗ್ರಾಫ್ ಟ್ಯಾಗ್ ಅನ್ನು 'ಹ್ಯಾಪಿ ಬರ್ತ್ಡೇ' ಯೋಜನೆಯಲ್ಲಿ ಪರಿಚಯಿಸಲಾಗಿದೆ. `<span>` ಟ್ಯಾಗ್ ಅನ್ನು ಪ್ಯಾರಾಗ್ರಾಫ್ ಒಳಗೆ ಸಣ್ಣ ಪಠ್ಯಗಳನ್ನು ಗುಂಪು ಮಾಡಲು ಬಳಸಲಾಗುತ್ತದೆ, ಇದರಿಂದ ನಾವು ಅವುಗಳನ್ನು ಸ್ಟೈಲ್ ಮಾಡಬಹುದು.
 
-![screenshot](images/letter-placeholder.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-placeholder.png)
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ ಪ್ರತಿ `<span>` ನಲ್ಲಿ ಒಂದು ಪದವನ್ನು ಹಾಕುವ ಮೂಲಕ ನಿಮ್ಮ ಸಂದೇಶದ ಪದಗಳನ್ನು ಬದಲಾಯಿಸಿ. ನಿಮ್ಮ ಸಂದೇಶವು ಬೇರೆ ಉದ್ದವಾಗಿದ್ದರೆ ನೀವು `<span>` ಟ್ಯಾಗ್‌ಗಳನ್ನು ಸೇರಿಸುವ ಅಥವಾ ತೆಗೆದುಹಾಕುವ ಅಗತ್ಯವಿದೆ. 
 
-![screenshot](images/letter-message.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-message.png)
 
-+ Click the Run button to test your trinket.
++ ನಿಮ್ಮ trinket ಅನ್ನು ಪರೀಕ್ಷಿಸಲು ರನ್ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ.
     
-    If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+    ನೀವು ಪದಗಳನ್ನು ನೋಡಿದರೆ, ಅವರು ಪುಟಕ್ಕೆ ಸಿಲುಕಿಕೊಂಡಂತೆ ಕಾಣುವಂತೆ ಅವುಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ ಎಂದು ನೀವು ನೋಡಬಹುದು.
