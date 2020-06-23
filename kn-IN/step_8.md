@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Create A Computer Printout Style
+## ಸವಾಲು: ಕಂಪ್ಯೂಟರ್ ಪ್ರಿಂಟ್ಔಟ್ ಶೈಲಿಯನ್ನು ರಚಿಸಿ
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+ಹಳೆಯ-ಶೈಲಿಯ ಕಂಪ್ಯೂಟರ್ ಮುದ್ರಣ ಶೈಲಿಯನ್ನು ರಚಿಸಿ ಮತ್ತು ಅದನ್ನು ಕೆಲವು ಪದಗಳಿಗೆ ಅನ್ವಯಿಸಿ:
 
-![screenshot](images/letter-fonts-printout.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-fonts-printout.png)
 
-You will need:
+ನಿಮಗೆ ಬೇಕಾಗಿರುವುದು:
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ `VT323` ಫಾಂಟ್ ಕುಟುಂಬ ನಿಂದ <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. ಗೂಗಲ್ ಫಾಂಟ್‌ಗಳನ್ನು ಬಳಸುವುದರ ಕುರಿತು ನಿಮಗೆ ಜ್ಞಾಪನೆ ಅಗತ್ಯವಿದ್ದರೆ ಹಂತ 5 ಕ್ಕೆ ಹಿಂತಿರುಗಿ.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images.
++ `computer-printout-paper.png` ಹಿನ್ನೆಲೆ ಚಿತ್ರ. ಹಿನ್ನೆಲೆ ಚಿತ್ರಗಳನ್ನು ಬಳಸುವುದರ ಕುರಿತು ನಿಮಗೆ ಜ್ಞಾಪನೆ ಅಗತ್ಯವಿದ್ದರೆ ಹಂತ 4 ಕ್ಕೆ ಹಿಂತಿರುಗಿ.
 
 \--- /challenge \---
