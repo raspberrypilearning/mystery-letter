@@ -1,11 +1,11 @@
-## Using Class Styles
+## वर्ग शैली वापरणे
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ तुम्हाला `<span>` टॅग मधील `class=""` लक्षात आले? तुम्ही ह्याचा वापर एकापेक्षा जास्त गोष्टी एकाच रीतीने स्टाईल करण्यासाठी करू शकता.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ तुमच्या काही `<span>` टॅग्स मध्ये `magazine1` वर्ग टाकून वेबपेज ची तपासणी घ्या.
 
 ![screenshot](images/letter-magazine1.png)
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
++ तुम्ही घटकात एकापेक्षा जास्त वर्ग जोडू शकता. मध्ये फक्त एक जागा सोडा. तुमच्या एकाध्या `<span>` टॅग्स मध्ये <0>big</0> वर्ग टाका. तुमच्या वेबपेजची तपासणी घ्या. 
 
 ![screenshot](images/letter-big.png)
