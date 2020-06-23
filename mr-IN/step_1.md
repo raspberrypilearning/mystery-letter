@@ -1,26 +1,26 @@
-## Introduction
+## परिचय
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+या प्रोजेक्ट मध्ये, तुम्ही एक रहस्यमयी पत्र तयार करणार ज्यात असे दिसेल की प्रत्येक शब्द भिन्न वृत्तपत्र, मासिक, कॉमिक किंवा इतर स्त्रोतांकडून कापला गेला आहे.
 
 ![screenshot](images/letter-final.png)
 
-### Additional information for club leaders
+### क्लब प्रमुखांसाठीअतिरिक्त माहिती
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+जर तुम्हाला हा प्रोजेक्ट प्रिंट करायचा असेल, तर कृपया [प्रिंटर अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/mystery-letter/print) वापरावी.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: क्लब प्रमुखांसाठी नोट्स
 
-## Introduction:
+## परिचय:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+या प्रोजेक्टमध्ये, मुलांना सीएसएस(CSS) च्या वर्गांबद्धल ओळख दिली जाते. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
 
-## Online Resources
+## ऑनलाइन संसाधने
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+आम्ही HTML & CSS ऑनलाइन ल्ह्याला [trinket](https://trinket.io/) वापरण्याची शीफारस करतो. ह्या प्रोजेक्ट मध्ये खलील trinket आहेत:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['रहस्यमयी पत्र' प्रारंभ -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
 Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
@@ -28,7 +28,7 @@ There is also a trinket containing a sample solution to the challenges:
 
 * ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## ऑफलाइन संसाधने
 
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
@@ -36,7 +36,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 * mystery-letter/style.css
 * mystery-letter/script.js
 * mystery-letter/prefixfree.js
-* mystery-letter/4 x .png images
+* mystery-letter/4 x .png चित्र
 * template/template.html
 * template/style.css
 
@@ -59,7 +59,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## आव्हाने
 
 * “Style your message” - Apply provided CSS class styles;
 * “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
@@ -69,13 +69,13 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: प्रोजेक्ट साहित्य
 
-## Project resources
+## प्रोजेक्ट संसाधने
 
-* [.zip file containing all project resources](https://rpf.io/p/en/mystery-letter-go)
+* [सर्व प्रोजेक्टची संसाधने असलेली .zip फाइल](https://rpf.io/p/en/mystery-letter-go)
 * [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
+* [ऑनलाइन Trinket टेम्पलेट](http://jumpto.cc/trinket-template)
 * [Online blank Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
