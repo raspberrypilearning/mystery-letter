@@ -1,36 +1,36 @@
-## Introduction
+## ಪರಿಚಯ
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+ಈ ಯೋಜನೆಯಲ್ಲಿ, ಪ್ರತಿಯೊಂದು ಪದವನ್ನು ಬೇರೆ ಪತ್ರಿಕೆ, ನಿಯತಕಾಲಿಕೆ, ಕಾಮಿಕ್ ಅಥವಾ ಇತರ ಮೂಲಗಳಿಂದ ಕತ್ತರಿಸಿದಂತೆ ಕಾಣುವ ರಹಸ್ಯ ಪತ್ರವನ್ನು ನೀವು ರಚಿಸುತ್ತೀರಿ.
 
-![screenshot](images/letter-final.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-final.png)
 
-### Additional information for club leaders
+### ಕ್ಲಬ್ ಮುಖಂಡರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print).
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [Printer friendly version](https://projects.raspberrypi.org/en/projects/mystery-letter/print) ಅನ್ನು ಉಪಯೋಗಿಸಿ.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## ಶೀರ್ಷಿಕೆ: ಕ್ಲಬ್ ನಾಯಕ ಟಿಪ್ಪಣಿಗಳು
 
-## Introduction:
+## ಪರಿಚಯ:
 
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects.
+ಈ ಯೋಜನೆಯಲ್ಲಿ, ಮಕ್ಕಳನ್ನು ಸಿಎಸ್ಎಸ್ ವರ್ಗಗಳಿಗೆ ಪರಿಚಯಿಸಲಾಗುತ್ತದೆ. ಪಠ್ಯ ಶೈಲಿಗೆ ಮತ್ತು ಅವರ ಯೋಜನೆಗಳಲ್ಲಿ ಹಿನ್ನೆಲೆ ಚಿತ್ರಗಳನ್ನು ಮತ್ತು ಉಚಿತ ಗೂಗಲ್ ಫಾಂಟ್‌ಗಳನ್ನು ಹೇಗೆ ಬಳಸುವುದು ಎಂಬುದನ್ನು ಕಲಿಯಲು ಅವರು ಅನೇಕ ಸಿಎಸ್ಎಸ್ ವರ್ಗಗಳನ್ನು ಬಳಸುತ್ತಾರೆ.
 
-## Online Resources
+## ಆನ್‌ಲೈನ್ ಸಂಪನ್ಮೂಲಗಳು
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+HTML & CSS ಆನ್‌ಲೈನ್ ಬರೆಯಲು [trinket](https://trinket.io/) ಅನ್ನು ಬಳಸಲು ನಾವು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ. ಈ ಯೋಜನೆಯು ಈ ಕೆಳಗಿನ trinket ಅನ್ನು ಒಳಗೊಂಡಿದೆ:
 
-* ['Mystery Letter' starting point -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+* ['ಮಿಸ್ಟರಿ ಲೆಟರ್' ಪ್ರಾರಂಭದ ಹಂತ - jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+ತಮ್ಮದೇ ಆದ HTML & CSS ಅನ್ನು ಬರೆಯಲು ಮಕ್ಕಳು, ಈ blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) ಸಾಹ ಬಳಸಿಕೊಳ್ಳಬಹುದು, ಅಥವಾ ಪರ್ಯಾಯವಾಗಿ ಅವರು ಈ template trinket ಅನ್ನು ಬಳಸಬಹುದು [ (jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+ಸವಾಲುಗಳಿಗೆ ಮಾದರಿ ಪರಿಹಾರವನ್ನು ಒಳಗೊಂಡಿರುವ trinket ಸಹ ಇದೆ:
 
-* ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
+* ['ಮಿಸ್ಟರಿ ಲೆಟರ್ ಮುಗಿದಿದೆ' - trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-## Offline Resources
+## ಆಫ್‌ಲೈನ್ ಸಂಪನ್ಮೂಲಗಳು
 
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+ಬಯಸಿದರೆ ಈ ಯೋಜನೆಯನ್ನು [ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸಬಹುದು](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/). ಈ ಯೋಜನೆಗಾಗಿ 'ಪ್ರಾಜೆಕ್ಟ್ ಮೆಟೀರಿಯಲ್ಸ್' ಲಿಂಕ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪಡೆಯಬಹುದು. ಈ ಲಿಂಕ್ 'ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳು' ವಿಭಾಗವನ್ನು ಒಳಗೊಂಡಿದೆ, ಇದರಲ್ಲಿ ಮಕ್ಕಳು ಈ ಯೋಜನೆಯನ್ನು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸಲು ಬೇಕಾದ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಒಳಗೊಂಡಿದೆ. ಪ್ರತಿ ಮಗುವಿನ ಬಳಿ ಈ ಸಂಪನ್ಮೂಲಗಳ ಪ್ರತಿ ಇದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಈ ವಿಭಾಗವು ಈ ಕೆಳಗಿನ ಫೈಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
@@ -40,7 +40,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 * template/template.html
 * template/style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+'ಸ್ವಯಂಪ್ರಕಾಶಕ ಸಂಪನ್ಮೂಲಗಳು' ವಿಭಾಗದಲ್ಲಿ ಈ ಯೋಜನೆಯ ಸವಾಲುಗಳ ಪೂರ್ಣಗೊಂಡ ಆವೃತ್ತಿಯನ್ನು ಸಹ ನೀವು ಕಾಣಬಹುದು,:
 
 * mystery-letter-finished/index.html
 * mystery-letter-finished/style.css
@@ -48,35 +48,35 @@ You can also find a completed version of this project's challenges in the 'Volun
 * mystery-letter-finished/prefixfree.js
 * mystery-letter-finished/4 x .png images
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(ಮೇಲಿನ ಎಲ್ಲಾ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪ್ರಾಜೆಕ್ಟ್ ಮತ್ತು ಸ್ವಯಂಸೇವಕ `.zip` ಕಡತಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.)
 
-## Learning Objectives
+## ಕಲಿಕೆಯ ಉದ್ದೇಶಗಳು
 
-* This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-* Background images and Google fonts are also introduced. 
+* ಈ ಯೋಜನೆಯು CSS ವರ್ಗಗಳನ್ನು ಮತ್ತು HTML ಅಂಶಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಅನೇಕ ವರ್ಗಗಳಲ್ಲಿ ಪರಿಚಯಿಸುತ್ತದೆ.
+* ಹಿನ್ನೆಲೆ ಚಿತ್ರಗಳು ಮತ್ತು ಗೂಗಲ್ ಫಾಂಟ್‌ಗಳನ್ನು ಸಹ ಪರಿಚಯಿಸಲಾಗಿದೆ. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+ಈ ಯೋಜನೆಯು [ರಾಸ್‌ಪ್ಬೆರಿ ಪೈ ಡಿಜಿಟಲ್ ಮೇಕಿಂಗ್ ಪಠ್ಯಕ್ರಮದ](http://rpf.io/curriculum) ಕೆಳಗಿನ ಎಳೆಗಳಿಂದ ಅಂಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
-* [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+* [ಮೂಲ 2D ಮತ್ತು 3D ಸ್ವತ್ತುಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ](https://www.raspberrypi.org/curriculum/design/creator).
 
-## Challenges
+## ಸವಾಲುಗಳು
 
-* “Style your message” - Apply provided CSS class styles;
-* “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-* “Create your own styles” - Use CSS to create new styles.
+* “ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ” - ಒದಗಿಸಿದ CSS ವರ್ಗ ಶೈಲಿಗಳನ್ನು ಅನ್ವಯಿಸಿ;
+* “ಕಂಪ್ಯೂಟರ್ ಪ್ರಿಂಟ್‌ out ಟ್ ಶೈಲಿಯನ್ನು ರಚಿಸಿ” - ಹಿನ್ನೆಲೆ ಚಿತ್ರ ಮತ್ತು ಗೂಗಲ್ ಫಾಂಟ್ ಬಳಸಿ ಉದಾಹರಣೆ ವರ್ಗವನ್ನು ಮರುಸೃಷ್ಟಿಸಲು CSS ಬಳಸಿ. 
+* “ನಿಮ್ಮ ಸ್ವಂತ ಶೈಲಿಗಳನ್ನು ರಚಿಸಿ” - ಹೊಸ ಶೈಲಿಗಳನ್ನು ರಚಿಸಲು CSS ಬಳಸಿ.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## ಶೀರ್ಷಿಕೆ: ಪ್ರಾಜೆಕ್ಟ್ ವಸ್ತುಗಳು
 
-## Project resources
+## ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳು
 
-* [.zip file containing all project resources](https://rpf.io/p/en/mystery-letter-go)
-* [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
-* [Online Trinket template](http://jumpto.cc/trinket-template)
-* [Online blank Trinket](http://jumpto.cc/trinket-blank)
+* [ಎಲ್ಲಾ ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಹೊಂದಿರುವ .zip ಫೈಲ್](https://rpf.io/p/en/mystery-letter-go)
+* [ಎಲ್ಲಾ 'ಮಿಸ್ಟರಿ ಲೆಟರ್' ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಆನ್‌ಲೈನ್ Trinket](http://jumpto.cc/web-letter)
+* [ಆನ್‌ಲೈನ್ Trinket ಟೆಂಪ್ಲೆಟ್](http://jumpto.cc/trinket-template)
+* [ಆನ್‌ಲೈನ್ ಖಾಲಿ Trinket](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
@@ -87,10 +87,10 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 * [mystery-letter/pink-pattern.png](resources/mystery-letter-pink-pattern.png)
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
-## Club leader resources
+## ಕ್ಲಬ್ ನಾಯಕ ಸಂಪನ್ಮೂಲಗಳು
 
-* [.zip file containing all completed project resources](https://rpf.io/p/en/mystery-letter-go)
-* [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
+* [ಎಲ್ಲಾ ಪ್ರಾಜೆಕ್ಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಹೊಂದಿರುವ .zip ಫೈಲ್](https://rpf.io/p/en/mystery-letter-go)
+* [ಆನ್‌ಲೈನ್ ಪೂರ್ಣಗೊಂಡ Trinket ಯೋಜನೆ](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
 * [mystery-letter-finished/prefixfree.js](resources/mystery-letter-finished-prefixfree.js)
