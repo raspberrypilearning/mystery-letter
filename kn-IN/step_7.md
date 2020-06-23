@@ -1,51 +1,51 @@
-## Create a New Class
+## ಹೊಸ ವರ್ಗವನ್ನು ರಚಿಸಿ
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+ಕಾಮಿಕ್‌ನಿಂದ ಕತ್ತರಿಸಿದಂತೆ ಕಾಣುವ ಶೈಲಿಯನ್ನು ರಚಿಸೋಣ. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> ರಾಶಿಗಟ್ಟಲೆ ಫಾಂಟ್‌ಗಳನ್ನು ಬಳಸಲು ಉಚಿತವಾಗಿ ಒದಗಿಸುತ್ತದೆ.
 
-+ Add a `comic` class in the **style.css** file. After `magazine2` is a good place. Don't forget the dot in front of the class name. 
++ `ಕಾಮಿಕ್` ವರ್ಗವನ್ನು **style.css** ಫೈಲ್ ಗೆ ಸೇರಿಸಿ. `ಮ್ಯಾಗಜೀನ್ 2` ಆದಮೇಲೆ ಉತ್ತಮ ಸ್ಥಳವಾಗಿದೆ. ವರ್ಗದ ಹೆಸರಿನ ಮುಂದಿನ ಚುಕ್ಕೆಯನ್ನು ಮರೆಯಬೇಡಿ. 
 
-![screenshot](images/letter-comic1.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
+'ನಿಯಮ ಖಾಲಿಯಾಗಿದೆ' ಎಂದು ನಿಮಗೆ ಎಚ್ಚರಿಕೆ ಬಂದರೆ ಚಿಂತಿಸಬೇಡಿ; ನೀವು ಅದನ್ನು ಮುಂದೆ ಸರಿಪಡಿಸಬಹುದು.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ ಈಗ ಕಾಮಿಕ್ CSS ವರ್ಗಕ್ಕೆ ಕೆಲವು CSS ಸೇರಿಸಿ. ನೀವು ಬಯಸಿದರೆ ವಿವಿಧ ಬಣ್ಣಗಳನ್ನು ಬಳಸಬಹುದು. <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a> ನಲ್ಲಿ ಹೆಚ್ಚಿನ CSS ಬಣ್ಣದ ಹೆಸರುಗಳನ್ನು ನೀವು ಕಾಣಬಹುದು.
 
-![screenshot](images/letter-comic2.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ ನಿಮ್ಮ HTML ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿನ ಕೆಲವು `<span>` ಟ್ಯಾಗ್‌ಗಳಲ್ಲಿ ಕಾಮಿಕ್ ಶೈಲಿಯನ್ನು ಬಳಸಿ ಮತ್ತು ನಿಮ್ಮ ಪುಟವನ್ನು ಪರೀಕ್ಷಿಸಿ:
 
-![screenshot](images/letter-comic-output.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for **'bangers'**:
++ ಈಗ ನೀವು ಮೋಜಿನ ಫಾಂಟ್ ಅನ್ನು ಸೇರಿಸಬಹುದು. ಹೊಸ ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ ಅಥವಾ ವಿಂಡೋ ತೆರೆಯಿರಿ. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> ಗೆ ಹೋಗಿ ಮತ್ತು **'bangers'**ಗಾಗಿ ಹುಡುಕಿ:
 
-![screenshot](images/letter-gfonts-1-annotated.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ + "ಸೆಲೆಕ್ಟ್ ದಿಸ್ ಫಾಂಟ್" ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ:
 
-![screenshot](images/letter-gfonts-2-annotated.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+ಪರದೆಯ ಕೆಳಭಾಗದಲ್ಲಿ "1 ಫ್ಯಾಮಿಲಿ ಸೆಲೆಕ್ಟೆಡ್" ಎಂಬ ಸಂದೇಶವು ಕಾಣಿಸುತ್ತದೆ.
 
-![screenshot](images/letter-gfonts-3.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ ವಿಂಡೋವನ್ನು ತೆರೆಯಲು "1 ಫ್ಯಾಮಿಲಿ ಸೆಲೆಕ್ಟೆಡ್" ಸಂದೇಶದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಹೈಲೈಟ್ ಮಾಡಿದ ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ:
 
-![screenshot](images/letter-gfonts-4.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-4.png)
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ ನೀವು Google ಫಾಂಟ್‌ಗಳಿಂದ ನಕಲಿಸಿದ `<link>` ಕೋಡ್ ಅನ್ನು ನಿಮ್ಮ ವೆಬ್‌ಪುಟದ `<head>` ಗೆ ಅಂಟಿಸಿ:
 
-![screenshot](images/letter-fonts-head.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+ನಿಮ್ಮ ವೆಬ್‌ಪುಟದಲ್ಲಿ ಬ್ಯಾಂಗರ್ಸ್ ಫಾಂಟ್ ಅನ್ನು ಬಳಸಲು ಇದು ನಿಮ್ಮನ್ನು ಅನುಮತಿಸುತ್ತದೆ.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Google ಫಾಂಟ್‌ಗಳಿಗೆ ಹಿಂತಿರುಗಿ ಮತ್ತು ಪುಟವನ್ನು ಮತ್ತಷ್ಟು ಕೆಳಗೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ ಮತ್ತು ಫಾಂಟ್-ಫ್ಯಾಮಿಲಿ ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ:
 
-![screenshot](images/letter-fonts-bangers.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-fonts-bangers.png)
 
-+ Now go back to your **'style.css'** file in trinket and paste the font-family code into the comic style:
++ ಈಗ ನೀವು ನಿಮ್ಮ trinket ಫೈಲ್ ನ **'style.css'** ಗೆ ಹಿಂತಿರುಗಿ ಮತ್ತು ಫಾಂಟ್-ಫ್ಯಾಮಿಲಿ ಕೋಡ್ ಅನ್ನು ಕಾಮಿಕ್ ಶೈಲಿಯಲ್ಲಿ ಅಂಟಿಸಿ:
 
-![screenshot](images/letter-fonts-comic.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this: 
++ ನಿಮ್ಮ ವೆಬ್‌ಪುಟವನ್ನು ಪರೀಕ್ಷಿಸಿ. ಅದು ಈ ರೀತಿ ಕಾಣಬೇಕು: 
 
-![screenshot](images/letter-fonts-output.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-fonts-output.png)
