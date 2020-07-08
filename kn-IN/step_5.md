@@ -6,11 +6,11 @@
 
 ನಿಮ್ಮ `<span>` ಟ್ಯಾಗ್‌ಗಳಿಗೆ ಈ ವರ್ಗವನ್ನು ಸೇರಿಸಿ:
 
-+ ` ನ್ಯೂಸ್ ಪೇಪರ್ `, ` ಮ್ಯಾಗಜೀನ್ 1 `, ` ಮ್ಯಾಗಜೀನ್ 2 `
++ `newspaper`, `magazine1`, `magazine2`
 
-+ ` ಮೀಡಿಯಂ `, ` ಬಿಗ್ `, ` ರಿಯಲಿಬಿಗ್ `
++ `medium`, `big`, `reallybig`
 
-+ ` ರೊಟೇಟ್ ಲೆಫ್ಟ  `, ` ರೊಟೇಟ್ರೈಟ `
++ `rotateleft`, `rotateright`
 
 + `skewleft`, `skewright`
 
