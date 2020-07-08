@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Style Your Message
+## चुनौती: अपने संदेश को स्टाइल दें
 
-Use the provided styles to make your message look like a mystery letter.
+अपने संदेश को रहस्यमय पत्र की तरह बनाने के लिए प्रदान किए गए स्टाइल्स​ का उपयोग करें।
 
-Add these classes to your `<span>` tags:
+इन क्लासेस​ को अपने `<span>` टैग में जोड़ें:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -14,10 +14,10 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+पंक्ति में से एक से अधिक न जोड़ें विशेष `<span>` में।
 
-This is how your letter could look:
+यहाँ दिखाया गया है कि आपका पत्र कैसा दिखना चाहिए:
 
-![screenshot](images/letter-challenge1.png)
+![स्क्रीनशॉट](images/letter-challenge1.png)
 
 \--- /challenge \---
