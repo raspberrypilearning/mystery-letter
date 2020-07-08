@@ -1,25 +1,25 @@
-## Editing Classes
+## क्लास को संपादित करना
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
++ **'style.css'** टैब पर क्लिक करें। `newspaper` CSS क्लास के लिए स्टाइल खोजें जिसका आप उपयोग कर रहे हैं।
 
-![screenshot](images/letter-newspaper.png)
+![स्क्रीनशॉट](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ ध्यान दें कि वहाँ एक डॉट (पूर्ण विराम) '.' है CSS फ़ाइल में क्लस​ के नाम से पहले लेकिन आपके HTML दस्तावेज़ के `<span>` टैग में नहीं।
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ अब अन्य CSS क्लासेस​ को देखें जिन्हें आपने अपने रहस्यमय पत्र को स्टाइल करने के लिए उपयोग किया था। क्या आप​ खोज सकते हैं:
     
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
+    + कैसे `magazine1` स्टाइल पाठ को सभी अपरकेस (कैपिटल) अक्षरों में बदल देती है।
     
-    + How the `magazine2` style puts an image behind the text.
+    + कैसे `magazine2` स्टाइल एक छवि डालती है पाठ के पीछे।
 
-![screenshot](images/letter-magazines.png)
+![स्क्रीनशॉट](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
++ क्या होता है यदि आप `magazine2` के लिए `background-image` को `canvas.png` मे बदलते हैं? यदि आप `pink-pattern.png` को पसंद करते हैं तो आप इसे वापस बदल सकते हैं। 
 
-You can also change the colours in the magazine styles if you like.
+यदि आप चाहें तो आप पत्रिका स्टाइल्स​ में रंग भी बदल सकते हैं।
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ अपने शब्दों को घुमाने और तिरछा (झुकाव) करने के लिए इस्तेमाल किया जाने वाला CSS खोजें:
 
-![screenshot](images/letter-rotate-skew.png)
+![स्क्रीनशॉट](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+संख्याओं को बदलने का प्रयास करें अलग-अलग प्रभाव बनाने और फिर अपने पृष्ठ का परीक्षण करने के लिए।
