@@ -99,5 +99,5 @@ title: Project materials
 * [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
 * [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
 * [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
-
+ 
 --- /collapse ---
