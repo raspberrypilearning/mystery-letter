@@ -65,10 +65,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
 + “Create your own styles” - Use CSS to create new styles.
 
-
-
 --- /collapse ---
-
 
 --- collapse ---
 ---
