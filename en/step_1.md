@@ -65,10 +65,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 + “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
 + “Create your own styles” - Use CSS to create new styles.
 
-
-
 --- /collapse ---
-
 
 --- collapse ---
 ---
@@ -99,5 +96,5 @@ title: Project materials
 * [mystery-letter-finished/canvas.png](resources/mystery-letter-finished-canvas.png)
 * [mystery-letter-finished/pink-pattern.png](resources/mystery-letter-finished-pink-pattern.png)
 * [mystery-letter-finished/computer-printout-paper.png](resources/mystery-letter-finished-computer-printout-paper.png)
-
+ 
 --- /collapse ---
