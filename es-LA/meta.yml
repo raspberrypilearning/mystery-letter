@@ -17,12 +17,14 @@ software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
-  - title: Introducción
-  - title: Elige tu mensaje
-  - title: Editando tu mensaje
-  - title: Usando clases de estilo
-  - title: 'Reto: dale estilo a tu mensaje'
-  - title: Editando clases
-  - title: Crea una nueva clase
-  - title: 'Reto: crea un estilo de impresión de computadora'
-  - title: 'Reto: crea tus propios estilos'
+- title: Introducción
+  completion: engaged
+- title: Elige tu mensaje
+- title: Editando tu mensaje
+- title: Usando clases de estilo
+- title: 'Reto: dale estilo a tu mensaje'
+- title: Editando clases
+- title: Crea una nueva clase
+- title: 'Reto: crea un estilo de impresión de computadora'
+  completion: internal
+- title: 'Reto: crea tus propios estilos'

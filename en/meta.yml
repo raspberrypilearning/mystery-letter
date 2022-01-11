@@ -16,8 +16,9 @@ hardware: ''
 software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
+  completion: engaged
 - title: Choose Your Message
 - title: Editing Your Message
 - title: Using Class Styles
@@ -25,4 +26,5 @@ steps:
 - title: Editing Classes
 - title: Create a New Class
 - title: 'Challenge: Create A Computer Printout Style'
+  completion: internal
 - title: 'Challenge: Create Your Own Styles'

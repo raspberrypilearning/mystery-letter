@@ -16,8 +16,9 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduzione
+  completion: engaged
 - title: Scegli il messaggio
 - title: Modifica del messaggio
 - title: Utilizzo degli stili di classe
@@ -25,4 +26,5 @@ steps:
 - title: Modifica delle classi
 - title: Creazione di una nuova classe
 - title: 'Sfida: Crea lo stile di una stampa dal computer'
+  completion: internal
 - title: 'Sfida: Crea i tuoi stili personali'

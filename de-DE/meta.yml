@@ -17,12 +17,14 @@ software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
-  - title: Einleitung
-  - title: Wähle deine Nachricht
-  - title: Bearbeite deine Nachricht
-  - title: Klassenstile Verwenden
-  - title: 'Herausforderung: Gestalte deine Nachricht'
-  - title: Klassen Bearbeiten
-  - title: Eine neue Klasse erstellen
-  - title: 'Herausforderung: Erstelle einen Stil, der wie vom Computer ausgedruckt aussieht'
-  - title: 'Herausforderung: Erstelle deine eigenen Stile'
+- title: Einleitung
+  completion: engaged
+- title: Wähle deine Nachricht
+- title: Bearbeite deine Nachricht
+- title: Klassenstile Verwenden
+- title: 'Herausforderung: Gestalte deine Nachricht'
+- title: Klassen Bearbeiten
+- title: Eine neue Klasse erstellen
+- title: 'Herausforderung: Erstelle einen Stil, der wie vom Computer ausgedruckt aussieht'
+  completion: internal
+- title: 'Herausforderung: Erstelle deine eigenen Stile'

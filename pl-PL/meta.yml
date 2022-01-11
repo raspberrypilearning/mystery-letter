@@ -17,12 +17,14 @@ software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
-  - title: Wprowadzenie
-  - title: Wybierz swoją wiadomość
-  - title: Edytowanie Twojej wiadomości
-  - title: Użycie stylów klas
-  - title: 'Wyzwanie: Wystylizuj swoją wiadomość'
-  - title: Edytowanie klas
-  - title: Stwórz nową klasę
-  - title: 'Wyzwanie: Stwórz styl wydruku komputerowego'
-  - title: 'Wyzwanie: Stwórz swoje własne style'
+- title: Wprowadzenie
+  completion: engaged
+- title: Wybierz swoją wiadomość
+- title: Edytowanie Twojej wiadomości
+- title: Użycie stylów klas
+- title: 'Wyzwanie: Wystylizuj swoją wiadomość'
+- title: Edytowanie klas
+- title: Stwórz nową klasę
+- title: 'Wyzwanie: Stwórz styl wydruku komputerowego'
+  completion: internal
+- title: 'Wyzwanie: Stwórz swoje własne style'

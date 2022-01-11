@@ -7,7 +7,8 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
 title: Zagonetno pismo
-description: U ovom projektu napravit ćeš zagonetno pismo koje izgleda kao da je svako slovo izrezano iz različitih novina, magazina, stripa ili nekog drugog izvora.
+description: U ovom projektu napravit ćeš zagonetno pismo koje izgleda kao da je svako
+  slovo izrezano iz različitih novina, magazina, stripa ili nekog drugog izvora.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
@@ -16,5 +17,6 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Zagonetno pismo
+  completion: engaged
