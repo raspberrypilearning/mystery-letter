@@ -17,12 +17,16 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Introdução
-  - title: Escolha sua mensagem
-  - title: Editando sua mensagem
-  - title: Usando classes de Estilos
-  - title: 'Desafio: Estilize sua mensagem'
-  - title: Editando suas classes
-  - title: Criando uma nova classe
-  - title: 'Desafio: Criando um estilo de impressão de computador'
-  - title: 'Desafio: Criando seus próprios estilos'
+- title: Introdução
+- title: Escolha sua mensagem
+- title: Editando sua mensagem
+  completion:
+  - engaged
+- title: Usando classes de Estilos
+- title: 'Desafio: Estilize sua mensagem'
+- title: Editando suas classes
+- title: Criando uma nova classe
+  completion:
+  - internal
+- title: 'Desafio: Criando um estilo de impressão de computador'
+- title: 'Desafio: Criando seus próprios estilos'

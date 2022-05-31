@@ -17,12 +17,16 @@ software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
-  - title: Sissejuhatus
-  - title: Vali oma sõnum
-  - title: Oma sõnumi muutmine
-  - title: Klassistiilide kasutamine
-  - title: 'Väljakutse: kujunda oma sõnumit'
-  - title: Klasside muutmine
-  - title: Loo uus klass
-  - title: 'Väljakutse: loo arvuti väljatrüki stiil'
-  - title: 'Väljakutse: loo oma stiilid'
+- title: Sissejuhatus
+- title: Vali oma sõnum
+- title: Oma sõnumi muutmine
+  completion:
+  - engaged
+- title: Klassistiilide kasutamine
+- title: 'Väljakutse: kujunda oma sõnumit'
+- title: Klasside muutmine
+- title: Loo uus klass
+  completion:
+  - internal
+- title: 'Väljakutse: loo arvuti väljatrüki stiil'
+- title: 'Väljakutse: loo oma stiilid'

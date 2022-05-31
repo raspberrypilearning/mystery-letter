@@ -17,12 +17,16 @@ software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Kies je bericht
-  - title: Je bericht bewerken
-  - title: Class stijlen gebruiken
-  - title: 'Uitdaging: maak je bericht op'
-  - title: Klasse bewerken
-  - title: Maak een nieuwe klasse
-  - title: 'Uitdaging: maak een printeruitdraai stijl'
-  - title: 'Uitdaging: maak je eigen stijlen'
+- title: Inleiding
+- title: Kies je bericht
+- title: Je bericht bewerken
+  completion:
+  - engaged
+- title: Class stijlen gebruiken
+- title: 'Uitdaging: maak je bericht op'
+- title: Klasse bewerken
+- title: Maak een nieuwe klasse
+  completion:
+  - internal
+- title: 'Uitdaging: maak een printeruitdraai stijl'
+- title: 'Uitdaging: maak je eigen stijlen'

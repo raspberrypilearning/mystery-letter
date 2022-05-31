@@ -17,12 +17,16 @@ software: html-css-javascript
 version: 3.1
 last_tested: 2017-01-01
 steps:
-  - title: Introduction
-  - title: Choisis ton message
-  - title: Édite ton message
-  - title: Utilisation des classes CSS
-  - title: 'Défi: Personnalise ton message'
-  - title: Édite tes classes
-  - title: Créer une nouvelle classe
-  - title: 'Défi: Créer un style Écran d''ordinateur'
-  - title: 'Défi: Créer ton propre style'
+- title: Introduction
+- title: Choisis ton message
+- title: Édite ton message
+  completion:
+  - engaged
+- title: Utilisation des classes CSS
+- title: 'Défi: Personnalise ton message'
+- title: Édite tes classes
+- title: Créer une nouvelle classe
+  completion:
+  - internal
+- title: 'Défi: Créer un style Écran d''ordinateur'
+- title: 'Défi: Créer ton propre style'
