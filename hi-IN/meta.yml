@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: भूमिका
-  completion: engaged
 - title: अपना संदेश चुनें
 - title: अपने संदेश को संपादित करना
+  completion:
+  - engaged
 - title: क्लास स्टाइल्स का उपयोग करना
 - title: 'चुनौती: अपने संदेश को स्टाइल दें'
 - title: क्लास को संपादित करना
 - title: नई क्लास बनाएँ
+  completion:
+  - internal
 - title: 'चुनौती: कंप्यूटर प्रिंटआउट स्टाइल बनाएँ'
-  completion: internal
 - title: 'चुनौती: अपने स्वयं के स्टाइल बनाएँ'

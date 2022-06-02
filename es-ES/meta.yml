@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Escoge tu mensaje
 - title: Edita tu mensaje
+  completion:
+  - engaged
 - title: Usar estilos Class
 - title: 'Reto: Cambiar el estilo de tu mensaje'
 - title: Editar las categorías
 - title: Crear una nueva categoría
+  completion:
+  - internal
 - title: 'Reto: Crear un estilo de impresión de ordenador'
-  completion: internal
 - title: 'Reto: Crear tus propios estilos'

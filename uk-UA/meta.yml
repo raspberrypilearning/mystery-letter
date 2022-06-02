@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Вступ
-  completion: engaged
 - title: Виберість своє повідомлення
 - title: Відредагуйте Ваше Повідомлення
+  completion:
+  - engaged
 - title: Використання Стилів Класу
 - title: 'Завдання: Стилізуйте Своє Повідомлення'
 - title: Редагування Класів
 - title: Створіть Новий Клас
+  completion:
+  - internal
 - title: 'Завдання: Створіть Комп''ютерний друкований стиль'
-  completion: internal
 - title: 'Завдання: Створіть свої власні стилі'

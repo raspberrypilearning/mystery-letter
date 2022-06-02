@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: اختيار رسالتك
 - title: تحرير رسالتك
+  completion:
+  - engaged
 - title: استخدام أنماط الفئات
 - title: 'التحدي: حدِّد أنماط رسالتك'
 - title: تحرير الفئات
 - title: إنشاء فئة جديدة
+  completion:
+  - internal
 - title: 'التحدي: أنشئ نمط طباعة الكمبيوتر'
-  completion: internal
 - title: 'التحدي: أنشئ أنماطًا من إختيارك'

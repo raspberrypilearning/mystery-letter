@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Wybierz swoją wiadomość
 - title: Edytowanie Twojej wiadomości
+  completion:
+  - engaged
 - title: Użycie stylów klas
 - title: 'Wyzwanie: Wystylizuj swoją wiadomość'
 - title: Edytowanie klas
 - title: Stwórz nową klasę
+  completion:
+  - internal
 - title: 'Wyzwanie: Stwórz styl wydruku komputerowego'
-  completion: internal
 - title: 'Wyzwanie: Stwórz swoje własne style'

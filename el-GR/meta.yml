@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Επέλεξε το μήνυμά σου
 - title: Επεξεργασία του μηνύματός σου
+  completion:
+  - engaged
 - title: Χρήση στυλ κλάσεων
 - title: 'Πρόκληση: Μορφοποίησε το μήνυμά σου'
 - title: Επεξεργασία κλάσεων
 - title: Δημιουργία νέας κλάσης
+  completion:
+  - internal
 - title: 'Πρόκληση: Δημιούργησε ένα στυλ εκτύπωσης υπολογιστή'
-  completion: internal
 - title: 'Πρόκληση: Δημιούργησε τα δικά σου στυλ'

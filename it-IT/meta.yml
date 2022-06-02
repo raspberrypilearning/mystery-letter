@@ -18,13 +18,15 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Scegli il messaggio
 - title: Modifica del messaggio
+  completion:
+  - engaged
 - title: Utilizzo degli stili di classe
 - title: 'Sfida: Attribuisci uno stile al messaggio'
 - title: Modifica delle classi
 - title: Creazione di una nuova classe
+  completion:
+  - internal
 - title: 'Sfida: Crea lo stile di una stampa dal computer'
-  completion: internal
 - title: 'Sfida: Crea i tuoi stili personali'

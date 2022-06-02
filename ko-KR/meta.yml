@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: 소개
-  completion: engaged
 - title: 비밀 메시지 고르기
 - title: 메시지 수정하기
+  completion:
+  - engaged
 - title: 클래스(class) 스타일 사용하기
 - title: '과제: 메시지 꾸미기'
 - title: 클래스 수정하기
 - title: 새 클래스 만들기
+  completion:
+  - internal
 - title: '과제: 컴퓨터 출력 스타일 만들기'
-  completion: internal
 - title: '과제: 자신만의 스타일 제작'

@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Choisis ton message
 - title: Édite ton message
+  completion:
+  - engaged
 - title: Utilisation des classes CSS
 - title: 'Défi: Personnalise ton message'
 - title: Édite tes classes
 - title: Créer une nouvelle classe
+  completion:
+  - internal
 - title: 'Défi: Créer un style Écran d''ordinateur'
-  completion: internal
 - title: 'Défi: Créer ton propre style'

@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: Giriş
-  completion: engaged
 - title: Mesajınızı Seçin
 - title: Mesajınızı Düzenleyin
+  completion:
+  - engaged
 - title: Sınıf Stillerini Kullanma
 - title: 'Meydan Okuma: Mesajını Stillendir'
 - title: Sınıfları Düzenleme
 - title: Yeni Bir Sınıf Oluştur
+  completion:
+  - internal
 - title: 'Meydan Okuma: Bir Bilgisayar Çıktısı Stili Oluştur'
-  completion: internal
 - title: 'Meydan Okuma: Kendi Stillerini Yarat'

@@ -18,13 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Odaberi svoju poruku
 - title: Uređivanje poruke
+  completion:
+  - engaged
 - title: Upotreba stilova klase
 - title: 'Izazov: Stilizuj svoju poruku'
 - title: Uređivanje klasa
 - title: Kreiraj novu klasu
+  completion:
+  - internal
 - title: 'Izazov: Kreiraj stil dokumenta odštampanog sa računara'
-  completion: internal
 - title: 'Izazov: Kreiraj sopstvene stilove'
