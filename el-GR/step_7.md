@@ -20,15 +20,16 @@
 
 ![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Click on the + "Select this font" button:
++ Click on the font preview box then click on '+ Select this style':
 
 ![screenshot](images/letter-gfonts-2-annotated.png)
 
-A message saying "1 Family Selected" will appear at the bottom on the screen.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![screenshot](images/letter-gfonts-3.png)
 
-+ Click on the "1 Family Selected" message to open the window and copy the highlighted code:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![screenshot](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ A message saying "1 Family Selected" will appear at the bottom on the screen.
 
 This allows you to use the Bangers font in your webpage.
 
-+ Επέστρεψε στις γραμματοσειρές Google, μετακινήσου προς τα κάτω στη ιστοσελίδα και αντέγραψε τον κώδικα CSS της γραμματοσειράς.
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![screenshot](images/letter-fonts-bangers.png)
 
