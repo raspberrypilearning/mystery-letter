@@ -2,33 +2,34 @@
 
 Vamos a crear un estilo que parezca sacado de una historieta. <a href="http://jumpto.cc/web-fonts" target="_blank">junto.cc/web-fonts</a> contiene un montón de fuentes de libre uso.
 
-+ Añade la categoría `comic` en el archivo **style.css**. Un buen lugar es después de `magazine2`. No olvides poner el punto en frente del nombre de la categoría. 
++ Añade la categoría `comic` en el archivo **style.css**. Un buen lugar es después de `magazine2`. No olvides poner el punto delante del nombre de la categoría. 
 
 ![captura de pantalla](images/letter-comic1.png)
 
 No te preocupes si aparece una advertencia diciendo que 'The Rule is empty'; lo arreglarás después.
 
-+ Ahora añada algún CSS a la categoría CSS comic. Puedes usar diferentes colores si prefieres. Hay una lista con montones de colores en <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Ahora añade algo de CSS a la categoría CSS comic. Puedes usar diferentes colores si prefieres. Hay una lista con montones de colores en <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![captura de pantalla](images/letter-comic2.png)
 
-+ Usa el estilo historieta en alguna de las etiquetas `<span>` en tu documento HTML y verifica tu página:
++ Usa el estilo cómic en alguna de las etiquetas `<span>` en tu documento HTML y prueba tu página:
 
 ![captura de pantalla](images/letter-comic-output.png)
 
-+ Ahora puedes añadir una fuente graciosa. Abre una nueva pestaña o ventana. Ve a <a href="http://jumpto.cc/web-fonts" target="_blank">jump.cc/web.fonts</a> y busca por **'bangers'**:
++ Ahora puedes añadir una fuente divertida. Abre una nueva pestaña o ventana en tu navegador. Ve a <a href="http://jumpto.cc/web-fonts" target="_blank">jump.cc/web.fonts</a> y busca por **'bangers'**:
 
 ![captura de pantalla](images/letter-gfonts-1-annotated.png)
 
-+ Haz clic en el botón + "Select this font":
++ Click on the font preview box then click on '+ Select this style':
 
 ![captura de pantalla](images/letter-gfonts-2-annotated.png)
 
-Un mensaje diciendo "1 Family Selected" aparecerá en la parte inferior de la pantalla.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![captura de pantalla](images/letter-gfonts-3.png)
 
-+ Haz clic en el mensaje "1 Family Selected" para abrir la ventana y copiar el código resaltado:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![captura de pantalla](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Un mensaje diciendo "1 Family Selected" aparecerá en la parte inferior de la pa
 
 Eso te permitirá usar la fuente Bangers en tu página web.
 
-+ Regresa a las fuentes de Google, desplázate más abajo en la página y copia el código font-family:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![captura de pantalla](images/letter-fonts-bangers.png)
 
