@@ -23,6 +23,8 @@ steps:
     title: Alegerea mesajului tău
   - 
     title: Modifică mesajului tău
+    completion:
+      - engaged
   - 
     title: Folosirea claselor de stiluri
   - 
@@ -31,6 +33,8 @@ steps:
     title: Editarea claselor
   - 
     title: Crearea unei noi clase
+    completion:
+      - internal
   - 
     title: 'Provocare: creează un șablon de printare'
   - 
