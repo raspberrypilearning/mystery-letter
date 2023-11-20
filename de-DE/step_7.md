@@ -20,15 +20,16 @@ Keine Angst falls du eine Warnung bekommst die sagt "The Rule is empty". Das wir
 
 ![Screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Klicke auf die + "Select this font" Schaltfläche:
++ Click on the font preview box then click on '+ Select this style':
 
 ![Screenshot](images/letter-gfonts-2-annotated.png)
 
-Am unteren Bildschirmrand wird eine Nachricht erscheinen: "1 Family Selected".
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![Screenshot](images/letter-gfonts-3.png)
 
-+ Klicke auf die "1 Family Selected" Nachricht, um das Fenster zu öffnen und kopiere den hervorgehobenen Code:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![Screenshot](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Am unteren Bildschirmrand wird eine Nachricht erscheinen: "1 Family Selected".
 
 Das erlaubt es dir die Bangers Schriftart in deiner Webseite zu verwenden.
 
-+ Kehre zu Google Fonts zurück und gehe auf der Seite weiter nach unten und kopiere den font-family Code:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![Screenshot](images/letter-fonts-bangers.png)
 
