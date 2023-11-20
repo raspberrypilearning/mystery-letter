@@ -20,15 +20,16 @@ Ne t’inquiète pas si tu reçois un avertissement disant que « la règle est 
 
 ![capture d'écran](images/letter-gfonts-1-annotated.png)
 
-+ Clique sur le bouton « Select this font » :
++ Click on the font preview box then click on '+ Select this style':
 
 ![capture d'écran](images/letter-gfonts-2-annotated.png)
 
-Un message disant « 1 Family Selected » apparaîtra en bas de l'écran.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![capture d'écran](images/letter-gfonts-3.png)
 
-+ Clique sur le message « 1 Family Selected » pour ouvrir la fenêtre et copie le code en surbrillance :
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![capture d'écran](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Un message disant « 1 Family Selected » apparaîtra en bas de l'écran.
 
 Cela te permet d'utiliser la police Bangers dans ta page Web.
 
-+ Retourne aux polices de caractères Google, fais défiler la page et copie le code « font-family » :
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![capture d'écran](images/letter-fonts-bangers.png)
 
