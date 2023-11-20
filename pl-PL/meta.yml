@@ -23,6 +23,8 @@ steps:
     title: Wybierz swoją wiadomość
   - 
     title: Edytowanie Twojej wiadomości
+    completion:
+      - engaged
   - 
     title: Korzystanie ze stylów klas
   - 
@@ -31,6 +33,8 @@ steps:
     title: Edytowanie klas
   - 
     title: Stwórz nową klasę
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: Stwórz styl wydruku komputerowego'
   - 
