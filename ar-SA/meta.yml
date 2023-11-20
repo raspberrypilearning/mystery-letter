@@ -23,6 +23,8 @@ steps:
     title: اختيار رسالتك
   - 
     title: تحرير رسالتك
+    completion:
+      - engaged
   - 
     title: استخدام أنماط الفئات
   - 
@@ -31,6 +33,8 @@ steps:
     title: تحرير الفئات
   - 
     title: إنشاء فئة جديدة
+    completion:
+      - internal
   - 
     title: 'التحدي: أنشئ نمط طباعة الكمبيوتر'
   - 
