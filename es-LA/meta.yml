@@ -23,6 +23,8 @@ steps:
     title: Elige Tu Mensaje
   - 
     title: Editando tu mensaje
+    completion:
+      - engaged
   - 
     title: Usando Clases de Estilo
   - 
@@ -31,6 +33,8 @@ steps:
     title: Editando Clases
   - 
     title: Crea una Nueva Clase
+    completion:
+      - internal
   - 
     title: 'Reto: Crea un Estilo de Impresión de Computadora'
   - 
