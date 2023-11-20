@@ -23,6 +23,8 @@ steps:
     title: Escoge tu mensaje
   - 
     title: Edita tu mensaje
+    completion:
+      - engaged
   - 
     title: Usar estilos Class
   - 
@@ -31,6 +33,8 @@ steps:
     title: Editar las categorías
   - 
     title: Crear una nueva categoría
+    completion:
+      - internal
   - 
     title: 'Reto: Crear un estilo de impresión de ordenador'
   - 
