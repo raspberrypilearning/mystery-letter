@@ -20,15 +20,16 @@
 
 ![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ + "Select this font" बटणावर क्लिक करा:
++ Click on the font preview box then click on '+ Select this style':
 
 ![screenshot](images/letter-gfonts-2-annotated.png)
 
-"1 Family Selected" असे एक संदेश स्क्रीनच्या तळाशी दिसेल.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![screenshot](images/letter-gfonts-3.png)
 
-+ विंडो उघडण्यासाठी आणि हायलाइट केलेला कोड कॉपी करण्यासाठी "1 Family Selected" संदेश वर क्लिक करा:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![screenshot](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@
 
 हे तुम्हाला तुमच्या वेबपेजमध्ये Bangers फॉन्ट वापरण्याची परवानगी देते.
 
-+ Google fonts वर परत येऊन पेजला आणखी खाली स्क्रोल करा आणि font-family कोड कॉपी करा:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![screenshot](images/letter-fonts-bangers.png)
 
