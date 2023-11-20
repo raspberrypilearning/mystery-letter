@@ -20,15 +20,16 @@
 
 ![слика екрана](images/letter-gfonts-1-annotated.png)
 
-+ Кликните на дугме + „Select this font“:
++ Click on the font preview box then click on '+ Select this style':
 
 ![снимак екрана](images/letter-gfonts-2-annotated.png)
 
-На дну екрана ће се појавити порука "1 Family Selected".
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![слика екрана](images/letter-gfonts-3.png)
 
-+ Кликните на поруку "1 Family Selected" да отворите прозор и копирате означени код:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![слика екрана](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@
 
 Ово вам омогућава да користите фонт Бангерс на својој веб страници.
 
-+ Вратите се на Гоогле фонтове и померите се надоле по страни и копирајте font-family код:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![слика екрана](images/letter-fonts-bangers.png)
 
