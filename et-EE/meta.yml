@@ -23,6 +23,8 @@ steps:
     title: Vali oma sõnum
   - 
     title: Oma sõnumi muutmine
+    completion:
+      - engaged
   - 
     title: Klassistiilide kasutamine
   - 
@@ -31,6 +33,8 @@ steps:
     title: Klasside muutmine
   - 
     title: Loo uus klass
+    completion:
+      - internal
   - 
     title: 'Väljakutse: loo arvuti väljatrüki stiil'
   - 
