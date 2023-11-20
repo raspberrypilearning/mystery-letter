@@ -14,7 +14,7 @@ Si necesita imprimir este proyecto, usa la [versión para imprimir](https://proj
 
 ## Introducción:
 
-En este proyecto los niños serán introducidos al concepto de categorías o clases en CSS. Ellos usarán categorías en CSS para diseñar textos y también aprenderán a usar imágenes de fondo y fuentes gratis de Google en sus proyectos.
+En este proyecto los niños serán introducidos al concepto de categorías o clases en CSS. Usarán categorías en CSS para diseñar textos y también aprenderán a usar imágenes de fondo y fuentes gratis de Google en sus proyectos.
 
 ## Recursos en línea
 
@@ -30,7 +30,7 @@ También hay un trinket que contiene una solución de muestra para los desafíos
 
 ## Recursos sin conexión
 
-Este proyecto se puede [completar sin conexión](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si se prefiere. Se puede acceder a los recursos del proyecto haciendo clic en el enlace 'Materiales del proyecto' en este proyecto. Este enlace contiene una sección de 'Recursos del proyecto', que incluye los recursos que los niños necesitarán para completar este proyecto sin conexión. Asegúrate de que cada niño tenga acceso a una copia de estos recursos. Esta sección incluye los siguientes archivos:
+This project can be [completed offline](https://rpf.io/html-offline) if preferred. Se puede acceder a los recursos del proyecto haciendo clic en el enlace 'Materiales del proyecto' en este proyecto. Este enlace contiene una sección de 'Recursos del proyecto', que incluye los recursos que los niños necesitarán para completar este proyecto sin conexión. Asegúrate de que cada niño tenga acceso a una copia de estos recursos. Esta sección incluye los siguientes archivos:
 
 * mystery-letter/index.html
 * mystery-letter/style.css
@@ -53,7 +53,7 @@ También puede encontrar una versión completa de los desafíos de este proyecto
 ## Objetivos del Aprendizaje
 
 * Este proyecto introduce a categorías en CSS y a la habilidad de diseñar elementos en HTML con multiples categorías.
-* Imágenes de fondo y fuentes de Google son también presentadas. 
+* También se presentan las imágenes de fondo y fuentes de Google. 
 
 Este proyecto incluye elementos de los siguientes contenidos del [curríulo de digitalización de Raspberry Pi](http://rpf.io/curriculum):
 
@@ -61,8 +61,8 @@ Este proyecto incluye elementos de los siguientes contenidos del [curríulo de d
 
 ## Retos
 
-* "Personaliza tu mensaje" - Usa los estilos contenidos en las clases de CSS;
-* "Crea un estilo de impresión" - Usa CSS para crear un ejemplo de clases usando una imagen de fondo y una fuente de Google. 
+* "Personaliza tu mensaje" - Usa estilos basados en clases de CSS proporcionados;
+* "Crea un estilo de impresión" - Usa CSS para recrear una clase de ejemplo usando una imagen de fondo y una fuente de Google. 
 * "Crea tu propios estilos" - Usa CSS para crear nuevos estilos.
 
 \--- /collapse \---
@@ -74,9 +74,9 @@ Este proyecto incluye elementos de los siguientes contenidos del [curríulo de d
 ## Recursos del proyecto
 
 * [Archivo .zip que contiene todos los recursos del proyecto](https://rpf.io/p/en/mystery-letter-go)
-* [Archivo Trinket en línea que contiene todos los recursos del proyecto "Carta Misteriosa"](http://jumpto.cc/web-letter)
+* [Trinket en línea que contiene todos los recursos del proyecto "Carta Misteriosa"](http://jumpto.cc/web-letter)
 * [Plantilla de Trinket en línea](http://jumpto.cc/trinket-template)
-* [Archivo Trinket vacío en línea](http://jumpto.cc/trinket-blank)
+* [Trinket vacío en línea](http://jumpto.cc/trinket-blank)
 * [template/index.html](resources/template-index.html)
 * [template/style.css](resources/template-style.css)
 * [mystery-letter/index.html](resources/mystery-letter-index.html)
