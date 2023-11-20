@@ -20,15 +20,16 @@ Nie martw się, jeśli pojawi się ostrzeżenie 'The Rule is empty' (Reguła jes
 
 ![zrzut ekranu](images/letter-gfonts-1-annotated.png)
 
-+ Kliknij przycisk + "Select this font" (Dodaj tą czcionkę):
++ Click on the font preview box then click on '+ Select this style':
 
 ![zrzut ekranu](images/letter-gfonts-2-annotated.png)
 
-Na dole ekranu pojawi się wiadomość "1 Family Selected".
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![zrzut ekranu](images/letter-gfonts-3.png)
 
-+ Kliknij na komunikat „1 Family Selected", aby otworzyć okno i skopiować podświetlony kod:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![zrzut ekranu](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Na dole ekranu pojawi się wiadomość "1 Family Selected".
 
 Dzięki temu możesz używać czcionki Bangers na swojej stronie.
 
-+ Wróć do czcionek Google, przewiń stronę w dół i skopiuj kod rodziny czcionek font-family:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![zrzut ekranu](images/letter-fonts-bangers.png)
 
