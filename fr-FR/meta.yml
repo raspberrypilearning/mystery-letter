@@ -23,6 +23,8 @@ steps:
     title: Choisis ton message
   - 
     title: Édite ton message
+    completion:
+      - engaged
   - 
     title: Utilisation des classes CSS
   - 
@@ -31,6 +33,8 @@ steps:
     title: Édite tes classes
   - 
     title: Créer une nouvelle classe
+    completion:
+      - internal
   - 
     title: 'Défi: Créer un style Écran d''ordinateur'
   - 
