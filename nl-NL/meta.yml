@@ -23,6 +23,8 @@ steps:
     title: Kies je bericht
   - 
     title: Je bericht bewerken
+    completion:
+      - engaged
   - 
     title: Class stijlen gebruiken
   - 
@@ -31,6 +33,8 @@ steps:
     title: Klasse bewerken
   - 
     title: Maak een nieuwe klasse
+    completion:
+      - internal
   - 
     title: 'Uitdaging: maak een printeruitdraai stijl'
   - 
