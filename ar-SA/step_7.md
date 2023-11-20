@@ -20,15 +20,16 @@
 
 ![لقطة الشاشة](images/letter-gfonts-1-annotated.png)
 
-+ انقر فوق الزر "تحديد هذا الخط" +:
++ Click on the font preview box then click on '+ Select this style':
 
 ![لقطة الشاشة](images/letter-gfonts-2-annotated.png)
 
-ستظهر رسالة تقول "تم اختيار عائلة واحدة" في أسفل الشاشة.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![لقطة الشاشة](images/letter-gfonts-3.png)
 
-+ انقر على رسالة "1 Family Selected" لفتح النافذة ونسخ الرمز المميز:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![لقطة الشاشة](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@
 
 هذا يسمح لك باستخدام الخط Bangers في صفحة الويب الخاصة بك.
 
-+ ارجع إلى خطوط Google وانتقل إلى أسفل الصفحة وانسخ font-family:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![لقطة الشاشة](images/letter-fonts-bangers.png)
 
