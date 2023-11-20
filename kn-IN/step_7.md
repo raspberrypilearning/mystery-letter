@@ -20,15 +20,16 @@
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-1-annotated.png)
 
-+ + "Select this font (ಸೆಲೆಕ್ಟ್ ದಿಸ್ ಫಾಂಟ್)" ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ:
++ Click on the font preview box then click on '+ Select this style':
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-2-annotated.png)
 
-ಪರದೆಯ ಕೆಳಭಾಗದಲ್ಲಿ "1 Family Selected (1 ಫ್ಯಾಮಿಲಿ ಸೆಲೆಕ್ಟೆಡ್)" ಎಂಬ ಸಂದೇಶವು ಕಾಣಿಸುತ್ತದೆ.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-3.png)
 
-+ ವಿಂಡೋವನ್ನು ತೆರೆಯಲು "1 Family Selected (1 ಫ್ಯಾಮಿಲಿ ಸೆಲೆಕ್ಟೆಡ್)" ಸಂದೇಶದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಹೈಲೈಟ್ ಮಾಡಿದ ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@
 
 ನಿಮ್ಮ ವೆಬ್‌ಪುಟದಲ್ಲಿ Bangers ಫಾಂಟ್ ಅನ್ನು ಬಳಸಲು ಇದು ನಿಮ್ಮನ್ನು ಅನುಮತಿಸುತ್ತದೆ.
 
-+ Google ಫಾಂಟ್‌ಗಳಿಗೆ ಹಿಂತಿರುಗಿ ಮತ್ತು ಪುಟವನ್ನು ಮತ್ತಷ್ಟು ಕೆಳಗೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ ಮತ್ತು ಫಾಂಟ್-ಫ್ಯಾಮಿಲಿ ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್](images/letter-fonts-bangers.png)
 
