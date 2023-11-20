@@ -20,15 +20,16 @@ Bir çizgi romandan kesilmiş gibi görünen bir stil yaratalım. <a href="http:
 
 ![ekran görüntüsü](images/letter-gfonts-1-annotated.png)
 
-+ + "Bu yazı tipini seç" düğmesini tıklayın:
++ Click on the font preview box then click on '+ Select this style':
 
 ![ekran görüntüsü](images/letter-gfonts-2-annotated.png)
 
-Ekranın alt kısmında "1 Family Selected" mesajı belirecektir.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![ekran görüntüsü](images/letter-gfonts-3.png)
 
-+ "1 Family Selected" mesajına tıklayarak pencereyi açın ve gösterilen kodu kopyalayın:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![ekran görüntüsü](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Ekranın alt kısmında "1 Family Selected" mesajı belirecektir.
 
 Bu, web sayfanızdaki Bangers yazı tipini kullanmanızı sağlar.
 
-+ Google fontlarına dönüp sayfayı aşağı kaydırın ve font-family kodunu kopyalayın:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![ekran görüntüsü](images/letter-fonts-bangers.png)
 
