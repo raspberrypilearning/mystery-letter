@@ -20,15 +20,16 @@
 
 ![스크린샷](images/letter-gfonts-1-annotated.png)
 
-+ + "Select this font" 버튼을 눌러주세요:
++ Click on the font preview box then click on '+ Select this style':
 
 ![스크린샷](images/letter-gfonts-2-annotated.png)
 
-그럼, "1 Family Selected"라는 문구가 표출될 것입니다.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![스크린샷](images/letter-gfonts-3.png)
 
-+ "1 Family Selected" 문구를 눌러 아래 코드를 복사합니다.
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![스크린샷](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@
 
 이를 통해 Bangers 폰트를 웹 페이지에서 사용할 수 있습니다.
 
-+ 다시 구글 폰트 창으로 돌아가서, 아래 내용을 복사합니다:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![스크린샷](images/letter-fonts-bangers.png)
 
