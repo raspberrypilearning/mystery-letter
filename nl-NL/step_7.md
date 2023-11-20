@@ -20,15 +20,16 @@ Maak je geen zorgen als je een waarschuwing krijgt dat 'Rule is empty' (De regel
 
 ![screenshot](images/letter-gfonts-1-annotated.png)
 
-+ Klik op de + "Select this font" knop:
++ Click on the font preview box then click on '+ Select this style':
 
 ![screenshot](images/letter-gfonts-2-annotated.png)
 
-Een bericht dat zegt "1 Family selected" zal onder aan het scherm verschijnen.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![screenshot](images/letter-gfonts-3.png)
 
-+ Klik op het "1 Family Selected" bericht om het scherm te openen en kopieer de gekleurde code:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![screenshot](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Een bericht dat zegt "1 Family selected" zal onder aan het scherm verschijnen.
 
 Zo kun je het lettertype Bangers op je webpagina gebruiken.
 
-+ Keer terug naar Google Fonts en ga verder op de pagina en kopieer de font-family code onder 'Specify in CSS':
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![screenshot](images/letter-fonts-bangers.png)
 
