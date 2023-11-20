@@ -23,6 +23,8 @@ steps:
     title: Wähle deine Nachricht
   - 
     title: Bearbeite deine Nachricht
+    completion:
+      - engaged
   - 
     title: Klassenstile verwenden
   - 
@@ -31,6 +33,8 @@ steps:
     title: Klassen bearbeiten
   - 
     title: Eine neue Klasse erstellen
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Erstelle einen Stil, der wie vom Computer ausgedruckt aussieht'
   - 
