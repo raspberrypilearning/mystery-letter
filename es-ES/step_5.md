@@ -16,7 +16,7 @@ Añade estas clases a tus etiquetas `<span>`:
 
 No añadas más de una clase de cada línea para un `<span>` en particular.
 
-Así es como tu carta debe verse:
+Tu carta podría quedar así:
 
 ![captura de pantalla](images/letter-challenge1.png)
 
