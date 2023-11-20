@@ -23,6 +23,8 @@ steps:
     title: Choose Your Message
   - 
     title: Editing Your Message
+    completion:
+      - engaged
   - 
     title: Using Class Styles
   - 
@@ -31,6 +33,8 @@ steps:
     title: Editing Classes
   - 
     title: Create a New Class
+    completion:
+      - internal
   - 
     title: 'Challenge: Create A Computer Printout Style'
   - 
