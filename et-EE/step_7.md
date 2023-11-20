@@ -20,15 +20,16 @@ Loome stiili, mis näib olevat koomiksist välja lõigatud. <a href="http://jump
 
 ![kuvatõmmis](images/letter-gfonts-1-annotated.png)
 
-+ Klõpsa nupul + "Vali see font":
++ Click on the font preview box then click on '+ Select this style':
 
 ![kuvatõmmis](images/letter-gfonts-2-annotated.png)
 
-Ekraani allosas kuvatakse sõnum "Valitud 1 perekond".
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![kuvatõmmis](images/letter-gfonts-3.png)
 
-+ Akna avamiseks klõpsa "Valitud 1 perekond" sõnumil ja kopeeri esile tõstetud kood:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![kuvatõmmis](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Ekraani allosas kuvatakse sõnum "Valitud 1 perekond".
 
 See võimaldab sul oma veebilehel kasutada Bangersi fonti.
 
-+ Mine tagasi Google'i fontide juurde ja sirvi lehel allapoole ning kopeeri fondiperekonna kood:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![kuvatõmmis](images/letter-fonts-bangers.png)
 
