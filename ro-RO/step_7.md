@@ -20,15 +20,16 @@ Nu-ți face griji dacă primești o eroare care spune „The Rule is empty”; o
 
 ![captură de ecran](images/letter-gfonts-1-annotated.png)
 
-+ Dă click pe butonul + „Select this font”:
++ Click on the font preview box then click on '+ Select this style':
 
 ![captură de ecran](images/letter-gfonts-2-annotated.png)
 
-Un mesaj care spune „1 Family Selected” va apărea în partea de jos a ecranului.
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![captură de ecran](images/letter-gfonts-3.png)
 
-+ Dă click pe mesajul ”1 Family Selected” pentru a deschide fereastra și apoi copiază codul evidențiat:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![captură de ecran](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Un mesaj care spune „1 Family Selected” va apărea în partea de jos a ecran
 
 Acesta îți permite să folosești fontul Bangers în pagina ta web.
 
-+ Întoarce-te la Google Fonts și derulează în jos pentru a copia codul font-family:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![captură de ecran](images/letter-fonts-bangers.png)
 
