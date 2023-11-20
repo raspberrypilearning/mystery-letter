@@ -23,6 +23,8 @@ steps:
     title: Mesajınızı Seçin
   - 
     title: Mesajınızı Düzenleyin
+    completion:
+      - engaged
   - 
     title: Sınıf Stillerini Kullanma
   - 
@@ -31,6 +33,8 @@ steps:
     title: Sınıfları Düzenleme
   - 
     title: Yeni Bir Sınıf Oluştur
+    completion:
+      - internal
   - 
     title: 'Meydan Okuma: Bir Bilgisayar Çıktısı Stili Oluştur'
   - 
