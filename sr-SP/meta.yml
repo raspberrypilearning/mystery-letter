@@ -23,6 +23,8 @@ steps:
     title: Изаберите своју поруку
   - 
     title: Уређивање поруке
+    completion:
+      - engaged
   - 
     title: Коришћење стилова класе
   - 
@@ -31,6 +33,8 @@ steps:
     title: Уређивање класа
   - 
     title: Креирајте нову класу
+    completion:
+      - internal
   - 
     title: 'Изазов: Креирајте стил za штампањe на рачунару'
   - 
