@@ -20,15 +20,16 @@ Não te preocupes se receberes um aviso a dizer 'The Rule is empty' (A Regra est
 
 ![captura de ecrã](images/letter-gfonts-1-annotated.png)
 
-+ Clica no botão + "Select this font":
++ Click on the font preview box then click on '+ Select this style':
 
 ![captura de ecrã](images/letter-gfonts-2-annotated.png)
 
-Aparece uma mensagem no fundo do ecrã a dizer "1 Family Selected".
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![captura de ecrã](images/letter-gfonts-3.png)
 
-+ Clica na mensagem "1 Family Selected" para abrir a janela e copia o código sublinhado:
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![captura de ecrã](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@ Aparece uma mensagem no fundo do ecrã a dizer "1 Family Selected".
 
 Isto te permite usar a fonte Bangers na tua página web.
 
-+ Volta ao Goggle Fonts e desce na página e copia o código da font-family:
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![captura de ecrã](images/letter-fonts-bangers.png)
 
