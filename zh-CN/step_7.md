@@ -20,15 +20,16 @@
 
 ![截屏](images/letter-gfonts-1-annotated.png)
 
-+ 点击 "Select this font" 按钮：
++ Click on the font preview box then click on '+ Select this style':
 
 ![截屏](images/letter-gfonts-2-annotated.png)
 
-一条写着 “1 Family Selected”（选中了一个类型）的消息会出现在屏幕底部。
+View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
 
 ![截屏](images/letter-gfonts-3.png)
 
-+ 点击 “1 Family Selected” 的消息来打开窗口并复制高亮的代码：
++ Go to the 'Use on the web' section, copy the text from the <link />
+    box:
 
 ![截屏](images/letter-gfonts-4.png)
 
@@ -38,7 +39,7 @@
 
 这样你就可以在你的网页中使用 Bangers 字体了。
 
-+ 回到 Google字体，向下滚动页面并复制字体类型代码：
++ Return to Google fonts and scroll further down to copy the CSS font-family code:
 
 ![截屏](images/letter-fonts-bangers.png)
 
