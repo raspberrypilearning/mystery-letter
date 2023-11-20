@@ -23,6 +23,8 @@ steps:
     title: 选择你的信息
   - 
     title: 编辑你的信息
+    completion:
+      - engaged
   - 
     title: 使用类样式
   - 
@@ -31,6 +33,8 @@ steps:
     title: 编辑类
   - 
     title: 创建一个新类
+    completion:
+      - internal
   - 
     title: '挑战：创建电脑打印样式'
   - 
