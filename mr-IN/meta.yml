@@ -23,6 +23,8 @@ steps:
     title: तुमचा संदेश निवडा
   - 
     title: तुमचा संदेश बदलणे
+    completion:
+      - engaged
   - 
     title: वर्ग शैली वापरणे
   - 
@@ -31,6 +33,8 @@ steps:
     title: वर्ग बदलणे
   - 
     title: नवीन वर्ग तयार करा
+    completion:
+      - internal
   - 
     title: 'आव्हान: कॉम्पुटर प्रिंटाऊट शैली बनवा'
   - 
