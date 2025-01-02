@@ -72,7 +72,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 title: Project materials
 ---
 ## Project resources
-* [.zip file containing all project resources](resources/letter-project-resources.zip)
+* [.zip file containing all project resources](https://rpf.io/p/en/mystery-letter-go)
 * [Online Trinket containing all 'Mystery Letter' project resources](http://jumpto.cc/web-letter)
 * [Online Trinket template](http://jumpto.cc/trinket-template)
 * [Online blank Trinket](http://jumpto.cc/trinket-blank)
@@ -87,7 +87,7 @@ title: Project materials
 * [mystery-letter/computer-printout-paper.png](resources/mystery-letter-computer-printout-paper.png)
 
 ## Club leader resources
-* [.zip file containing all completed project resources](resources/letter-volunteer-resources.zip)
+* [.zip file containing all completed project resources](https://rpf.io/p/en/mystery-letter-go)
 * [Online completed Trinket project](https://trinket.io/html/1d4d4c5ce1)
 * [mystery-letter-finished/index.html](resources/mystery-letter-finished-index.html)
 * [mystery-letter-finished/style.css](resources/mystery-letter-finished-style.css)
