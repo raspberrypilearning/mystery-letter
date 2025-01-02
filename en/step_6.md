@@ -1,28 +1,60 @@
-## Editing Classes 
+--- challenge ---
+
+## Challenge: Style Your Message
+
+Use the provided styles to make your message look like a mystery letter. 
+
+Add these classes to your `<span>` tags: 
+
++ `newspaper`, `magazine1`, `magazine2`
+
++ `medium`, `big`, `reallybig`
+
++ `rotateleft`, `rotateright`
+
++ `skewleft`, `skewright`
+
+Don't add more than one from each line to a particular `<span>`.
+
+This is how your letter could look:
+
+![screenshot](images/letter-challenge1.png)
 
 
 
-+ Click on the __'style.css'__ tab. Find the style for the `newspaper` CSS class that you have been using.
+## Challenge: Create A Computer Printout Style
 
-![screenshot](images/letter-newspaper.png)
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
+![screenshot](images/letter-fonts-printout.png)
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
+You will need:
 
-	+ How the `magazine1` style changes the text to all uppercase (capital) letters.
++ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts. 
 
-	+ How the `magazine2` style puts an image behind the text.
++ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images. 	
 
-![screenshot](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
 
-You can also change the colours in the magazine styles if you like.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
+Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in __style.css__ for ideas. 
 
-![screenshot](images/letter-rotate-skew.png)
+Here's an example:
 
-Try changing the numbers to create different effects and then testing your page. 
+![screenshot](images/letter-fonts-challenge3.png)
 
+You can see the images that are available to use by clicking on the Images tab in trinket.
+Try setting image backgrounds using one of the included images: 
+
++ `rough-paper.png`
+
++ `canvas.png`
+
+If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project. 
+
+Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them. 
+
+
+
+
+--- /challenge ---

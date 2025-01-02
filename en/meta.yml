@@ -18,15 +18,15 @@ version: 3.1
 last_tested: 2017-01-01
 steps:
 - title: Introduction
-- title: Choose Your Message
-- title: Editing Your Message
+- title: Edit the message
   completion:
   - engaged
 - title: Using Class Styles
-- title: 'Challenge: Style Your Message'
 - title: Editing Classes
 - title: Create a New Class
   completion:
   - internal
-- title: 'Challenge: Create A Computer Printout Style'
-- title: 'Challenge: Create Your Own Styles'
+  - external
+- title: Challenge
+  challenge: true
+- title: What can you do now?

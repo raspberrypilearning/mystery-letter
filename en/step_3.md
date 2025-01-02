@@ -1,28 +1,18 @@
-## Editing Your Message
-
-Let's get your message onto a webpage.
+## Using Class Styles
 
 
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. 
++ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way. 
 
-	The project should look like this:
++ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
 
-	![screenshot](images/letter-starter.png)
-
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them. 
-
-![screenshot](images/letter-placeholder.png)
+![screenshot](images/letter-magazine1.png)
 
 
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
++ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
 
-![screenshot](images/letter-message.png)
+![screenshot](images/letter-big.png)
 
 
-
-+ Click the Run button to test your trinket.
-
-	If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
 
