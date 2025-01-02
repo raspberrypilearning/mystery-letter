@@ -1,18 +1,61 @@
-## Using Class Styles
+## Add class styles
+
+Did you notice the `class=""` in the `<span>` tags? You can use a class to style more than one thing in the same way. 
+
+--- task ---
+
+Add the `magazine1` class to the first `<span>` tag.
+
+--- code ---
+---
+language: html
+line_numbers: true
+line_number_start: 11
+line_highlights: 12
+---
+
+<p>
+    <span class="magazine1">Meet</span>
+    <span class="">me</span>
+    <span class="">on</span>
 
 
+--- /code ---
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way. 
+--- /task ---
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
+--- task ---
+Click **Run** to see the updated webpage.
 
-![screenshot](images/letter-magazine1.png)
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background.](images/first-class.png)
+--- /task ---
+
+You can add more than one class to an element. Just leave a space in between. 
+
+--- task ---
+Add the `big` class to the same `<span>` tag. 
+
+--- code ---
+---
+language: html
+line_numbers: true
+line_number_start: 11
+line_highlights: 12
+---
+
+<p>
+    <span class="magazine1 big">Meet</span>
+    <span class="">me</span>
+    <span class="">on</span>
 
 
-
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page. 
-
-![screenshot](images/letter-big.png)
+--- /code ---
+--- /task ---
 
 
+--- task ---
+Click **Run** again to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background and is larger than the other text.](images/first-class-big.png)
+--- /task ---
 

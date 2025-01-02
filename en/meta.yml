@@ -15,13 +15,13 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
-- title: Introduction
+- title: What you will make
 - title: Edit the message
   completion:
   - engaged
-- title: Using Class Styles
+- title: Add class styles
 - title: Editing Classes
 - title: Create a New Class
   completion:
