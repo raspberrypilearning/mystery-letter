@@ -1,4 +1,4 @@
-## Create a new vlass 
+## Create a new class 
 
 Create a style for a word that looks like it has been cut from a comic. 
 
