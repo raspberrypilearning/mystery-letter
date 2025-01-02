@@ -23,7 +23,7 @@ steps:
   - engaged
 - title: Add class styles
 - title: Editing Classes
-- title: Create a New Class
+- title: Create a new class
   completion:
   - internal
   - external

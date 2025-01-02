@@ -18,7 +18,7 @@ line_number_start: 14
 
 --- /code ---
 
-Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
+Notice that there's a dot before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
 
 --- /task ---
 
@@ -104,6 +104,8 @@ line_highlights: 29
 
 --- task ---
 Click **Run** to see what happens. 
+
+![A message where the second word 'me' has a beige canvas background.](images/canvas.png)
 
 (If you prefer `pink-pattern.png` you can change it back.)
 --- /task ---
