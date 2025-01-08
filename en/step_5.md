@@ -2,7 +2,6 @@
 
 Create a style for a word that looks like it has been cut from a comic. 
 
-
 --- task ---
 
 In the __style.css__ file, add a `comic` class. Don't forget the dot in front of the class name. 
@@ -42,8 +41,8 @@ line_highlights: 36-37
 
 ---
 .comic {
-    color: red;
-    background-color: yellow;
+  color: red;
+  background-color: yellow;
 }
 
 --- /code ---
@@ -65,9 +64,9 @@ line_highlights: 14
 
 ---
 <p>
-    <span class="magazine1 big">Meet</span>
-    <span class="magazine2 big">me</span>
-    <span class="comic big">on</span>
+  <span class="magazine1 big">Meet</span>
+  <span class="magazine2 big">me</span>
+  <span class="comic big">on</span>
 
 --- /code ---
 
@@ -115,12 +114,12 @@ line_highlights: 7-9
 
 ---
 <head>
-    <title>Mystery Letter</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="prefixfree.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <title>Mystery Letter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="prefixfree.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 --- /code ---
 
@@ -141,9 +140,9 @@ line_highlights: 38
 
 ---
 .comic {
-    color: red;
-    background-color: yellow;
-    font-family: "Bangers", serif;
+  color: red;
+  background-color: yellow;
+  font-family: "Bangers", serif;
 }
 
 --- /code ---
@@ -155,6 +154,3 @@ Click **Run** to test your webpage. The result should look something like this:
 ![A message with the third word in a cartoon style red font on a yellow background.](images/bangers-added.png)
 
 --- /task ---
-
-
-
