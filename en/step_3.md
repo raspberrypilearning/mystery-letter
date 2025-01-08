@@ -1,28 +1,78 @@
-## Editing Your Message
+## Add class styles
 
-Let's get your message onto a webpage.
+Did you notice the `class=""` in the `<span>` tags? You can use a class to style more than one thing in the same way. 
+
+--- task ---
+
+Add the `magazine1` class to the first `<span>` tag.
+
+--- code ---
+---
+language: html
+line_numbers: true
+line_number_start: 11
+line_highlights: 12
+---
+
+<p>
+  <span class="magazine1">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+Click **Run** to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background.](images/first-class.png)
+--- /task ---
+
+You can add more than one class to an element. Just leave a space in between. 
+
+--- task ---
+Add the `big` class to the same `<span>` tag. 
+
+--- code ---
+---
+language: html
+line_numbers: true
+line_number_start: 11
+line_highlights: 12
+---
+
+<p>
+  <span class="magazine1 big">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
 
 
-
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. 
-
-	The project should look like this:
-
-	![screenshot](images/letter-starter.png)
-
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them. 
-
-![screenshot](images/letter-placeholder.png)
+--- /code ---
+--- /task ---
 
 
+--- task ---
+Click **Run** again to see the updated webpage.
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background and is larger than the other text.](images/first-class-big.png)
+--- /task ---
 
-![screenshot](images/letter-message.png)
+--- task ---
+Experiment with adding these classes to each of the `<span>` tags in your message.
 
++ `newspaper`, `magazine1`, `magazine2`
++ `medium`, `big`, `reallybig`
++ `rotateleft`, `rotateright`
++ `skewleft`, `skewright`
 
+Don't add more than one from each line to a `<span>`.
 
-+ Click the Run button to test your trinket.
+--- /task ---
 
-	If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+--- task ---
+Click **Run** to see how your letter looks. Here is an example of how your letter could look:
 
+![A mystery letter with multiple different styles, one for each word.](images/letter-challenge1.png)
+
+--- /task ---
