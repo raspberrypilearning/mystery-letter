@@ -15,10 +15,9 @@ line_highlights: 12
 ---
 
 <p>
-    <span class="magazine1">Meet</span>
-    <span class="">me</span>
-    <span class="">on</span>
-
+  <span class="magazine1">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
 
 --- /code ---
 
@@ -44,9 +43,9 @@ line_highlights: 12
 ---
 
 <p>
-    <span class="magazine1 big">Meet</span>
-    <span class="">me</span>
-    <span class="">on</span>
+  <span class="magazine1 big">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
 
 
 --- /code ---
