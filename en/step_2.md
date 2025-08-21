@@ -3,7 +3,7 @@
 Mystery letters are used in films and books to send secret messages. 
 
 --- task ---
-Open the [starter project](https://staging-editor.raspberrypi.org/en/projects/mystery-letter-starter){:target="_blank"}.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/mystery-letter-starter){:target="_blank"}.
 --- /task ---
 
 --- task ---
