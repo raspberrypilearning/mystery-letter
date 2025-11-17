@@ -1,25 +1,24 @@
-## Sınıfları Düzenleme
+\--- challenge \---
 
-+ **'style.css'** sekmesine tıklayın. Kullanmakta olduğunuz `gazete` CSS sınıfı için stili bulun.
+## Challenge
 
-![ekran görüntüsü](images/letter-newspaper.png)
+\--- task \---
 
-+ CSS dosyasındaki sınıfın adından önce bir nokta olduğuna (tam durak) '.' fakat HTML belgenizdeki `<span>` etiketinde olmadığına dikkat edin.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Şimdi gizemli mektubunuza stil vermek için kullandığınız diğer CSS sınıflarına bakın. Şunları bulabilir misin:
-    
-    + `magazine1` stilinin metnin tamamını nasıl tüm büyük harflere dönüştürdüğünü.
-    
-    + `magazine2` stilinin nasıl metnin arkasına bir resim koyduğunu.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![ekran görüntüsü](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ `magazine2` için `background-image` kısmını `canvas.png` ile değiştirirseniz ne olur? `pink-pattern.png` tercih ederseniz, geri değiştirebilirsiniz. 
+\--- /task \---
 
-İsterseniz dergi stillerindeki renkleri de değiştirebilirsiniz.
+\--- task \---
 
-+ Sözcüklerinizi döndürmek ve eğriltmek (eğmek) için kullanılan CSS'yi bulun:
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![ekran görüntüsü](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Farklı efektler oluşturmak için sayıları değiştirmeyi ve ardından sayfanızı test etmeyi deneyin.
+\--- /task \---
+
+\--- /challenge \---
