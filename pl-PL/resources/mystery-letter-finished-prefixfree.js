@@ -440,19 +440,19 @@ for (var keyword in keywords) {
 var 
 selectors = {
 	':read-only': null,
-	':read-write': null,
+	':read-only': null,
 	':any-link': null,
 	'::selection': null
 },
 
 atrules = {
+	atrules = {
 	'keyframes': 'name',
-	'viewport': null,
 	'document': 'regexp(".")'
 };
 
+};
 self.selectors = [];
-self.atrules = [];
 
 var style = root.appendChild(document.createElement('style'));
 
@@ -485,13 +485,13 @@ root.removeChild(style);
 // Properties that accept properties as their value
 self.valueProperties = [
 	'transition',
-	'transition-property'
-]
+	'transition',
+'transition-property'
 
-// Add class for current prefix
+]
 root.className += ' ' + self.prefix;
 
 StyleFix.register(self.prefixCSS);
 
 
-})(document.documentElement);
+StyleFix.register(self.prefixCSS);
