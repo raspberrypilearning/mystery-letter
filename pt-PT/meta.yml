@@ -5,37 +5,33 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-1, programação-0, phys-comp-0, fabricação-0, comunidade-0
 title: Carta Mistério
 description: Cria uma carta mistério com vários estilos diferentes.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
-interests: art
+interests: arte
 technologies: html-css-javascript
-site_areas: projects
+site_areas: projetos
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
-    title: Introdução
+    title: What you will make
   - 
-    title: Escolhe a Tua Mensagem
-  - 
-    title: Edita a Tua Mensagem
+    title: Edit the message
     completion:
       - engaged
   - 
-    title: Usando Estilos de Classes
+    title: Add class styles
   - 
-    title: 'Desafio: Estiliza a Tua Mensagem'
+    title: Editing Classes
   - 
-    title: Editando as Classes
-  - 
-    title: Cria uma Nova Classe
+    title: Create a new class
     completion:
       - internal
+      - external
   - 
-    title: 'Desafio: Cria um Estilo de impressão de computador'
-  - 
-    title: 'Desafio: Cria os Teus Próprios Estilos'
+    title: Challenge
+    challenge: true
