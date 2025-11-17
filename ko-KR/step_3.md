@@ -1,21 +1,78 @@
-## 메시지 편집하기
+## Add class styles
 
-전 단계에서 고른 메시지를 웹 페이지에 넣어 봅시다.
+Did you notice the `class=""` in the `<span>` tags? You can use a class to style more than one thing in the same way.
 
-+ 다음 Trinket 파일을 열어주세요. <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
-    
-    Trinket을 열면 아래와 같은 프로젝트가 보일 것입니다.
-    
-    ![스크린샷](images/letter-starter.png)
+\--- task \---
 
-+ `<p>` 태그는 '생일 축하해요' 프로젝트에서 소개가 된 태그입니다. `<span>` 태그는 문장을 꾸밀 수 있도록 단락보단 더 작은 단위로 묶어주는 태그입니다. 
+Add the `magazine1` class to the first `<span>` tag.
 
-![스크린샷](images/letter-placeholder.png)
+## \--- code \---
 
-+ `<span>` 안에 있는 예제 단어를 제거하고, 자신의 수수께끼 메시지로 바꾸시기 바랍니다. 만약 자신의 수수께끼 메시지가 예제에 나와 있는 수수께끼 메시지와 길이가 다르다면 `<span>` 태그를 지우거나 추가하여 Code를 수정해야 할 것입니다. 
+language: html line_numbers: true line_number_start: 11
 
-![스크린샷](images/letter-message.png)
+## line_highlights: 12
 
-+ Run을 눌러 자신이 만든 Trinket을 테스트해보세요.
-    
-    단어가 페이지에 붙어있는 것 처럼 스타일링된 것을 볼 수 있습니다.
+<
+
+p> <span class="magazine1">Meet</span> <span class="">me</span> <span class="">on</span>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background.](images/first-class.png)
+
+\--- /task \---
+
+You can add more than one class to an element. Just leave a space in between.
+
+\--- task \---
+
+Add the `big` class to the same `<span>` tag.
+
+## \--- code \---
+
+language: html line_numbers: true line_number_start: 11
+
+## line_highlights: 12
+
+<
+
+p> <span class="magazine1 big">Meet</span> <span class="">me</span> <span class="">on</span>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** again to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background and is larger than the other text.](images/first-class-big.png)
+
+\--- /task \---
+
+\--- task \---
+
+Experiment with adding these classes to each of the `<span>` tags in your message.
+
++ `newspaper`, `magazine1`, `magazine2`
++ `medium`, `big`, `reallybig`
++ `rotateleft`, `rotateright`
++ `skewleft`, `skewright`
+
+Don't add more than one from each line to a `<span>`.
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** to see how your letter looks. Here is an example of how your letter could look:
+
+![A mystery letter with multiple different styles, one for each word.](images/letter-challenge1.png)
+
+\--- /task \---
