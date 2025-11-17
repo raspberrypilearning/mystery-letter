@@ -15,27 +15,23 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
     title: Giriş
   - 
     title: Mesajınızı Seçin
-  - 
-    title: Mesajınızı Düzenleyin
     completion:
       - engaged
+  - 
+    title: Mesajınızı Düzenleyin
   - 
     title: Sınıf Stillerini Kullanma
   - 
     title: 'Meydan Okuma: Mesajını Stillendir'
-  - 
-    title: Sınıfları Düzenleme
-  - 
-    title: Yeni Bir Sınıf Oluştur
     completion:
       - internal
+      - external
   - 
-    title: 'Meydan Okuma: Bir Bilgisayar Çıktısı Stili Oluştur'
-  - 
-    title: 'Meydan Okuma: Kendi Stillerini Yarat'
+    title: Sınıfları Düzenleme
+    challenge: true
