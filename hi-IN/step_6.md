@@ -1,25 +1,24 @@
-## क्लासेस को एडिट करना
+\--- challenge \---
 
-+ **'style.css'** टैब पर क्लिक करें। `newspaper` CSS क्लास के लिए स्टाइल खोजें जिसका आप उपयोग कर रहे हैं।
+## क्लास को संपादित करना
 
-![स्क्रीनशॉट](images/letter-newspaper.png)
-
-+ ध्यान दें कि CSS फ़ाइल में क्लस​ के नाम से पहले एक डॉट (पूर्ण विराम) '.' है, लेकिन आपके HTML दस्तावेज़ के `<span>` टैग में नहीं।
-
-+ अब अन्य CSS क्लासेस को देखें जिनका उपयोग आपने अपने रहस्यमय पत्र को स्टाइल करने के लिए किया था। क्या आप​ खोज सकते हैं:
-    
-    + कैसे `magazine1` स्टाइल पूरे टेक्स्ट को अपरकेस (कैपिटल) अक्षरों में बदल देती है।
-    
-    + कैसे `magazine2` स्टाइल पाठ के पीछे एक चित्र डालती है।
-
-![स्क्रीनशॉट](images/letter-magazines.png)
-
-+ क्या होता है यदि आप `magazine2` के लिए `background-image` को `canvas.png` मे बदलते हैं? यदि आप `pink-pattern.png` को पसंद करते हैं तो आप इसे वापस बदल सकते हैं। 
+\--- task \---
 
 यदि आप चाहें तो आप पत्रिका स्टाइल्स​ में रंग भी बदल सकते हैं।
 
-+ अपने शब्दों को घुमाने और तिरछा (झुकाव) करने के लिए इस्तेमाल किया जाने वाला CSS खोजें:
-
-![स्क्रीनशॉट](images/letter-rotate-skew.png)
+![स्क्रीनशॉट](images/letter-fonts-printout.png)
 
 संख्याओं को बदलने का प्रयास करें अलग-अलग प्रभाव बनाने और फिर अपने पृष्ठ का परीक्षण करने के लिए।
+
+\--- /task \---
+
+\--- task \---
+
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
+
++ `rough-paper.png`
++ `canvas.png`
+
+\--- /task \---
+
+\--- /challenge \---
