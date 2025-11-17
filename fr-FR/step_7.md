@@ -1,52 +1,5 @@
-## Créer une nouvelle classe
+## What can you do now?
 
-Créons un style qui a l'air d'avoir été découpé à partir d'une bande dessinée. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> fournit des polices de caractères libres d'utilisation.
+Try our [HTML & CSS: Module 2](https://projects.raspberrypi.org/en/pathways/webdev-module-2) project pathway where you will build and style your own web pages.
 
-+ Ajoute la classe `comic` dans le fichier **style.css**. Après `magazine2` par exemple. N'oublie pas le point devant le nom de la classe. 
-
-![capture d'écran](images/letter-comic1.png)
-
-Ne t’inquiète pas si tu reçois un avertissement disant que « la règle est vide » (« The Rule is empty »); Cela va être corrigé.
-
-+ Ajoute maintenant du CSS à la classe CSS « comic ». Tu peux utiliser différentes couleurs si tu le souhaites. Il y a une liste de couleurs à <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
-
-![capture d'écran](images/letter-comic2.png)
-
-+ Utilise ce nouveau style dans quelques balises `<span>` de ton document HTML et teste ta page :
-
-![capture d'écran](images/letter-comic-output.png)
-
-+ Maintenant, tu peux ajouter une police de caractères amusante. Ouvre un nouvel onglet ou une nouvelle fenêtre de ton navigateur. Va sur <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et recherche **« bangers »** :
-
-![capture d'écran](images/letter-gfonts-1-annotated.png)
-
-+ Click on the font preview box then click on '+ Select this style':
-
-![capture d'écran](images/letter-gfonts-2-annotated.png)
-
-View your selected fonts by clicking on the 'View your selected families' icon in the top right menu bar:
-
-![capture d'écran](images/letter-gfonts-3.png)
-
-+ Go to the 'Use on the web' section, copy the text from the <link />
-    box:
-
-![capture d'écran](images/letter-gfonts-4.png)
-
-+ Colle le code `<link>` que tu viens de copier des polices Google dans le `<head>` de ta page Web :
-
-![capture d'écran](images/letter-fonts-head.png)
-
-Cela te permet d'utiliser la police Bangers dans ta page Web.
-
-+ Return to Google fonts and scroll further down to copy the CSS font-family code:
-
-![capture d'écran](images/letter-fonts-bangers.png)
-
-+ Maintenant, retourne à ton fichier **« style.css »** dans Trinket et colle le code « font-family » dans le style « comic » :
-
-![capture d'écran](images/letter-fonts-comic.png)
-
-+ Teste ta page Web. Le résultat devrait ressembler à ceci : 
-
-![capture d'écran](images/letter-fonts-output.png)
+Or, why not try out another [HTML & CSS](https://projects.raspberrypi.org/en/projects?software%5B%5D=html-css-javascript) project?
