@@ -26,6 +26,7 @@ line_highlights: 35-37
 }
 
 --- /code ---
+
 --- /task ---
 
 --- task ---
@@ -53,6 +54,7 @@ There's a list of loads of colours at <a href="http://jumpto.cc/colours" target=
 --- /task ---
 
 --- task ---
+
 Switch back to `index.html`. Apply the comic style to one of the `<span>` tags.
 
 --- code ---
@@ -73,6 +75,7 @@ line_highlights: 14
 --- /task ---
 
 --- task ---
+
 Click **Run** to see what your new style looks like.
 
 ![A message with the third word displayed in a yellow box in a red font.](images/comic-style.png)
@@ -80,6 +83,7 @@ Click **Run** to see what your new style looks like.
 --- /task ---
 
 --- task ---
+
 Open [http://jumpto.cc/web-fonts](http://jumpto.cc/web-fonts){:target="_blank"} and search for __'bangers'__:
 
 ![A Google fonts page with the font 'bangers' in the search bar](images/gfonts1.png)
@@ -87,6 +91,7 @@ Open [http://jumpto.cc/web-fonts](http://jumpto.cc/web-fonts){:target="_blank"} 
 --- /task ---
 
 --- task ---
+
 Click on the font, then click on 'Get font':
 
 ![A Google fonts page with an arrow pointing to 'Get font' button](images/gfonts2.png)
@@ -102,6 +107,7 @@ Click on 'Get embed code' and then click on the 'Copy code' button.
 --- /task ---
 
 --- task ---
+
 Go back to your `index.html` file and paste the `<link>` code that you just copied into the `<head>` of your webpage:
 
 
@@ -121,6 +127,7 @@ line_highlights: 7-9
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
+
 --- /code ---
 
 This allows you to use the 'Bangers' font in your webpage.
@@ -146,9 +153,11 @@ line_highlights: 38
 }
 
 --- /code ---
+
 --- /task ---
 
 --- task ---
+
 Click **Run** to test your webpage. The result should look something like this: 
 
 ![A message with the third word in a cartoon style red font on a yellow background.](images/bangers-added.png)
