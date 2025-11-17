@@ -1,6 +1,7 @@
 ## Editing Classes 
 
 --- task ---
+
 Click on the __'style.css'__ tab. Find the style for the `newspaper` CSS class.
 
 --- code ---
@@ -26,6 +27,7 @@ Notice that there's a dot before the name of the class in the CSS file but not i
 Now look for the other CSS classes that you used to style your mystery letter. 
 
 --- task ---
+
 Can you find out how the `magazine1` style changes the text to all uppercase (capital) letters?
 
 --- collapse ---
@@ -49,11 +51,13 @@ line_highlights: 25
 }
 
 --- /code ---
+
 --- /collapse ---
 
 --- /task ---
 
 --- task ---
+
 Can you find out how the `magazine2` style puts an image behind the text?
 
 --- collapse ---
@@ -76,6 +80,7 @@ line_highlights: 29
 }
 
 --- /code ---
+
 --- /collapse ---
 
 --- /task ---
@@ -100,14 +105,17 @@ line_highlights: 29
 }
 
 --- /code ---
+
 --- /task ---
 
 --- task ---
+
 Click **Run** to see what happens. 
 
 ![A message where the second word 'me' has a beige canvas background.](images/canvas.png)
 
 (If you prefer `pink-pattern.png` you can change it back.)
+
 --- /task ---
 
 
@@ -145,6 +153,7 @@ Try changing the numbers to create different effects.
 --- /task ---
 
 --- task ---
+
 Click **Run** to see the changes.
 
 --- /task ---

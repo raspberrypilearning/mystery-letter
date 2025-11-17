@@ -3,14 +3,19 @@
 Mystery letters are used in films and books to send secret messages. 
 
 --- task ---
+
 Open the [starter project](https://editor.raspberrypi.org/en/projects/mystery-letter-starter){:target="_blank"}.
+
 --- /task ---
 
 --- task ---
+
 Think of your own mystery message.
+
 --- /task ---
 
 --- task ---
+
 Change the example code to display your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length. 
 
 --- code ---
