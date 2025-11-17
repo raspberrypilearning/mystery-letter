@@ -1,7 +1,47 @@
-## Escolha sua mensagem
+## Edit the message
 
 Cartas misteriosas são usadas em filmes e livros para enviar mensagens secretas.
 
-+ Pense em uma mensagem misteriosa; 12 palavras é o comprimento correto. Se você não consegue pensar em uma mensagem, pode usar o exemplo: 'Sua próxima pista está no cofre. O código é 65536.'
+\--- task \---
 
-+ Anote sua mensagem ou lembre-se dela.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/mystery-letter-starter){:target="_blank"}.
+
+\--- /task \---
+
+\--- task \---
+
+Think of your own mystery message.
+
+\--- /task \---
+
+\--- task \---
+
+Change the example code to display your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length.
+
+## \--- code \---
+
+language: html line_numbers: true
+
+## line_number_start: 11
+
+<p>
+  <span class="">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
+  <span class="">the</span>
+  <span class="">corner</span>
+  <span class="">at</span>
+  <span class="">midnight.</span>
+</p>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click the **Run** button to test your code.
+
+The words have been styled to look like they’ve been stuck onto the page.
+
+\--- /task \---
