@@ -15,27 +15,23 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
     title: परिचय
   - 
     title: तुमचा संदेश निवडा
-  - 
-    title: तुमचा संदेश बदलणे
     completion:
       - engaged
+  - 
+    title: तुमचा संदेश बदला
   - 
     title: वर्ग शैली वापरणे
   - 
     title: 'आव्हान: तुमचा संदेश स्टाईल करा'
-  - 
-    title: वर्ग बदलणे
-  - 
-    title: नवीन वर्ग तयार करा
     completion:
       - internal
+      - external
   - 
-    title: 'आव्हान: कॉम्पुटर प्रिंटाऊट शैली बनवा'
-  - 
-    title: 'आव्हान: तुमच्या स्वतःच्या शैली तयार करा'
+    title: वर्ग बदलणे
+    challenge: true
