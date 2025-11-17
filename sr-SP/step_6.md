@@ -1,25 +1,24 @@
-## Уређивање класа
+\--- challenge \---
 
-+ Кликните на ** 'style.css'** картицу. Пронађите стил за `newspaper` ЦСС класу коју сте користили.
+## Challenge
 
-![слика екрана](images/letter-newspaper.png)
+\--- task \---
 
-+ Примјетите да постоји тачка '.' пре назива класе у ЦСС датотеци, али не и ознака `<span>` у вашем ХТМЛ документу.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Сада погледајте остале ЦСС класе које сте користили за стилизовање свог мистериозног писма. Можете ли пронаћи:
-    
-    + Како `magazine1` стил мења текст у сва велика слова.
-    
-    + Како `magazine2` стил поставља слику иза текста.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![снимак екрана](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ Шта се догађа ако промените `background-image` за ` magazine2` у `canvas.png` ? Ако више волите `pink-pattern.png` можете да га вратите назад. 
+\--- /task \---
 
-Такође можете променити боје у стиловима магазина ако желите.
+\--- task \---
 
-+ Пронађите ЦСС који се користи за ротирање и нагибање (нагињање) ваших речи:
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![слика екрана](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Покушајте да промените бројеве да бисте створили различите ефекте, а затим тестирајте своју страницу.
+\--- /task \---
+
+\--- /challenge \---
