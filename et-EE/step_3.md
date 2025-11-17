@@ -1,21 +1,78 @@
 ## Oma sõnumi muutmine
 
-Paneme su sõnumi veebilehele üles.
+Did you notice the `class=""` in the `<span>` tags? You can use a class to style more than one thing in the same way.
 
-+ Ava see trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
-    
-    Projekt peaks välja nägema selline:
-    
-    ![kuvatõmmis](images/letter-starter.png)
+\--- task \---
 
-+ Lõigusilti `<p>` tutvustatakse projektis "Palju õnne sünnipäevaks". `<span>` silti kasutatakse väiksemate tekstiosade rühmitamiseks lõigu sees, et saaksime neid kujundada.
+Add the `magazine1` class to the first `<span>` tag.
 
-![kuvatõmmis](images/letter-placeholder.png)
+## \--- code \---
 
-+ Muuda oma sõnumi sõnu, asetades igasse `<span>` ühe sõna. Kui sinu sõnum on teistsuguse pikkusega, pead `<span>` silte lisama või eemaldama. 
+language: html line_numbers: true line_number_start: 11
 
-![kuvatõmmis](images/letter-message.png)
+## line_highlights: 12
 
-+ Klõpsa nupul Käivita, et oma trinketit testida.
-    
-    Kui vaatad sõnu, näed, et need on kujundatud nii, et nad näeksid välja, justkui oleks nad lehele kinni jäänud.
+<
+
+p> <span class="magazine1">Meet</span> <span class="">me</span> <span class="">on</span>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background.](images/first-class.png)
+
+\--- /task \---
+
+You can add more than one class to an element. Just leave a space in between.
+
+\--- task \---
+
+Add the `big` class to the same `<span>` tag.
+
+## \--- code \---
+
+language: html line_numbers: true line_number_start: 11
+
+## line_highlights: 12
+
+<
+
+p> <span class="magazine1 big">Meet</span> <span class="">me</span> <span class="">on</span>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** again to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background and is larger than the other text.](images/first-class-big.png)
+
+\--- /task \---
+
+\--- task \---
+
+Experiment with adding these classes to each of the `<span>` tags in your message.
+
++ `newspaper`, `magazine1`, `magazine2`
++ `medium`, `big`, `reallybig`
++ `rotateleft`, `rotateright`
++ `skewleft`, `skewright`
+
+Don't add more than one from each line to a `<span>`.
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** to see how your letter looks. Here is an example of how your letter could look:
+
+![A mystery letter with multiple different styles, one for each word.](images/letter-challenge1.png)
+
+\--- /task \---
