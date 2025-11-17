@@ -1,7 +1,47 @@
-## 비밀 메시지 고르기
+## Edit the message
 
 수수께끼 편지는 영화나 책에서 비밀 메시지를 보낼 때 사용됩니다.
 
-+ 수수께끼 문장을 생각해 봅시다; 길이는 12단어 정도가 적당합니다. 문장을 생각하기 힘들다면 아래 예제를 활용해 봅시다: '당신의 다음 단서는 안전합니다. 비밀 번호는 65536 입니다.'
+\--- task \---
 
-+ 생각한 문장을 메모에 기록하거나 외워 두시기 바랍니다.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/mystery-letter-starter){:target="_blank"}.
+
+\--- /task \---
+
+\--- task \---
+
+Think of your own mystery message.
+
+\--- /task \---
+
+\--- task \---
+
+Change the example code to display your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length.
+
+## \--- code \---
+
+language: html line_numbers: true
+
+## line_number_start: 11
+
+<p>
+  <span class="">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
+  <span class="">the</span>
+  <span class="">corner</span>
+  <span class="">at</span>
+  <span class="">midnight.</span>
+</p>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click the **Run** button to test your code.
+
+The words have been styled to look like they’ve been stuck onto the page.
+
+\--- /task \---
