@@ -11,31 +11,27 @@ description: إنشاء رسالة غامضة باستخدام أنماط كثي
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
-site_areas: projects
+site_areas: codeclub, python
 hardware: ''
 software: html-css-javascript
-version: 3.1
-last_tested: 2017-01-01
+version: 3
+last_tested: 2025-01-02
 steps:
   - 
     title: المقدمة
   - 
     title: اختيار رسالتك
-  - 
-    title: تحرير رسالتك
     completion:
       - engaged
+  - 
+    title: تحرير رسالتك
   - 
     title: استخدام أنماط الفئات
   - 
     title: 'التحدي: حدِّد أنماط رسالتك'
-  - 
-    title: تحرير الفئات
-  - 
-    title: إنشاء فئة جديدة
     completion:
       - internal
+      - external
   - 
-    title: 'التحدي: أنشئ نمط طباعة الكمبيوتر'
-  - 
-    title: 'التحدي: أنشئ أنماطًا من إختيارك'
+    title: تحرير الفئات
+    challenge: true
