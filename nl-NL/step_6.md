@@ -1,25 +1,24 @@
-## Klasse bewerken
+\--- challenge \---
 
-+ Klik op het tabblad **'style.css'**. Zoek de stijl voor de `newspaper` CSS class die je hebt gebruikt.
+## Challenge
 
-![screenshot](images/letter-newspaper.png)
+\--- task \---
 
-+ Merk op dat er een punt '.' voor de naam van de klasse in het CSS-bestand staat, maar niet in de `<span>` tag in je HTML-document.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Kijk nu naar de andere CSS-klassen die je hebt gebruikt om je geheimzinnige brief vorm te geven. Vind je:
-    
-    + Hoe de `magazine1` stijl de tekst verandert in hoofdletters.
-    
-    + Hoe de `magazine2` stijl een afbeelding achter de tekst plaatst.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![screenshot](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ Wat gebeurt er als je de `background-image` voor `magazine2` naar `canvas.png` wijzigt? Als je liever `pink-pattern.png` hebt, kun je die weer terugzetten. 
+\--- /task \---
 
-Je kunt ook de kleuren in de magazinestijlen wijzigen als je wilt.
+\--- task \---
 
-+ Zoek de CSS die wordt gebruikt om je woorden te draaien (rotate) en scheef te trekken (skew):
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![screenshot](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Verander de getallen eens om verschillende effecten te maken en test dan je pagina.
+\--- /task \---
+
+\--- /challenge \---
