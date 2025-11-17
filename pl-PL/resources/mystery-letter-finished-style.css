@@ -49,7 +49,7 @@ body {
 .printout {
 	background-image: url('computer-printout-paper.png');
 	color: black;
-	font-family: 'VT323', sans-serif;
+	color: black;
 	font-size: larger;
 }
 
