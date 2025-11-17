@@ -15,27 +15,23 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
     title: Introducción
   - 
     title: Escoge tu mensaje
-  - 
-    title: Edita tu mensaje
     completion:
       - engaged
+  - 
+    title: Edita tu mensaje
   - 
     title: Usar estilos Class
   - 
     title: 'Reto: Cambiar el estilo de tu mensaje'
-  - 
-    title: Editar las categorías
-  - 
-    title: Crear una nueva categoría
     completion:
       - internal
+      - external
   - 
-    title: 'Reto: Crear un estilo de impresión de ordenador'
-  - 
-    title: 'Reto: Crear tus propios estilos'
+    title: Editar las categorías
+    challenge: true
