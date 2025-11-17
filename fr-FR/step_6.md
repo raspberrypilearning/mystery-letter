@@ -1,25 +1,24 @@
-## Édite tes classes
+\--- challenge \---
 
-+ Clique sur l'onglet **« style.css »**. Trouve le style de la classe CSS `newspaper` que tu as utilisé.
+## Challenge
 
-![capture d'écran](images/letter-newspaper.png)
+\--- task \---
 
-+ Note qu'il y a un point "." avant le nom de la classe dans le fichier CSS mais qu'il n'existe pas dans la balise `<span>` de ton document HTML.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Examine maintenant les autres classes CSS que tu as utilisées pour personnaliser ta lettre mystère. Peux-tu trouver :
-    
-    + Comment le style `magazine1` modifie le texte en le mettant en majuscule.
-    
-    + Comment le style `magazine2` place une image derrière le texte.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![capture d'écran](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ Que se passe-t-il si tu modifies l'image d'arrière-plan `background-image` pour la classe `magazine2` à `canvas.png` ? Si tu préfères `pink-pattern.png` tu peux le remettre. 
+\--- /task \---
 
-Tu peux également modifier les couleurs dans les styles de magazine si tu le souhaites.
+\--- task \---
 
-+ Trouve le CSS utilisé pour faire pivoter et incliner tes mots :
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![capture d'écran](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Essaye de changer les nombres pour créer différents effets, puis teste ta page.
+\--- /task \---
+
+\--- /challenge \---
