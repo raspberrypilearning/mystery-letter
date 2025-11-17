@@ -15,27 +15,23 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
     title: 介绍
   - 
     title: 选择你的信息
-  - 
-    title: 编辑你的信息
     completion:
       - engaged
   - 
+    title: 编辑你的信息
+  - 
     title: 使用类样式
   - 
-    title: '挑战：设置你的信息样式'
-  - 
-    title: 编辑类
-  - 
-    title: 创建一个新类
+    title: 挑战：设置你的信息样式
     completion:
       - internal
+      - external
   - 
-    title: '挑战：创建电脑打印样式'
-  - 
-    title: '挑战：创建你自己的样式'
+    title: 编辑类
+    challenge: true
