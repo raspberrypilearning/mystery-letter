@@ -1,25 +1,24 @@
-## Editar las categorías
+\--- challenge \---
 
-+ Haz clic en la pestaña **'style.css'**. Busca el estilo para la categoría CSS `newspaper` que has estado usando.
+## Challenge
 
-![captura de pantalla](images/letter-newspaper.png)
+\--- task \---
 
-+ Date cuenta de que hay un punto (punto final) '.' antes del nombre de la categoría en el archivo CSS, pero no en la etiqueta `<span>` en tu documento HTML.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Ahora echa un vistazo a las otra categorías CSS que usaste en tu carta misteriosa. Puedes ver:
-    
-    + Como el estilo `magazine1` cambia todo el texto a mayúsculas.
-    
-    + Como el estilo `magazine2` pone una imagen detrás del texto.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![captura de pantalla](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ ¿Qué ocurre si cambias la `background-image` (imagen de fondo) por `canvas.png` en `magazine2`? Si prefieres puedes usar en lugar `pink-pattern.png`. 
+\--- /task \---
 
-Puedes cambiar también el color en los estilos magazine si prefieres.
+\--- task \---
 
-+ Busca el CSS utilizado para rotar e inclinar tus palabras:
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![captura de pantalla](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Intenta cambiar los números para crear efectos diferentes y después prueba tu página.
+\--- /task \---
+
+\--- /challenge \---
