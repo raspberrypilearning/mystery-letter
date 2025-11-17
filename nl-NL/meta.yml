@@ -15,27 +15,23 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
     title: Inleiding
   - 
     title: Kies je bericht
-  - 
-    title: Je bericht bewerken
     completion:
       - engaged
+  - 
+    title: Je bericht bewerken
   - 
     title: Class stijlen gebruiken
   - 
     title: 'Uitdaging: maak je bericht op'
-  - 
-    title: Klasse bewerken
-  - 
-    title: Maak een nieuwe klasse
     completion:
       - internal
+      - external
   - 
-    title: 'Uitdaging: maak een printeruitdraai stijl'
-  - 
-    title: 'Uitdaging: maak je eigen stijlen'
+    title: Klasse bewerken
+    challenge: true
