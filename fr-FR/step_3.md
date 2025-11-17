@@ -1,21 +1,78 @@
-## Édite ton message
+## Add class styles
 
-Écris ton message sur une page Web.
+Did you notice the `class=""` in the `<span>` tags? You can use a class to style more than one thing in the same way.
 
-+ Ouvre ce trinket : <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
-    
-    Le projet devrait ressembler à ceci :
-    
-    ![capture d'écran](images/letter-starter.png)
+\--- task \---
 
-+ La balise paragraphe `<p>` est introduite dans le projet « Joyeux anniversaire ». La balise `<span>` sert à regrouper des morceaux de texte plus petits dans un paragraphe afin que nous puissions les styler.
+Add the `magazine1` class to the first `<span>` tag.
 
-![capture d'écran](images/letter-placeholder.png)
+## \--- code \---
 
-+ Modifie les mots de ton message en mettant un mot dans chaque `<span>`. Tu peux ajouter ou supprimer des balises `<span>` si la longueur de ton message est différente. 
+language: html line_numbers: true line_number_start: 11
 
-![capture d'écran](images/letter-message.png)
+## line_highlights: 12
 
-+ Clique sur le bouton Exécuter pour tester ton code.
-    
-    Si tu regardes les mots, tu peux voir qu'ils ont été stylés pour donner l'impression qu'ils ont été collés sur la page.
+<
+
+p> <span class="magazine1">Meet</span> <span class="">me</span> <span class="">on</span>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background.](images/first-class.png)
+
+\--- /task \---
+
+You can add more than one class to an element. Just leave a space in between.
+
+\--- task \---
+
+Add the `big` class to the same `<span>` tag.
+
+## \--- code \---
+
+language: html line_numbers: true line_number_start: 11
+
+## line_highlights: 12
+
+<
+
+p> <span class="magazine1 big">Meet</span> <span class="">me</span> <span class="">on</span>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** again to see the updated webpage.
+
+![The message 'Meet me on the corner at midnight.' The first word is written in capitals in a white font on a green background and is larger than the other text.](images/first-class-big.png)
+
+\--- /task \---
+
+\--- task \---
+
+Modifie les mots de ton message en mettant un mot dans chaque `<span>`.
+
++ `newspaper`, `magazine1`, `magazine2`
++ `medium`, `big`, `reallybig`
++ `rotateleft`, `rotateright`
++ `skewleft`, `skewright`
+
+Don't add more than one from each line to a `<span>`.
+
+\--- /task \---
+
+\--- task \---
+
+Click **Run** to see how your letter looks. Here is an example of how your letter could look:
+
+![A mystery letter with multiple different styles, one for each word.](images/letter-challenge1.png)
+
+\--- /task \---
