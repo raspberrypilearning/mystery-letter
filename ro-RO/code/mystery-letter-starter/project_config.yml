@@ -1,0 +1,4 @@
+name: 'Mystery letter'
+identifier: 'mystery-letter-starter'
+type: 'html'
+build: true
