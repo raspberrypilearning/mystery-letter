@@ -1,25 +1,24 @@
-## Klassen Bearbeiten
+\--- challenge \---
 
-+ Klicke auf den **'style.css'** Reiter. Finde den Stil für die `newspaper` CSS-Klasse die du schon benutzt hast.
+## Challenge
 
-![Screenshot](images/letter-newspaper.png)
+\--- task \---
 
-+ Beachte, dass in der CSS-Datei ein Punkt '.' vor dem Klassennamen steht, nicht aber im `<span>`-Tag im HTML-Dokument.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Jetzt schau dir die anderen CSS-Klassen an, die du benutzt hast, um deinen geheimnisvollen Brief zu gestalten. Kannst du Folgendes herausfinden:
-    
-    + Wie der `magazine1`-Stil den Text in lauter Großbuchstaben verwandelt.
-    
-    + Wie der `magazine2`-Stil ein Bild hinter den Text legt.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![Screenshot](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ Was passiert wenn du das `background-image` für `magazine2` zu `canvas.png` änderst? Falls du das `pink-pattern.png` lieber magst, kannst du es wieder zurück ändern. 
+\--- /task \---
 
-Wenn du möchtest, kannst du auch die Farben in den magazine-Stilen verändern.
+\--- task \---
 
-+ Finde das CSS, das verwendet wurde, um deine Wörter zu drehen oder zu kippen:
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![Screenshot](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Versuche die Zahlen zu ändern, um verschiedene Effekte zu erzeugen und teste dann deine Seite.
+\--- /task \---
+
+\--- /challenge \---
