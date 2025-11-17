@@ -15,27 +15,23 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
     title: Wprowadzenie
   - 
     title: Wybierz swoją wiadomość
-  - 
-    title: Edytowanie Twojej wiadomości
     completion:
       - engaged
   - 
-    title: Korzystanie ze stylów klas
+    title: Edytowanie Twojej wiadomości
+  - 
+    title: Użycie stylów klas
   - 
     title: 'Wyzwanie: Wystylizuj swoją wiadomość'
-  - 
-    title: Edytowanie klas
-  - 
-    title: Stwórz nową klasę
     completion:
       - internal
+      - external
   - 
-    title: 'Wyzwanie: Stwórz styl wydruku komputerowego'
-  - 
-    title: 'Wyzwanie: Stwórz swój własny styl'
+    title: Edytowanie klas
+    challenge: true
