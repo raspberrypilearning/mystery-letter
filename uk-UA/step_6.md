@@ -1,25 +1,24 @@
+\--- challenge \---
+
 ## Редагування Класів
 
-+ Натисніть на знак **'style.css'**. Знайдіть стиль для CSS класу `газети`, який ви використовували.
-
-![screenshot](images/letter-newspaper.png)
-
-+ Зауважте, що перед назвою класу в CSS файлі є крапка '.', але не в `<span>` тегу у вашому HTML документі.
-
-+ А зараз подивіться на інші класи CSS які ви використовували для стилізації вашого містичного листа. Ви можете знайти:
-    
-    + Зараз стиль `журнал1` змінить літери у тексті на великі.
-    
-    + Як стиль`журнал2` поміщає зображення за текст.
-
-![screenshot](images/letter-magazines.png)
-
-+ Що трапляється, коли ви змінюєте `фонове-зображення` для `журнал2` на `canvas.png`? Якщо ви надаєте перевагу `pink-pattern.png`, ви можете змінити її назад. 
+\--- task \---
 
 Ви також можете змінювати кольори стилів журналу, якщо забажаєте.
 
-+ Знайдіть CSS, що використовується для оберту ті нахилення ваших слів:
-
-![screenshot](images/letter-rotate-skew.png)
+![screenshot](images/letter-fonts-printout.png)
 
 Спробуйте змінити числа, щоб створити різні ефекти і тоді протестуйте свою сторінку.
+
+\--- /task \---
+
+\--- task \---
+
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
+
++ `rough-paper.png`
++ `canvas.png`
+
+\--- /task \---
+
+\--- /challenge \---
