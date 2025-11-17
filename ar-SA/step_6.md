@@ -1,25 +1,24 @@
-## تحرير الفئات
+\--- challenge \---
 
-+ انقر على تبويب **"style.css"**. ابحث عن النمط الخاص بفئة `newspaper` CSS التي كنت تستخدمها.
+## Challenge
 
-![لقطة الشاشة](images/letter-newspaper.png)
+\--- task \---
 
-+ لاحظ أن هناك (نقطة) "." قبل اسم الفئة في ملف CSS ولكن ليس في العلامة `<span>` في مستند HTML.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ انظر الآن إلى فئات CSS الأخرى التي استخدمتها في تصميم الرسالة الغامضة. هل بامكانك ايجاد:
-    
-    + كيف النمط النصي في` magazine1 ` يتغير إلى أحرف كبيرة.
-    
-    + كيف يضع نمط `magazine2` صورة خلف النص.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![لقطة الشاشة](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ ماذا يحدث إذا قمت بتغيير `background-image` لـ`magazine2 ` إلى ` canvas.png ` ؟؟؟ إذا كنت تفضل `pink-pattern.png` يمكنك تغييره مرة أخرى. 
+\--- /task \---
 
-يمكنك أيضًا تغيير الألوان في أنماط المجلة إذا أردت.
+\--- task \---
 
-+ ابحث عن CSS المستخدم لتدوير وتشويه (إمالة) كلماتك:
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![لقطة الشاشة](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-حاول تغيير الأرقام لإنشاء تأثيرات مختلفة ثم قم باختبار صفحتك.
+\--- /task \---
+
+\--- /challenge \---
