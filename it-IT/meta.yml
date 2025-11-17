@@ -6,36 +6,32 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-1, programming-0, phys-comp-0, manufacture-0, community-0
-title: Mystery Letter
-description: Create a mystery letter with lots of different styles.
+title: Lettera misteriosa
+description: Crea una lettera misteriosa con tanti stili diversi.
 original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
 interests: art
 technologies: html-css-javascript
 site_areas: projects
 hardware: ''
 software: html-css-javascript
-version: 3.1
-last_tested: 2017-01-01
+version: 3
+last_tested: 2025-01-02
 steps:
   - 
-    title: Introduction
+    title: Introduzione
   - 
-    title: Choose Your Message
-  - 
-    title: Editing Your Message
+    title: Scegli il messaggio
     completion:
       - engaged
   - 
-    title: Using Class Styles
+    title: Modifica del messaggio
   - 
-    title: 'Challenge: Style Your Message'
+    title: Utilizzo degli stili di classe
   - 
-    title: Editing Classes
-  - 
-    title: Create a New Class
+    title: 'Sfida: Attribuisci uno stile al messaggio'
     completion:
       - internal
+      - external
   - 
-    title: 'Challenge: Create A Computer Printout Style'
-  - 
-    title: 'Challenge: Create Your Own Styles'
+    title: Modifica delle classi
+    challenge: true
