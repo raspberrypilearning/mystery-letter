@@ -1,7 +1,47 @@
-## 选择你的消息
+## Edit the message
 
 在电影和书籍中，神秘信件被用来传递秘密信息。
 
-+ 想出一条神秘消息；12个字大概是合适的长度。 如果你想不出一条信息，你可以用这个例子：“你的下一条线索在保险柜里。 密码是65536。”
+\--- task \---
 
-+ 要么写下你的消息，要么记住它。
+Open the [starter project](https://editor.raspberrypi.org/en/projects/mystery-letter-starter){:target="_blank"}.
+
+\--- /task \---
+
+\--- task \---
+
+Think of your own mystery message.
+
+\--- /task \---
+
+\--- task \---
+
+Change the example code to display your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length.
+
+## \--- code \---
+
+language: html line_numbers: true
+
+## line_number_start: 11
+
+<p>
+  <span class="">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
+  <span class="">the</span>
+  <span class="">corner</span>
+  <span class="">at</span>
+  <span class="">midnight.</span>
+</p>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click the **Run** button to test your code.
+
+The words have been styled to look like they’ve been stuck onto the page.
+
+\--- /task \---
