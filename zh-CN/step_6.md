@@ -1,25 +1,24 @@
-## 编辑类
+\--- challenge \---
 
-+ 点击 **'style.css'** 选项卡。 找到你已经在使用的`newspaper` CSS类的样式。
+## Challenge
 
-![截屏](images/letter-newspaper.png)
+\--- task \---
 
-+ 注意在CSS文件中每个类名之前有一个点 “.” ，而在HTML文档的`<span>`标记中使用它们时没有点。
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ 现在看看其他用来改变神秘信件的样式的CSS类。 找一找：
-    
-    + `magazine1`样式如何将文本更改为所有大写字母。
-    
-    + `magazine2` 样式如何把一个图片放到文字的后面。
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![截屏](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ 当你把 `magazine2` 的 `background-image` 改成 `canvas.png` 会发生什么？ 你如果更喜欢 `pink-pattern.png`，可以改回来。 
+\--- /task \---
 
-如果你喜欢，你也可以改变杂志（magazine）样式的颜色。
+\--- task \---
 
-+ 找到用来旋转和倾斜你的文字的CSS：
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![截屏](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-尝试更改数字以创建不同的效果，然后测试你的网页。
+\--- /task \---
+
+\--- /challenge \---
