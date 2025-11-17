@@ -15,27 +15,23 @@ site_areas: projects
 hardware: ''
 software: html-css-javascript
 version: 3.1
-last_tested: 2017-01-01
+last_tested: 2025-01-02
 steps:
   - 
     title: ಪರಿಚಯ
   - 
     title: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಆರಿಸಿ
-  - 
-    title: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
     completion:
       - engaged
+  - 
+    title: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
   - 
     title: ವರ್ಗ ಶೈಲಿಗಳನ್ನು ಬಳಸುವುದು
   - 
     title: 'ಸವಾಲು: ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ'
-  - 
-    title: ವರ್ಗಗಳನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
-  - 
-    title: ಹೊಸ ವರ್ಗವನ್ನು ರಚಿಸಿ
     completion:
       - internal
+      - external
   - 
-    title: 'ಸವಾಲು: ಕಂಪ್ಯೂಟರ್ ಪ್ರಿಂಟ್ಔಟ್ ಶೈಲಿಯನ್ನು ರಚಿಸಿ'
-  - 
-    title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಶೈಲಿಗಳನ್ನು ರಚಿಸಿ'
+    title: ವರ್ಗಗಳನ್ನು ತಿದ್ದಲಾಗುತ್ತಿದೆ
+    challenge: true
