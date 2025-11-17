@@ -1,25 +1,24 @@
-## Editing Classes
+\--- challenge \---
 
-+ Click on the **'style.css'** tab. Find the style for the `newspaper` CSS class that you have been using.
+## Uređivanje klasa
 
-![screenshot](images/letter-newspaper.png)
+\--- task \---
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
+Ako želiš, možeš da promijeniš i boje u 'magazine' stilovima.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
-    
-    + How the `magazine1` style changes the text to all uppercase (capital) letters.
-    
-    + How the `magazine2` style puts an image behind the text.
+![screenshot](images/letter-fonts-printout.png)
 
-![screenshot](images/letter-magazines.png)
+Pokušaj da mijenjaš brojeve kako bi napravio/napravila različite efekte, a zatim isprobaj svoju stranicu.
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back. 
+\--- /task \---
 
-You can also change the colours in the magazine styles if you like.
+\--- task \---
 
-+ Find the CSS used to rotate and skew (tilt) your words:
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![screenshot](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Try changing the numbers to create different effects and then testing your page.
+\--- /task \---
+
+\--- /challenge \---
