@@ -1,25 +1,24 @@
+\--- challenge \---
+
 ## Επεξεργασία κλάσεων
 
-+ Κάνε κλικ στην καρτέλα **'style.css'**. Βρες το στυλ για την κλάση CSS `newspaper` που έχεις χρησιμοποιήσει.
-
-![screenshot](images/letter-newspaper.png)
-
-+ Παρατήρησε ότι υπάρχει μια τελεία '.' πριν από το όνομα της κλάσης στο αρχείο CSS αλλά όχι στην ετικέτα `<span>` στο έγγραφο HTML.
-
-+ Τώρα κοίταξε τις άλλες κλάσεις CSS που χρησιμοποίησες για να μορφοποιήσεις την μυστήρια επιστολή σου. Μπορείς να βρεις:
-    
-    + Πώς η κλάση `magazine1` αλλάζει το κείμενο σε κεφαλαία γράμματα;
-    
-    + Πώς η κλάση `magazine2` βάζει μια εικόνα πίσω από το κείμενο;
-
-![screenshot](images/letter-magazines.png)
-
-+ Τι θα συμβεί αν αλλάξεις το `background-image` στην κλάση `magazine2` σε `canvas.png`; Εάν προτιμάς το `pink-pattern.png` μπορείς να το επαναφέρεις. 
+\--- task \---
 
 Μπορείς επίσης, αν θέλεις, να αλλάξεις τα χρώματα στις κλάσεις magazine.
 
-+ Βρες τον κώδικα CSS που χρησιμοποιείται για την περιστροφή και την κλίση των λέξεών σου:
-
-![screenshot](images/letter-rotate-skew.png)
+![screenshot](images/letter-fonts-printout.png)
 
 Δοκίμασε να αλλάξεις τους αριθμούς για να δημιουργήσεις διαφορετικά εφέ και στη συνέχεια να δεις πως μοιάζει η ιστοσελίδα σου.
+
+\--- /task \---
+
+\--- task \---
+
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
+
++ `rough-paper.png`
++ `canvas.png`
+
+\--- /task \---
+
+\--- /challenge \---
