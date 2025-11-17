@@ -1,7 +1,47 @@
-## Choose Your Message
+## Edit the message
 
-Mystery letters are used in films and books to send secret messages.
+Ang mga liham na misteryo ay ginagamit sa mga pelikula at libro upang magpadala ng mga lihim na mensahe.
 
-+ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
+\--- task \---
 
-+ Either make a note of your message or remember it.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/mystery-letter-starter){:target="_blank"}.
+
+\--- /task \---
+
+\--- task \---
+
+Think of your own mystery message.
+
+\--- /task \---
+
+\--- task \---
+
+Change the example code to display your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length.
+
+## \--- code \---
+
+language: html line_numbers: true
+
+## line_number_start: 11
+
+<p>
+  <span class="">Meet</span>
+  <span class="">me</span>
+  <span class="">on</span>
+  <span class="">the</span>
+  <span class="">corner</span>
+  <span class="">at</span>
+  <span class="">midnight.</span>
+</p>
+
+\--- /code \---
+
+\--- /task \---
+
+\--- task \---
+
+Click the **Run** button to test your code.
+
+The words have been styled to look like they’ve been stuck onto the page.
+
+\--- /task \---
