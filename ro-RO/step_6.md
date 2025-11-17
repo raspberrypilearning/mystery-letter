@@ -1,25 +1,24 @@
-## Editarea claselor
+\--- challenge \---
 
-+ Dă click pe tab-ul **„style.css”**. Găsește stilul pentru clasa CSS `newspaper` pe care ai folosit-o.
+## Challenge
 
-![captură de ecran](images/letter-newspaper.png)
+\--- task \---
 
-+ Observă cum există un punct „ . ” înaintea numelui fiecărei clase în fișierul CSS, dar nu și în eticheta `<span>` din documentul tău HTML.
+Create an old-fashioned computer printout style and apply it to some of the words:
 
-+ Acum uită-te la celelalte clase CSS pe care le-ai folosit pentru a-ți stiliza scrisoarea misteriosă. Poți să găsești:
-    
-    + Cum stilul `magazine1` schimbă textul în majuscule (litere mari).
-    
-    + Cum stilul `magazine2` pune o imagine înaintea textului.
+![The word 'safe' on a background which is striped green and white.](images/letter-fonts-printout.png)
 
-![captură de ecran](images/letter-magazines.png)
+Use the `VT323` font family from <http://jumpto.cc/web-fonts>{:target="_blank"} and the `computer-paper.png` background image.
 
-+ Ce se întâmplă dacă schimbi `background-image` pentru `magazine2` în `canvas.png`? Dacă preferi `pink-pattern.png` poți să îl schimbi înapoi. 
+\--- /task \---
 
-Poți schimba și culorile în stilurile magazine dacă dorești.
+\--- task \---
 
-+ Găsește codul CSS folosit pentru a roti și înclina literele tale:
+Create another new class with your own style, and apply it to some of the words in your message. We have included two other image backgrounds for you to use if you want to:
 
-![captură de ecran](images/letter-rotate-skew.png)
++ `rough-paper.png`
++ `canvas.png`
 
-Încearcă să schimbi numerele pentru a crea diferite efecte, iar apoi testează-ți pagina.
+\--- /task \---
+
+\--- /challenge \---
