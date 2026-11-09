@@ -49,7 +49,7 @@ line_highlights: 36-37
 --- /code ---
 
 
-There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a> - use different colours if you prefer.
+There's a list of loads of colours at <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">W3Schools</a> - use different colours if you prefer.
 
 --- /task ---
 
